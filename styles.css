@@ -177,9 +177,9 @@ body {
 	opacity: 0;
 }
 
-.pontilhadoImagemTriangulo {
-	position: absolute;
-	height: 100%;
+.pontilhadoImagemTriangulo { 
+	position: absolute; /*absolute da herança a png*/
+	height: 100%;       /*limita o tamanho da png para o mesmo de seu pai*/
 	width: 100%;
 }
 

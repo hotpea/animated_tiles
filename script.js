@@ -1,9 +1,8 @@
 var animations = [
     // bloco de código exemplo do uso da biblioteca para animar
-
     //<<CONFIGURAÇÕES TEMPLATE>>
     //id: '#background', // seletor do elemento html
-    //duration: 600, // duração da transição da propriedade 'animations'
+    //duration: 600, // duração da transição da propriedade 'animations' --> Esta propriedade é setada como padrão então foi omitida.
     //delayBefore: 600, // tempo para atraso da animação
     //delayAfter: 0, // tempo de aguardo para a o fim desta animação
     //animations: {marginTop: 100} // propriedades de animação, precisa inserir no CSS o valor inicial da propriedade inserida
