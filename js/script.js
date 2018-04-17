@@ -238,31 +238,27 @@ var trio_three = [
 ];
 
 // inicia animações
-var acreditar = document.getElementById("acreditar");
 var anos = document.getElementById("anos");
+var acreditar = document.getElementById("acreditar");
 var bottom = document.getElementById("bottom");
-var acreditar = document.getElementById("acreditar");
-var anos = document.getElementById("anos");
+var valida_one, valida_two, valida_three = false;
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
 window.addEventListener('scroll',function(e) {
-    if(checkvisible(acreditar)) {
+    if(checkvisible(acreditar) && (!valida_one)) {
         new YAnimation(trio_one, {loop: false, clearAfterEnd: false}).startAnimation();
+        valida_one = true;
     }
-    if(checkvisible(anos)) {
+    if(checkvisible(anos) && (!valida_two)) {
         new YAnimation(trio_two, {loop: false, clearAfterEnd: false}).startAnimation();
-        setTimeout(
-            new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation(),
-            1000
-        );
+        new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation();
+        valida_two = true;
     }
-    if(checkvisible(bottom)) {
+    if(checkvisible(bottom) && (!valida_three)) {
         new YAnimation(trio_three, {loop: false, clearAfterEnd: false}).startAnimation();
-        setTimeout(
-            new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation(),
-            1000
-        )
+        new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation();
+        valida_three = true;
     }
 });
 
