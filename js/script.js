@@ -1,7 +1,18 @@
 // rolar pro topo ao carregar
-//window.onbeforeunload = function () {
-//    window.scrollTo(0, 0);
-//};
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
+var top_site = [
+    {
+        id: '.top-site-text',
+        delayBefore: 100,
+        animations: {
+            top: '50%',
+            opacity: 1
+        }
+    }
+];
 
 var trio_one = [
     {
@@ -70,6 +81,17 @@ var trio_one = [
     ]
 ];
 
+var acreditar_animation = [
+    {
+        id: '.acreditar',
+        delayBefore: 100,
+        animations: {
+            'max-width': '30%',
+            opacity: 1
+        }
+    }
+];
+
 var trio_two = [
     {
         id: '#square_trio_third',
@@ -135,6 +157,17 @@ var trio_two = [
             }
         }
     ]
+];
+
+var anos_animation = [
+    {
+        id: '.anos',
+        delayBefore: 100,
+        animations: {
+            'max-width': '30%',
+            opacity: 1
+        }
+    }
 ];
 
 var trio_three = [
@@ -208,6 +241,10 @@ var trio_three = [
 var acreditar = document.getElementById("acreditar");
 var anos = document.getElementById("anos");
 var bottom = document.getElementById("bottom");
+var acreditar = document.getElementById("acreditar");
+var anos = document.getElementById("anos");
+
+new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
 window.addEventListener('scroll',function(e) {
     if(checkvisible(acreditar)) {
@@ -215,9 +252,17 @@ window.addEventListener('scroll',function(e) {
     }
     if(checkvisible(anos)) {
         new YAnimation(trio_two, {loop: false, clearAfterEnd: false}).startAnimation();
+        setTimeout(
+            new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation(),
+            1000
+        );
     }
     if(checkvisible(bottom)) {
         new YAnimation(trio_three, {loop: false, clearAfterEnd: false}).startAnimation();
+        setTimeout(
+            new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation(),
+            1000
+        )
     }
 });
 
