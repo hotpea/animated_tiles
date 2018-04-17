@@ -8,7 +8,7 @@ var top_site = [
         id: '.top-site-text',
         delayBefore: 100,
         animations: {
-            top: '50%',
+            top: '40%',
             opacity: 1
         }
     }

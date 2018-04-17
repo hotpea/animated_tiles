@@ -76,20 +76,47 @@ html {
 
 .top-site-text {
     position: absolute;
-    top: 53%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Raleway;
+    opacity: 0;
 }
 
-/*.bigger-pipe {*/
-    /*border: solid;*/
-    /*height:100px;*/
-    /*width:100px;*/
-/*}*/
+.vertical {
+    max-width: 1px;
+}
+
+.mouse {
+    filter: invert(100%);
+    max-width: 55px;
+}
 
 .small-tittle-text {
-    font-size: 15px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.smaller-tittle-text {
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.button {
+    font-weight: bold;
+    display: inline;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    background: transparent;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background: #ffffff;
+    color: #000000;
 }
 
 .bigger-tittle-text {
