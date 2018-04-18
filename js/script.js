@@ -255,22 +255,22 @@ var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
-window.addEventListener('scroll',function(e) {
-    if(checkvisible(acreditar) && (!valida_one)) {
-        new YAnimation(trio_one, {loop: false, clearAfterEnd: false}).startAnimation();
-        valida_one = true;
-    }
-    if(checkvisible(anos) && (!valida_two)) {
-        new YAnimation(trio_two, {loop: false, clearAfterEnd: false}).startAnimation();
-        new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation();
-        valida_two = true;
-    }
-    if(checkvisible(bottom) && (!valida_three)) {
-        new YAnimation(trio_three, {loop: false, clearAfterEnd: false}).startAnimation();
-        new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation();
-        valida_three = true;
-    }
-});
+//window.addEventListener('scroll',function(e) {
+//    if(checkvisible(acreditar) && (!valida_one)) {
+//        new YAnimation(trio_one, {loop: false, clearAfterEnd: false}).startAnimation();
+//        valida_one = true;
+//    }
+//    if(checkvisible(anos) && (!valida_two)) {
+//        new YAnimation(trio_two, {loop: false, clearAfterEnd: false}).startAnimation();
+//        new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation();
+//        valida_two = true;
+//    }
+//    if(checkvisible(bottom) && (!valida_three)) {
+//        new YAnimation(trio_three, {loop: false, clearAfterEnd: false}).startAnimation();
+//        new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation();
+//        valida_three = true;
+//    }
+//});
 
 todos_shuffle.addEventListener('click', function() {
     shuffleInstance.filter(['dois_anos', 'acreditar']);

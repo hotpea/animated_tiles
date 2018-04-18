@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 /*animação de linha*/
@@ -136,68 +136,6 @@ html {
     )
 }
 
-.square {
-    float:left;
-    position: relative;
-    width: 28.33%;
-    padding-bottom : 25%; /* = width for a 1:1 aspect ratio */
-    background-color:#1E1E1E;
-    overflow:hidden;
-}
-
-.square_one {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-color:#1E1E1E;
-    overflow:hidden;
-    margin-top: 3%;
-    margin-left: 3%;
-    overflow:hidden;
-}
-
-.square_two {
-    margin-top: 1%;
-    float:left;
-    position: relative;
-    width: 35%;
-    padding-bottom : 35%; /* = width for a 1:1 aspect ratio */
-    background-color:#1E1E1E;
-    overflow:hidden;
-}
-
-.square_three {
-    float:right;
-    position: relative;
-    width: 20%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    margin-top: 5%;
-    margin-right: 3%;
-    background-color:#1E1E1E;
-    overflow:hidden;
-}
-
-.square_four {
-    float:left;
-    position: relative;
-    width: 18.33%;
-    padding-bottom : 20%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-color:#1E1E1E;
-    overflow:hidden;
-}
-
-.square_five {
-    float:left;
-    position: relative;
-    width: 28.33%;
-    padding-bottom : 25%; /* = width for a 1:1 aspect ratio */
-    background-color:#1E1E1E;
-    overflow:hidden;
-}
 
 .content {
     position:absolute;
@@ -219,59 +157,72 @@ html {
     vertical-align:middle;
 }
 
-#square_trio_first,
-#square_trio_second,
-#square_trio_third,
-#square_trio_four,
-#square_trio_five,
-#square_trio_six,
-
-.top_page {
-    width: 50%;
-    max-width: 50%;
-    margin: auto;
+#shuffle-container {
+    width: 75%;
+    margin: 15%;
 }
 
-.acreditar, .anos {
-    max-width: 25%;
-    opacity: 0;
+.square {
+    background: transparent;
+    border: transparent;
+    border-style: solid;
+    position: relative;
+    min-width: 33%;
+    max-width: 33%;
+    max-height: 400px;
+    min-height: 400px;
+    z-index: 1;
 }
 
-#square_first_first, #square_four_first,  #square_five_first{
-    opacity: 0;
-    left: -10%;
-    top: -10%
-}
-
-#square_first_second, #square_four_second, #square_five_second {
-    opacity: 0;
-    top: -10%;
-}
-
-#square_first_third, #square_four_third, #square_five_third {
-    opacity: 0;
-    right: -10%;
-    top: -10%;
-}
-
-#square_second_first, #square_third_first, #square_six_first {
-    opacity: 0;
-    left: -10%;
-}
-
-#square_second_second, #square_third_second, #square_six_second {
-    opacity: 0;
-}
-
-#square_second_third, #square_third_third, #square_six_third {
-    opacity: 0;
-    top: 20%;
-}
-
-#square_second_four, #square_third_four, #square_six_four {
-    opacity: 0;
+.type_one {
+    background: grey;
+    border: black;
+    border-style: solid;
+    position: absolute;
+    min-width: 80%;
+    min-height: 80%;
+    left: 10%;
     top: 10%;
-    right: -10%;
+    z-index: 2;
+}
+
+.type_two {
+    background: grey;
+    border: black;
+    border-style: solid;
+    position: absolute;
+    min-width: 95%;
+    min-height: 85%;
+    left: 1%;
+    top: 9%;
+    z-index: 2;
+}
+
+.type_three {
+    background: grey;
+    border: black;
+    border-style: solid;
+    position: absolute;
+    min-width: 80%;
+    min-height: 66%;
+    left: 10%;
+    top: 17%;
+    z-index: 2;
+}
+
+.alternate {
+    margin-top: 30px;
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #bottom {
