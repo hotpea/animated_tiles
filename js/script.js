@@ -238,10 +238,20 @@ var trio_three = [
 ];
 
 // inicia animações
+var Shuffle = window.Shuffle;
+
+var el = document.querySelector('#shuffle-container');
+var shuffleInstance = new Shuffle(el,{
+    itemSelector: '.picture-item'
+});
+
 var anos = document.getElementById("anos");
 var acreditar = document.getElementById("acreditar");
 var bottom = document.getElementById("bottom");
 var valida_one, valida_two, valida_three = false;
+var todos_shuffle = document.getElementById("todos_shuffle");
+var acreditar_shuffle = document.getElementById("acreditar_shuffle");
+var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
@@ -260,6 +270,18 @@ window.addEventListener('scroll',function(e) {
         new YAnimation(anos_animation, {loop: false, clearAfterEnd: false}).startAnimation();
         valida_three = true;
     }
+});
+
+todos_shuffle.addEventListener('click', function() {
+    shuffleInstance.filter(['dois_anos', 'acreditar']);
+});
+
+dois_anos_shuffle.addEventListener('click', function() {
+    shuffleInstance.filter('dois_anos');
+});
+
+acreditar_shuffle.addEventListener('click', function() {
+    shuffleInstance.filter('acreditar');
 });
 
 // check if visible
