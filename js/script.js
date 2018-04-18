@@ -255,6 +255,61 @@ var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
+var minheight = 0;
+var maxheight = 800;
+var time = 350;
+var timer = null;
+var toggled = false;
+
+window.onload = function() {
+    var controler = document.getElementsByClassName('picture-item');
+    var slider = document.getElementById('slider');
+    slider.style.height = minheight + 'px';
+    for (var i = 0; i < controler.length; i++) {
+        controler[i].onclick = function() {
+            clearInterval(timer);
+            var instanceheight = parseInt(slider.style.height);
+            var init = (new Date()).getTime();
+            var height = (toggled = !toggled) ? maxheight: minheight;
+
+            var disp = height - parseInt(slider.style.height);
+            timer = setInterval(function() {
+                var instance = (new Date()).getTime() - init;
+                if(instance < time ) {
+                    var pos = Math.floor(disp * instance / time);
+                    result = instanceheight + pos;
+                    slider.style.height =  result + 'px';
+                    document.getElementById('log').innerHTML = 'Current Height : <b>' + result + '</b><br /> Current Time : <b>' + instance + '</b>';
+                }else {
+                    slider.style.height = height + 'px'; //safety side ^^
+                    clearInterval(timer);
+                }
+            },1);
+        }
+    };
+
+    slider.onclick = function() {
+        clearInterval(timer);
+        var instanceheight = parseInt(slider.style.height);
+        var init = (new Date()).getTime();
+        var height = (toggled = !toggled) ? maxheight : minheight;
+
+        var disp = height - parseInt(slider.style.height);
+        timer = setInterval(function () {
+            var instance = (new Date()).getTime() - init;
+            if (instance < time) {
+                var pos = Math.floor(disp * instance / time);
+                result = instanceheight + pos;
+                slider.style.height = result + 'px';
+                document.getElementById('log').innerHTML = 'Current Height : <b>' + result + '</b><br /> Current Time : <b>' + instance + '</b>';
+            } else {
+                slider.style.height = height + 'px'; //safety side ^^
+                clearInterval(timer);
+            }
+        }, 1);
+    }
+};
+
 //window.addEventListener('scroll',function(e) {
 //    if(checkvisible(acreditar) && (!valida_one)) {
 //        new YAnimation(trio_one, {loop: false, clearAfterEnd: false}).startAnimation();
