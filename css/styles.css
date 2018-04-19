@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
 
+* {
+    outline: none;
+}
+
 body {
     margin: 0;
 }
@@ -165,14 +169,23 @@ html {
 
 .square {
     background: transparent;
-    border: transparent;
-    border-style: solid;
-    position: relative;
-    min-width: 33%;
-    max-width: 33%;
-    max-height: 250px;
-    min-height: 250px;
+    position: absolute;
+    width: 33%;
+    height: 250px;
     z-index: 1;
+    -webkit-transition: .35s!important;
+    transition: .35s!important;
+}
+
+.square:focus {
+    z-index: 3!important;
+    display: block;
+    left: 0%!important;
+    box-shadow: none;
+    /*background-color: #cae8ca;*/
+    /*border: 2px solid #4CAF50;*/
+    width: 99%;
+    height: 800px;
 }
 
 .type_one {
@@ -185,8 +198,8 @@ html {
     left: 10%;
     top: 10%;
     z-index: 2;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s, height .35s ease-in-out;
+    -webkit-transition: .35s;
+    transition: .35s;
 }
 
 .type_two {
@@ -199,8 +212,8 @@ html {
     left: 1%;
     top: 9%;
     z-index: 2;
-    -webkit-transition: width .35s ease-in-out;
-    transition: width .35s, height .35s ease-in-out;
+    -webkit-transition: .35s;
+    transition: .35s;
 }
 
 .type_three {
@@ -213,16 +226,8 @@ html {
     left: 10%;
     top: 17%;
     z-index: 2;
-    -webkit-transition: width .35s, height .35s ease-in-out;
-    transition: width .35s, height .35s ease-in-out;
-}
-
-.type_one:focus, .type_two:focus, .type_three:focus {
-    position: absolute;
-    background-color: #cae8ca;
-    border: 2px solid #4CAF50;
-    width: 300%;
-    height: 300%;
+    -webkit-transition: .35s;
+    transition: .35s;
 }
 
 .alternate {

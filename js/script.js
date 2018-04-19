@@ -241,8 +241,10 @@ var trio_three = [
 var Shuffle = window.Shuffle;
 
 var el = document.querySelector('#shuffle-container');
+//var sizer = document.querySelector('.my-sizer-element');
 var shuffleInstance = new Shuffle(el,{
-    itemSelector: '.picture-item'
+    itemSelector: '.picture-item',
+    //sizer: sizer,
 });
 
 var anos = document.getElementById("anos");
@@ -271,6 +273,21 @@ new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 //        valida_three = true;
 //    }
 //});
+
+window.onload = function() {
+    var controler = document.getElementsByClassName('picture-item');
+
+    var top = document.getElementById("shuffle-container").offsetTop;
+    var left = document.getElementById("shuffle-container").offsetLeft;
+
+    for (var i = 0; i < controler.length; i++) {
+        controler[i].onclick = function () {
+            //console.log(this.style.backgroundColor = "red");
+            this.style.offsetTop = top;
+            this.style.offsetLeft = left;
+        }
+    }
+};
 
 todos_shuffle.addEventListener('click', function() {
     shuffleInstance.filter(['dois_anos', 'acreditar']);
