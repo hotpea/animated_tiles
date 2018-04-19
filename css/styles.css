@@ -179,11 +179,13 @@ html {
     border: black;
     border-style: solid;
     position: absolute;
-    min-width: 80%;
-    min-height: 80%;
+    width: 80%;
+    height: 80%;
     left: 10%;
     top: 10%;
     z-index: 2;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s, height .35s ease-in-out;
 }
 
 .type_two {
@@ -191,11 +193,13 @@ html {
     border: black;
     border-style: solid;
     position: absolute;
-    min-width: 95%;
-    min-height: 85%;
+    width: 95%;
+    height: 85%;
     left: 1%;
     top: 9%;
     z-index: 2;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s, height .35s ease-in-out;
 }
 
 .type_three {
@@ -203,11 +207,21 @@ html {
     border: black;
     border-style: solid;
     position: absolute;
-    min-width: 80%;
-    min-height: 66%;
+    width: 80%;
+    height: 66%;
     left: 10%;
     top: 17%;
     z-index: 2;
+    -webkit-transition: width .35s, height .35s ease-in-out;
+    transition: width .35s, height .35s ease-in-out;
+}
+
+.type_one:focus, .type_two:focus, .type_three:focus {
+    position: absolute;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    width: 300%;
+    height: 300%;
 }
 
 .alternate {
