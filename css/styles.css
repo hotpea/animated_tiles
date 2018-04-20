@@ -181,7 +181,6 @@ html {
     position: absolute;
     float: left;
     width: 20%;
-    /*height: 8.625em;*/
     z-index: 1;
     -webkit-transition: .35s!important;
     transition: .35s!important;
@@ -261,6 +260,12 @@ html {
     /*display: block;*/
     width: 40%;
     margin-left: 9%;
+}
+
+.half:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 #bottom {
