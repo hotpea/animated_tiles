@@ -364,9 +364,9 @@ function eventFire(el, etype, focus){
 }
 
 function resizeAll() {
-        var controler = document.getElementsByClassName('picture-item');
+    var controler = document.getElementsByClassName('picture-item');
 
-        for (var i = 0; i < controler.length; i++) {
-            controler[i].style.width = original_width;
-        }
+    for (var i = 0; i < controler.length; i++) {
+        controler[i].style.width = original_width;
+    }
 }
