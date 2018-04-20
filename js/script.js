@@ -1,8 +1,3 @@
-// rolar pro topo ao carregar
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-};
-
 var top_site = [
     {
         id: '.top-site-text',
@@ -255,6 +250,8 @@ var todos_shuffle = document.getElementById("todos_shuffle");
 var acreditar_shuffle = document.getElementById("acreditar_shuffle");
 var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
+var last_shuffle = Shuffle.ALL_ITEMS;
+
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
 //window.addEventListener('scroll',function(e) {
@@ -274,31 +271,48 @@ new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 //    }
 //});
 
+// rolar pro topo ao carregar
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
+document.body.onclick = function() {
+    shuffleInstance.filter(last_shuffle);
+};
+
 window.onload = function() {
     var controler = document.getElementsByClassName('picture-item');
 
-    var top = document.getElementById("shuffle-container").offsetTop;
-    var left = document.getElementById("shuffle-container").offsetLeft;
-
     for (var i = 0; i < controler.length; i++) {
         controler[i].onclick = function () {
-            //console.log(this.style.backgroundColor = "red");
-            this.style.offsetTop = top;
-            this.style.offsetLeft = left;
+            if(this.style.width == '100%') {
+                resizeAll();
+                this.style.width = '33%';
+                this.style.height = '15.625em';
+
+                eventFire(document.body, 'click');
+            } else {
+                resizeAll();
+
+                this.style.width = '100%';
+                this.style.height = '50em';
+
+                eventFire(document.body, 'click');
+            }
         }
     }
 };
 
 todos_shuffle.addEventListener('click', function() {
-    shuffleInstance.filter(['dois_anos', 'acreditar']);
+    last_shuffle = Shuffle.ALL_ITEMS;
 });
 
 dois_anos_shuffle.addEventListener('click', function() {
-    shuffleInstance.filter('dois_anos');
+    last_shuffle = 'dois_anos';
 });
 
 acreditar_shuffle.addEventListener('click', function() {
-    shuffleInstance.filter('acreditar');
+    last_shuffle = 'acreditar';
 });
 
 // check if visible
@@ -335,4 +349,23 @@ function checkvisible( elm ) {
         y = posY(elm);
 
     return !(y > (vpH + st));
+}
+
+function eventFire(el, etype){
+    if (el.fireEvent) {
+        el.fireEvent('on' + etype);
+    } else {
+        var evObj = document.createEvent('Events');
+        evObj.initEvent(etype, true, false);
+        el.dispatchEvent(evObj);
+    }
+}
+
+function resizeAll() {
+        var controler = document.getElementsByClassName('picture-item');
+
+        for (var i = 0; i < controler.length; i++) {
+            controler[i].style.width = '33%';
+            controler[i].style.height = '15.625em';
+        }
 }

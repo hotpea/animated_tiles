@@ -177,15 +177,15 @@ html {
     transition: .35s!important;
 }
 
-.square:focus {
-    position: fixed!important;
-    z-index: 3!important;
-    text-align: center;
-    left: 10%;
-    top: 10%;
-    width: 60%;
-    height: 50em;
-}
+/*.square:focus {*/
+    /*position: fixed!important;*/
+    /*z-index: 3!important;*/
+    /*text-align: center;*/
+    /*left: 10%;*/
+    /*top: 10%;*/
+    /*width: 60%;*/
+    /*height: 50em;*/
+/*}*/
 
 .type_one {
     background: grey;
