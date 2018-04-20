@@ -244,13 +244,14 @@ var shuffleInstance = new Shuffle(el,{
 
 var anos = document.getElementById("anos");
 var acreditar = document.getElementById("acreditar");
-var bottom = document.getElementById("bottom");
-var valida_one, valida_two, valida_three = false;
 var todos_shuffle = document.getElementById("todos_shuffle");
 var acreditar_shuffle = document.getElementById("acreditar_shuffle");
 var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
+
+var original_width = '20%';
+var clicked_width = '100%';
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
@@ -285,18 +286,16 @@ window.onload = function() {
 
     for (var i = 0; i < controler.length; i++) {
         controler[i].onclick = function () {
-            if(this.style.width == '100%') {
+            if(this.style.width == clicked_width) {
                 resizeAll();
-                this.style.width = '33%';
-                this.style.height = '15.625em';
 
+                this.style.width = original_width;
                 eventFire(document.body, 'click');
             } else {
                 resizeAll();
 
-                this.style.width = '100%';
-                this.style.height = '50em';
-
+                this.style.width = clicked_width;
+                this.style.position = 'fixed!important';
                 eventFire(document.body, 'click');
             }
         }
@@ -352,20 +351,22 @@ function checkvisible( elm ) {
 }
 
 function eventFire(el, etype){
-    if (el.fireEvent) {
-        el.fireEvent('on' + etype);
-    } else {
-        var evObj = document.createEvent('Events');
-        evObj.initEvent(etype, true, false);
-        el.dispatchEvent(evObj);
-    }
+    setTimeout(function(){
+        if (el.fireEvent) {
+            el.fireEvent('on' + etype);
+        } else {
+            var evObj = document.createEvent('Events');
+            evObj.initEvent(etype, true, false);
+            el.dispatchEvent(evObj);
+        }
+    },500);
+
 }
 
 function resizeAll() {
         var controler = document.getElementsByClassName('picture-item');
 
         for (var i = 0; i < controler.length; i++) {
-            controler[i].style.width = '33%';
-            controler[i].style.height = '15.625em';
+            controler[i].style.width = original_width;
         }
 }

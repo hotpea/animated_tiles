@@ -170,22 +170,24 @@ html {
 .square {
     background: transparent;
     position: absolute;
-    width: 33%;
-    height: 15.625em;
+    float: left;
+    width: 20%;
+    /*height: 8.625em;*/
     z-index: 1;
     -webkit-transition: .35s!important;
     transition: .35s!important;
 }
 
-/*.square:focus {*/
-    /*position: fixed!important;*/
-    /*z-index: 3!important;*/
-    /*text-align: center;*/
-    /*left: 10%;*/
-    /*top: 10%;*/
-    /*width: 60%;*/
-    /*height: 50em;*/
-/*}*/
+.square:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.square:focus {
+    /*position: relative!important;*/
+    z-index: 3!important;
+}
 
 .type_one {
     background: grey;
@@ -242,6 +244,14 @@ html {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.half {
+    margin-left: auto;
+    margin-right: auto;
+    /*display: block;*/
+    width: 40%;
+    margin-left: 9%;
 }
 
 #bottom {
