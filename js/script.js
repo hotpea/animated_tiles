@@ -76,9 +76,9 @@ var trio_one = [
     ]
 ];
 
-var acreditar_animation = [
+var eventos_animation = [
     {
-        id: '.acreditar',
+        id: '.eventos',
         delayBefore: 100,
         animations: {
             'max-width': '30%',
@@ -243,26 +243,26 @@ var shuffleInstance = new Shuffle(el,{
 });
 
 var anos = document.getElementById("anos");
-var acreditar = document.getElementById("acreditar");
+var eventos = document.getElementById("eventos");
 var todos_shuffle = document.getElementById("todos_shuffle");
-var acreditar_shuffle = document.getElementById("acreditar_shuffle");
-var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
+var eventos_shuffle = document.getElementById("eventos_shuffle");
+var estudio_shuffle = document.getElementById("estudio_shuffle");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
 var original_width = '20%';
-var clicked_width = '100%';
+var clicked_width = '70%';
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
 
 //window.addEventListener('scroll',function(e) {
-//    if(checkvisible(acreditar) && (!valida_one)) {
+//    if(checkvisible(eventos) && (!valida_one)) {
 //        new YAnimation(trio_one, {loop: false, clearAfterEnd: false}).startAnimation();
 //        valida_one = true;
 //    }
 //    if(checkvisible(anos) && (!valida_two)) {
 //        new YAnimation(trio_two, {loop: false, clearAfterEnd: false}).startAnimation();
-//        new YAnimation(acreditar_animation, {loop: false, clearAfterEnd: false}).startAnimation();
+//        new YAnimation(eventos_animation, {loop: false, clearAfterEnd: false}).startAnimation();
 //        valida_two = true;
 //    }
 //    if(checkvisible(bottom) && (!valida_three)) {
@@ -306,12 +306,12 @@ todos_shuffle.addEventListener('click', function() {
     last_shuffle = Shuffle.ALL_ITEMS;
 });
 
-dois_anos_shuffle.addEventListener('click', function() {
-    last_shuffle = 'dois_anos';
+estudio_shuffle.addEventListener('click', function() {
+    last_shuffle = 'estudio';
 });
 
-acreditar_shuffle.addEventListener('click', function() {
-    last_shuffle = 'acreditar';
+eventos_shuffle.addEventListener('click', function() {
+    last_shuffle = 'eventos';
 });
 
 // check if visible

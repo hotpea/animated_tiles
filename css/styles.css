@@ -171,9 +171,16 @@ html {
 }
 
 #shuffle-container {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*TODO: criar vários tipos de CSS para vários tipos de imagens*/
+.square_image {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .square {
@@ -271,6 +278,6 @@ html {
     margin:0 1.66%;
     width:89.68%;
     padding: 3.5%;
-    background-color:#000;
+    background-color:grey;
     color: #000;
 }
