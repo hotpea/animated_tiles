@@ -4,14 +4,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Crazy Animations</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="js/fullPage.js/jquery.fullPage.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     </head>
 
     <body>
         <div id="container" class="container wrapper">
             <img class="top-site-image image" >
-            <div class='line'></div>
-            <div class="top-site-text">
+            <div class='line'>
+
+            </div>
+            <div id="top-site-text" class="top-site-text">
                 <div>
                     <img class="vertical" src="images/vertical.png">
                 </div>
@@ -42,19 +45,9 @@
 
                 </br>
 
-                <span class="smaller-title-text"> ROLE PARA BAIXO </span>
-
-                <!--<div>-->
-                    <!--<button href="#" class="button">Todos</button>-->
-                    <!--<button href="#" class="button">Economia</button>-->
-                    <!--<button href="#" class="button">Meio Ambiente</button>-->
-                    <!--<button href="#" class="button">Cultura</button>-->
-                    <!--<button href="#" class="button">Gestão</button>-->
-                    <!--<button href="#" class="button">Social</button>-->
-                    <!--<button href="#" class="button">Segurança e Defesa</button>-->
-                <!--</div>-->
-
-
+                <span class="smaller-title-text">
+                    ROLE PARA BAIXO
+                </span>
             </div>
         </div>
 
@@ -64,7 +57,7 @@
             <button id="dois_anos_shuffle" class="button">2 anos</button>
         </div>
 
-        <div id="shuffle-container">
+        <div id="shuffle_one" class="shuffle-container">
             <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                 <div class="type_one type">
                     <div class="float-title float-title-one">
@@ -155,14 +148,18 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div id="shuffle_two" class="shuffle-container">
             <div class="picture-item alternate center" data-groups='["dois_anos"]'>
                 <iframe class="half" frameborder="0"
                         src="https://www.youtube.com/embed/7-tNUur2YoU?modestbranding=1&autohide=1&showinfo=0&controls=0">
                 </iframe>
                 <img class="half" src="images/20anos.png">
             </div>
+        </div>
 
+        <div id="shuffle_three" class="shuffle-container">
             <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                 <div class="type_one type">
                     <div class="float-title float-title-one">
@@ -252,23 +249,32 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div id="shuffle_four" class="shuffle-container">
             <div id="focus" class="picture-item alternate center" data-groups='["acreditar"]'>
                 <iframe class="half" frameborder="0"
                         src="https://www.youtube.com/embed/O2ulyJuvU3Q?modestbranding=0&autohide=1&showinfo=0&controls=0">
                 </iframe>
                 <img class="half" src="images/podeacreditar.png">
             </div>
-
-            <div class="my-sizer-element"></div>
         </div>
 
-        <div id="bottom" >
+        <div class="my-sizer-element">
 
         </div>
 
-        <script src="js/animation.min.js" type="text/javascript" charset="UTF-8"></script>
+        <div id="bottom">
+
+        </div>
+
         <script src="js/shuffle.min.js" type="text/javascript" charset="UTF-8"></script>
         <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
+
+        <script src="js/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+
+        <script src="js/fullPage.js/vendors/jquery.easings.min.js" type="text/javascript" charset="UTF-8"></script>
+        <script src="js/fullPage.js/vendors/scrolloverflow.min.js" type="text/javascript" charset="UTF-8"></script>
+        <script src="js/fullPage.js/jquery.fullPage.js" type="text/javascript" charset="UTF-8"></script>
     </body>
 </html>

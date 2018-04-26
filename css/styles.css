@@ -71,13 +71,14 @@ html {
     color: white;
 }
 
-.top-site-text {
+#top-site-text {
     position: absolute;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Raleway;
     opacity: 0;
+    transition: 1s;
 }
 
 .vertical {
@@ -169,7 +170,7 @@ html {
     vertical-align:middle;
 }
 
-#shuffle-container {
+.shuffle-container {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -208,7 +209,7 @@ html {
 }
 
 .float-title-two {
-    margin-top: 80%;
+    margin-top: 70%;
     margin-left: 50%;
 }
 

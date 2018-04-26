@@ -1,7 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ebdd9e-147a-4ae0-a91c-7279cccc4ada" name="Default" comment="">
+    <list default="true" id="01ebdd9e-147a-4ae0-a91c-7279cccc4ada" name="Default" comment="* borderless">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/bg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/bg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/bg4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/bg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/compatible.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/en-language-inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/en-language.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/es-language-inactive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/es-language.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/example.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/example2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/flowers.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/flowers.webm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/fullPage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/horse.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/horse.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/intro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone-two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone-yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/iphone4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/tablets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/used-by-fullpage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/chinese/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/korean/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/russian/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/spanish/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/pure javascript (Alpha)/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/activeSlide.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/apple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/arrows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/autoHeight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/autoplayVideoAndAudio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/backgroundVideo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/backgrounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/backgroundsFixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/callbacks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/callbacks2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/continuousHorizontal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/continuousVertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/continuousVertical.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/imgs/copyright.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/css3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/pure javascript (Alpha)/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/demoPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/destroy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/dragAndMove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/easing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/examples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/fadingEffect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/fixedHeaders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/gradientBackgrounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/chinese/how-to-activate-fullpage-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/korean/how-to-activate-fullpage-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/russian/how-to-activate-fullpage-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/spanish/how-to-activate-fullpage-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/interlockedSlides.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/pure javascript (Alpha)/javascript.fullPage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/pure javascript (Alpha)/javascript.fullPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/pure javascript (Alpha)/javascript.fullPage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/vendors/jquery.easings.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/jquery.fullPage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/jquery.fullPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.extensions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/lazyLoad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/lockAnchors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/loopBottom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/loopTop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/looping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/methods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/moveSectionDown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/moveSectionUp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/moveSlideLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/moveSlideRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/moveTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/navigationH.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/navigationV.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/noAnchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/normalScroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/normalScrollElements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/offsetSections.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/oneSection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/korean/parallax-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/russian/parallax-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/spanish/parallax-extension.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/lang/chinese/parallax-extensionmd.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/parallax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/resetSliders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/responsiveAutoHeight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/responsiveHeight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/responsiveSlides.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/responsiveWidth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/scrollBar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/scrollHorizontally.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/scrollOverflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/scrollOverflowReset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/scrollingSpeed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/scrollingSpeed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/vendors/scrolloverflow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/vendors/scrolloverflow.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/vendors/scrolloverflow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/setAllowScrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/setKeyboardScrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/unit/silentMoveTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/examples/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullPage.js/tests/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
@@ -26,28 +165,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.193182">
-              <caret line="211" column="43" selection-start-line="211" selection-start-column="43" selection-end-line="211" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.30236486">
+              <caret line="78" column="59" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Landing principal.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/Landing principal.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="jquery.fullpage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17447495">
-              <caret line="297" column="0" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.806452">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -56,8 +198,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.645161">
-              <caret line="248" column="9" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="9" />
+            <state vertical-scroll-proportion="-7.225806">
+              <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -73,9 +215,10 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -145,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -162,6 +305,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="C:\Users\Stefan\o_brasil_esta_pronto\js" />
     </key>
@@ -269,14 +413,26 @@
       <option name="project" value="LOCAL" />
       <updated>1524757208629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="* resize of clicked square">
+      <created>1524758867351</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524758867351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="* borderless">
+      <created>1524764208520</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524764208520</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="560" width="1235" height="776" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2029703" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35973597" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -295,6 +451,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35973597" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -315,7 +491,9 @@
     <MESSAGE value="* títulos das tiles" />
     <MESSAGE value="* float titles" />
     <MESSAGE value="* delete console log" />
-    <option name="LAST_COMMIT_MESSAGE" value="* delete console log" />
+    <MESSAGE value="* resize of clicked square" />
+    <MESSAGE value="* borderless" />
+    <option name="LAST_COMMIT_MESSAGE" value="* borderless" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,31 +728,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027692307">
+          <caret line="1" column="86841" selection-start-line="1" selection-start-column="86841" selection-end-line="1" selection-end-column="86841" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/Landing principal.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/js/fullPage.js/dist/jquery.fullpage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.645161">
-          <caret line="248" column="9" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.193182">
-          <caret line="211" column="43" selection-start-line="211" selection-start-column="43" selection-end-line="211" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17447495">
-          <caret line="297" column="0" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.806452">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.225806">
+          <caret line="211" column="20" selection-start-line="211" selection-start-column="20" selection-end-line="211" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30236486">
+          <caret line="78" column="59" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="59" />
           <folding />
         </state>
       </provider>
