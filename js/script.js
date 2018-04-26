@@ -296,6 +296,11 @@ window.onload = function() {
 
                 square.getElementsByClassName('content')[0].style.opacity = "0";
 
+                square.getElementsByClassName('type')[0].style.width = window.oldWidth;
+                square.getElementsByClassName('type')[0].style.height = window.oldHeight;
+                square.getElementsByClassName('type')[0].style.left = window.oldLeft;
+                square.getElementsByClassName('type')[0].style.top = window.oldTop;
+
                 setTimeout(function(){
                     square.getElementsByClassName('float-title')[0].style.opacity = "1";
                 }, 500);
@@ -312,6 +317,17 @@ window.onload = function() {
 
                 setTimeout(function(){
                     square.getElementsByClassName('content')[0].style.opacity = "1";
+
+                    window.oldWidth = square.getElementsByClassName('type')[0].style.width;
+                    window.oldHeight = square.getElementsByClassName('type')[0].style.height;
+                    window.oldLeft = square.getElementsByClassName('type')[0].style.left;
+                    window.oldTop = square.getElementsByClassName('type')[0].style.top;
+
+                    square.getElementsByClassName('type')[0].style.width = '100%';
+                    square.getElementsByClassName('type')[0].style.height = '100%';
+                    square.getElementsByClassName('type')[0].style.left = '0%';
+                    square.getElementsByClassName('type')[0].style.top = '0%';
+
                     setTimeout(function() {
                         window.scroll({
                             top: window.pageYOffset + square.getBoundingClientRect().top,
