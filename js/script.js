@@ -312,7 +312,13 @@ window.onload = function() {
 
                 setTimeout(function(){
                     square.getElementsByClassName('content')[0].style.opacity = "1";
-
+                    setTimeout(function() {
+                        window.scroll({
+                            top: window.pageYOffset + square.getBoundingClientRect().top,
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                    }, 300);
                 }, 500);
             }
         }
@@ -321,14 +327,20 @@ window.onload = function() {
 
 todos_shuffle.addEventListener('click', function() {
     last_shuffle = Shuffle.ALL_ITEMS;
+    eventFire(document.body, 'click');
+    resizeAll();
 });
 
 dois_anos_shuffle.addEventListener('click', function() {
     last_shuffle = 'dois_anos';
+    eventFire(document.body, 'click');
+    resizeAll();
 });
 
 acreditar_shuffle.addEventListener('click', function() {
     last_shuffle = 'acreditar';
+    eventFire(document.body, 'click');
+    resizeAll();
 });
 
 // check if visible
@@ -385,5 +397,14 @@ function resizeAll() {
 
     for (var i = 0; i < controler.length; i++) {
         controler[i].style.width = original_width;
+
+        console.log(i);
+        console.log(controler[i]);
+        window.cont = controler[i];
+
+        if(controler[i].getElementsByClassName('float-title').length > 0) {
+            controler[i].getElementsByClassName('float-title')[0].style.opacity = "1";
+            controler[i].getElementsByClassName('content')[0].style.opacity = "0"
+        }
     }
 }
