@@ -398,10 +398,6 @@ function resizeAll() {
     for (var i = 0; i < controler.length; i++) {
         controler[i].style.width = original_width;
 
-        console.log(i);
-        console.log(controler[i]);
-        window.cont = controler[i];
-
         if(controler[i].getElementsByClassName('float-title').length > 0) {
             controler[i].getElementsByClassName('float-title')[0].style.opacity = "1";
             controler[i].getElementsByClassName('content')[0].style.opacity = "0"
