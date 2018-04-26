@@ -234,8 +234,6 @@ html {
 
 .type_zero {
     background: grey;
-    border: black;
-    border-style: solid;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -248,8 +246,6 @@ html {
 
 .type_one {
     background: grey;
-    border: black;
-    border-style: solid;
     position: absolute;
     width: 80%;
     height: 80%;
@@ -262,8 +258,6 @@ html {
 
 .type_two {
     background: grey;
-    border: black;
-    border-style: solid;
     position: absolute;
     width: 95%;
     height: 85%;
@@ -276,8 +270,6 @@ html {
 
 .type_three {
     background: grey;
-    border: black;
-    border-style: solid;
     position: absolute;
     width: 80%;
     height: 66%;
