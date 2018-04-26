@@ -89,12 +89,12 @@ html {
     max-width: 3.4375em;
 }
 
-.small-tittle-text {
+.small-title-text {
     letter-spacing: 0.125em;
     font-size: 0.8125em;
 }
 
-.smaller-tittle-text {
+.smaller-title-text {
     font-weight: bold;
     font-size: 0.5625em;
 }
@@ -116,7 +116,7 @@ html {
     color: #000000;
 }
 
-.bigger-tittle-text {
+.bigger-title-text {
     font-size: 3em;
 }
 
@@ -176,14 +176,51 @@ html {
     margin-right: 25%;
 }
 
+.content-image {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
 .square {
     background: transparent;
     position: absolute;
     float: left;
-    width: 20%;
+    width: 33%;
     z-index: 1;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+}
+
+.float-title {
+    position: fixed;
+    color: white;
+    width: 100%;
+    font-size: 1.4rem;
+    font-family: Raleway;
+    transition: .35s;
+}
+
+.float-title-one {
+    margin-top: 50%;
+    margin-left: 30%;
+
+}
+
+.float-title-two {
+    margin-top: 80%;
+    margin-left: 50%;
+}
+
+.float-title-three {
+    margin-top: 35%;
+    margin-left: -8%;
+}
+
+.content {
+    opacity: 0;
+    transition: .35s;
 }
 
 .square:before {

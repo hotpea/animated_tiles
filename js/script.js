@@ -250,7 +250,7 @@ var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
-var original_width = '20%';
+var original_width = '33%';
 var clicked_width = '100%';
 
 new YAnimation(top_site, {loop: false, clearAfterEnd: false}).startAnimation();
@@ -289,14 +289,31 @@ window.onload = function() {
             if(this.style.width == clicked_width) {
                 resizeAll();
 
-                this.style.width = original_width;
-                eventFire(document.body, 'click', null);
+                var square = this;
+
+                square.style.width = original_width;
+                eventFire(document.body, 'click');
+
+                square.getElementsByClassName('content')[0].style.opacity = "0";
+
+                setTimeout(function(){
+                    square.getElementsByClassName('float-title')[0].style.opacity = "1";
+                }, 500);
             } else {
                 resizeAll();
 
-                this.style.width = clicked_width;
-                this.style.position = 'fixed!important';
-                eventFire(document.body, 'click', this);
+                var square = this;
+
+                square.style.width = clicked_width;
+                square.style.position = 'fixed!important';
+                eventFire(document.body, 'click');
+
+                square.getElementsByClassName('float-title')[0].style.opacity = "0";
+
+                setTimeout(function(){
+                    square.getElementsByClassName('content')[0].style.opacity = "1";
+
+                }, 500);
             }
         }
     }
@@ -350,7 +367,7 @@ function checkvisible( elm ) {
     return !(y > (vpH + st));
 }
 
-function eventFire(el, etype, focus){
+function eventFire(el, etype){
     setTimeout(function(){
         if (el.fireEvent) {
             el.fireEvent('on' + etype);
