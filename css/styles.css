@@ -123,7 +123,7 @@ html {
 
 .top-site-image{
     position: relative;
-    min-height: 1200px;
+    min-height: 100vh;
     display: block;
     width: 100%;
     opacity: 0;
@@ -152,7 +152,8 @@ html {
 
 
 .content {
-    position:absolute;
+    position:relative;
+    font-size: 1.5vw;
     height:90%; /* = 100% - 2*5% padding */
     width:90%; /* = 100% - 2*5% padding */
     padding: 5%;
