@@ -40,6 +40,28 @@ window.onload = function() {
     topSite.style.opacity = "1";
     topSite.style.top = "40%";
 
+    mountEventsTiles();
+};
+
+todos_shuffle.addEventListener('click', function() {
+    last_shuffle = Shuffle.ALL_ITEMS;
+    eventFire(document.body, 'click');
+    resizeAll();
+});
+
+dois_anos_shuffle.addEventListener('click', function() {
+    last_shuffle = 'dois_anos';
+    eventFire(document.body, 'click');
+    resizeAll();
+});
+
+acreditar_shuffle.addEventListener('click', function() {
+    last_shuffle = 'acreditar';
+    eventFire(document.body, 'click');
+    resizeAll();
+});
+
+function mountEventsTiles() {
     var controler = document.getElementsByClassName('picture-item');
 
     for (var i = 0; i < controler.length; i++) {
@@ -97,25 +119,7 @@ window.onload = function() {
             }
         }
     }
-};
-
-todos_shuffle.addEventListener('click', function() {
-    last_shuffle = Shuffle.ALL_ITEMS;
-    eventFire(document.body, 'click');
-    resizeAll();
-});
-
-dois_anos_shuffle.addEventListener('click', function() {
-    last_shuffle = 'dois_anos';
-    eventFire(document.body, 'click');
-    resizeAll();
-});
-
-acreditar_shuffle.addEventListener('click', function() {
-    last_shuffle = 'acreditar';
-    eventFire(document.body, 'click');
-    resizeAll();
-});
+}
 
 // check if visible
 function posY(elm) {
