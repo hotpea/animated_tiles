@@ -11,6 +11,7 @@ body {
 /*animação de linha*/
 .wrapper {
     position: relative;
+    min-height: 100vh;
 }
 
 .line {
@@ -53,7 +54,7 @@ body {
 /*fim da animação de linha*/
 
 html {
-    background-color: black;
+    background-color: lightgray;
     overflow-x: hidden;
 }
 
@@ -61,7 +62,7 @@ html {
     position: relative;
     text-align: center;
     align-content: center;
-    color: white;
+    color: black;
 }
 
 .quote {
@@ -86,7 +87,7 @@ html {
 }
 
 .mouse {
-    filter: invert(100%);
+    /*filter: invert(100%);*/
     max-width: 3.4375em;
 }
 
@@ -105,50 +106,56 @@ html {
     display: inline;
     margin: 0 auto;
     padding: 0.625em;
-    border: 0.125em solid #ffffff;
+    border: 0.125em solid #000000;
     border-radius: 2.5em;
     background: transparent;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.0625em;
 }
 
+.button-active {
+    background: #000000;
+    color: #ffffff;
+}
+
 .button:hover {
-    background: #ffffff;
-    color: #000000;
+    background: #000000;
+    color: #ffffff;
 }
 
 .bigger-title-text {
     font-size: 3em;
+    font-weight: bold;
 }
 
-.top-site-image{
-    position: relative;
-    min-height: 100vh;
-    display: block;
-    width: 100%;
-    opacity: 0;
-    animation: fade-in 1s ease-in 1.5s forwards;
+/*.top-site-image{*/
+    /*position: relative;*/
+    /*min-height: 100vh;*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*opacity: 0;*/
+    /*animation: fade-in 1s ease-in 1.5s forwards;*/
 
-    position: relative;
-    -webkit-mask-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(
-            rgba(0,0,0,1)
-        ),
-        to(rgba(0,0,0,0))
-    );
+    /*position: relative;*/
+    /*-webkit-mask-image:-webkit-gradient(*/
+        /*linear,*/
+        /*left top,*/
+        /*left bottom,*/
+        /*from(*/
+            /*rgba(0,0,0,1)*/
+        /*),*/
+        /*to(rgba(0,0,0,0))*/
+    /*);*/
 
-    /* The image used */
-    background-image: url('../images/rio_de_janeiro.jpg');
+    /*/!* The image used *!/*/
+    /*background-image: url('../images/rio_de_janeiro.jpg');*/
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    /*/!* Create the parallax scrolling effect *!/*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+/*}*/
 
 
 .content {
@@ -166,12 +173,13 @@ html {
 }
 
 .table-cell{
-    color: white;
+    color: black;
     display:table-cell;
     vertical-align:middle;
 }
 
 #shuffle-container {
+    position: relative;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -185,28 +193,60 @@ html {
 }
 
 .square {
+    position: relative;
     background: transparent;
-    position: absolute;
+    position: relative;
     float: left;
-    width: 33%;
+    width: 25%;
     z-index: 1;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+    height: 24vh;
+}
+
+.square-two-rows {
+    position: relative;
+    background: transparent;
+    position: absolute;
+    float: left;
+    width: 25%;
+    z-index: 1;
+    -webkit-transition: .35s!important;
+    transition: .35s!important;
+    height: 48vh;
+}
+
+.square-two-rows-and-columns {
+    position: relative;
+    background: transparent;
+    position: absolute;
+    float: left;
+    width: 50%;
+    z-index: 1;
+    -webkit-transition: .35s!important;
+    transition: .35s!important;
+    height: 48vh;
+}
+
+.square:focus,
+.square-two-rows:focus,
+.square-two-rows-and-columns:focus {
+    z-index: 3!important;
 }
 
 .float-title {
+    text-shadow: 0px 0px #000000;
     position: fixed;
     color: white;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 2.5vh;
     font-family: Raleway;
     transition: .35s;
 }
 
 .float-title-one {
     margin-top: 50%;
-    margin-left: 30%;
-
+    margin-left: 15%;
 }
 
 .float-title-two {
@@ -230,12 +270,8 @@ html {
     padding-top: 100%;
 }
 
-.square:focus {
-    z-index: 3!important;
-}
-
 .type_zero {
-    background: grey;
+    background: black;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -247,7 +283,7 @@ html {
 }
 
 .type_one {
-    background: grey;
+    background: black;
     position: absolute;
     width: 80%;
     height: 80%;
@@ -259,7 +295,7 @@ html {
 }
 
 .type_two {
-    background: grey;
+    background: black;
     position: absolute;
     width: 95%;
     height: 85%;
@@ -271,7 +307,7 @@ html {
 }
 
 .type_three {
-    background: grey;
+    background: black;
     position: absolute;
     width: 80%;
     height: 66%;
@@ -287,8 +323,6 @@ html {
     position: relative;
     min-width: 100%;
     max-width: 100%;
-    /*max-height: 25em;*/
-    /*min-height: 25em;*/
 }
 
 .center {
@@ -315,7 +349,7 @@ html {
     margin:0 1.66%;
     width:89.68%;
     padding: 3.5%;
-    background-color:#000;
+    background-color:lightgray;
     color: #000;
 }
 
