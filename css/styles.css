@@ -198,7 +198,7 @@ html {
     position: fixed;
     color: white;
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-family: Raleway;
     transition: .35s;
 }
@@ -287,8 +287,8 @@ html {
     position: relative;
     min-width: 100%;
     max-width: 100%;
-    max-height: 25em;
-    min-height: 25em;
+    /*max-height: 25em;*/
+    /*min-height: 25em;*/
 }
 
 .center {
@@ -318,3 +318,49 @@ html {
     background-color:#000;
     color: #000;
 }
+
+/*@media only screen and (min-width: 100px) and (max-width: 1000px) {*/
+    /*meta {*/
+        /*initial-scale: 1.0;*/
+        /*maximum-scale: 1.0;*/
+        /*user-scalable: 0;*/
+    /*}*/
+
+    /*#shuffle-container {*/
+        /*width: 100%;*/
+        /*margin-left: 0%;*/
+        /*margin-right: 0%;*/
+    /*}*/
+
+    /*.float-title {*/
+        /*font-size: 3rem;*/
+    /*}*/
+
+    /*.smaller-title-text {*/
+        /*font-size: 1em;*/
+    /*}*/
+
+    /*.content {*/
+        /*position:relative;*/
+        /*font-size: 3vw;*/
+        /*height:90%; /!* = 100% - 2*5% padding *!/*/
+        /*width:90%; /!* = 100% - 2*5% padding *!/*/
+        /*padding: 5%;*/
+    /*}*/
+
+    /*.button {*/
+        /*font-size: 2rem;*/
+        /*margin: 1%;*/
+    /*}*/
+
+    /*#top-site-text {*/
+        /*font-size: 2rem;*/
+        /*left: 6%;*/
+        /*transform: translate(0%, -50%);*/
+    /*}*/
+
+    /*/!*.half {*!/*/
+    /*/!*width: 100%!important;*!/*/
+    /*/!*height: 20vh;*!/*/
+    /*/!*}*!/*/
+/*}*/
