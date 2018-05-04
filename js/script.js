@@ -8,7 +8,7 @@ var last_shuffle = Shuffle.ALL_ITEMS;
 
 var original_width = '25%';
 var original_height = '24vh';
-var clicked_width = '100%';
+var clicked_width = '100vw';
 var clicked_height = '100vh';
 
 var shuffleDivs = document.getElementsByClassName('shuffle-container')
@@ -93,6 +93,7 @@ function mountEventsTiles() {
 
                 square.style.width = square.getAttribute('width');
                 square.style.height = square.getAttribute('height');
+                square.style.marginLeft = '0%';
                 eventFire(document.body, 'click');
 
                 square.getElementsByClassName('content')[0].style.opacity = "0";
@@ -119,6 +120,7 @@ function mountEventsTiles() {
 
                 square.style.width = clicked_width;
                 square.style.height = clicked_height;
+                square.style.marginLeft = '-50%';
                 square.style.position = 'fixed!important';
                 eventFire(document.body, 'click');
 
