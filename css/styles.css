@@ -319,17 +319,11 @@ html {
 }
 
 .alternate {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
     background: black;
     margin-top: 1.875em;
-    position: relative;
-    min-width: 100vh;
-    min-height: 100vh;
+    position: absolute!important;
+    width: 200vh;
+    height: 100vh;
 }
 
 .center {
@@ -343,7 +337,7 @@ html {
     margin-right: auto;
     width: 40%;
     margin-left: 9%;
-    margin-top: 30%;
+    margin-top: 5%;
 }
 
 .half:before {

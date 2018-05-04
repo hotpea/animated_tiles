@@ -97,12 +97,14 @@ function mountEventsTiles() {
 
                 square.getElementsByClassName('content')[0].style.opacity = "0";
 
-                square.getElementsByClassName('type')[0].style.width = window.oldWidth;
-                square.getElementsByClassName('type')[0].style.height = window.oldHeight;
-                square.getElementsByClassName('type')[0].style.left = window.oldLeft;
-                square.getElementsByClassName('type')[0].style.top = window.oldTop;
+                square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
+                square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
+                square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
 
                 square.getElementsByClassName('type')[0].style.background = 'black';
+
+                square.classList.remove('active');
 
                 setTimeout(function(){
                     square.getElementsByClassName('float-title')[0].style.opacity = "1";
@@ -125,10 +127,10 @@ function mountEventsTiles() {
                 setTimeout(function(){
                     square.getElementsByClassName('content')[0].style.opacity = "1";
 
-                    window.oldWidth = square.getElementsByClassName('type')[0].style.width;
-                    window.oldHeight = square.getElementsByClassName('type')[0].style.height;
-                    window.oldLeft = square.getElementsByClassName('type')[0].style.left;
-                    window.oldTop = square.getElementsByClassName('type')[0].style.top;
+                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
+                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height)
+                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left)
+                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top)
 
                     square.getElementsByClassName('type')[0].style.width = '100%';
                     square.getElementsByClassName('type')[0].style.height = '100%';
@@ -136,6 +138,8 @@ function mountEventsTiles() {
                     square.getElementsByClassName('type')[0].style.top = '0%';
 
                     square.getElementsByClassName('type')[0].style.background = 'white';
+
+                    square.className += ' active';
 
                     setTimeout(function() {
                         window.scroll({
@@ -178,18 +182,55 @@ function eventFire(el, etype){
 function resizeAll() {
     var controler = document.getElementsByClassName('picture-item');
 
-    for (var i = 0; i < controler.length; i++) {
-        if(controler[i].hasAttribute('width')) {
-            controler[i].style.width = controler[i].getAttribute('width');
+    for (i = 0; i < controler.length; i++) {
+        var square = controler[i];
+
+        if(square.hasAttribute('width')) {
+            square.style.width = square.getAttribute('width');
         } else {
-            controler[i].setAttribute('width', controler[i].style.width);
+            square.setAttribute('width', square.style.width);
+        }
+        if(square.hasAttribute('height')) {
+            square.style.height = square.getAttribute('height');
+        } else {
+            square.setAttribute('height', square.style.height);
         }
 
-        controler[i].style.width = controler[i].getAttribute('width');
+        window.square = square;
 
-        if(controler[i].getElementsByClassName('float-title').length > 0) {
-            controler[i].getElementsByClassName('float-title')[0].style.opacity = "1";
-            controler[i].getElementsByClassName('content')[0].style.opacity = "0"
+        if(square.getElementsByClassName('type').length > 0) {
+            var type = square.getElementsByClassName('type')[0];
+
+            if(type.hasAttribute('width')) {
+                type.style.width = type.getAttribute('width');
+            } else {
+                type.setAttribute('width', type.style.width);
+            }
+            if(type.hasAttribute('height')) {
+                type.style.height = type.getAttribute('height');
+            } else {
+                type.setAttribute('height', type.style.height);
+            }
+            if(type.hasAttribute('left')) {
+                type.style.left = type.getAttribute('left');
+            } else {
+                type.setAttribute('left', type.style.left);
+            }
+            if(type.hasAttribute('top')) {
+                type.style.top = type.getAttribute('top');
+            } else {
+                type.setAttribute('top', type.style.top);
+            }
+        }
+
+        square.style.width = square.getAttribute('width');
+        square.style.height = square.getAttribute('height');
+
+        if(square.getElementsByClassName('float-title').length > 0) {
+            square.getElementsByClassName('float-title')[0].style.opacity = "1";
+            square.getElementsByClassName('content')[0].style.opacity = "0";
+
+            square.getElementsByClassName('type')[0].style.background = 'black';
         }
     }
 }
