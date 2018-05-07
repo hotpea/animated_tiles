@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Crazy Animations</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link href="css/styleScroll.scss" rel="stylesheet" type="text/css">
+        <!--<link href="css/styleScroll.scss" rel="stylesheet" type="text/css">-->
 
         <!--<link rel="stylesheet" type="text/css" href="js/fullPage.js/jquery.fullPage.css" />-->
 
@@ -14,7 +14,7 @@
     <body>
         <!--MENU SUSPENSO-->
         <!--<div class="btns">-->
-            <!--<button class="btn js-btn button">Capa</button>-->
+            <!--<button class="btn ss-btn button">Capa</button>-->
             <!--<button class="btn js-btn button">Conteúdo</button>-->
             <!--<button class="btn js-btn button">Video</button>-->
             <!--<button class="btn js-btn button">Conteúdo</button>-->
@@ -24,13 +24,13 @@
 
         <div id="fullpage">
             <div class="section overlay">
-                <div id="container" class="container wrapper js-section">
+                <div id="container" class="container wrapper ">
                     <!--<img class="top-site-image image" >-->
                     <!--<div class='line'>-->
 
                     <!--</div>-->
 
-                    <div id="top-site-text" class="top-site-text">
+                    <div id="top-site-text" class="top-site-text capa-paroller">
                         <div>
                             <img class="vertical" src="images/vertical.png">
                         </div>
@@ -67,6 +67,11 @@
                         </span>
                     </div>
                 </div>
+
+                <div class="container second-capa second-capa-paroller wrapper" style="background: black">
+                    <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1"></iframe>-->
+                    <iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11&amp;autoplay=1" allow="autoplay; encrypted-media"></iframe>
+                </div>
             </div>
 
             <div class="container navigation">
@@ -75,7 +80,7 @@
                 <button id="dois_anos_shuffle" class="button">2 anos</button>
             </div>
 
-            <div id="shuffle-container" class="shuffle-container js-section">
+            <div id="shuffle-container" class="shuffle-container">
 
                 <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
@@ -199,14 +204,9 @@
                     </div>
                 </div>
 
-                <div class="picture-item alternate center js-section" data-groups='["todos"]'>
-                    <iframe id="video1" class="half" frameborder="0"
-                            src="https://www.youtube.com/embed/7-tNUur2YoU?modestbranding=1&autohide=1&showinfo=0&controls=0">
-                    </iframe>
-                    <img class="half" src="images/20anos.png">
-                </div>
+                <!--DUPLICATA-->
 
-                <div class="picture-item square js-section" tabindex="0" data-groups='["acreditar"]'>
+                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-one">
                             O que é <strong>Lorem</strong></br> Ipsum?
@@ -328,11 +328,134 @@
                     </div>
                 </div>
 
-                <div class="picture-item alternate center js-section" data-groups='["todos"]'>
-                    <iframe class="half" frameborder="0"
-                            src="https://www.youtube.com/embed/7-tNUur2YoU?modestbranding=1&autohide=1&showinfo=0&controls=0">
-                    </iframe>
-                    <img class="half" src="images/20anos.png">
+                <div id="video1" class="picture-item alternate" data-groups='["todos"]'>
+                    <img class="play-button" src="images/play-white.png">
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
+                    <div class="type_one type">
+                        <div class="float-title float-title-one">
+                            O que é <strong>Lorem</strong></br> Ipsum?
+                        </div>
+
+                        <div class="content">
+                            <p>
+                                <img class="content-image" src="images/city.jpeg">
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["dois_anos"]'>
+                    <div class="type_two type">
+                        <div class="float-title float-title-two">
+                            Coisa das </br><strong>Ruguis</strong>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
+                    <div class="type_three type">
+                        <div class="float-title float-title-three">
+                            Tile <strong>maneira</strong> mas nem tanto...
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square-two-rows" tabindex="0" data-groups='["acreditar"]'>
+                    <div class="type_three type">
+                        <div class="float-title float-title-three">
+                            Tile <strong>maneira</strong> mas nem tanto...
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["acreditar"]'>
+                    <div class="type_one type">
+                        <div class="float-title float-title-one">
+                            O que é <strong>Lorem</strong></br> Ipsum?
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["dois_anos"]'>
+                    <div class="type_two type">
+                        <div class="float-title float-title-two">
+                            Coisa das </br><strong>Ruguis</strong>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
+                    <div class="type_one type">
+                        <div class="float-title float-title-one">
+                            O que é <strong>Lorem</strong></br> Ipsum?
+                        </div>
+
+                        <div class="content">
+                            <p>
+                                <img class="content-image" src="images/city.jpeg">
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="picture-item square" tabindex="0" data-groups='["dois_anos"]'>
+                    <div class="type_two type">
+                        <div class="float-title float-title-two">
+                            Coisa das </br><strong>Ruguis</strong>
+                        </div>
+
+                        <div class="content">
+                            <p>
+                            <h2>O que é Lorem Ipsum?</h2>
+                            <strong>Lorem Ipsum</strong> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="video2" class="picture-item alternate center" data-groups='["todos"]'>
+                    <img class="play-button2" src="images/play-white.png">
                 </div>
             </div>
         </div>
@@ -348,6 +471,7 @@
         <script src="js/shuffle.min.js" type="text/javascript" charset="UTF-8"></script>
 
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/paroller.js/dist/jquery.paroller.min.js"></script>
 
         <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
         <!--<script src="js/fullPage.js/vendors/jquery.easings.min.js"></script>-->

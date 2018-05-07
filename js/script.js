@@ -106,6 +106,7 @@ function mountEventsTiles() {
                 square.style.width = square.getAttribute('width');
                 square.style.height = square.getAttribute('height');
                 square.style.marginLeft = '0%';
+
                 eventFire(document.body, 'click');
 
                 square.getElementsByClassName('content')[0].style.opacity = "0";
@@ -118,10 +119,18 @@ function mountEventsTiles() {
                 square.getElementsByClassName('type')[0].style.background = 'black';
 
                 square.classList.remove('active');
+                square.classList.remove('video-paroller');
 
                 setTimeout(function(){
                     square.getElementsByClassName('float-title')[0].style.opacity = "1";
+
+
                 }, 500);
+
+                setTimeout(function () {
+                    eventFire(document.body, 'click');
+                }, 2000)
+
             } else {
                 resizeAll();
 
@@ -154,6 +163,7 @@ function mountEventsTiles() {
                     square.getElementsByClassName('type')[0].style.background = 'white';
 
                     square.className += ' active';
+                    square.className += ' video-paroller';
 
                     setTimeout(function() {
                         window.scroll({
@@ -178,7 +188,6 @@ function eventFire(el, etype){
             el.dispatchEvent(evObj);
         }
     },500);
-
 }
 
 function resizeAll() {

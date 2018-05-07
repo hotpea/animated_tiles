@@ -58,11 +58,30 @@ html {
     overflow-x: hidden;
 }
 
+img {
+    margin-top: 5%;
+}
+
+.video-play {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navigation {
+    margin-top: 1%;
+}
+
 .container {
     position: relative;
     text-align: center;
     align-content: center;
     color: black;
+}
+
+.second-capa {
+    z-index: 5;
+    margin-top: -12%!important;
+    height: 100vh;
 }
 
 .quote {
@@ -75,6 +94,7 @@ html {
 #top-site-text {
     font-weight: bold;
     position: absolute;
+    margin-top: 5%;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -109,7 +129,7 @@ html {
     padding: 0.625em;
     border: 0.125em solid #000000;
     border-radius: 2.5em;
-    background: #F1F1F1;
+    background: #F9F9F9;
     color: #000000;
     letter-spacing: 0.0625em;
 }
@@ -165,6 +185,9 @@ html {
     height:90%; /* = 100% - 2*5% padding */
     width:90%; /* = 100% - 2*5% padding */
     padding: 5%;
+    opacity: 0;
+    transition: .35s;
+    z-index: -1;
 }
 
 .table{
@@ -192,6 +215,7 @@ html {
     text-align: center;
     align-content: center;
     color: white;
+    z-index: -1;
 }
 
 .square {
@@ -245,6 +269,7 @@ html {
     font-size: 2.5vh;
     font-family: Raleway;
     transition: .35s;
+    max-width: 65%;
 }
 
 .float-title-one {
@@ -260,11 +285,6 @@ html {
 .float-title-three {
     margin-top: 35%;
     margin-left: -8%;
-}
-
-.content {
-    opacity: 0;
-    transition: .35s;
 }
 
 .square:before {
@@ -328,7 +348,8 @@ html {
     position: absolute!important;
     min-width: 100vw;
     min-height: 100vh;
-    z-index: 5;
+    text-align: center;
+    z-index: 2;
 }
 
 .center {
