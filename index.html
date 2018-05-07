@@ -4,16 +4,27 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Crazy Animations</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/styleScroll.scss" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" type="text/css" href="js/fullPage.js/jquery.fullPage.css" />
+        <!--<link rel="stylesheet" type="text/css" href="js/fullPage.js/jquery.fullPage.css" />-->
 
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     </head>
 
     <body>
+        <!--MENU SUSPENSO-->
+        <!--<div class="btns">-->
+            <!--<button class="btn js-btn button">Capa</button>-->
+            <!--<button class="btn js-btn button">Conteúdo</button>-->
+            <!--<button class="btn js-btn button">Video</button>-->
+            <!--<button class="btn js-btn button">Conteúdo</button>-->
+            <!--<button class="btn js-btn button">Video</button>-->
+
+        <!--</div>-->
+
         <div id="fullpage">
-            <div class="section">
-                <div id="container" class="container wrapper">
+            <div class="section overlay">
+                <div id="container" class="container wrapper js-section">
                     <!--<img class="top-site-image image" >-->
                     <!--<div class='line'>-->
 
@@ -33,7 +44,8 @@
                         </br>
 
                         <div>
-                            <span class="bigger-title-text"> O Brasil está pronto </span>
+                            <span class="bigger-title-text"> Quando a gente age, </span>
+                            <span class="bigger-title-text"> o Brasil reage. </span>
                         </div>
 
                         </br></br>
@@ -50,20 +62,21 @@
 
                         </br>
 
-                <span class="smaller-title-text">
-                    ROLE PARA BAIXO
-                </span>
+                        <span class="smaller-title-text">
+                            ROLE PARA BAIXO
+                        </span>
                     </div>
-                </div>
-
-                <div class="container navigation">
-                    <button id="todos_shuffle" class="button button-active">Todos</button>
-                    <button id="acreditar_shuffle" class="button">Pode Acreditar</button>
-                    <button id="dois_anos_shuffle" class="button">2 anos</button>
                 </div>
             </div>
 
-            <div id="shuffle-container" class="shuffle-container section">
+            <div class="container navigation">
+                <button id="todos_shuffle" class="button button-active">Todos</button>
+                <button id="acreditar_shuffle" class="button">Pode Acreditar</button>
+                <button id="dois_anos_shuffle" class="button">2 anos</button>
+            </div>
+
+            <div id="shuffle-container" class="shuffle-container js-section">
+
                 <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-one">
@@ -186,14 +199,14 @@
                     </div>
                 </div>
 
-                <div class="picture-item alternate center" data-groups='["todos"]'>
-                    <iframe class="half" frameborder="0"
+                <div class="picture-item alternate center js-section" data-groups='["todos"]'>
+                    <iframe id="video1" class="half" frameborder="0"
                             src="https://www.youtube.com/embed/7-tNUur2YoU?modestbranding=1&autohide=1&showinfo=0&controls=0">
                     </iframe>
                     <img class="half" src="images/20anos.png">
                 </div>
 
-                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
+                <div class="picture-item square js-section" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-one">
                             O que é <strong>Lorem</strong></br> Ipsum?
@@ -315,7 +328,7 @@
                     </div>
                 </div>
 
-                <div class="picture-item alternate center" data-groups='["todos"]'>
+                <div class="picture-item alternate center js-section" data-groups='["todos"]'>
                     <iframe class="half" frameborder="0"
                             src="https://www.youtube.com/embed/7-tNUur2YoU?modestbranding=1&autohide=1&showinfo=0&controls=0">
                     </iframe>
@@ -337,12 +350,13 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
 
         <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-        <script src="js/fullPage.js/vendors/jquery.easings.min.js"></script>
+        <!--<script src="js/fullPage.js/vendors/jquery.easings.min.js"></script>-->
 
         <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
         <!--<script type="text/javascript" src="js/fullPage.js/vendors/scrolloverflow.min.js"></script>-->
 
-        <script type="text/javascript" src="js/fullPage.js/jquery.fullPage.js"></script>
+        <!--<script type="text/javascript" src="js/fullPage.js/jquery.fullPage.js"></script>-->
+        <script type="text/javascript" src="js/events.js"></script>
 
         <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
     </body>

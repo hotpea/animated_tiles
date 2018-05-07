@@ -54,7 +54,7 @@ body {
 /*fim da animação de linha*/
 
 html {
-    background-color: lightgray;
+    background-color: #F1F1F1;
     overflow-x: hidden;
 }
 
@@ -73,6 +73,7 @@ html {
 }
 
 #top-site-text {
+    font-weight: bold;
     position: absolute;
     top: 43%;
     left: 50%;
@@ -108,7 +109,7 @@ html {
     padding: 0.625em;
     border: 0.125em solid #000000;
     border-radius: 2.5em;
-    background: transparent;
+    background: #F1F1F1;
     color: #000000;
     letter-spacing: 0.0625em;
 }
@@ -325,8 +326,9 @@ html {
     margin-top: 1.875em;
     margin-left: -50%!important;
     position: absolute!important;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 5;
 }
 
 .center {
@@ -354,8 +356,31 @@ html {
     margin:0 1.66%;
     width:89.68%;
     padding: 3.5%;
-    background-color:lightgray;
+    background-color:#F1F1F1;
     color: #000;
+}
+
+/*pontos de navegação*/
+#fp-nav ul li a span {
+    background: white!important;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    background-color: transparent;
+}
+
+.section_one {
+    background: white;
+}
+
+.section_two {
+    background: black;
 }
 
 /*@media only screen and (min-width: 100px) and (max-width: 1000px) {*/
@@ -403,3 +428,10 @@ html {
     /*/!*height: 20vh;*!/*/
     /*/!*}*!/*/
 /*}*/
+
+.btns {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
