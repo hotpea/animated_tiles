@@ -277,6 +277,7 @@ img {
 .square-two-columns:focus,
 .square-two-rows-and-columns:focus {
     /*position: fixed!important;*/
+    marginLeft: -50%!important;
     z-index: 3!important;
 }
 
@@ -458,7 +459,7 @@ img {
 
     .content {
         position:relative;
-        font-size: 3vw;
+        font-size: 4vw;
         height:90%; /* = 100% - 2*5% padding */
         width:90%; /* = 100% - 2*5% padding */
         padding: 5%;
@@ -516,6 +517,15 @@ img {
         min-height: 35vh;
         text-align: center;
         z-index: 2;
+    }
+
+    .square:focus,
+    .square-two-rows:focus,
+    .square-two-columns:focus,
+    .square-two-rows-and-columns:focus {
+        /*position: fixed!important;*/
+        marginLeft: 0%;
+        z-index: 3!important;
     }
 
     /*.half {*/
