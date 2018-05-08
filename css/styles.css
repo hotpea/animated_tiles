@@ -14,6 +14,12 @@ body {
     min-height: 100vh;
 }
 
+/*.picture-item {*/
+    /*background: red!important;*/
+    /*border: white!important;*/
+    /*border-width: 1px!important;*/
+/*}*/
+
 .line {
     position: absolute;
     bottom: 0;
@@ -242,6 +248,18 @@ img {
     height: 48vh;
 }
 
+.square-two-columns {
+    position: relative;
+    background: transparent;
+    position: absolute;
+    float: left;
+    width: 50%;
+    z-index: 1;
+    -webkit-transition: .35s!important;
+    transition: .35s!important;
+    height: 24vh;
+}
+
 .square-two-rows-and-columns {
     position: relative;
     background: transparent;
@@ -256,6 +274,7 @@ img {
 
 .square:focus,
 .square-two-rows:focus,
+.square-two-columns:focus,
 .square-two-rows-and-columns:focus {
     /*position: fixed!important;*/
     z-index: 3!important;
@@ -273,18 +292,23 @@ img {
 }
 
 .float-title-one {
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 15%;
 }
 
 .float-title-two {
-    margin-top: 70%;
-    margin-left: 50%;
+    margin-top: 55%;
+    margin-left: 40%;
 }
 
 .float-title-three {
-    margin-top: 35%;
-    margin-left: -8%;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.float-title-four {
+    margin-top: 25%;
+    margin-left: 15%;
 }
 
 .square:before {
