@@ -428,55 +428,98 @@ img {
     background: black;
 }
 
-/*@media only screen and (min-width: 100px) and (max-width: 1000px) {*/
-    /*meta {*/
-        /*initial-scale: 1.0;*/
-        /*maximum-scale: 1.0;*/
-        /*user-scalable: 0;*/
-    /*}*/
-
-    /*#shuffle-container {*/
-        /*width: 100%;*/
-        /*margin-left: 0%;*/
-        /*margin-right: 0%;*/
-    /*}*/
-
-    /*.float-title {*/
-        /*font-size: 3rem;*/
-    /*}*/
-
-    /*.smaller-title-text {*/
-        /*font-size: 1em;*/
-    /*}*/
-
-    /*.content {*/
-        /*position:relative;*/
-        /*font-size: 3vw;*/
-        /*height:90%; /!* = 100% - 2*5% padding *!/*/
-        /*width:90%; /!* = 100% - 2*5% padding *!/*/
-        /*padding: 5%;*/
-    /*}*/
-
-    /*.button {*/
-        /*font-size: 2rem;*/
-        /*margin: 1%;*/
-    /*}*/
-
-    /*#top-site-text {*/
-        /*font-size: 2rem;*/
-        /*left: 6%;*/
-        /*transform: translate(0%, -50%);*/
-    /*}*/
-
-    /*/!*.half {*!/*/
-    /*/!*width: 100%!important;*!/*/
-    /*/!*height: 20vh;*!/*/
-    /*/!*}*!/*/
-/*}*/
-
 .btns {
     position: fixed;
     top: 1rem;
     left: 1rem;
     z-index: 10;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1000px) {
+    meta {
+        initial-scale: 1.0;
+        maximum-scale: 1.0;
+        user-scalable: 0;
+    }
+
+    #shuffle-container {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .float-title {
+        font-size: 3rem;
+    }
+
+    .smaller-title-text {
+        font-size: 1em;
+    }
+
+    .content {
+        position:relative;
+        font-size: 3vw;
+        height:90%; /* = 100% - 2*5% padding */
+        width:90%; /* = 100% - 2*5% padding */
+        padding: 5%;
+    }
+
+    .button {
+        font-size: 2rem;
+        margin: 1%;
+    }
+
+    #top-site-text {
+        font-size: 2rem;
+        left: 6%;
+        transform: translate(0%, -50%);
+    }
+
+    .square,
+    .square-two-rows,
+    .square-two-columns,
+    .square-two-rows-and-columns {
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .type_zero,
+    .type_one,
+    .type_two,
+    .type_three {
+        background: black;
+        position: absolute;
+        width: 95%;
+        height: 85%;
+        left: 1%;
+        top: 9%;
+        z-index: 2;
+        -webkit-transition: .35s;
+        transition: .35s;
+    }
+
+    .float-title,
+    .float-title-one,
+    .float-title-two,
+    .float-title-three,
+    .float-title-four {
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+
+    .alternate {
+        background: black;
+        margin-top: 1.875em;
+        margin-left: 0%!important;
+        position: absolute!important;
+        min-width: 100vw;
+        min-height: 35vh;
+        text-align: center;
+        z-index: 2;
+    }
+
+    /*.half {*/
+    /*width: 100%!important;*/
+    /*height: 20vh;*/
+    /*}*/
 }
