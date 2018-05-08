@@ -4,24 +4,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Crazy Animations</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <!--<link href="css/styleScroll.scss" rel="stylesheet" type="text/css">-->
-
-        <!--<link rel="stylesheet" type="text/css" href="js/fullPage.js/jquery.fullPage.css" />-->
 
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     </head>
 
     <body>
-        <!--MENU SUSPENSO-->
-        <!--<div class="btns">-->
-            <!--<button class="btn ss-btn button">Capa</button>-->
-            <!--<button class="btn js-btn button">Conteúdo</button>-->
-            <!--<button class="btn js-btn button">Video</button>-->
-            <!--<button class="btn js-btn button">Conteúdo</button>-->
-            <!--<button class="btn js-btn button">Video</button>-->
-
-        <!--</div>-->
-
         <div id="fullpage">
             <div class="section overlay">
                 <div id="container" class="container wrapper ">
@@ -82,7 +69,7 @@
 
             <div id="shuffle-container" class="shuffle-container">
 
-                <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
+                <div id="tile-one" class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-one">
                             O que é <strong>Lorem</strong></br> Ipsum?
@@ -143,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["acreditar"]'>
+                <div id="tile-two" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-one">
                             O que é <strong>Lorem</strong></br> Ipsum?
@@ -204,7 +191,7 @@
                     </div>
                 </div>
 
-                <div class="picture-item square-two-columns" tabindex="0" data-groups='["acreditar"]'>
+                <div id="tile-three" class="picture-item square-two-columns" tabindex="0" data-groups='["acreditar"]'>
                     <div class="type_one type">
                         <div class="float-title float-title-four">
                             O que é <strong>Lorem</strong></br> Ipsum?
@@ -358,8 +345,8 @@
                     </div>
                 </div>
 
-                <div id="video1" class="picture-item alternate" data-groups='["todos"]'>
-                    <img class="play-button" src="images/play-white.png">
+                <div class="picture-item alternate" data-groups='["todos"]'>
+                    <img id="video1" class="play-button" src="images/play-white.png">
                 </div>
 
                 <div class="picture-item square" tabindex="0" data-groups='["acreditar"]'>
@@ -514,8 +501,8 @@
                     </div>
                 </div>
 
-                <div id="video2" class="picture-item alternate center" data-groups='["todos"]'>
-                    <img class="play-button2" src="images/play-white.png">
+                <div class="picture-item alternate center" data-groups='["todos"]'>
+                    <img id="video2" class="play-button2" src="images/play-white.png">
                 </div>
             </div>
         </div>
@@ -533,13 +520,6 @@
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/paroller.js/dist/jquery.paroller.min.js"></script>
 
-        <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-        <!--<script src="js/fullPage.js/vendors/jquery.easings.min.js"></script>-->
-
-        <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-        <!--<script type="text/javascript" src="js/fullPage.js/vendors/scrolloverflow.min.js"></script>-->
-
-        <!--<script type="text/javascript" src="js/fullPage.js/jquery.fullPage.js"></script>-->
         <script type="text/javascript" src="js/events.js"></script>
 
         <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>

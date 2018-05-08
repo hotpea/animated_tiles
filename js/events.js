@@ -4,9 +4,17 @@ $(document).ready(function() {
         alert(clickedBtnID);
     });
 
+    /**
+     * eventos parallax
+     */
     $('.capa-paroller').paroller({ factor: '0.3', type: 'background', direction: 'vertical' });
     $('.second-capa-paroller').paroller({ factor: '0.2', type: 'foreground', direction: 'vertical' });
 
+    /**
+     * evento de play quando clicado em play do vídeo #1
+     *
+     * TODO: passar para PLAIN JAVASCRIPT
+     */
     $('.play-button').click(function() {
         var play = $(this);
 
@@ -21,6 +29,11 @@ $(document).ready(function() {
         }, 400);
     });
 
+    /**
+     * evento de play quando clicado em play do vídeo #2
+     *
+     * TODO: passar para PLAIN JAVASCRIPT
+     */
     $('.play-button2').click(function() {
         var play = $(this);
 
