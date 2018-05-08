@@ -72,7 +72,6 @@ todos_shuffle.addEventListener('click', function() {
 
     todos_shuffle.className += ' button-active';
     last_shuffle = Shuffle.ALL_ITEMS;
-    eventFire(document.body, 'click');
     resizeAll();
 });
 
@@ -84,7 +83,6 @@ dois_anos_shuffle.addEventListener('click', function() {
 
     dois_anos_shuffle.className += ' button-active';
     last_shuffle = 'dois_anos';
-    eventFire(document.body, 'click');
     resizeAll();
 });
 
@@ -96,7 +94,6 @@ acreditar_shuffle.addEventListener('click', function() {
 
     acreditar_shuffle.className += ' button-active';
     last_shuffle = 'acreditar';
-    eventFire(document.body, 'click');
     resizeAll();
 });
 
@@ -139,18 +136,13 @@ function mountEventsTiles() {
                 square.getElementsByClassName('type')[0].style.background = 'black';
 
                 square.classList.remove('active');
-                square.classList.remove('video-paroller');
 
                 setTimeout(function(){
                     square.getElementsByClassName('float-title')[0].style.opacity = "1";
-
-
+                    setTimeout(function () {
+                        eventFire(document.body, 'click');
+                    }, 500)
                 }, 500);
-
-                setTimeout(function () {
-                    eventFire(document.body, 'click');
-                }, 2000)
-
             } else {
                 resizeAll();
 
@@ -187,7 +179,6 @@ function mountEventsTiles() {
                     square.getElementsByClassName('type')[0].style.background = 'white';
 
                     square.className += ' active';
-                    square.className += ' video-paroller';
 
                     setTimeout(function() {
                         window.scroll({
@@ -280,6 +271,8 @@ function resizeAll() {
             square.getElementsByClassName('type')[0].style.background = 'black';
         }
     }
+
+    eventFire(document.body, 'click');
 }
 
 /**
