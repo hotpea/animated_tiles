@@ -118,6 +118,19 @@ img {
     max-width: 3.4375em;
 }
 
+.simple-text {
+    font-size: 1.3vw!important;
+    line-height: 1.6;
+}
+
+.eye-text {
+    font-size: 1.8vw!important;
+    font-weight: bolder;
+    margin-left: -10%;
+    margin-right: -10%;
+    text-align: center;
+}
+
 .small-title-text {
     letter-spacing: 0.125em;
     font-size: 0.8125em;
@@ -186,13 +199,16 @@ img {
 
 
 .content {
+    overflow-clip: initial!important;
     position:relative;
     font-size: 1.5vw;
-    height:90%; /* = 100% - 2*5% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 5%;
+    height:90%;
+    width:60%;
+    padding-left: 20%;
+    padding-right: 20%;
     opacity: 0;
     transition: .35s;
+    font-family: Raleway;
     z-index: -1;
 }
 
@@ -310,6 +326,17 @@ img {
 .float-title-four {
     margin-top: 25%;
     margin-left: 15%;
+}
+
+.materia-title {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.materia-title-second-row {
+    font-weight: bold;
+    text-align: center;
+    margin-top: -3%;
 }
 
 .square:before {

@@ -3,8 +3,12 @@
  */
 var Shuffle = window.Shuffle;
 var todos_shuffle = document.getElementById("todos_shuffle");
-var acreditar_shuffle = document.getElementById("acreditar_shuffle");
-var dois_anos_shuffle = document.getElementById("dois_anos_shuffle");
+var economia_shuffle = document.getElementById("economia_shuffle");
+var energia_shuffle = document.getElementById("energia_shuffle");
+var agro_shuffle = document.getElementById("agro_shuffle");
+var educacao_shuffle = document.getElementById("educacao_shuffle");
+var saude_shuffle = document.getElementById("saude_shuffle");
+
 var last_shuffle = Shuffle.ALL_ITEMS;
 
 /**
@@ -78,24 +82,58 @@ todos_shuffle.addEventListener('click', function() {
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-dois_anos_shuffle.addEventListener('click', function() {
+economia_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    dois_anos_shuffle.className += ' button-active';
-    last_shuffle = 'dois_anos';
+    economia_shuffle.className += ' button-active';
+    last_shuffle = 'economia';
     resizeAll();
 });
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-acreditar_shuffle.addEventListener('click', function() {
+energia_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    acreditar_shuffle.className += ' button-active';
-    last_shuffle = 'acreditar';
+    energia_shuffle.className += ' button-active';
+    last_shuffle = 'energia';
     resizeAll();
 });
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+agro_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    agro_shuffle.className += ' button-active';
+    last_shuffle = 'agro';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+educacao_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    educacao_shuffle.className += ' button-active';
+    last_shuffle = 'educacao';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+saude_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    saude_shuffle.className += ' button-active';
+    last_shuffle = 'saude';
+    resizeAll();
+});
+
 
 /**
  * remove a classe 'button-active' de todos os botões de filtro
