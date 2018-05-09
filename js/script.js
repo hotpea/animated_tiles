@@ -153,35 +153,7 @@ function mountEventsTiles() {
 
     for (var i = 0; i < controler.length; i++) {
         controler[i].onclick = function (e) {
-            if(this.style.width == clicked_width) {
-                resizeAll();
-
-                var square = this;
-
-                square.style.width = square.getAttribute('width');
-                square.style.height = square.getAttribute('height');
-                square.style.marginLeft = '0%';
-
-                eventFire(document.body, 'click');
-
-                square.getElementsByClassName('content')[0].style.opacity = "0";
-
-                square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
-                square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
-                square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
-                square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
-
-                square.getElementsByClassName('type')[0].style.background = 'black';
-
-                square.classList.remove('active');
-
-                setTimeout(function(){
-                    square.getElementsByClassName('float-title')[0].style.opacity = "1";
-                    setTimeout(function () {
-                        eventFire(document.body, 'click');
-                    }, 500)
-                }, 500);
-            } else {
+            if(this.style.width != clicked_width) {
                 resizeAll();
 
                 var square = this;
@@ -228,6 +200,45 @@ function mountEventsTiles() {
                         });
                     }, 300);
                 }, 500);
+            } else {
+                if(e.target.classList.contains('close')) {
+                    resizeAll();
+
+                    var square = this;
+
+                    square.style.width = square.getAttribute('width');
+                    square.style.height = square.getAttribute('height');
+                    square.style.marginLeft = '0%';
+
+                    eventFire(document.body, 'click');
+
+                    square.getElementsByClassName('content')[0].style.opacity = "0";
+
+                    square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                    square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
+                    square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
+                    square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
+
+                    square.getElementsByClassName('type')[0].style.background = 'black';
+
+                    square.classList.remove('active');
+
+                    setTimeout(function(){
+                        setTimeout(function () {
+                            square.getElementsByClassName('float-title')[0].style.opacity = "1";
+                            eventFire(document.body, 'click');
+                        }, 100)
+                    }, 500);
+                }
+
+                if(e.target.classList.contains('facebook')) {
+                    //TODO: facebook share
+                    alert('facebook');
+                }
+                if(e.target.classList.contains('twitter')) {
+                    //TODO: twitter share
+                    alert('twitter');
+                }
             }
         }
     }
@@ -305,9 +316,11 @@ function resizeAll() {
         square.style.height = square.getAttribute('height');
 
         if(square.getElementsByClassName('float-title').length > 0) {
-            square.getElementsByClassName('float-title')[0].style.opacity = "1";
-            square.getElementsByClassName('content')[0].style.opacity = "0";
+            setTimeout(function() {
+                square.getElementsByClassName('float-title')[0].style.opacity = "1";
+            },500);
 
+            square.getElementsByClassName('content')[0].style.opacity = "0";
             square.getElementsByClassName('type')[0].style.background = 'black';
         }
     }
