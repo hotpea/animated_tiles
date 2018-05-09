@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,900');
 
 * {
     outline: none;
@@ -152,6 +152,31 @@ img {
     color: #000000;
     letter-spacing: 0.0625em;
 }
+
+.button-close {
+    z-index: 4;
+    float: left;
+}
+
+.buttons-share {
+    float: right;
+}
+
+/*.share-text {*/
+    /*font-size*/
+/*}*/
+
+.button-oval {
+    font-family: Raleway;
+    background: transparent;
+    font-weight: bolder;
+    border-radius: 2.5em;
+    width: 45px;
+    height: 45px;
+    border: solid 7px rgba(34, 34, 34, 0.08);
+    }
+
+
 
 .button-active {
     background: #000000;
@@ -314,7 +339,7 @@ img {
 }
 
 .float-title-two {
-    margin-top: 45%;
+    margin-top: 35%;
     margin-left: 40%;
 }
 
@@ -329,6 +354,7 @@ img {
 }
 
 .materia-title {
+    padding-top: 6%;
     font-weight: bolder;
     text-align: center;
 }

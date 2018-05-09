@@ -202,7 +202,9 @@ function mountEventsTiles() {
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
 
                 setTimeout(function(){
-                    square.getElementsByClassName('content')[0].style.opacity = "1";
+                    setTimeout(function() {
+                        square.getElementsByClassName('content')[0].style.opacity = "1";
+                    }, 500);
 
                     square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
                     square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height)
