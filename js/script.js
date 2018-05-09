@@ -154,7 +154,7 @@ function mountEventsTiles() {
     for (var i = 0; i < controler.length; i++) {
         controler[i].onclick = function (e) {
             if(this.style.width != clicked_width) {
-                resizeAll();
+                //resizeAll();
 
                 var square = this;
 
@@ -172,6 +172,7 @@ function mountEventsTiles() {
                 eventFire(document.body, 'click');
 
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
+                square.getElementsByClassName('close')[0].className += " active";
 
                 setTimeout(function(){
                     setTimeout(function() {
@@ -202,7 +203,7 @@ function mountEventsTiles() {
                 }, 500);
             } else {
                 if(e.target.classList.contains('close')) {
-                    resizeAll();
+                    //resizeAll();
 
                     var square = this;
 
@@ -221,7 +222,7 @@ function mountEventsTiles() {
 
                     square.getElementsByClassName('type')[0].style.background = 'black';
 
-                    square.classList.remove('active');
+                    e.target.classList.remove('active');
 
                     setTimeout(function(){
                         setTimeout(function () {
@@ -269,60 +270,12 @@ function eventFire(el, etype){
  * TODO: pausar os vídeos
  */
 function resizeAll() {
-    var controler = document.getElementsByClassName('picture-item');
 
-    for (i = 0; i < controler.length; i++) {
-        var square = controler[i];
+    var buttonClose = document.getElementsByClassName('close active');
 
-        if(square.hasAttribute('width')) {
-            square.style.width = square.getAttribute('width');
-        } else {
-            square.setAttribute('width', square.style.width);
-        }
-        if(square.hasAttribute('height')) {
-            square.style.height = square.getAttribute('height');
-        } else {
-            square.setAttribute('height', square.style.height);
-        }
-
-        window.square = square;
-
-        if(square.getElementsByClassName('type').length > 0) {
-            var type = square.getElementsByClassName('type')[0];
-
-            if(type.hasAttribute('width')) {
-                type.style.width = type.getAttribute('width');
-            } else {
-                type.setAttribute('width', type.style.width);
-            }
-            if(type.hasAttribute('height')) {
-                type.style.height = type.getAttribute('height');
-            } else {
-                type.setAttribute('height', type.style.height);
-            }
-            if(type.hasAttribute('left')) {
-                type.style.left = type.getAttribute('left');
-            } else {
-                type.setAttribute('left', type.style.left);
-            }
-            if(type.hasAttribute('top')) {
-                type.style.top = type.getAttribute('top');
-            } else {
-                type.setAttribute('top', type.style.top);
-            }
-        }
-
-        square.style.width = square.getAttribute('width');
-        square.style.height = square.getAttribute('height');
-
-        if(square.getElementsByClassName('float-title').length > 0) {
-            setTimeout(function() {
-                square.getElementsByClassName('float-title')[0].style.opacity = "1";
-            },500);
-
-            square.getElementsByClassName('content')[0].style.opacity = "0";
-            square.getElementsByClassName('type')[0].style.background = 'black';
-        }
+    for(var b = 0; buttonClose.length > b; b++) {
+        eventFire(buttonClose[b], 'click');
+        buttonClose[b].classList.remove('active');
     }
 
     eventFire(document.body, 'click');
