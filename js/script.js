@@ -175,7 +175,7 @@ function mountEventsTiles() {
 
                 square.style.width = clicked_width;
                 square.style.minHeight = '100vh';
-                square.style.height = clicked_height;
+                square.style.height = clicked_height + "!important";
 
                 if( !(mobileAndTabletcheck()) ) {
                     square.style.marginLeft = '-50%';
@@ -183,8 +183,19 @@ function mountEventsTiles() {
 
                 square.style.position = 'fixed!important';
 
+                square.getElementsByClassName('content')[0].style.width = "40%";
+                square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
+                square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
                 square.getElementsByClassName('button-close')[0].className += " active";
+
+                var paragraphs = square.getElementsByTagName('p');
+
+                for(p = 0; paragraphs.length > p; p++){
+                    paragraphs[p].style.maxHeight = '100%';
+                    console.log(paragraphs[p].style.maxHeight);
+                }
 
                 setTimeout(function(){
                     square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
@@ -212,7 +223,7 @@ function mountEventsTiles() {
                             left: 0,
                             behavior: 'smooth'
                         });
-                    }, 500);
+                    }, 1000);
                 }, 500);
             } else {
                 if(e.target.classList.contains('button-close')) {
@@ -220,31 +231,42 @@ function mountEventsTiles() {
 
                     var square = this;
 
-                    square.style.width = square.getAttribute('width');
-                    square.style.minHeight = '0vh';
-                    square.style.height = square.getAttribute('height');
-                    square.style.marginLeft = '0%';
-
-                    eventFire(document.body, 'click');
-
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
-                    square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
-                    square.getElementsByClassName('type')[0].style.minHeight = "0%";
-                    square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
-                    square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
-                    square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
+                    setTimeout(function() {
+                        square.style.width = square.getAttribute('width');
+                        square.style.minHeight = '0%';
+                        square.style.height = square.getAttribute('height');
+                        square.style.marginLeft = '0%';
 
-                    square.getElementsByClassName('type')[0].style.background = 'black';
+                        eventFire(document.body, 'click');
 
-                    e.target.classList.remove('active');
+                        square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                        square.getElementsByClassName('type')[0].style.minHeight = "0%";
+                        square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
+                        square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
+                        square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
 
-                    setTimeout(function(){
-                        setTimeout(function () {
+                        square.getElementsByClassName('type')[0].style.background = 'black';
+
+                        square.getElementsByClassName('content')[0].style.width = null;
+                        square.getElementsByClassName('content')[0].style.paddingLeft = null;
+                        square.getElementsByClassName('content')[0].style.paddingRight = null;
+
+                        var paragraphs = square.getElementsByTagName('p');
+
+                        for(var p = 0; paragraphs.length > p; p++){
+                            paragraphs[p].style.maxHeight = '0px';
+                            console.log(paragraphs[p].style.maxHeight);
+                        }
+
+                        e.target.classList.remove('active');
+
+                        setTimeout(function(){
                             square.getElementsByClassName('float-title')[0].style.opacity = "1";
                             eventFire(document.body, 'click');
-                        }, 100)
-                    }, 500);
+                        }, 500);
+                    }, 300);
                 }
 
                 if(e.target.parentElement.classList.contains('button-facebook')) {
@@ -376,4 +398,12 @@ function shortURL( pLongUrl ) {
             contentType: 'application/json'
         }
     );
+}
+
+function smoothScroll() {
+    window.scroll({
+        top: window.pageYOffset + square.getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth'
+    });
 }
