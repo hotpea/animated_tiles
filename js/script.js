@@ -194,7 +194,6 @@ function mountEventsTiles() {
 
                 for(p = 0; paragraphs.length > p; p++){
                     paragraphs[p].style.maxHeight = '100%';
-                    console.log(paragraphs[p].style.maxHeight);
                 }
 
                 setTimeout(function(){
@@ -218,11 +217,7 @@ function mountEventsTiles() {
                     square.className += ' active';
 
                     setTimeout(function() {
-                        window.scroll({
-                            top: window.pageYOffset + square.getBoundingClientRect().top,
-                            left: 0,
-                            behavior: 'smooth'
-                        });
+                        smoothScroll(square);
                     }, 1000);
                 }, 500);
             } else {
@@ -257,10 +252,9 @@ function mountEventsTiles() {
 
                         for(var p = 0; paragraphs.length > p; p++){
                             paragraphs[p].style.maxHeight = '0px';
-                            console.log(paragraphs[p].style.maxHeight);
                         }
 
-                        e.target.classList.remove('active');
+                        e.target.parentElement.parentElement.classList.remove('active');
 
                         setTimeout(function(){
                             square.getElementsByClassName('float-title')[0].style.opacity = "1";
@@ -309,7 +303,7 @@ function eventFire(el, etype){
  */
 function resizeAll() {
 
-    var buttonClose = document.getElementsByClassName('close active');
+    var buttonClose = document.getElementsByClassName('button-close active');
 
     for(var b = 0; buttonClose.length > b; b++) {
         eventFire(buttonClose[b], 'click');
@@ -349,11 +343,7 @@ function getUrlParameter(sParam) {
 
             if(element) {
                 setTimeout(function() {
-                    window.scroll({
-                        top: window.pageYOffset + element.getBoundingClientRect().top,
-                        left: 0,
-                        behavior: 'smooth'
-                    });
+                    smoothScroll(element);
                     setTimeout(function() {
                         eventFire(element, 'click');
                     }, 1000);
@@ -400,9 +390,9 @@ function shortURL( pLongUrl ) {
     );
 }
 
-function smoothScroll() {
+function smoothScroll(el) {
     window.scroll({
-        top: window.pageYOffset + square.getBoundingClientRect().top,
+        top: window.pageYOffset + el.getBoundingClientRect().top,
         left: 0,
         behavior: 'smooth'
     });
