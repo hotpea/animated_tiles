@@ -27,7 +27,7 @@ var shuffleInstance = [];
  * tamanhos dos tiles quando clicados
  */
 var clicked_width = '100vw';
-var clicked_height = '100vh';
+var clicked_height = 'auto';
 
 /**
  *
@@ -164,7 +164,9 @@ function mountEventsTiles() {
     for (var i = 0; i < controler.length; i++) {
         controler[i].onclick = function (e) {
             if(this.style.width != clicked_width) {
-                //resizeAll();
+                eventFire(document.body, 'click');
+
+                resizeAll();
 
                 var square = this;
 
@@ -172,6 +174,7 @@ function mountEventsTiles() {
                 square.setAttribute('height', square.style.height);
 
                 square.style.width = clicked_width;
+                square.style.minHeight = '100vh';
                 square.style.height = clicked_height;
 
                 if( !(mobileAndTabletcheck()) ) {
@@ -179,27 +182,27 @@ function mountEventsTiles() {
                 }
 
                 square.style.position = 'fixed!important';
-                eventFire(document.body, 'click');
 
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
                 square.getElementsByClassName('close')[0].className += " active";
 
                 setTimeout(function(){
-                    setTimeout(function() {
-                        square.getElementsByClassName('content')[0].style.opacity = "1";
-                    }, 500);
-
                     square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
                     square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height)
                     square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left)
                     square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top)
 
                     square.getElementsByClassName('type')[0].style.width = '100%';
-                    square.getElementsByClassName('type')[0].style.height = '100%';
+                    square.getElementsByClassName('type')[0].style.minHeight = '100vh';
+                    square.getElementsByClassName('type')[0].style.height = 'auto';
                     square.getElementsByClassName('type')[0].style.left = '0%';
                     square.getElementsByClassName('type')[0].style.top = '0%';
 
                     square.getElementsByClassName('type')[0].style.background = 'white';
+
+                    setTimeout(function() {
+                        square.getElementsByClassName('content')[0].style.opacity = "1";
+                    }, 500);
 
                     square.className += ' active';
 
@@ -209,7 +212,7 @@ function mountEventsTiles() {
                             left: 0,
                             behavior: 'smooth'
                         });
-                    }, 300);
+                    }, 500);
                 }, 500);
             } else {
                 if(e.target.classList.contains('close')) {
@@ -218,6 +221,7 @@ function mountEventsTiles() {
                     var square = this;
 
                     square.style.width = square.getAttribute('width');
+                    square.style.minHeight = '0vh';
                     square.style.height = square.getAttribute('height');
                     square.style.marginLeft = '0%';
 
@@ -226,6 +230,7 @@ function mountEventsTiles() {
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
                     square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                    square.getElementsByClassName('type')[0].style.minHeight = "0%";
                     square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
                     square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
                     square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
