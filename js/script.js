@@ -78,6 +78,10 @@ window.onload = function() {
     mountEventsTiles();
 };
 
+document.getElementById('scroll-to-page').addEventListener('click', function() {
+    smoothScroll(todos_shuffle);
+});
+
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
@@ -192,8 +196,14 @@ function mountEventsTiles() {
 
                 var paragraphs = square.getElementsByTagName('p');
 
-                for(p = 0; paragraphs.length > p; p++){
+                for(var p = 0; paragraphs.length > p; p++){
                     paragraphs[p].style.maxHeight = '100%';
+                }
+
+                var h2 = square.getElementsByTagName('p');
+
+                for(var h = 0; h2.length > h; h++){
+                    h2[h].style.maxHeight = '100%';
                 }
 
                 setTimeout(function(){
@@ -250,8 +260,14 @@ function mountEventsTiles() {
 
                         var paragraphs = square.getElementsByTagName('p');
 
-                        for(var p = 0; paragraphs.length > p; p++){
+                        for(p = 0; paragraphs.length > p; p++){
                             paragraphs[p].style.maxHeight = '0px';
+                        }
+
+                        var h2 = square.getElementsByTagName('p');
+
+                        for(var h = 0; h2.length > h; h++){
+                            h2[h].style.maxHeight = '0px';
                         }
 
                         e.target.parentElement.parentElement.classList.remove('active');

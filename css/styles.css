@@ -4,7 +4,7 @@
     outline: none;
 }
 
-p {
+p, h2 {
     max-height: 0px;
 }
 
@@ -246,36 +246,6 @@ img {
 
 }
 
-/*.top-site-image{*/
-    /*position: relative;*/
-    /*min-height: 100vh;*/
-    /*display: block;*/
-    /*width: 100%;*/
-    /*opacity: 0;*/
-    /*animation: fade-in 1s ease-in 1.5s forwards;*/
-
-    /*position: relative;*/
-    /*-webkit-mask-image:-webkit-gradient(*/
-        /*linear,*/
-        /*left top,*/
-        /*left bottom,*/
-        /*from(*/
-            /*rgba(0,0,0,1)*/
-        /*),*/
-        /*to(rgba(0,0,0,0))*/
-    /*);*/
-
-    /*/!* The image used *!/*/
-    /*background-image: url('../images/rio_de_janeiro.jpg');*/
-
-    /*/!* Create the parallax scrolling effect *!/*/
-    /*background-attachment: fixed;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
-
-
 .content {
     overflow-clip: initial!important;
     position:relative;
@@ -302,6 +272,10 @@ img {
     color: black;
     display:table-cell;
     vertical-align:middle;
+}
+
+#scroll-to-page {
+    cursor: pointer;
 }
 
 #shuffle-container {
