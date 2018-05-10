@@ -184,7 +184,7 @@ function mountEventsTiles() {
                 square.style.position = 'fixed!important';
 
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
-                square.getElementsByClassName('close')[0].className += " active";
+                square.getElementsByClassName('button-close')[0].className += " active";
 
                 setTimeout(function(){
                     square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
@@ -215,7 +215,7 @@ function mountEventsTiles() {
                     }, 500);
                 }, 500);
             } else {
-                if(e.target.classList.contains('close')) {
+                if(e.target.classList.contains('button-close')) {
                     //resizeAll();
 
                     var square = this;
@@ -247,11 +247,11 @@ function mountEventsTiles() {
                     }, 500);
                 }
 
-                if(e.target.classList.contains('facebook')) {
+                if(e.target.parentElement.classList.contains('button-facebook')) {
                     //TODO: facebook share
                     alert('facebook');
                 }
-                if(e.target.classList.contains('twitter')) {
+                if(e.target.parentElement.classList.contains('twitter')) {
                     var url = shortURL(document.URL);
                     var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
                     window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
