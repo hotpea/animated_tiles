@@ -200,7 +200,7 @@ function mountEventsTiles() {
                     paragraphs[p].style.maxHeight = '100%';
                 }
 
-                var h2 = square.getElementsByTagName('p');
+                var h2 = square.getElementsByTagName('h2');
 
                 for(var h = 0; h2.length > h; h++){
                     h2[h].style.maxHeight = '100%';
@@ -264,7 +264,7 @@ function mountEventsTiles() {
                             paragraphs[p].style.maxHeight = '0px';
                         }
 
-                        var h2 = square.getElementsByTagName('p');
+                        var h2 = square.getElementsByTagName('h2');
 
                         for(var h = 0; h2.length > h; h++){
                             h2[h].style.maxHeight = '0px';
