@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway:400,900');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,500,900');
 
 * {
     outline: none;
@@ -144,7 +144,8 @@ img {
 }
 
 .button {
-    font-weight: bold;
+    font-family: raleway;
+    font-weight: 500;
     display: inline;
     margin: 0 auto;
     padding: 0.625em;
