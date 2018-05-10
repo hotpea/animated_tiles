@@ -175,9 +175,8 @@ img {
     width: 45px;
     height: 45px;
     border: solid 7px rgba(34, 34, 34, 0.08);
-    }
-
-
+    cursor: pointer;
+}
 
 .button-active {
     background: #000000;
