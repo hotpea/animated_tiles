@@ -17,7 +17,7 @@ var last_shuffle = Shuffle.ALL_ITEMS;
  *
  * div do shuffle
  */
-var shuffleDivs = document.getElementsByClassName('shuffle-container')
+var shuffleDivs = document.getElementsByClassName('shuffle-container');
 var shuffleInstance = [];
 
 /**
@@ -28,6 +28,16 @@ var shuffleInstance = [];
  */
 var clicked_width = '100vw';
 var clicked_height = '100vh';
+
+/**
+ *
+ * TODO: autenticar no bitly
+ * Variáveis Bitly
+ * api_key_from_bitly_account
+ * username_from_bitly_account
+ */
+var apiKey = null;
+var username = null;
 
 /**
  * inicia o shufflejs
@@ -237,8 +247,9 @@ function mountEventsTiles() {
                     alert('facebook');
                 }
                 if(e.target.classList.contains('twitter')) {
-                    //TODO: twitter share
-                    alert('twitter');
+                    var url = shortURL(document.URL);
+                    var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
+                    window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
                 }
             }
         }
@@ -323,4 +334,41 @@ function getUrlParameter(sParam) {
             }
         }
     }
+}
+
+function shortURL( pLongUrl ) {
+    if ( !pLongUrl.match(/(ftp|http|https):\/\//i) ) {
+        return "Error: Link must start with a protocol (e.g.: http or https).";
+    }
+    if(apiKey == null) {
+        return pLongUrl;
+    }
+
+    $.ajax(
+        {
+            url: 'https://api-ssl.bitly.com/v3/shorten?login=' + username + '&apiKey=' + apiKey + '&format=json&longUrl=' + encodeURIComponent(pLongUrl),
+
+            dataType: 'jsonp',
+
+            success: function( response ) {
+                if ( response.status_code == 500) {
+
+                    /*500 status code means the link is malformed.*/
+                    return "Error: Invalid link.";
+
+                } else if ( response.status_code != 200) {
+
+                    /*If response is not 200 then an error ocurred. It can be a network issue or bitly is down.*/
+                    return "Error: Service unavailable.";
+
+                    /*Uncomment the following line only for debugging purposes*/
+                    /*console.log('Response: ' + response.status_code + '-' + response.status_txt);*/
+                }
+                else
+                    return response.data.url; /* OK, return the short link */
+            },
+
+            contentType: 'application/json'
+        }
+    );
 }
