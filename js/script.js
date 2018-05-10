@@ -8,6 +8,12 @@ var energia_shuffle = document.getElementById("energia_shuffle");
 var agro_shuffle = document.getElementById("agro_shuffle");
 var educacao_shuffle = document.getElementById("educacao_shuffle");
 var saude_shuffle = document.getElementById("saude_shuffle");
+var social_shuffle = document.getElementById("social_shuffle");
+var seguranca_e_defesa_shuffle = document.getElementById("seguranca_e_defesa_shuffle");
+var infraestrutura_shuffle = document.getElementById("infraestrutura_shuffle");
+var meio_ambiente_shuffle = document.getElementById("meio_ambiente_shuffle");
+var cultura_shuffle = document.getElementById("cultura_shuffle");
+var turismo_shuffle = document.getElementById("turismo_shuffle");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
@@ -148,6 +154,71 @@ saude_shuffle.addEventListener('click', function() {
     resizeAll();
 });
 
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+social_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    social_shuffle.className += ' button-active';
+    last_shuffle = 'social';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+seguranca_e_defesa_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    seguranca_e_defesa_shuffle.className += ' button-active';
+    last_shuffle = 'seguranca-e-defesa';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+infraestrutura_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    infraestrutura_shuffle.className += ' button-active';
+    last_shuffle = 'infraestrutura';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+meio_ambiente_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    meio_ambiente_shuffle.className += ' button-active';
+    last_shuffle = 'meio-ambiente';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+cultura_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    cultura_shuffle.className += ' button-active';
+    last_shuffle = 'cultura';
+    resizeAll();
+});
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+turismo_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    turismo_shuffle.className += ' button-active';
+    last_shuffle = 'turismo';
+    resizeAll();
+});
 
 /**
  * remove a classe 'button-active' de todos os botões de filtro
