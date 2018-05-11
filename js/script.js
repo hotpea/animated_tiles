@@ -267,6 +267,7 @@ function mountEventsTiles() {
                 square.getElementsByClassName('content')[0].style.paddingRight = "20%";
 
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
+                if (square.getElementsByClassName('thumb')[0]){square.getElementsByClassName('thumb')[0].style.display = "none";}
                 square.getElementsByClassName('button-close')[0].className += " active";
 
                 var paragraphs = square.getElementsByTagName('p');
