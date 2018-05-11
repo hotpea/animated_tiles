@@ -184,6 +184,7 @@ function mountEventsTiles() {
                 square.style.position = 'fixed!important';
 
                 square.getElementsByClassName('float-title')[0].style.opacity = "0";
+                if (square.getElementsByClassName('thumb')[0]){square.getElementsByClassName('thumb')[0].style.display = "none";}
                 square.getElementsByClassName('button-close')[0].className += " active";
 
                 setTimeout(function(){
