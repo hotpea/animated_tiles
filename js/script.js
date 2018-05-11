@@ -245,6 +245,8 @@ function mountEventsTiles() {
 
                 var square = this;
 
+                document.location.hash = "v=" + square.getAttribute('id');
+
                 square.setAttribute('width', square.style.width);
                 square.setAttribute('height', square.style.height);
 
@@ -416,7 +418,7 @@ function mobileAndTabletcheck() {
  * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
  */
 function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+    var sPageURL = decodeURIComponent(window.location),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
         i;
@@ -424,7 +426,7 @@ function getUrlParameter(sParam) {
     for (i = 0; i < sURLVariables.length; i++) {
         sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
+        if (sParameterName[0][sParameterName[0].length-1] === sParam) {
             //return sParameterName[1] === undefined ? true : sParameterName[1];
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
