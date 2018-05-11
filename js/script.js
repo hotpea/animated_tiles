@@ -502,3 +502,17 @@ function changeOGMetaTag() {
     link.content="http://localhost/animated_tiles/images/city.jpeg";
     document.getElementsByTagName('head')[0].appendChild(link);
 }
+
+function getAllAnchorLinks() {
+    var ids = document.querySelectorAll('*[id]');
+
+    for(var x = 0; ids.length > 0; x++) {
+        if(ids[x] !== undefined){
+            if(ids[x].classList.contains('picture-item')){
+                console.log(document.URL + "#v=" + ids[x].getAttribute('id'));
+            }
+        }
+    }
+
+    return false;
+}
