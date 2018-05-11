@@ -81,6 +81,8 @@ window.onload = function() {
     topSite.style.opacity = "1";
     topSite.style.top = "40%";
 
+    mountTilesHeights();
+
     mountEventsTiles();
 };
 
@@ -373,6 +375,24 @@ function mountEventsTiles() {
     }
 }
 
+function mountTilesHeights() {
+    var tiles = document.getElementsByClassName('picture-item');
+
+    for(var t = 0; tiles.length > t; t++) {
+        //tiles[t].clientHeight = tiles[t].clientWidth;
+
+        if (tiles[t].classList.contains('square-two-rows')) {
+            tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+        } else if (tiles[t].classList.contains('square-two-columns')) {
+            tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+        } else {
+            tiles[t].style.height = tiles[t].clientWidth + 'px';
+        }
+    }
+
+    eventFire(document.body, 'click');
+}
+
 /**
  *
  * @param el - elemento
@@ -389,6 +409,8 @@ function eventFire(el, etype){
             evObj.initEvent(etype, true, false);
             el.dispatchEvent(evObj);
         }
+
+        mountTilesHeights();
     },500);
 }
 

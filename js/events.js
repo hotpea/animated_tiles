@@ -28,4 +28,16 @@ $(document).ready(function() {
             play.parent().append('<iframe class="video-play" frameborder="0" src="https://www.youtube.com/embed/7-tNUur2YoU?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1" allow="autoplay; encrypted-media"></iframe>');
         }, 400);
     });
+
+    // TODO: Scroll to second-capa
+    //window.wasScrolled = false;
+    //$(window).bind('scroll',function(){
+    //    if (!window.wasScrolled){
+    //        $('html, body').animate({
+    //            //scrollTop: document.getElementById('second-capa').getBoundingClientRect().top
+    //            scrollTop: -9.71875
+    //        },1000)
+    //    }
+    //    window.wasScrolled = true;
+    //})
 });
