@@ -418,6 +418,8 @@ function mobileAndTabletcheck() {
  * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
  */
 function getUrlParameter(sParam) {
+    changeOGMetaTag();
+
     var sPageURL = decodeURIComponent(window.location),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
@@ -485,4 +487,11 @@ function smoothScroll(el) {
         left: 0,
         behavior: 'smooth'
     });
+}
+
+function changeOGMetaTag() {
+    var link = document.createElement('meta');
+    link.setAttribute('property', 'og:image');
+    link.content="http://localhost/animated_tiles/images/city.jpeg";
+    document.getElementsByTagName('head')[0].appendChild(link);
 }
