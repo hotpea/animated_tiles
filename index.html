@@ -43,33 +43,42 @@
 
                         </br>
 
-                        <div>
-                            <img class="mouse" src="images/mouse.png">
+                        <div id="scroll-to-page">
+                            <div>
+                                <img class="mouse" src="images/mouse.png">
+                            </div>
+
+                            </br>
+
+                            <span class="smaller-title-text">
+                                ROLE PARA BAIXO
+                            </span>
                         </div>
-
-                        </br>
-
-                        <span class="smaller-title-text">
-                            <a href="#conteudo">ROLE PARA BAIXO</a>
-                        </span>
                     </div>
                 </div>
 
-                <div class="container second-capa second-capa-paroller wrapper" style="background: black">
-                    <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1"></iframe>-->
-                    <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11&amp;autoplay=1" allow="autoplay; encrypted-media"></iframe>-->
-                    <iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11" allow="autoplay; encrypted-media"></iframe>
-                </div>
+
             </div>
-                <div id="conteudo">
+
+            <div id="second-capa" class="container second-capa wrapper">
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1"></iframe>-->
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11&amp;autoplay=1" allow="autoplay; encrypted-media"></iframe>-->
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11" allow="autoplay; encrypted-media"></iframe>-->
+            </div>
 
             <div class="container navigation">
-                <button id="todos_shuffle" class="button button-active">Todos</button>
-                <button id="economia_shuffle" class="button">Economia</button>
-                <button id="energia_shuffle" class="button">Energia</button>
-                <button id="agro_shuffle" class="button">Agro</button>
-                <button id="educacao_shuffle" class="button">Educação</button>
-                <button id="saude_shuffle" class="button">Saúde</button>
+                <button id="todos_shuffle" class="button button-active" shuffle="Todos">Todos</button>
+                <button id="economia_shuffle" class="button" shuffle="economia">Economia</button>
+                <button id="energia_shuffle" class="button" shuffle="energia">Energia</button>
+                <button id="agro_shuffle" class="button" shuffle="agro">Agro</button>
+                <button id="educacao_shuffle" class="button" shuffle="educacao">Educação</button>
+                <button id="saude_shuffle" class="button" shuffle="saude">Saúde</button>
+                <button id="social_shuffle" class="button" shuffle="social">Social</button>
+                <button id="seguranca_e_defesa_shuffle" class="button" shuffle="seguranca-e-defesa">Seguranca e Defesa</button>
+                <button id="infraestrutura_shuffle" class="button" shuffle="infraestrutura">Infraestrutura</button>
+                <button id="meio_ambiente_shuffle" class="button" shuffle="meio-ambiente">Meio Ambiente</button>
+                <button id="cultura_shuffle" class="button" shuffle="cultura">Cultura</button>
+                <button id="turismo_shuffle" class="button" shuffle="turismo">Turismo</button>
             </div>
 
             <div id="shuffle-container" class="shuffle-container">
@@ -341,15 +350,43 @@
 
 
                 <!--video 1-->
-                    <div id="video1" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["todos"]'>
-                        <div class="type_three type">
-                                        <div class="thumb">
-                                            <img src="images/thumb/video1.png">
-                                        </div>
+                <div id="video1" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["todos"]'>
+                    <div class="type_three type">
+                        <div class="thumb">
+                            <img src="images/thumb/video1.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                         images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
 
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                         images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                         images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
+                </div>
 
                 <!-- Matéria 4 Economia-->
 
@@ -358,9 +395,9 @@
                         <div class="float-title float-title-one">
                             Governo propõe <strong>salário mínimo de R$ 1.002</strong> para 2019
                         </div>
-                                <div class="thumb">
-                                    <img src="images/thumb/04-salario.png">
-                                </div>
+                        <div class="thumb">
+                            <img src="images/thumb/04-salario.png">
+                        </div>
                         <div class="content">
                             <div class="materia-header">
                             <div class="button-close">

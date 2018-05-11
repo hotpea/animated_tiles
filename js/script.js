@@ -262,13 +262,23 @@ function mountEventsTiles() {
 
                 square.style.position = 'fixed!important';
 
-                square.getElementsByClassName('content')[0].style.width = "40%";
-                square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
-                square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                if( square.getElementsByClassName('content').length > 0 ) {
+                    square.getElementsByClassName('content')[0].style.width = "40%";
+                    square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
+                    square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                }
 
-                square.getElementsByClassName('float-title')[0].style.opacity = "0";
-                if (square.getElementsByClassName('thumb')[0]){square.getElementsByClassName('thumb')[0].style.display = "none";}
-                square.getElementsByClassName('button-close')[0].className += " active";
+                if( square.getElementsByClassName('float-title').length > 0 ) {
+                    square.getElementsByClassName('float-title')[0].style.opacity = "0";
+                }
+
+                if (square.getElementsByClassName('thumb')[0]){
+                    square.getElementsByClassName('thumb')[0].style.display = "none";
+                }
+
+                if( square.getElementsByClassName('button-close').length > 0 ) {
+                    square.getElementsByClassName('button-close')[0].className += " active";
+                }
 
                 var paragraphs = square.getElementsByTagName('p');
 
@@ -283,10 +293,10 @@ function mountEventsTiles() {
                 }
 
                 setTimeout(function(){
-                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
-                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height)
-                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left)
-                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top)
+                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width);
+                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height);
+                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left);
+                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top);
 
                     square.getElementsByClassName('type')[0].style.width = '100%';
                     square.getElementsByClassName('type')[0].style.minHeight = '100vh';
@@ -350,6 +360,12 @@ function mountEventsTiles() {
 
                         setTimeout(function(){
                             square.getElementsByClassName('float-title')[0].style.opacity = "1";
+
+                            setTimeout(function() {
+                                if (square.getElementsByClassName('thumb')[0]){
+                                    square.getElementsByClassName('thumb')[0].style.display = "block";
+                                }
+                            }, 500);
                             eventFire(document.body, 'click');
                         }, 500);
                     }, 300);
