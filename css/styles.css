@@ -327,7 +327,7 @@ img {
     -webkit-transition: .35s!important;
     transition: .35s!important;
     height: 20.9vh;
-    background-color: gray;
+    /*background-color: gray;*/
     margin: 0.5%;
 }
 
@@ -340,7 +340,7 @@ img {
     -webkit-transition: .35s!important;
     transition: .35s!important;
     height: 42.75vh;
-    background-color: blue;
+    /*background-color: blue;*/
     margin: 0.5%;
 }
 
@@ -353,7 +353,7 @@ img {
     -webkit-transition: .35s!important;
     transition: .35s!important;
 height: 20.9vh;
-    background-color:green;
+    /*background-color:green;*/
     margin: 0.5%;
 }
 
@@ -366,7 +366,7 @@ height: 20.9vh;
     -webkit-transition: .35s!important;
     transition: .35s!important;
     height: 42.75vh;
-    background-color: yellow;
+    /*background-color: yellow;*/
     margin: 0.5%;
 }
 
