@@ -353,13 +353,20 @@ function mountEventsTiles() {
                 }
 
                 if(e.target.parentElement.classList.contains('button-facebook')) {
-                    //TODO: facebook share
-                    alert('facebook');
+                    window.open(
+                        "https://www.facebook.com/sharer/sharer.php?u=http://localhost/animated_tiles/" + document.location.hash,
+                        '',
+                        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+                    );
                 }
                 if(e.target.parentElement.classList.contains('twitter')) {
                     var url = shortURL(document.URL);
                     var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
-                    window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+                    window.open(
+                        'http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text),
+                        '',
+                        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+                    );
                 }
             }
         }
