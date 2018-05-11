@@ -385,7 +385,7 @@ function mountTilesHeights() {
             tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
         } else if (tiles[t].classList.contains('square-two-columns')) {
             tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-        } else {
+        } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
             tiles[t].style.height = tiles[t].clientWidth + 'px';
         }
     }

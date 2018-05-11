@@ -90,9 +90,13 @@ img {
 }
 
 .second-capa {
-    z-index: 5;
-    margin-top: -12%!important;
+    z-index: -1;
+    /*margin-top: -12%!important;*/
     height: 100vh;
+}
+
+.second-capa-paroller {
+    z-index: 2;
 }
 
 .quote {
@@ -103,7 +107,12 @@ img {
 }
 
 #top-site-text {
+    text-align: center;
+    align-content: center;
+    color: black;
+
     font-weight: bold;
+    /*position: fixed;*/
     position: absolute;
     margin-top: 5%;
     top: 43%;
@@ -112,6 +121,8 @@ img {
     font-family: Raleway;
     opacity: 0;
     transition: 1s;
+
+    z-index: 0;
 }
 
 .vertical {
@@ -171,8 +182,6 @@ img {
     width: 16px;
     height: 16px;
 }
-
-
 
 .buttons-share img{
 }
@@ -291,44 +300,53 @@ img {
     z-index: -1;
 }
 
+#conteudo {
+    background-color:#F1F1F1;
+    z-index: 1;
+}
+
 .square {
     background: transparent;
     position: absolute;
     float: left;
-    width: 25%;
-    z-index: 1;
+    width: 24%;
+    z-index: 2;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+    margin: 0.5%;
 }
 
 .square-two-rows {
     background: transparent;
     position: absolute;
     float: left;
-    width: 25%;
-    z-index: 1;
+    width: 24%;
+    z-index: 2;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+    margin: 0.5%;
 }
 
 .square-two-columns {
     background: transparent;
     position: absolute;
     float: left;
-    width: 50%;
-    z-index: 1;
+    width: 49%;
+    z-index: 2;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+    margin: 0.5%;
 }
 
 .square-two-rows-and-columns {
     background: transparent;
     position: absolute;
     float: left;
-    width: 50%;
-    z-index: 1;
+    width: 49%;
+    z-index: 2;
     -webkit-transition: .35s!important;
     transition: .35s!important;
+    margin: 0.5%;
 }
 
 .square:focus,

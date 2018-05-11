@@ -30,14 +30,23 @@ $(document).ready(function() {
     });
 
     // TODO: Scroll to second-capa
-    //window.wasScrolled = false;
-    //$(window).bind('scroll',function(){
-    //    if (!window.wasScrolled){
-    //        $('html, body').animate({
-    //            //scrollTop: document.getElementById('second-capa').getBoundingClientRect().top
-    //            scrollTop: -9.71875
-    //        },1000)
-    //    }
-    //    window.wasScrolled = true;
-    //})
+    window.wasScrolled = false;
+    $(window).bind('scroll',function(){
+        if (!window.wasScrolled){
+            $('html, body').animate({
+                scrollTop: document.getElementById('second-capa').getBoundingClientRect().top
+            },1000);
+            //setTimeout(function() {
+            //    setTimeout(function() {
+            //        document.getElementById('top-site-text').style.filter = 'invert(100%)';
+            //    },1400)
+            //}, 100);
+            //setTimeout(function() {
+            //    //document.write.$(document.getElementById('container')).style = "display:inherit";
+            //    //document.write.$(document.getElementById('container')).innerHTML = "Collapse";
+            //    //document.getElementById('container').remove();
+            //},2000);
+        }
+        window.wasScrolled = true;
+    });
 });
