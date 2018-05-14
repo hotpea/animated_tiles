@@ -83,6 +83,11 @@ window.onload = function() {
 
 document.getElementById('scroll-to-page-container2').addEventListener('click', function() {
     smoothScroll(document.getElementById('container2'));
+
+
+    //var container = document.getElementById('container');
+    //container.style.collapse = 'true';
+    //smoothScroll(document.getElementById('container2'));
 });
 
 document.getElementById('scroll-to-page').addEventListener('click', function() {
@@ -421,13 +426,14 @@ function getUrlParameter(sParam) {
             //return sParameterName[1] === undefined ? true : sParameterName[1];
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
-            if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
-                alert(1);
-                var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
-                changeOGMetaTag(imageUrl);
-            }
-
             if(element) {
+                if(element.getElementsByClassName('content').length > 0) {
+                    if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+                        var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
+                        changeOGMetaTag(imageUrl);
+                    }
+                }
+
                 setTimeout(function() {
                     smoothScroll(element);
                     setTimeout(function() {

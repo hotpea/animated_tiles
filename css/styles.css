@@ -80,7 +80,9 @@ img {
 }
 
 .navigation {
-    margin-top: 1%;
+    background-color: #f9f9f9;
+    padding-top: 1%;
+    z-index: 2;
 }
 
 .container {
@@ -88,6 +90,11 @@ img {
     text-align: center;
     align-content: center;
     color: black;
+    -webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;}
+
+.container.collapsed {
+    max-height: 0;
 }
 
 .container-white {
@@ -96,6 +103,8 @@ img {
     align-content: center;
     color: white;
     background: black;
+    min-height: 100vh!important;
+    /*mix-blend-mode: difference;*/
 }
 
 .second-capa {
@@ -120,11 +129,13 @@ img {
 #top-site-text {
     text-align: center;
     align-content: center;
-    color: black;
+    color:  white;
+
+    mix-blend-mode: difference;
 
     font-weight: bold;
     /*position: fixed;*/
-    position: absolute;
+    position: fixed;
     margin-top: 5%;
     top: 43%;
     left: 50%;
@@ -133,7 +144,7 @@ img {
     opacity: 0;
     transition: 1s;
 
-    z-index: 0;
+    z-index: 1;
 }
 
 .top-text-white {
@@ -334,11 +345,13 @@ img {
 }
 
 #shuffle-container {
+    background-color: #f9f9f9;
     overflow: initial!important;
     position: static;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    z-index: 2;
 }
 
 .content-image {
