@@ -314,7 +314,7 @@ function mountEventsTiles() {
 
                 if(e.target.parentElement.classList.contains('button-facebook')) {
                     window.open(
-                        "https://www.facebook.com/sharer/sharer.php?u=http://localhost/animated_tiles/" + document.location.hash,
+                        "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
                         '',
                         'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
                     );
