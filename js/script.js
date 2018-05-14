@@ -405,8 +405,6 @@ function mobileAndTabletcheck() {
  * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
  */
 function getUrlParameter(sParam) {
-    changeOGMetaTag();
-
     var sPageURL = decodeURIComponent(window.location),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
@@ -418,6 +416,12 @@ function getUrlParameter(sParam) {
         if (sParameterName[0][sParameterName[0].length-1] === sParam) {
             //return sParameterName[1] === undefined ? true : sParameterName[1];
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
+
+            window.el = element;
+            if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+                var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
+                changeOGMetaTag(imageUrl);
+            }
 
             if(element) {
                 setTimeout(function() {
@@ -476,10 +480,12 @@ function smoothScroll(el) {
     });
 }
 
-function changeOGMetaTag() {
+function changeOGMetaTag(imageURL) {
+    var url = document.URL.replace(document.location.hash, '');
     var link = document.createElement('meta');
     link.setAttribute('property', 'og:image');
-    link.content="http://localhost/animated_tiles/images/city.jpeg";
+    link.content = url + imageURL;
+
     document.getElementsByTagName('head')[0].appendChild(link);
 }
 
