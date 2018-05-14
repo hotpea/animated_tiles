@@ -71,13 +71,13 @@ document.body.onclick = function() {
 
 window.onload = function() {
     getUrlParameter('v');
+    changeOGMetaTag('images/city.jpeg');
 
     var topSite = document.getElementById('top-site-text');
     topSite.style.opacity = "1";
     topSite.style.top = "40%";
 
     mountTilesHeights();
-
     mountEventsTiles();
 };
 
@@ -417,8 +417,8 @@ function getUrlParameter(sParam) {
             //return sParameterName[1] === undefined ? true : sParameterName[1];
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
-            window.el = element;
             if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+                alert(1);
                 var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
                 changeOGMetaTag(imageUrl);
             }
@@ -485,6 +485,8 @@ function changeOGMetaTag(imageURL) {
     var link = document.createElement('meta');
     link.setAttribute('property', 'og:image');
     link.content = url + imageURL;
+
+    console.log(link.content);
 
     document.getElementsByTagName('head')[0].appendChild(link);
 }
