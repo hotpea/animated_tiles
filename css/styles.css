@@ -171,6 +171,7 @@ img {
     border-radius: 2.5em;
     color: #000000;
     letter-spacing: 0.0625em;
+    background: transparent;
 }
 
 .materia-header {
