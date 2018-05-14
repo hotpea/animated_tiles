@@ -343,12 +343,16 @@ function mountTilesHeights() {
     for(var t = 0; tiles.length > t; t++) {
         //tiles[t].clientHeight = tiles[t].clientWidth;
 
-        if (tiles[t].classList.contains('square-two-rows')) {
-            tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
-        } else if (tiles[t].classList.contains('square-two-columns')) {
-            tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-        } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+        if(mobileAndTabletcheck()) {
             tiles[t].style.height = tiles[t].clientWidth + 'px';
+        } else {
+            if (tiles[t].classList.contains('square-two-rows')) {
+                tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+            } else if (tiles[t].classList.contains('square-two-columns')) {
+                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+            } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+                tiles[t].style.height = tiles[t].clientWidth + 'px';
+            }
         }
     }
 

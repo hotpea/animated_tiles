@@ -227,13 +227,11 @@ img {
 .gov-br {
     position: relative;
     float: left;
-    max-width: 3.4375em;
 }
 
 .share-top {
     position: relative;
     float: right;
-    max-width: 3.4375em;
     cursor: pointer;
 }
 
@@ -386,7 +384,6 @@ img {
     z-index: 2;
     -webkit-transition: .35s!important;
     transition: .35s!important;
-    height: 48vh;
     margin: 0.5%;
 }
 
@@ -676,9 +673,20 @@ padding-left: 5%;
     }
 
     #shuffle-container {
+        overflow: auto!important;
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    .gov-br {
+        width: 30%;
+        padding-left: 5%;
+    }
+
+    .share-top {
+        width: 5%;
+        padding-right: 10%;
     }
 
     .float-title {
@@ -686,17 +694,20 @@ padding-left: 5%;
     }
 
     .smaller-title-text {
-        font-size: 1em;
+        font-size: 1.5em;
         color: #6f6f6f;
         font-weight: 400;
     }
 
+    .mouse {
+        width: 8%;
+    }
+
     .content {
         position:relative;
-        font-size: 4vw;
-        height:90%; /* = 100% - 2*5% padding */
-        width:90%; /* = 100% - 2*5% padding */
-        padding: 5%;
+        font-size: 4vw!important;
+        height:100%!important;
+        width:100%!important;
     }
 
     .button {
@@ -714,20 +725,21 @@ padding-left: 5%;
     .square-two-rows,
     .square-two-columns,
     .square-two-rows-and-columns {
-        width: 50vw;
-        height: 20vh;
+        width: 45%;
     }
 
     .type_zero,
     .type_one,
     .type_two,
-    .type_three {
+    .type_three,
+    .type_four,
+    .type_five,
+    .type_six,
+    .type_seven,
+    .type_eight {
         background: black;
         position: absolute;
-        width: 95%;
-        height: 85%;
-        left: 1%;
-        top: 9%;
+        width: 100%;
         z-index: 2;
         -webkit-transition: .35s;
         transition: .35s;
