@@ -90,6 +90,14 @@ img {
     color: black;
 }
 
+.container-white {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background: black;
+}
+
 .second-capa {
     background-color: black!important;
     z-index: -1;
@@ -126,6 +134,29 @@ img {
     transition: 1s;
 
     z-index: 0;
+}
+
+.top-text-white {
+    text-align: center;
+    align-content: center;
+    color: white;
+
+    font-weight: bold;
+    /*position: fixed;*/
+    position: absolute;
+    margin-top: 5%;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Raleway;
+    opacity: 1;
+    transition: 1s;
+
+    z-index: 0;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 .vertical {
@@ -180,6 +211,19 @@ img {
     margin: 2% -10% 0 -10%;
     display: flex;
     justify-content: space-between;
+}
+
+.gov-br {
+    position: relative;
+    float: left;
+    max-width: 3.4375em;
+}
+
+.share-top {
+    position: relative;
+    float: right;
+    max-width: 3.4375em;
+    cursor: pointer;
 }
 
 .button-close img{
@@ -285,7 +329,7 @@ img {
     vertical-align:middle;
 }
 
-#scroll-to-page {
+.scroll {
     cursor: pointer;
 }
 

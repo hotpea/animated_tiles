@@ -81,6 +81,10 @@ window.onload = function() {
     mountEventsTiles();
 };
 
+document.getElementById('scroll-to-page-container2').addEventListener('click', function() {
+    smoothScroll(document.getElementById('container2'));
+});
+
 document.getElementById('scroll-to-page').addEventListener('click', function() {
     smoothScroll(todos_shuffle);
 });
