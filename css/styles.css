@@ -434,6 +434,7 @@ html {
     transition: .35s;
     max-width: 65%;
     background-color: transparent;
+    z-index:1;
 }
 
 .float-title-alt {
@@ -447,6 +448,7 @@ html {
     font-weight: 400;
     transition: .35s;
     background-color: transparent;
+    z-index:1;
 }
 
 .float-title-alt strong {
@@ -515,6 +517,11 @@ html {
     height: 100%;
     margin-top: 0px;
 }
+
+.thumb img.column {
+    width: auto;
+}
+
 
 .capital {
     width: auto;
