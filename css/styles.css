@@ -81,6 +81,11 @@ html {
 .video-play {
     width: 100vw;
     height: 100vh;
+}
+
+.video-play-margin {
+    width: 100vw;
+    height: 100vh;
     margin-left:-75%
 }
 
@@ -778,9 +783,9 @@ html {
     z-index: 2;
 }
 
-/*.play {*/
-    /*max-height: 100vh;*/
-/*}*/
+.play {
+    max-height: 100vh;
+}
 
 .picture-item {
     cursor: pointer;
