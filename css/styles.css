@@ -365,6 +365,7 @@ html {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    min-height: 1500px;
     z-index: 2;
 }
 
