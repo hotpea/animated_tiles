@@ -1,5 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:400,500,900');
 
+html {
+    background-color: #f9f9f9;
+}
+
 * {
     outline: none;
 }
@@ -77,6 +81,10 @@ html {
 .video-play {
     width: 100vw;
     height: 100vh;
+}
+
+.logo {
+    filter: invert(100%);
 }
 
 .navigation {
@@ -434,6 +442,7 @@ html {
     transition: .35s;
     max-width: 65%;
     background-color: transparent;
+    z-index: 1;
 }
 
 .float-title-alt {
@@ -447,6 +456,7 @@ html {
     font-weight: 400;
     transition: .35s;
     background-color: transparent;
+    z-index: 1;
 }
 
 .float-title-alt strong {
@@ -514,6 +524,10 @@ html {
     width: 100%;
     height: 100%;
     margin-top: 0px;
+}
+
+.thumb img.column {
+    width: auto;
 }
 
 .capital {
@@ -832,8 +846,9 @@ html {
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
-    html {
-        overflow-x: hidden;
+    body {
+        overflow-y:hidden!important;
+        /*position: fixed;*/
     }
 
     .float-title {
@@ -947,7 +962,7 @@ html {
     .square-two-rows,
     .square-two-columns,
     .square-two-rows-and-columns {
-        width: 45%;
+        width: 49%;
     }
 
     .type_zero,
@@ -991,24 +1006,19 @@ html {
         background: black;
         min-width: 84vh!important;
         max-width: 360px!important;
-        min-height: 580px!important;
-        max-height: 580px!important;
+        min-height: 456px!important;
+        max-height: 456px!important;
+        max-height: 98%!important;
         text-align: center;
         z-index: 2;
     }
 
-    .play-button {
-        max-width: 61%;
+    .play {
+        max-width: 65%;
         margin-top: 0% !important;
-        margin-left: 28%;
+        margin-left: 35%;
     }
 
-    .video-play {
-        width: 100vw;
-        height: 30vh;
-        margin-left: 33%;
-        margin-top: 40%;
-    }
 
     .square:focus,
     .square-two-rows:focus,
