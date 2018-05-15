@@ -442,11 +442,7 @@ html {
     transition: .35s;
     max-width: 65%;
     background-color: transparent;
-<<<<<<< HEAD
     z-index:1;
-=======
-    z-index: 1;
->>>>>>> d1bfd19f79b66cdc2d55244bf653db62b4ad251e
 }
 
 .float-title-alt {
@@ -460,11 +456,7 @@ html {
     font-weight: 400;
     transition: .35s;
     background-color: transparent;
-<<<<<<< HEAD
     z-index:1;
-=======
-    z-index: 1;
->>>>>>> d1bfd19f79b66cdc2d55244bf653db62b4ad251e
 }
 
 .float-title-alt strong {
@@ -538,10 +530,6 @@ html {
     width: auto;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d1bfd19f79b66cdc2d55244bf653db62b4ad251e
 .capital {
     width: auto;
     height: 50%;
@@ -1012,6 +1000,7 @@ html {
 
     .alternate {
         background: black;
+        padding-top: 5%;
         min-width: 84vh!important;
         max-width: 360px!important;
         min-height: 456px!important;
