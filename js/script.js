@@ -4,10 +4,11 @@
 var Shuffle = window.Shuffle;
 var todos_shuffle = document.getElementById("todos_shuffle");
 var economia_shuffle = document.getElementById("economia_shuffle");
-var energia_shuffle = document.getElementById("energia_shuffle");
-var agro_shuffle = document.getElementById("agro_shuffle");
-var educacao_shuffle = document.getElementById("educacao_shuffle");
-var saude_shuffle = document.getElementById("saude_shuffle");
+var meio_ambiente_shuffle = document.getElementById("meio_ambiente_shuffle");
+var cultura_shuffle = document.getElementById("cultura_shuffle");
+var gestao_shuffle = document.getElementById("gestao_shuffle");
+var social_shuffle = document.getElementById("social_shuffle");
+var seguranca_e_defesa_shuffle = document.getElementById("seguranca_e_defesa_shuffle");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
@@ -70,13 +71,23 @@ document.body.onclick = function() {
 
 window.onload = function() {
     getUrlParameter('v');
+    changeOGMetaTag('images/city.jpeg');
 
     var topSite = document.getElementById('top-site-text');
     topSite.style.opacity = "1";
     topSite.style.top = "40%";
 
+    mountTilesHeights();
     mountEventsTiles();
 };
+
+document.getElementById('scroll-to-page').addEventListener('click', function() {
+    smoothScroll(todos_shuffle);
+
+    //setTimeout(function () {
+    //    document.getElementById('container').remove();
+    //}, 500);
+});
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
@@ -103,47 +114,58 @@ economia_shuffle.addEventListener('click', function() {
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-energia_shuffle.addEventListener('click', function() {
+meio_ambiente_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    energia_shuffle.className += ' button-active';
-    last_shuffle = 'energia';
+    meio_ambiente_shuffle.className += ' button-active';
+    last_shuffle = 'meio-ambiente';
     resizeAll();
 });
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-agro_shuffle.addEventListener('click', function() {
+cultura_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    agro_shuffle.className += ' button-active';
-    last_shuffle = 'agro';
+    cultura_shuffle.className += ' button-active';
+    last_shuffle = 'cultura';
     resizeAll();
 });
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-educacao_shuffle.addEventListener('click', function() {
+gestao_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    educacao_shuffle.className += ' button-active';
-    last_shuffle = 'educacao';
+    gestao_shuffle.className += ' button-active';
+    last_shuffle = 'gestao';
+    resizeAll();
+});
+
+
+/**
+ * TODO: criar evento genérico para todos os botões e tipo de dado
+ */
+social_shuffle.addEventListener('click', function() {
+    resetButtons();
+
+    social_shuffle.className += ' button-active';
+    last_shuffle = 'social';
     resizeAll();
 });
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
-saude_shuffle.addEventListener('click', function() {
+seguranca_e_defesa_shuffle.addEventListener('click', function() {
     resetButtons();
 
-    saude_shuffle.className += ' button-active';
-    last_shuffle = 'saude';
+    seguranca_e_defesa_shuffle.className += ' button-active';
+    last_shuffle = 'seguranca-e-defesa';
     resizeAll();
 });
-
 
 /**
  * remove a classe 'button-active' de todos os botões de filtro
@@ -170,12 +192,14 @@ function mountEventsTiles() {
 
                 var square = this;
 
+                document.location.hash = "v=" + square.getAttribute('id');
+
                 square.setAttribute('width', square.style.width);
                 square.setAttribute('height', square.style.height);
 
                 square.style.width = clicked_width;
                 square.style.minHeight = '100vh';
-                square.style.height = clicked_height;
+                square.style.height = clicked_height + "!important";
 
                 if( !(mobileAndTabletcheck()) ) {
                     square.style.marginLeft = '-50%';
@@ -183,15 +207,41 @@ function mountEventsTiles() {
 
                 square.style.position = 'fixed!important';
 
-                square.getElementsByClassName('float-title')[0].style.opacity = "0";
-                if (square.getElementsByClassName('thumb')[0]){square.getElementsByClassName('thumb')[0].style.display = "none";}
-                square.getElementsByClassName('button-close')[0].className += " active";
+                if( square.getElementsByClassName('content').length > 0 ) {
+                    square.getElementsByClassName('content')[0].style.width = "40%";
+                    square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
+                    square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                }
+
+                if( square.getElementsByClassName('float-title').length > 0 ) {
+                    square.getElementsByClassName('float-title')[0].style.opacity = "0";
+                }
+
+                if (square.getElementsByClassName('thumb')[0]){
+                    square.getElementsByClassName('thumb')[0].style.display = "none";
+                }
+
+                if( square.getElementsByClassName('button-close').length > 0 ) {
+                    square.getElementsByClassName('button-close')[0].className += " active";
+                }
+
+                var paragraphs = square.getElementsByTagName('p');
+
+                for(var p = 0; paragraphs.length > p; p++){
+                    paragraphs[p].style.maxHeight = '100%';
+                }
+
+                var h2 = square.getElementsByTagName('h2');
+
+                for(var h = 0; h2.length > h; h++){
+                    h2[h].style.maxHeight = '100%';
+                }
 
                 setTimeout(function(){
-                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width)
-                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height)
-                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left)
-                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top)
+                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width);
+                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height);
+                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left);
+                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top);
 
                     square.getElementsByClassName('type')[0].style.width = '100%';
                     square.getElementsByClassName('type')[0].style.minHeight = '100vh';
@@ -208,12 +258,8 @@ function mountEventsTiles() {
                     square.className += ' active';
 
                     setTimeout(function() {
-                        window.scroll({
-                            top: window.pageYOffset + square.getBoundingClientRect().top,
-                            left: 0,
-                            behavior: 'smooth'
-                        });
-                    }, 500);
+                        smoothScroll(square);
+                    }, 1000);
                 }, 500);
             } else {
                 if(e.target.classList.contains('button-close')) {
@@ -221,45 +267,96 @@ function mountEventsTiles() {
 
                     var square = this;
 
-                    square.style.width = square.getAttribute('width');
-                    square.style.minHeight = '0vh';
-                    square.style.height = square.getAttribute('height');
-                    square.style.marginLeft = '0%';
-
-                    eventFire(document.body, 'click');
-
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
-                    square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
-                    square.getElementsByClassName('type')[0].style.minHeight = "0%";
-                    square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
-                    square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
-                    square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
+                    setTimeout(function() {
+                        square.style.width = square.getAttribute('width');
+                        square.style.minHeight = '0%';
+                        square.style.height = square.getAttribute('height');
+                        square.style.marginLeft = '0%';
 
-                    square.getElementsByClassName('type')[0].style.background = 'black';
+                        eventFire(document.body, 'click');
 
-                    e.target.classList.remove('active');
+                        square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                        square.getElementsByClassName('type')[0].style.minHeight = "0%";
+                        square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
+                        square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
+                        square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
 
-                    setTimeout(function(){
-                        setTimeout(function () {
+                        square.getElementsByClassName('type')[0].style.background = 'black';
+
+                        square.getElementsByClassName('content')[0].style.width = null;
+                        square.getElementsByClassName('content')[0].style.paddingLeft = null;
+                        square.getElementsByClassName('content')[0].style.paddingRight = null;
+
+                        var paragraphs = square.getElementsByTagName('p');
+
+                        for(p = 0; paragraphs.length > p; p++){
+                            paragraphs[p].style.maxHeight = '0px';
+                        }
+
+                        var h2 = square.getElementsByTagName('h2');
+
+                        for(var h = 0; h2.length > h; h++){
+                            h2[h].style.maxHeight = '0px';
+                        }
+
+                        e.target.parentElement.parentElement.classList.remove('active');
+
+                        setTimeout(function(){
                             square.getElementsByClassName('float-title')[0].style.opacity = "1";
+
+                            setTimeout(function() {
+                                if (square.getElementsByClassName('thumb')[0]){
+                                    square.getElementsByClassName('thumb')[0].style.display = "block";
+                                }
+                            }, 500);
                             eventFire(document.body, 'click');
-                        }, 100)
-                    }, 500);
+                        }, 500);
+                    }, 300);
                 }
 
                 if(e.target.parentElement.classList.contains('button-facebook')) {
-                    //TODO: facebook share
-                    alert('facebook');
+                    window.open(
+                        "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
+                        '',
+                        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+                    );
                 }
                 if(e.target.parentElement.classList.contains('twitter')) {
                     var url = shortURL(document.URL);
                     var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
-                    window.open('http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text), '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+                    window.open(
+                        'http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text),
+                        '',
+                        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+                    );
                 }
             }
         }
     }
+}
+
+function mountTilesHeights() {
+    var tiles = document.getElementsByClassName('picture-item');
+
+    for(var t = 0; tiles.length > t; t++) {
+        //tiles[t].clientHeight = tiles[t].clientWidth;
+
+        if(mobileAndTabletcheck()) {
+            tiles[t].style.height = tiles[t].clientWidth + 'px';
+        } else {
+            if (tiles[t].classList.contains('square-two-rows')) {
+                tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+            } else if (tiles[t].classList.contains('square-two-columns')) {
+                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+            } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+                tiles[t].style.height = tiles[t].clientWidth + 'px';
+            }
+        }
+    }
+
+    eventFire(document.body, 'click');
 }
 
 /**
@@ -278,6 +375,8 @@ function eventFire(el, etype){
             evObj.initEvent(etype, true, false);
             el.dispatchEvent(evObj);
         }
+
+        mountTilesHeights();
     },500);
 }
 
@@ -288,7 +387,7 @@ function eventFire(el, etype){
  */
 function resizeAll() {
 
-    var buttonClose = document.getElementsByClassName('close active');
+    var buttonClose = document.getElementsByClassName('button-close active');
 
     for(var b = 0; buttonClose.length > b; b++) {
         eventFire(buttonClose[b], 'click');
@@ -314,7 +413,7 @@ function mobileAndTabletcheck() {
  * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
  */
 function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+    var sPageURL = decodeURIComponent(window.location),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
         i;
@@ -322,17 +421,20 @@ function getUrlParameter(sParam) {
     for (i = 0; i < sURLVariables.length; i++) {
         sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
+        if (sParameterName[0][sParameterName[0].length-1] === sParam) {
             //return sParameterName[1] === undefined ? true : sParameterName[1];
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
             if(element) {
+                if(element.getElementsByClassName('content').length > 0) {
+                    if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+                        var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
+                        changeOGMetaTag(imageUrl);
+                    }
+                }
+
                 setTimeout(function() {
-                    window.scroll({
-                        top: window.pageYOffset + element.getBoundingClientRect().top,
-                        left: 0,
-                        behavior: 'smooth'
-                    });
+                    smoothScroll(element);
                     setTimeout(function() {
                         eventFire(element, 'click');
                     }, 1000);
@@ -377,4 +479,37 @@ function shortURL( pLongUrl ) {
             contentType: 'application/json'
         }
     );
+}
+
+function smoothScroll(el) {
+    window.scroll({
+        top: window.pageYOffset + el.getBoundingClientRect().top,
+        left: 0,
+        behavior: 'smooth'
+    });
+}
+
+function changeOGMetaTag(imageURL) {
+    var url = document.URL.replace(document.location.hash, '');
+    var link = document.createElement('meta');
+    link.setAttribute('property', 'og:image');
+    link.content = url + imageURL;
+
+    console.log(link.content);
+
+    document.getElementsByTagName('head')[0].appendChild(link);
+}
+
+function getAllAnchorLinks() {
+    var ids = document.querySelectorAll('*[id]');
+
+    for(var x = 0; ids.length > 0; x++) {
+        if(ids[x] !== undefined){
+            if(ids[x].classList.contains('picture-item')){
+                console.log(document.URL + "#v=" + ids[x].getAttribute('id'));
+            }
+        }
+    }
+
+    return false;
 }

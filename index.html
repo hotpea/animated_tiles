@@ -2,90 +2,251 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Crazy Animations</title>
+        <title>2 ANOS DE GOVERNO - AVANÇAMOS</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     </head>
 
     <body>
-        <div id="fullpage">
-            <div class="section overlay">
-                <div id="container" class="container wrapper ">
-                    <!--<img class="top-site-image image" >-->
-                    <!--<div class='line'>-->
+        <script>
+            // INSTRUCTIONS
+            // The VersaTag code should be placed at the top of the <BODY> section of the HTML page.
+            // To ensure that the full page loads as a prerequisite for the VersaTag
+            // being activated (and the working mode is set to synchronous mode), place the tag at the bottom of the page. Note, however, that this may
+            // skew the data for slow-loading pages, and in general is not recommended.
+            // If the VersaTag code is configured to run in async mode, place the tag at the bottom of the page before the end of the <BODY > section.
 
+            //
+            // NOTE: You can test if the tags are working correctly before the campaign launches
+            // as follows:  Browse to http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=at, which is
+            // a page that lets you set your local machine to 'testing' mode.  In this mode, when
+            // visiting a page that includes a VersaTag, a new window will open, showing you
+            // the tags activated by the VersaTag and the data sent by the VersaTag tag to the Sizmek servers.
+            //
+            // END of instructions (These instruction lines can be deleted from the actual HTML)
+
+            var versaTag = {};
+            versaTag.id = "1249";
+            versaTag.sync = 1;
+            versaTag.dispType = "js";
+            versaTag.ptcl = "HTTPS";
+            versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe";
+            //VersaTag activity parameters include all conversion parameters including custom parameters and Predefined parameters. Syntax: "ParamName1":"ParamValue1", "ParamName2":"ParamValue2". ParamValue can be empty.
+            versaTag.activityParams = {
+            //Predefined parameters:
+                "OrderID":"","Value":"","productid":"","productinfo":"","Quantity":""};
+            //Static retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
+            versaTag.retargetParams = {};
+            //Dynamic retargeting tags parameters. Syntax: "TagID1":"ParamValue1", "TagID2":"ParamValue2". ParamValue can be empty.
+            versaTag.dynamicRetargetParams = {};
+            // Third party tags conditional parameters and mapping rule parameters. Syntax: "CondParam1":"ParamValue1", "CondParam2":"ParamValue2". ParamValue can be empty.
+            versaTag.conditionalParams = {};
+            </script>
+            <script id="ebOneTagUrlId" src="https://secure-ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
+            <noscript>
+            <iframe src="https://bs.serving-sys.com/BurstingPipe?
+                cn=ot&amp;
+                onetagid=1249&amp;
+                ns=1&amp;
+                activityValues=$$
+                Value=[Value]&amp;
+                OrderID=[OrderID]&amp;
+                ProductID=[ProductID]&amp;
+                ProductInfo=[ProductInfo]&amp;
+                Quantity=[Quantity]&amp;$$&amp;
+                retargetingValues=$$$$&amp;
+                dynamicRetargetingValues=$$$$&amp;
+                acp=$$$$&amp;"
+            style="display:none;width:0px;height:0px"></iframe>
+        </noscript>
+
+        <div id="fullpage">
+            <div id="container" class="wrapper container collapsed">
+                <div id="top-site-text" class="top-site-text capa-paroller">
+                    <div>
+                        <img src="images/logo-branco.png"
+                             srcset="images/logo-branco@2x.png 2x,
+                                         images/logo-branco@3x.png 3x"
+                             class="gov-br">
+
+                        <img class="vertical invisible" src="images/vertical.png">
+
+                        <img src="images/share-branco.png"
+                             srcset="images/share-branco@2x.png 2x,
+                                         images/share-branco@3x.png 3x"
+                             class="share-top">
+
+                    </div>
+
+                    </br></br>
+
+                    <!--<div>-->
+                        <!--<span class="small-title-text"> AÇÕES INÉDITAS E NOVAS POLÍTICAS PÚBLICAS </span>-->
                     <!--</div>-->
 
-                    <div id="top-site-text" class="top-site-text capa-paroller">
+                    </br>
+
+                    <div>
+                        <span class="bigger-title-text"> Avançamos.<br>No fundo, você sabe que melhorou.</span>
+                    </div>
+
+                    </br></br>
+
+                    <div>
+                        <img class="vertical" src="images/vertical.png">
+                    </div>
+
+                    </br>
+
+                    <div id="scroll-to-page" class="scroll">
                         <div>
-                            <img class="vertical" src="images/vertical.png">
-                        </div>
-
-                        </br></br>
-
-                        <div>
-                            <span class="small-title-text"> AÇÕES INÉDITAS E NOVAS POLÍTICAS PÚBLICAS </span>
-                        </div>
-
-                        </br>
-
-                        <div>
-                            <span class="bigger-title-text"> Quando a gente age, </span>
-                            <span class="bigger-title-text"> o Brasil reage. </span>
-                        </div>
-
-                        </br></br>
-
-                        <div>
-                            <img class="vertical" src="images/vertical.png">
-                        </div>
-
-                        </br>
-
-                        <div>
-                            <img class="mouse" src="images/mouse.png">
+                            <img src="images/mouse-branco.png"
+                                 srcset="images/mouse-branco@2x.png 2x,
+                                         images/mouse-branco@3x.png 3x"
+                                 class="mouse">
                         </div>
 
                         </br>
 
                         <span class="smaller-title-text">
-                            <a href="#conteudo">ROLE PARA BAIXO</a>
+                            ROLE PARA BAIXO
                         </span>
                     </div>
                 </div>
-
-                <div class="container second-capa second-capa-paroller wrapper" style="background: black">
-                    <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1"></iframe>-->
-                    <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11&amp;autoplay=1" allow="autoplay; encrypted-media"></iframe>-->
-                    <iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11" allow="autoplay; encrypted-media"></iframe>
-                </div>
             </div>
-                <div id="conteudo">
+
+            <div id="container2" class="container-white wrapper">
+                <!--<div style="padding:42.5% 0 0 0;position:relative; z-index: -1"><iframe src="https://player.vimeo.com/video/269713349?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>-->
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1"></iframe>-->
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11&amp;autoplay=1" allow="autoplay; encrypted-media"></iframe>-->
+                <!--<iframe class="video-play video-play-capa" frameborder="0" src="https://www.youtube.com/embed/UWOEFkauoYY?rel=0&amp;controls=0&amp;showinfo=0&amp;start=11" allow="autoplay; encrypted-media"></iframe>-->
+            </div>
 
             <div class="container navigation">
-                <button id="todos_shuffle" class="button button-active">Todos</button>
-                <button id="economia_shuffle" class="button">Economia</button>
-                <button id="energia_shuffle" class="button">Energia</button>
-                <button id="agro_shuffle" class="button">Agro</button>
-                <button id="educacao_shuffle" class="button">Educação</button>
-                <button id="saude_shuffle" class="button">Saúde</button>
+                <button id="todos_shuffle" class="button button-active" shuffle="Todos">Todos</button>
+                <button id="economia_shuffle" class="button" shuffle="economia">Economia</button>
+                <button id="meio_ambiente_shuffle" class="button" shuffle="meio-ambiente">Meio Ambiente</button>
+                <button id="cultura_shuffle" class="button" shuffle="cultura">Cultura</button>
+                <button id="gestao_shuffle" class="button" shuffle="gestao">Gestão</button>
+                <button id="social_shuffle" class="button" shuffle="social">Social</button>
+                <button id="seguranca_e_defesa_shuffle" class="button" shuffle="seguranca-e-defesa">Seguranca e Defesa</button>
             </div>
 
             <div id="shuffle-container" class="shuffle-container">
                 
+               <!-- 1 - Matéria 1 Economia-->
 
+                <div id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_one type">
+                        <div class="float-title float-title-one">
+                            Inflação de 2,95% em 2017 é a <strong>menor</strong> em 20 anos
+                        </div>
 
-                <!-- Matéria 2 Economia-->
+                        <div class="thumb">
+                            <img src="images/thumb/01-inflacao.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                         images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                         images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                         images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
+                            <h2 class="materia-title">Em 2017, Brasil tem menor inflação em duas décadas</h2>
+
+                            <p class="simple-text">Menor índice registrado em duas décadas, a inflação de 2,97% de dezembro passado é resultado direto das medidas econômicas apresentadas pelo Governo do Brasil. Mais qualidade de vida para a  população, geração de empregos, aumento do poder de compra dos brasileiros e mais rendimento na poupança.</p>
+                            <p class="eye-text">Uma economia mais forte beneficia, em especial, quem ganha menos.<br> Em 2017, a inflação também foi a menor desde 1998 para as famílias de baixa renda.</p>
+                            <p class="simple-text">Pela primeira vez, o resultado ficou abaixo do piso da meta estabelecida pelo Governo, que era de 3%. Além das medidas do governo, a supersafra de grãos, que gerou redução no preço dos alimentos, também contribuiu para o índice histórico.</p>
+                            <p class="smaller-title-text">Fontes: Planalto e IBGE </p>
+                            <p class="infos">
+                                <img src="images/infos/[Info]-2_anos_materia-01.png">
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+
+                 <!-- 2-Matéria 4 Economia-->
+
+                <div id="governo-propoe-salario-minimo-de-1002-para-2019" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_two_alt type">
+                        <div class="float-title-alt float-title-two">
+                            <strong>salário mínimo de R$ 1.002 para 2019</strong>
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/02-salario-minimo.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                            <div class="button-close">
+                                <button class="button-oval">
+                                    <img src="images/ic-fechar.png"
+                                     srcset="images/ic-fechar@2x.png 2x,
+                                             images/ic-fechar@3x.png 3x"
+                                     class="button-close">
+                                 </button>
+                            </div>
+
+                            <div class="buttons-oval">
+                                <span class="title-share">COMPARTILHAR</span>
+                                <!--TODO: colocar ícones das redes-->
+                                <button class="button-facebook">
+                                    <img src="images/ic-facebook.png"
+                                     srcset="images/ic-facebook@2x.png 2x,
+                                             images/ic-facebook@3x.png 3x"
+                                     class="buttons-share">
+                                </button>
+
+                                <button class="button-oval twitter"> 
+                                    <img src="images/ic-twitter.png"
+                                     srcset="images/ic-twitter@2x.png 2x,
+                                             images/ic-twitter@3x.png 3x"
+                                     class="buttons-share">
+                                 </button>
+                            </div>
+                            </div>
+                            <p>
+                            <h2 class="materia-title">Governo propõe salário mínimo de R$ 1.002 para 2019</h2>
+
+                            <p class="simple-text">Pela primeira vez no Brasil depois do Plano Real, o valor do salário mínimo ultrapassará R$ 1 mil. Na proposta de Lei de Diretrizes Orçamentárias (LDO) enviada ao Congresso Nacional e assinada pelo presidente da República, Michel Temer, está a sugestão de R$ 1.002, aumento de 5% em relação ao valor atual – R$ 954. </p>
+                            <p class="eye-text">A proposta foi possível graças à política econômica implantada a partir de maio de 2016.</p>
+                            <p class="simple-text">O valor anunciado respeita a aplicação das regras atuais de correção, que define que o reajuste do salário mínimo deve ser corrigido pela inflação do ano anterior, medida pelo Índice Nacional de Preços ao Consumidor (INPC), somada à variação do Produto Interno Bruto (PIB, soma dos bens e dos serviços produzidos no País) dos dois anos anteriores.</p>
+                            <p class="smaller-title-text">Fonte: Ministério do Planejamento</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+ 
+                <!-- 3 - Matéria 2 Economia-->
 
                 <div id="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                    <div class="type_six type">
-                        <div class="float-title float-title-one">
+                    <div class="type_eight_alt type">
+                        <div class="float-title-alt float-title-one">
                             <strong>País volta a crescer</strong> após dois anos de recessão
                         </div>
 
                         <div class="thumb">
-                            <img src="images/thumb/02-pais-volta.png">
+                            <img src="images/thumb/03-pais-volta-crescer.png">
                         </div>    
 
                         <div class="content">
@@ -132,15 +293,15 @@
                     </div>
                 </div>
 
-                <!-- Matéria 6 Economia-->
+                <!-- 4 - Matéria 6 Economia-->
 
-                                <div id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" class="picture-item square" tabindex="0" data-groups='["energia"]'>
-                                    <div class="type_one type">
-                                        <div class="float-title float-title-two">
+                                <div id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" class="picture-item square-two-rows" tabindex="0" data-groups='["energia"]'>
+                                    <div class="type_seven_alt type">
+                                        <div class="float-title-alt float-title-two">
                                             Nova lei trabalhista <strong>beneficia criação de empregos</strong>
                                         </div>
                                         <div class="thumb">
-                                            <img src="images/thumb/06-modernizacao.png">
+                                            <img src="images/thumb/04-nova-lei-trabalhista.png">
                                         </div>
                                         <div class="content">
                                             <div class="materia-header">
@@ -183,16 +344,57 @@
                                     </div>
                                 </div>
 
-                <!-- Matéria 5 Economia-->
+
+                        <!--5 - video 1-->
+                        <div id="video1" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["todos"]'>
+                            <div class="type_three type">
+                                <div class="thumb">
+                                    <img src="images/thumb/05-video-entrevista1.png">
+                                </div>
+                                <div class="content">
+                                    <div class="materia-header">
+                                        <div class="button-close">
+                                            <button class="button-oval">
+                                                <img src="images/ic-fechar.png"
+                                                     srcset="images/ic-fechar@2x.png 2x,
+                                                 images/ic-fechar@3x.png 3x"
+                                                     class="button-close">
+                                            </button>
+                                        </div>
+
+                                        <div class="buttons-oval">
+                                            <span class="title-share">COMPARTILHAR</span>
+                                            <!--TODO: colocar ícones das redes-->
+                                            <button class="button-facebook">
+                                                <img src="images/ic-facebook.png"
+                                                     srcset="images/ic-facebook@2x.png 2x,
+                                                 images/ic-facebook@3x.png 3x"
+                                                     class="buttons-share">
+                                            </button>
+
+                                            <button class="button-oval twitter">
+                                                <img src="images/ic-twitter.png"
+                                                     srcset="images/ic-twitter@2x.png 2x,
+                                                 images/ic-twitter@3x.png 3x"
+                                                     class="buttons-share">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                <!-- 6 - Matéria 5 Economia-->
 
                                 <div id="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                                    <div class="type_eight type">
+                                    <div class="type_one type">
                                         <div class="float-title float-title-one">
                                             Postos de trabalho <strong>voltam a crescer</strong> em 2018
                                         </div>
 
                                         <div class="thumb">
-                                            <img src="images/thumb/05-postos.jpg">
+                                            <img src="images/thumb/06-postos-de-trabalho.png">
                                         </div>
 
                                         <div class="content">
@@ -240,130 +442,71 @@
                                     </div>
                                 </div>
 
-                                <!-- Matéria 15 Energia-->
-
-                                        <div id="brasil-tem-recorde-de-producao" class="picture-item square-two-rows" tabindex="0" data-groups='["economia"]'>
-                                            <div class="type_one type">
-                                                <div class="float-title float-title-one">
-                                                    Petróleo : <strong>Brasil bate recorde</strong> de produção em 2017
-                                                </div>
-                                                <div class="thumb">
-                                                    <img src="images/thumb/15-petroleo.png">
-                                                </div>    
-                                                <div class="content">
-                                                    <div class="materia-header">
-                                                    <div class="button-close">
-                                                        <button class="button-oval">
-                                                            <img src="images/ic-fechar.png"
-                                                             srcset="images/ic-fechar@2x.png 2x,
-                                                                     images/ic-fechar@3x.png 3x"
-                                                             class="button-close">
-                                                         </button>
-                                                    </div>
-
-                                                    <div class="buttons-oval">
-                                                        <span class="title-share">COMPARTILHAR</span>
-                                                        <!--TODO: colocar ícones das redes-->
-                                                        <button class="button-facebook">
-                                                            <img src="images/ic-facebook.png"
-                                                             srcset="images/ic-facebook@2x.png 2x,
-                                                                     images/ic-facebook@3x.png 3x"
-                                                             class="buttons-share">
-                                                        </button>
-
-                                                        <button class="button-oval twitter"> 
-                                                            <img src="images/ic-twitter.png"
-                                                             srcset="images/ic-twitter@2x.png 2x,
-                                                                     images/ic-twitter@3x.png 3x"
-                                                             class="buttons-share">
-                                                         </button>
-                                                    </div>
-                                                    </div>
-                                                    <p>
-                                                    <h2 class="materia-title">Brasil tem recorde de produção e se torna maior produtor de petróleo da América Latina</h2>
-
-                                                    <p class="simple-text">Com produção recorde em 2017, o Brasil se tornou o maior produtor de petróleo da América Latina, superando países como México e Venezuela. No ano, a produção média atingiu a marca inédita de 2,15 milhões de barris por dia. A produção própria de gás natural também registrou volume inédito de 79,6 milhões de metros cúbicos por dia.</p>
-                                                    <p class="eye-text">Parte importante desse resultado deve-se à nova gestão da Petrobras, que avança para recuperar a confiança internacional.</p>
-                                                    <p class="simple-text">Em fevereiro, a agência de classificação de risco Standard &amp; Poor’s (S&amp;P) mudou a classificação de risco da dívida corporativa da companhia de B+ para BB- e a perspectiva de negativa para estável. Isso, pois há evolução da sua liquidez e uma robusta posição de caixa que diminuiu os riscos de a companhia não honrar seus compromissos.</p>
-                                                    <p class="simple-text">Além dos investimentos feitos pela companhia, o incentivo à competição e alterações no marco regulatório do pré-sal, que desobriga a operadora a ser a única operadora, foram cruciais para o realinhamento da Petrobras.</p>
-                                                    <p class="smaller-title-text">Fontes: Petrobras e Ministério de Minas e Energia</p>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
 
 
-                <!--video 1-->
-                    <div id="video1" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["todos"]'>
-                        <div class="type_three type">
-                                        <div class="thumb">
-                                            <img src="images/thumb/video1.png">
-                                        </div>
+                <!-- 8 - Matéria 3 Economia-->
 
-                        </div>
-                    </div>
-
-
-                <!-- Matéria 4 Economia-->
-
-                <div id="governo-propoe-salario-minimo-de-1002-para-2019" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                    <div class="type_two type">
+                <div id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_six type">
                         <div class="float-title float-title-one">
-                            Governo propõe <strong>salário mínimo de R$ 1.002</strong> para 2019
+                            Taxa de juros atinge 6,5%, <strong>a menor da história</strong>
                         </div>
-                                <div class="thumb">
-                                    <img src="images/thumb/04-salario.png">
-                                </div>
+                        <div class="thumb">
+                            <img src="images/thumb/08-taxa-de-juros-menor.png">
+                        </div>
                         <div class="content">
                             <div class="materia-header">
-                            <div class="button-close">
-                                <button class="button-oval">
-                                    <img src="images/ic-fechar.png"
-                                     srcset="images/ic-fechar@2x.png 2x,
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
                                              images/ic-fechar@3x.png 3x"
-                                     class="button-close">
-                                 </button>
-                            </div>
+                                             class="button-close">
+                                    </button>
+                                </div>
 
-                            <div class="buttons-oval">
-                                <span class="title-share">COMPARTILHAR</span>
-                                <!--TODO: colocar ícones das redes-->
-                                <button class="button-facebook">
-                                    <img src="images/ic-facebook.png"
-                                     srcset="images/ic-facebook@2x.png 2x,
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
                                              images/ic-facebook@3x.png 3x"
-                                     class="buttons-share">
-                                </button>
+                                             class="buttons-share">
+                                    </button>
 
-                                <button class="button-oval twitter"> 
-                                    <img src="images/ic-twitter.png"
-                                     srcset="images/ic-twitter@2x.png 2x,
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
                                              images/ic-twitter@3x.png 3x"
-                                     class="buttons-share">
-                                 </button>
-                            </div>
+                                             class="buttons-share">
+                                    </button>
+                                </div>
                             </div>
                             <p>
-                            <h2 class="materia-title">Governo propõe salário mínimo de R$ 1.002 para 2019</h2>
+                            <h2 class="materia-title">Taxa básica de juros é reduzida a 6,5%, a menor da história</h2>
 
-                            <p class="simple-text">Pela primeira vez no Brasil depois do Plano Real, o valor do salário mínimo ultrapassará R$ 1 mil. Na proposta de Lei de Diretrizes Orçamentárias (LDO) enviada ao Congresso Nacional e assinada pelo presidente da República, Michel Temer, está a sugestão de R$ 1.002, aumento de 5% em relação ao valor atual – R$ 954. </p>
-                            <p class="eye-text">A proposta foi possível graças à política econômica implantada a partir de maio de 2016.</p>
-                            <p class="simple-text">O valor anunciado respeita a aplicação das regras atuais de correção, que define que o reajuste do salário mínimo deve ser corrigido pela inflação do ano anterior, medida pelo Índice Nacional de Preços ao Consumidor (INPC), somada à variação do Produto Interno Bruto (PIB, soma dos bens e dos serviços produzidos no País) dos dois anos anteriores.</p>
-                            <p class="smaller-title-text">Fonte: Ministério do Planejamento</p>
+                            <p class="simple-text">A taxa básica de juros da economia, a Selic, atingiu o patamar de 6,5% em março, o menor percentual da história. Desde outubro de 2016, a redução do índice vem se repetindo regularmente. Usada como referência pelo sistema financeiro, uma taxa menor significa mais empregos, maior crescimento para o País e mais acesso ao crédito.</p>
+                            <p class="simple-text">Isso só foi possível depois de medidas adotadas pelo Governo do Brasil que criaram condições para taxas menores, como foi o caso do teto dos gastos, ajuste fiscal e outras ações coordenadas.</p>
+                            <p class="eye-text">Essas medidas contribuíram com o resultado e geraram mais confiança. Aliado a isso, uma inflação menor deu o espaço necessário para o Banco Central aplicar os cortes.</p>
+                            <p class="smaller-title-text">Fonte: IBGE</p>
+                            </p>
+                            <p class="infos">
+                                <img src="images/infos/[Info]-2_anos_materia-4.png">
                             </p>
                         </div>
                     </div>
                 </div>
 
-                 <!-- Matéria 10 Economia-->
+                 <!-- 7 - Matéria 10 Economia-->
 
                 <div id="com-lei-de-governanca" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                    <div class="type_two type">
-                        <div class="float-title float-title-one">
+                    <div class="type_two_alt type">
+                        <div class="float-title-alt float-title-one">
                             Estatais têm lucro de <strong>R$ 28,4 bilhões em 2017</strong>
                         </div>
                                 <div class="thumb">
-                                    <img src="images/thumb/10-estatais.png">
+                                    <img src="images/thumb/07-estatais-lucro.png">
                                 </div>
                         <div class="content">
                             <div class="button-close">
@@ -396,72 +539,15 @@
                         </div>
                     </div>
                 </div>
-
-
-
-        <!-- Matéria 9 Economia-->
-
-                <div id="saldo-da-balanca-comercial" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                    <div class="type_six type">
-                        <div class="float-title float-title-one">
-                            Balança comercial tem <strong>recorde histórico em 2017</strong>
-                        </div>
-                                <div class="thumb">
-                                    <img src="images/thumb/09-saldo.png">
-                                </div>
-                        <div class="content">
-                            <div class="materia-header">
-                            <div class="button-close">
-                                <button class="button-oval">
-                                    <img src="images/ic-fechar.png"
-                                     srcset="images/ic-fechar@2x.png 2x,
-                                             images/ic-fechar@3x.png 3x"
-                                     class="button-close">
-                                 </button>
-                            </div>
-
-                            <div class="buttons-oval">
-                                <span class="title-share">COMPARTILHAR</span>
-                                <!--TODO: colocar ícones das redes-->
-                                <button class="button-facebook">
-                                    <img src="images/ic-facebook.png"
-                                     srcset="images/ic-facebook@2x.png 2x,
-                                             images/ic-facebook@3x.png 3x"
-                                     class="buttons-share">
-                                </button>
-
-                                <button class="button-oval twitter"> 
-                                    <img src="images/ic-twitter.png"
-                                     srcset="images/ic-twitter@2x.png 2x,
-                                             images/ic-twitter@3x.png 3x"
-                                     class="buttons-share">
-                                 </button>
-                            </div>
-                            </div>
-                            <p>
-                            <h2 class="materia-title">Saldo da balança comercial em 2017 bate recorde: saldo de US$ 67 bilhões</h2>
-
-                            <p class="simple-text">Em 2017, as exportações brasileiras superaram as importações em US$ 67 bilhões, um saldo histórico para o País. Os dados também revelam o primeiro crescimento das exportações do Brasil em cinco anos e das importações em três.</p>
-                            <p class="eye-text">Se comparado com o ano anterior, o resultado é ainda mais expressivo: 40,5% superior ao alcançado em 2016 (US$ 47,683 bilhões).</p>
-                            <p class="simple-text">Produtos como minério de ferro, soja e petróleo bruto foram destaques pelo crescimento no volume ou valor exportado. Em 2018, dados do primeiro trimestre mostram continuidade no crescimento, com saldo comercial positivo de US$ 13,9 bilhões. A expectativa do governo é que este seja o segundo ano consecutivo de crescimento do comércio.</p>
-                            <p class="smaller-title-text">Fonte: Ministério da Industria, Comércio Exterior e Serviços</p>
-                            </p>
-                            <p class="infos">
-                                <img src="images/infos/[Info]-2_anos_materia-9.png">
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Matéria 7 Economia-->
+                <!-- 9 - Matéria 7 Economia-->
 
                                 <div id="saques-das-contas-inativas" class="picture-item square-two-columns" tabindex="0" data-groups='["economia"]'>
-                                    <div class="type_four type">
-                                        <div class="float-title float-title-one">
+                                    <div class="type_four_alt type">
+                                        <div class="float-title-alt float-title-two-collumns">
                                             Saques de contas do FGTS somam <strong>R$ 44 bilhões</strong>
                                         </div>
                                         <div class="thumb">
-                                            <img src="images/thumb/07-saques.png">
+                                            <img src="images/thumb/09-saque-fgts.png">
                                         </div>
                                         <div class="content">
                                             <div class="materia-header">
@@ -506,15 +592,15 @@
                                 </div>
 
 
-                            <!-- Matéria 8 Economia-->
+                         <!-- 10-Matéria 8 Economia-->
 
                                 <div id="saques-do-pispasep-beneficiam" class="picture-item square-two-columns" tabindex="0" data-groups='["energia"]'>
-                                    <div class="type_five type">
-                                        <div class="float-title float-title-one">
+                                    <div class="type_five_alt type">
+                                        <div class="float-title-alt float-title-two-collumns">
                                             Saques do PIS/Pasep injetam até R$ <strong>21 bi na economia</strong>
                                         </div>
                                             <div class="thumb">
-                                                <img src="images/thumb/08-saquespis.png">
+                                                <img src="images/thumb/10-saque-pis.png">
                                             </div>
                                         <div class="content">
                                             <div class="materia-header">
@@ -561,365 +647,361 @@
                                     </div>
                                 </div>
 
-                <div class="picture-item alternate" data-groups='["todos"]'>
-                    <img id="video1" class="play-button" src="images/thumb/video02.jpg">
+                                <!-- PRIMEIRA METADE DA LEVA -->
+                <div class="picture-item alternate center" data-groups='["todos"]'>
+                    <img id="video2" class="play-button2" src="images/play-white.png">
                 </div>
-                
-                            <!-- Matéria 26 Educação-->
 
-                            <div id="fies-tera-350-mil" class="picture-item square-two-columns" tabindex="0" data-groups='["energia"]'>
-                                <div class="type_fourtype">
-                                    <div class="float-title float-title-two">
-                                        Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
-                                    </div>
-                                            <div class="thumb">
-                                                 <img src="images/thumb/26-fies.png">
-                                            </div>
-                                    <div class="content">
-                                        <div class="materia-header">
-                                        <div class="button-close">
-                                            <button class="button-oval">
-                                                <img src="images/ic-fechar.png"
-                                                 srcset="images/ic-fechar@2x.png 2x,
-                                                         images/ic-fechar@3x.png 3x"
-                                                 class="button-close">
-                                             </button>
-                                        </div>
+                                    <!-- 11 - Matéria 26 Educação-->
 
-                                        <div class="buttons-oval">
-                                            <span class="title-share">COMPARTILHAR</span>
-                                            <!--TODO: colocar ícones das redes-->
-                                            <button class="button-facebook">
-                                                <img src="images/ic-facebook.png"
-                                                 srcset="images/ic-facebook@2x.png 2x,
-                                                         images/ic-facebook@3x.png 3x"
-                                                 class="buttons-share">
-                                            </button>
-
-                                            <button class="button-oval twitter"> 
-                                                <img src="images/ic-twitter.png"
-                                                 srcset="images/ic-twitter@2x.png 2x,
-                                                         images/ic-twitter@3x.png 3x"
-                                                 class="buttons-share">
-                                             </button>
-                                        </div>
-                                        </div>
-                                        <p>
-                                        <h2 class="materia-title">Fies terá 350 mil vagas em 2018, sendo 100 mil a juro zero</h2>
-
-                                        <p class="simple-text">O Novo Fundo de Financiamento Estudantil (Fies) conta, em 2018, com 310 mil vagas em instituições de ensino superior privadas em todo o País, sendo 100 mil a juro zero. Com o novo formato, as regras ficam mais simples, tornando o acesso dos estudantes de baixa renda ao ensino superior. </p>
-                                        <p class="eye-text">Agora haverá maior cobrança de qualidade dos cursos financiados, além de transformar o período de carência mais flexível. As mudanças visam à sustentabilidade do programa a médio e longo prazos.</p>
-                                        <p class="simple-text">O Novo Fies vem com um fundo garantidor de adesão obrigatória pelas faculdades participantes do programa. Ele, que será formado, em maior parcela, por aportes das instituições, com aportes da União, garante o crédito para os financiamentos contratados. A previsão é que tenha caixa de R$ 3 bilhões.</p>
-                                        <p class="smaller-title-text">Fonte: Ministério da Educação</p>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <!-- Matéria 20 Agro-->
-
-                            <div id="agricultura-familiar-recebe" class="picture-item square-two-columns" tabindex="0" data-groups='["economia"]'>
-                                <div class="type_five type">
-                                    <div class="float-title float-title-one">
-                                        Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
-                                    </div>
-                                            <div class="thumb">
-                                                 <img src="images/thumb/20-agricultura.png">
-                                            </div>
-                                    <div class="content">
-                                        <div class="materia-header">
-                                        <div class="button-close">
-                                            <button class="button-oval">
-                                                <img src="images/ic-fechar.png"
-                                                 srcset="images/ic-fechar@2x.png 2x,
-                                                         images/ic-fechar@3x.png 3x"
-                                                 class="button-close">
-                                             </button>
-                                        </div>
-
-                                        <div class="buttons-oval">
-                                            <span class="title-share">COMPARTILHAR</span>
-                                            <!--TODO: colocar ícones das redes-->
-                                            <button class="button-facebook">
-                                                <img src="images/ic-facebook.png"
-                                                 srcset="images/ic-facebook@2x.png 2x,
-                                                         images/ic-facebook@3x.png 3x"
-                                                 class="buttons-share">
-                                            </button>
-
-                                            <button class="button-oval twitter"> 
-                                                <img src="images/ic-twitter.png"
-                                                 srcset="images/ic-twitter@2x.png 2x,
-                                                         images/ic-twitter@3x.png 3x"
-                                                 class="buttons-share">
-                                             </button>
-                                        </div>
-                                        </div>
-                                        <p>
-                                        <h2 class="materia-title">Agricultura familiar recebe crédito de R$ 30 bilhões para a safra 2017/2018</h2>
-
-                                        <p class="simple-text">Na safra de 2017/2018, a agricultura familiar pode contar com um crédito de R$ 30 bilhões a uma taxa de juros mais baixa, entre 2,5% e 5,5%. </p>
-                                        <p class="eye-text">Com os valores disponíveis, os pequenos agricultores podem investir em irrigação, armazenagem e práticas sustentáveis de manejo do solo e da água, além das tecnologias de energia renovável.</p>
-                                        <p class="simple-text">São R$ 403 milhões a mais em crédito em relação à última safra. Os recursos, do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), fortalecem a produção de alimentos de forma sustentável. Anunciada pelo presidente da República, Michel Temer, durante lançamento do plano Safra, apoia os pequenos produtores e ajuda a combater a pobreza, estimulando o emprego e o desenvolvimento de regiões carentes.</p>
-                                        <p class="smaller-title-text">Fonte: Secretaria Especial de Agricultura Familiar e do Desenvolvimento Agrário</p>
-                                        </p>
-                                        <p class="infos">
-                                            <img src="images/infos/[Banner]-2_anos_materia_20.jpg">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Matéria 1 Economia-->
-
-                          <div id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                                <div class="type_one type">
-                                    <div class="float-title float-title-one">
-                                        Inflação de 2,95% em 2017 é a <strong>menor</strong> em 20 anos
-                                    </div>
-                                            <div class="thumb">
-                                                 <img src="images/thumb/01-brasil.png">
-                                            </div>
-                                    <div class="content">
-                                        <div class="materia-header">
-                                        <div class="button-close">
-                                            <button class="button-oval">
-                                                <img src="images/ic-fechar.png"
-                                                 srcset="images/ic-fechar@2x.png 2x,
-                                                         images/ic-fechar@3x.png 3x"
-                                                 class="button-close">
-                                             </button>
-                                        </div>
-
-                                        <div class="buttons-oval">
-                                            <span class="title-share">COMPARTILHAR</span>
-                                            <button class="button-facebook">
-                                                <img src="images/ic-facebook.png"
-                                                 srcset="images/ic-facebook@2x.png 2x,
-                                                         images/ic-facebook@3x.png 3x"
-                                                 class="buttons-share">
-                                            </button>
-
-                                            <button class="button-oval twitter">
-                                                <img src="images/ic-twitter.png"
-                                                 srcset="images/ic-twitter@2x.png 2x,
-                                                         images/ic-twitter@3x.png 3x"
-                                                 class="buttons-share">
-                                             </button>
-                                        </div>
-                                        </div>
-                                        <h2 class="materia-title">Em 2017, Brasil tem menor inflação em duas décadas</h2>
-
-                                        <p class="simple-text">Menor índice registrado em duas décadas, a inflação de 2,97% de dezembro passado é resultado direto das medidas econômicas apresentadas pelo Governo do Brasil. Mais qualidade de vida para a  população, geração de empregos, aumento do poder de compra dos brasileiros e mais rendimento na poupança.</p>
-                                        <p class="eye-text">Uma economia mais forte beneficia, em especial, quem ganha menos.<br> Em 2017, a inflação também foi a menor desde 1998 para as famílias de baixa renda.</p>
-                                        <p class="simple-text">Pela primeira vez, o resultado ficou abaixo do piso da meta estabelecida pelo Governo, que era de 3%. Além das medidas do governo, a supersafra de grãos, que gerou redução no preço dos alimentos, também contribuiu para o índice histórico.</p>
-                                        <p class="smaller-title-text">Fontes: Planalto e IBGE </p>
-                                        <p class="infos">
-                                            <img src="images/infos/[Info]-2_anos_materia-01.png">
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                <!-- Matéria 19 Agro-->
-
-                <div id="brasil-tem-safra-recorde" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                    <div class="type_two type">
-                        <div class="float-title float-title-one">
-                            Brasil tem <strong>safras recordes</strong> e mais exportação
+                <div id="fies-tera-350-mil" class="picture-item square-two-columns" tabindex="0" data-groups='["energia"]'>
+                    <div class="type_four_alt type">
+                        <div class="float-title-alt float-title-two-collumns">
+                            Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
                         </div>
-                                <div class="thumb">
-                                    <img src="images/thumb/19-safra.png">
-                                </div>
+                        <div class="thumb">
+                            <img src="images/thumb/11-fies-vagas.png">
+                        </div>
                         <div class="content">
                             <div class="materia-header">
-                            <div class="button-close">
-                                <button class="button-oval">
-                                    <img src="images/ic-fechar.png"
-                                     srcset="images/ic-fechar@2x.png 2x,
-                                             images/ic-fechar@3x.png 3x"
-                                     class="button-close">
-                                 </button>
-                            </div>
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                         images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
 
-                            <div class="buttons-oval">
-                                <span class="title-share">COMPARTILHAR</span>
-                                <!--TODO: colocar ícones das redes-->
-                                <button class="button-facebook">
-                                    <img src="images/ic-facebook.png"
-                                     srcset="images/ic-facebook@2x.png 2x,
-                                             images/ic-facebook@3x.png 3x"
-                                     class="buttons-share">
-                                </button>
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                         images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
 
-                                <button class="button-oval twitter"> 
-                                    <img src="images/ic-twitter.png"
-                                     srcset="images/ic-twitter@2x.png 2x,
-                                             images/ic-twitter@3x.png 3x"
-                                     class="buttons-share">
-                                 </button>
-                            </div>
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                         images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
                             </div>
                             <p>
-                            <h2 class="materia-title">Brasil tem safra recorde de 238 milhões de toneladas de grãos e aumenta exportações em 2017</h2>
+                            <h2 class="materia-title">Fies terá 350 mil vagas em 2018, sendo 100 mil a juro zero</h2>
 
-                            <p class="simple-text">Em 2017, a safra recorde de 238 milhões de toneladas de grãos, especialmente de milho e de soja, ajudou a derrubar a inflação a patamares inéditos e contribuiu também para encerrar o período de recessão vivido no País. Foi a maior produção registrada na série histórica do Instituto Brasileiro de Geografia e Estatística (IBGE), iniciada em 1996</p>
-                            <p class="eye-text">Em 2018, a tendência de grandes colheitas deve se repetir e atingir 229,5 milhões de toneladas, sendo a segunda maior da história.</p>
-                            <p class="simple-text">Os números do campo também refletem nos resultados positivos da balança comercial do Brasil. As exportações do agronegócio representaram 44,1% do total, contribuindo para o saldo de US$ 67 bilhões na balança comercial.</p>
-                            <p class="smaller-title-text">Fontes: Conab,  IBGE e Mapa</p>
-                            </p>
-                            <p class="infos">
-                                <img src="images/infos/[Banner]-2_anos_materia_19.jpg">
+                            <p class="simple-text">O Novo Fundo de Financiamento Estudantil (Fies) conta, em 2018, com 310 mil vagas em instituições de ensino superior privadas em todo o País, sendo 100 mil a juro zero. Com o novo formato, as regras ficam mais simples, tornando o acesso dos estudantes de baixa renda ao ensino superior. </p>
+                            <p class="eye-text">Agora haverá maior cobrança de qualidade dos cursos financiados, além de transformar o período de carência mais flexível. As mudanças visam à sustentabilidade do programa a médio e longo prazos.</p>
+                            <p class="simple-text">O Novo Fies vem com um fundo garantidor de adesão obrigatória pelas faculdades participantes do programa. Ele, que será formado, em maior parcela, por aportes das instituições, com aportes da União, garante o crédito para os financiamentos contratados. A previsão é que tenha caixa de R$ 3 bilhões.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Educação</p>
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Matéria 3 Economia-->
+               <!-- 12 Matéria 20 Agro-->
 
-                <div id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                <div id="agricultura-familiar-recebe" class="picture-item square-two-columns" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_five_alt type">
+                        <div class="float-title-alt float-title-two-collumns">
+                            Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/12-agricultura-familiar.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                         images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                         images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                         images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
+                            <p>
+                            <h2 class="materia-title">Agricultura familiar recebe crédito de R$ 30 bilhões para a safra 2017/2018</h2>
+
+                            <p class="simple-text">Na safra de 2017/2018, a agricultura familiar pode contar com um crédito de R$ 30 bilhões a uma taxa de juros mais baixa, entre 2,5% e 5,5%. </p>
+                            <p class="eye-text">Com os valores disponíveis, os pequenos agricultores podem investir em irrigação, armazenagem e práticas sustentáveis de manejo do solo e da água, além das tecnologias de energia renovável.</p>
+                            <p class="simple-text">São R$ 403 milhões a mais em crédito em relação à última safra. Os recursos, do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), fortalecem a produção de alimentos de forma sustentável. Anunciada pelo presidente da República, Michel Temer, durante lançamento do plano Safra, apoia os pequenos produtores e ajuda a combater a pobreza, estimulando o emprego e o desenvolvimento de regiões carentes.</p>
+                            <p class="smaller-title-text">Fonte: Secretaria Especial de Agricultura Familiar e do Desenvolvimento Agrário</p>
+                            </p>
+                            <p class="infos">
+                                <img src="images/infos/[Banner]-2_anos_materia_20.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 13 - Matéria 15 Energia-->
+
+                                        <div id="brasil-tem-recorde-de-producao" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                                            <div class="type_one_alt type">
+                                                <div class="float-title-alt float-title-one">
+                                                    Petróleo : <strong>Brasil bate recorde</strong> de produção em 2017
+                                                </div>
+                                                <div class="thumb">
+                                                    <img src="images/thumb/13-petroleo-recorde.png">
+                                                </div>    
+                                                <div class="content">
+                                                    <div class="materia-header">
+                                                    <div class="button-close">
+                                                        <button class="button-oval">
+                                                            <img src="images/ic-fechar.png"
+                                                             srcset="images/ic-fechar@2x.png 2x,
+                                                                     images/ic-fechar@3x.png 3x"
+                                                             class="button-close">
+                                                         </button>
+                                                    </div>
+
+                                                    <div class="buttons-oval">
+                                                        <span class="title-share">COMPARTILHAR</span>
+                                                        <!--TODO: colocar ícones das redes-->
+                                                        <button class="button-facebook">
+                                                            <img src="images/ic-facebook.png"
+                                                             srcset="images/ic-facebook@2x.png 2x,
+                                                                     images/ic-facebook@3x.png 3x"
+                                                             class="buttons-share">
+                                                        </button>
+
+                                                        <button class="button-oval twitter"> 
+                                                            <img src="images/ic-twitter.png"
+                                                             srcset="images/ic-twitter@2x.png 2x,
+                                                                     images/ic-twitter@3x.png 3x"
+                                                             class="buttons-share">
+                                                         </button>
+                                                    </div>
+                                                    </div>
+                                                    <p>
+                                                    <h2 class="materia-title">Brasil tem recorde de produção e se torna maior produtor de petróleo da América Latina</h2>
+
+                                                    <p class="simple-text">Com produção recorde em 2017, o Brasil se tornou o maior produtor de petróleo da América Latina, superando países como México e Venezuela. No ano, a produção média atingiu a marca inédita de 2,15 milhões de barris por dia. A produção própria de gás natural também registrou volume inédito de 79,6 milhões de metros cúbicos por dia.</p>
+                                                    <p class="eye-text">Parte importante desse resultado deve-se à nova gestão da Petrobras, que avança para recuperar a confiança internacional.</p>
+                                                    <p class="simple-text">Em fevereiro, a agência de classificação de risco Standard &amp; Poor’s (S&amp;P) mudou a classificação de risco da dívida corporativa da companhia de B+ para BB- e a perspectiva de negativa para estável. Isso, pois há evolução da sua liquidez e uma robusta posição de caixa que diminuiu os riscos de a companhia não honrar seus compromissos.</p>
+                                                    <p class="simple-text">Além dos investimentos feitos pela companhia, o incentivo à competição e alterações no marco regulatório do pré-sal, que desobriga a operadora a ser a única operadora, foram cruciais para o realinhamento da Petrobras.</p>
+                                                    <p class="smaller-title-text">Fontes: Petrobras e Ministério de Minas e Energia</p>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                <!--14 - Matéria 18 Energia-->
+
+                <div id="brasil-e-o-segundo-produtor" class="picture-item square" tabindex="0" data-groups='["energia"]'>
+                    <div class="type_two type">
+                        <div class="float-title float-title-two">
+                            Brasil é o <strong>segundo produtor mundial</strong> de biodiesel
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/14-biodiesel.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                             images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                             images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                             images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
+                            <p>
+                            <h2 class="materia-title">Brasil é o segundo produtor mundial de biodiesel</h2>
+
+                            <p class="simple-text">Em 2017, a produção de etanol foi de 27 bilhões de litros e de mais de 4 bilhões de litros de biodiesel, destacando o Brasil como o segundo produtor mundial na categoria.</p>
+                            <p class="simple-text">Para continuar a incentivar a produção de biocombustíveis e cumprir com o Acordo de Paris, o Governo do Brasil sancionou em 2017 a lei que cria o RenovaBio, um novo marco regulatório para os biocombustíveis e mais um estímulo para a inovação no Brasil.</p>
+                            <p class="eye-text">Com essa politica nacional, é possível traçar um plano para garantir o papel estratégico dos biocombustíveis, principalmente quando se fala em segurança energética e em redução de emissões de gases causadores do efeito estufa.</p>
+                            <p class="smaller-title-text">Fonte: MME</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 15-Matéria 27 Educação-->
+
+                <div id="recorde-de-bolsas-ofertas" class="picture-item square" tabindex="0" data-groups='["economia"]'>
                     <div class="type_eight type">
                         <div class="float-title float-title-one">
-                            Taxa de juros atinge 6,5%, <strong>a menor da história</strong>
+                            ProUni cresce 10% e tem <strong>recorde de bolsas</strong>
                         </div>
-                       <div class="thumb">
-                            <img src="images/thumb/03-taxa.png">
-                        </div>   
+                        <div class="thumb">
+                            <img src="images/thumb/15-prouni-recorde.png">
+                        </div>
                         <div class="content">
                             <div class="materia-header">
-                            <div class="button-close">
-                                <button class="button-oval">
-                                    <img src="images/ic-fechar.png"
-                                     srcset="images/ic-fechar@2x.png 2x,
-                                             images/ic-fechar@3x.png 3x"
-                                     class="button-close">
-                                 </button>
-                            </div>
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                     images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
 
-                            <div class="buttons-oval">
-                                <span class="title-share">COMPARTILHAR</span>
-                                <!--TODO: colocar ícones das redes-->
-                                <button class="button-facebook">
-                                    <img src="images/ic-facebook.png"
-                                     srcset="images/ic-facebook@2x.png 2x,
-                                             images/ic-facebook@3x.png 3x"
-                                     class="buttons-share">
-                                </button>
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                     images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
 
-                                <button class="button-oval twitter">
-                                    <img src="images/ic-twitter.png"
-                                     srcset="images/ic-twitter@2x.png 2x,
-                                             images/ic-twitter@3x.png 3x"
-                                     class="buttons-share">
-                                 </button>
-                            </div>
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                     images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
                             </div>
                             <p>
-                            <h2 class="materia-title">Taxa básica de juros é reduzida a 6,5%, a menor da história</h2>
+                            <h2 class="materia-title">Recorde de bolsas ofertas pelo ProUni: 360 mil em 2017</h2>
 
-                            <p class="simple-text">A taxa básica de juros da economia, a Selic, atingiu o patamar de 6,5% em março, o menor percentual da história. Desde outubro de 2016, a redução do índice vem se repetindo regularmente. Usada como referência pelo sistema financeiro, uma taxa menor significa mais empregos, maior crescimento para o País e mais acesso ao crédito.</p>
-                            <p class="simple-text">Isso só foi possível depois de medidas adotadas pelo Governo do Brasil que criaram condições para taxas menores, como foi o caso do teto dos gastos, ajuste fiscal e outras ações coordenadas.</p>
-                            <p class="eye-text">Essas medidas contribuíram com o resultado e geraram mais confiança. Aliado a isso, uma inflação menor deu o espaço necessário para o Banco Central aplicar os cortes.</p>
-                            <p class="smaller-title-text">Fonte: IBGE</p>
-                            </p>
-                            <p class="infos">
-                                <img src="images/infos/[Info]-2_anos_materia-4.png">
+                            <p class="simple-text">O Programa Universidade para Todos (ProUni) bateu recordes em 2017, aumentando o acesso dos brasileiros ao ensino superior. Foram mais de 360 mil bolsas de estudo integrais e parciais (50%) em cursos de graduação de instituições privadas de educação superior. Os números marcam um crescimento de quase 10% sobre os dois últimos anos. </p>
+                            <p class="eye-text">Em 2018, novo número inédito: são 242.987 oportunidades em 2.976 instituições privadas. </p>
+                            <p class="simple-text">As bolsas do ProUni contemplam brasileiros sem diploma de curso superior e que tenham participado do Exame Nacional do Ensino Médio (Enem). Também é necessário ter cursado o ensino médio completo em escola pública ou em instituição privada como bolsista integral ou possuir alguma deficiência ou ser professor da rede pública ou estar enquadrado no perfil de renda exigido pelo programa.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Educação</p>
                             </p>
                         </div>
                     </div>
-                </div>    
+                </div>
 
-                 <!-- Matéria 24 Educação-->
+ 
+                <!-- 17-Matéria 24 Educação-->
 
-                                <div id="discutido-ha-mais-de-20-anos" class="picture-item square-two-rows" tabindex="0" data-groups='["economia"]'>
-                                    <div class="type_seven type">
-                                        <div class="float-title float-title-one">
-                                            Novo Ensino Médio: <strong>educação do Brasil no século 21</strong>
-                                        </div>
-                                           <div class="thumb">
-                                                <img src="images/thumb/24-ensino.png">
-                                            </div> 
-                                        <div class="content">
-                                            <div class="materia-header">
-                                            <div class="button-close">
-                                                <button class="button-oval">
-                                                    <img src="images/ic-fechar.png"
-                                                     srcset="images/ic-fechar@2x.png 2x,
-                                                             images/ic-fechar@3x.png 3x"
-                                                     class="button-close">
-                                                 </button>
-                                            </div>
-
-                                            <div class="buttons-oval">
-                                                <span class="title-share">COMPARTILHAR</span>
-                                                <!--TODO: colocar ícones das redes-->
-                                                <button class="button-facebook">
-                                                    <img src="images/ic-facebook.png"
-                                                     srcset="images/ic-facebook@2x.png 2x,
-                                                             images/ic-facebook@3x.png 3x"
-                                                     class="buttons-share">
-                                                </button>
-
-                                                <button class="button-oval twitter"> 
-                                                    <img src="images/ic-twitter.png"
-                                                     srcset="images/ic-twitter@2x.png 2x,
-                                                             images/ic-twitter@3x.png 3x"
-                                                     class="buttons-share">
-                                                 </button>
-                                            </div>
-                                            </div>
-                                            <p>
-                                            <h2 class="materia-title">Discutido há mais de 20 anos, novo Ensino Médio traz mais educação para os jovens </h2>
-
-                                            <p class="simple-text">Depois de mais de 20 anos de debates, a reforma do ensino médio foi aprovada pelo Congresso Nacional e sancionada pelo presidente da República, Michel Temer, em fevereiro de 2017. As mudanças são mais um passo decisivo na modernização do País ao estabelecer novas regras, mais adequadas à sociedade brasileira atual.</p>
-                                            <p class="eye-text">Com as mudanças, o modelo brasileiro para o ensino médio se aproxima daqueles adotados nos países que são referência de educação no mundo.</p>
-                                            <p class="simple-text">O novo sistema de educação dos jovens faz da educação uma prioridade e cria condições para transformar a vida de milhões de brasileiros. Entre as modificações está a possibilidade de o currículo ficar mais flexível, permitindo que o aluno escolha a área de seu maior interesse para aprofundamento de estudos ou uma área de ensino técnico profissional.</p>
-                                            <p class="simple-text">Destaque ainda para ampliação do ensino integral: foram 500 mil novas vagas de tempo integral em 2017. Todas voltadas para o jovem do ensino médio, beneficiando todos os estados e o Distrito Federal.</p>
-                                            <p class="smaller-title-text">Fonte: Ministério da Educação</p>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>        
-
-                <!-- Matéria 16 energia-->
-
-                <div id="leiloes-de-energia-atraem-bilhoes" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["energia"]'>
-                    <div class="type_three type">
-                        <div class="float-title float-title-three">
-                            Leilões de energia atraem <strong>bilhões em investimentos</strong>
+                <div id="discutido-ha-mais-de-20-anos" class="picture-item square-two-rows" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_seven_alt type">
+                        <div class="float-title float-title-one">
+                            Novo Ensino Médio: <strong>educação do Brasil no século 21</strong>
                         </div>
-                                <div class="thumb">
-                                    <img src="images/thumb/16-leiloes.png">
-                                </div> 
+                        <div class="thumb">
+                            <img src="images/thumb/17-novo-ensino-medio.png">
+                        </div>
                         <div class="content">
                             <div class="materia-header">
-                            <div class="button-close">
-                                <button class="button-oval">
-                                    <img src="images/ic-fechar.png"
-                                     srcset="images/ic-fechar@2x.png 2x,
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                             images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                             images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                             images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
+                            <p>
+                            <h2 class="materia-title">Discutido há mais de 20 anos, novo Ensino Médio traz mais educação para os jovens </h2>
+
+                            <p class="simple-text">Depois de mais de 20 anos de debates, a reforma do ensino médio foi aprovada pelo Congresso Nacional e sancionada pelo presidente da República, Michel Temer, em fevereiro de 2017. As mudanças são mais um passo decisivo na modernização do País ao estabelecer novas regras, mais adequadas à sociedade brasileira atual.</p>
+                            <p class="eye-text">Com as mudanças, o modelo brasileiro para o ensino médio se aproxima daqueles adotados nos países que são referência de educação no mundo.</p>
+                            <p class="simple-text">O novo sistema de educação dos jovens faz da educação uma prioridade e cria condições para transformar a vida de milhões de brasileiros. Entre as modificações está a possibilidade de o currículo ficar mais flexível, permitindo que o aluno escolha a área de seu maior interesse para aprofundamento de estudos ou uma área de ensino técnico profissional.</p>
+                            <p class="simple-text">Destaque ainda para ampliação do ensino integral: foram 500 mil novas vagas de tempo integral em 2017. Todas voltadas para o jovem do ensino médio, beneficiando todos os estados e o Distrito Federal.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Educação</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--18 - Matéria 16 energia-->
+
+                <div id="leiloes-de-energia-atraem-bilhoes" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["energia"]'>
+                    <div class="type_three_alt type">
+                        <div class="float-title-alt float-title-three">
+                            Leilões de energia atraem <strong>bilhões em investimentos</strong>
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/18-leiloes.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
                                              images/ic-fechar@3x.png 3x"
-                                     class="button-close">
-                                 </button>
-                            </div>
+                                             class="button-close">
+                                    </button>
+                                </div>
 
-                            <div class="buttons-oval">
-                                <span class="title-share">COMPARTILHAR</span>
-                                <button class="button-facebook">
-                                    <img src="images/ic-facebook.png"
-                                     srcset="images/ic-facebook@2x.png 2x,
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
                                              images/ic-facebook@3x.png 3x"
-                                     class="buttons-share">
-                                </button>
+                                             class="buttons-share">
+                                    </button>
 
-                                <button class="button-oval twitter"> 
-                                    <img src="images/ic-twitter.png"
-                                     srcset="images/ic-twitter@2x.png 2x,
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
                                              images/ic-twitter@3x.png 3x"
-                                     class="buttons-share">
-                                 </button>
-                            </div>
+                                             class="buttons-share">
+                                    </button>
+                                </div>
                             </div>
                             <p>
                             <h2 class="materia-title">Energia elétrica: Leilões de transmissão atraem bilhões em investimentos</h2>
@@ -936,175 +1018,71 @@
                     </div>
                 </div>
 
-                       <!-- Matéria 27 Educação-->
 
-                        <div id="recorde-de-bolsas-ofertas" class="picture-item square" tabindex="0" data-groups='["economia"]'>
-                            <div class="type_one type">
-                                <div class="float-title float-title-one">
-                                    ProUni cresce 10% e tem <strong>recorde de bolsas</strong>
-                                </div>
-                                    <div class="thumb">
-                                        <img src="images/thumb/27-bolsas.png">
-                                    </div> 
-                                <div class="content">
-                                    <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
+               <!--16 Matéria 29 Educação-->
+
+                <div id="programa-mais-alfabetizacao" class="picture-item square" tabindex="0" data-groups='["educacao"]'>
+                    <div class="type_one type">
+                        <div class="float-title float-title-one">
+                            R$ 523 milhões para o <strong>Programa Mais Alfabetização</strong>
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/16-alfabetizacao.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
                                              srcset="images/ic-fechar@2x.png 2x,
                                                      images/ic-fechar@3x.png 3x"
                                              class="button-close">
-                                         </button>
-                                    </div>
+                                    </button>
+                                </div>
 
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
                                              srcset="images/ic-facebook@2x.png 2x,
                                                      images/ic-facebook@3x.png 3x"
                                              class="buttons-share">
-                                        </button>
+                                    </button>
 
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
                                              srcset="images/ic-twitter@2x.png 2x,
                                                      images/ic-twitter@3x.png 3x"
                                              class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                    <p>
-                                    <h2 class="materia-title">Recorde de bolsas ofertas pelo ProUni: 360 mil em 2017</h2>
-
-                                    <p class="simple-text">O Programa Universidade para Todos (ProUni) bateu recordes em 2017, aumentando o acesso dos brasileiros ao ensino superior. Foram mais de 360 mil bolsas de estudo integrais e parciais (50%) em cursos de graduação de instituições privadas de educação superior. Os números marcam um crescimento de quase 10% sobre os dois últimos anos. </p>
-                                    <p class="eye-text">Em 2018, novo número inédito: são 242.987 oportunidades em 2.976 instituições privadas. </p>
-                                    <p class="simple-text">As bolsas do ProUni contemplam brasileiros sem diploma de curso superior e que tenham participado do Exame Nacional do Ensino Médio (Enem). Também é necessário ter cursado o ensino médio completo em escola pública ou em instituição privada como bolsista integral ou possuir alguma deficiência ou ser professor da rede pública ou estar enquadrado no perfil de renda exigido pelo programa.</p>
-                                    <p class="smaller-title-text">Fonte: Ministério da Educação</p>
-                                    </p>
+                                    </button>
                                 </div>
                             </div>
+                            <p>
+                            <h2 class="materia-title">Programa Mais Alfabetização terá investimento de R$ 523 milhões nos próximos dois anos</h2>
+
+                            <p class="simple-text">Lançado em 2018 pelo Governo do Brasil para favorecer o desenvolvimento dos níveis de leitura, escrita e matemática dos alunos matriculados nos dois primeiros anos do ensino fundamental, o Programa Mais Alfabetização terá investimento de R$ 523 milhões em 2018 e 2019.</p>
+                            <p class="eye-text">Com a iniciativa, o governo irá atender e melhorar a performance de 3,6 milhões de alunos em 156 mil turmas das 49 mil escolas de todo o País já cadastradas. </p>
+                            <p class="simple-text">Professores do programa terão apoio técnico de um assistente de alfabetização em cada turma. Esse profissional passará cinco ou 10 horas semanais em sala, dando suporte ao professor alfabetizador.</p>
+                            <p class="simple-text">O Mais Alfabetização faz parte da Política Nacional de Alfabetização, lançada pelo MEC em 2017, e corrobora com a Lei de Diretrizes e Bases da Educação Nacional (LDB), que determina o desenvolvimento da capacidade de aprender, tendo como meios básicos o pleno domínio da leitura, da escrita e do cálculo.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Educação</p>
+                            </p>
+                            <p class="infos">
+                                <img src="images/infos/[Banner]-2_anos_materia_29.jpg">
+                            </p>
                         </div>
+                    </div>
+                </div>
+        <!--20- Matéria 9 Economia-->
 
-                       <!-- Matéria 33 saude-->
-                        <div id="numero-de-consultas-nas-ubs" class="picture-item square" tabindex="0" data-groups='["saude"]'>
-                            <div class="type_one type">
-                                <div class="float-title float-title-one">
-                                    UBS:  <strong>gestão eficiente</strong> leva saúde para quem precisa
-                                </div>
-                                    <div class="thumb">
-                                        <img src="images/thumb/33-consultas.png">
-                                    </div> 
-                                <div class="content">
-                                    <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                    <p>
-                                    <h2 class="materia-title">Número de consultas nas UBS cresce 230% em 2017</h2>
-
-                                    <p class="simple-text">A gestão mais eficiente e os investimentos constantes do Governo do Brasil motivaram um crescimento de 230% no número de consultas nas unidades básicas de Saúde (UBS) do País, na comparação entre 2016 e 2017.</p>
-                                    <p class="eye-text">Foram 649 milhões de atendimentos no último ano, contra 196,3 milhões em 2016.</p>
-                                    <p class="simple-text">Atualmente, 70% da população brasileira recebe cobertura da atenção básica, com 41.668 UBS funcionando e atuação de 264.188 agentes comunitários de saúde e 41.991 equipes de saúde da família.</p>
-                                    <p class="smaller-title-text">Fonte: Ministério da Saúde</p>
-                                    </p>
-                                </div>
-                            </div>
+                <div id="saldo-da-balanca-comercial" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_six type">
+                        <div class="float-title float-title-four">
+                            Balança comercial tem <strong>recorde histórico em 2017</strong>
                         </div>
-
-                         <!-- Matéria 29 Educação-->
-
-                        <div id="programa-mais-alfabetizacao" class="picture-item square" tabindex="0" data-groups='["educacao"]'>
-                            <div class="type_eight type">
-                                <div class="float-title float-title-one">
-                                    R$ 523 milhões para o <strong>Programa Mais Alfabetização</strong>
+                                <div class="thumb">
+                                    <img src="images/thumb/20-balanca-comercial.png">
                                 </div>
-                                    <div class="thumb">
-                                        <img src="images/thumb/29-alfabetizacao.png">
-                                    </div> 
-                                <div class="content">
-                                    <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                    <p>
-                                    <h2 class="materia-title">Programa Mais Alfabetização terá investimento de R$ 523 milhões nos próximos dois anos</h2>
-
-                                    <p class="simple-text">Lançado em 2018 pelo Governo do Brasil para favorecer o desenvolvimento dos níveis de leitura, escrita e matemática dos alunos matriculados nos dois primeiros anos do ensino fundamental, o Programa Mais Alfabetização terá investimento de R$ 523 milhões em 2018 e 2019.</p>
-                                    <p class="eye-text">Com a iniciativa, o governo irá atender e melhorar a performance de 3,6 milhões de alunos em 156 mil turmas das 49 mil escolas de todo o País já cadastradas. </p>
-                                    <p class="simple-text">Professores do programa terão apoio técnico de um assistente de alfabetização em cada turma. Esse profissional passará cinco ou 10 horas semanais em sala, dando suporte ao professor alfabetizador.</p>
-                                    <p class="simple-text">O Mais Alfabetização faz parte da Política Nacional de Alfabetização, lançada pelo MEC em 2017, e corrobora com a Lei de Diretrizes e Bases da Educação Nacional (LDB), que determina o desenvolvimento da capacidade de aprender, tendo como meios básicos o pleno domínio da leitura, da escrita e do cálculo.</p>
-                                    <p class="smaller-title-text">Fonte: Ministério da Educação</p>
-                                    </p>
-                                    <p class="infos">
-                                        <img src="images/infos/[Banner]-2_anos_materia_29.jpg">
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                <!-- Matéria 18 Energia-->
-
-                <div id="brasil-e-o-segundo-produtor" class="picture-item square-two-columns" tabindex="0" data-groups='["energia"]'>
-                    <div class="type_four type">
-                        <div class="float-title float-title-two">
-                            Brasil é o <strong>segundo produtor mundial</strong> de biodiesel
-                        </div>
-                                    <div class="thumb">
-                                        <img src="images/thumb/18-biodiesel.png">
-                                    </div> 
                         <div class="content">
                             <div class="materia-header">
                             <div class="button-close">
@@ -1135,30 +1113,97 @@
                             </div>
                             </div>
                             <p>
-                            <h2 class="materia-title">Brasil é o segundo produtor mundial de biodiesel</h2>
+                            <h2 class="materia-title">Saldo da balança comercial em 2017 bate recorde: saldo de US$ 67 bilhões</h2>
 
-                            <p class="simple-text">Em 2017, a produção de etanol foi de 27 bilhões de litros e de mais de 4 bilhões de litros de biodiesel, destacando o Brasil como o segundo produtor mundial na categoria.</p>
-                            <p class="simple-text">Para continuar a incentivar a produção de biocombustíveis e cumprir com o Acordo de Paris, o Governo do Brasil sancionou em 2017 a lei que cria o RenovaBio, um novo marco regulatório para os biocombustíveis e mais um estímulo para a inovação no Brasil.</p>
-                            <p class="eye-text">Com essa politica nacional, é possível traçar um plano para garantir o papel estratégico dos biocombustíveis, principalmente quando se fala em segurança energética e em redução de emissões de gases causadores do efeito estufa.</p>
-                            <p class="smaller-title-text">Fonte: MME</p>
+                            <p class="simple-text">Em 2017, as exportações brasileiras superaram as importações em US$ 67 bilhões, um saldo histórico para o País. Os dados também revelam o primeiro crescimento das exportações do Brasil em cinco anos e das importações em três.</p>
+                            <p class="eye-text">Se comparado com o ano anterior, o resultado é ainda mais expressivo: 40,5% superior ao alcançado em 2016 (US$ 47,683 bilhões).</p>
+                            <p class="simple-text">Produtos como minério de ferro, soja e petróleo bruto foram destaques pelo crescimento no volume ou valor exportado. Em 2018, dados do primeiro trimestre mostram continuidade no crescimento, com saldo comercial positivo de US$ 13,9 bilhões. A expectativa do governo é que este seja o segundo ano consecutivo de crescimento do comércio.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Industria, Comércio Exterior e Serviços</p>
+                            </p>
+                            <p class="infos">
+                                <img src="images/infos/[Info]-2_anos_materia-9.png">
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="picture-item alternate center" data-groups='["todos"]'>
-                    <img id="video2" class="play-button2" src="images/play-white.png">
+
+
+                <!--19- Matéria 19 Agro-->
+
+                <div id="brasil-tem-safra-recorde" class="picture-item square" tabindex="0" data-groups='["economia"]'>
+                    <div class="type_two_alt type">
+                        <div class="float-title-alt float-title-one">
+                            Brasil tem <strong>safras recordes</strong> e mais exportação
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/19-brasil-exportacao.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                             images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                    </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                             images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                             images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                    </button>
+                                </div>
+                            </div>
+                            <p>
+                            <h2 class="materia-title">Brasil tem safra recorde de 238 milhões de toneladas de grãos e aumenta exportações em 2017</h2>
+
+                            <p class="simple-text">Em 2017, a safra recorde de 238 milhões de toneladas de grãos, especialmente de milho e de soja, ajudou a derrubar a inflação a patamares inéditos e contribuiu também para encerrar o período de recessão vivido no País. Foi a maior produção registrada na série histórica do Instituto Brasileiro de Geografia e Estatística (IBGE), iniciada em 1996</p>
+                            <p class="eye-text">Em 2018, a tendência de grandes colheitas deve se repetir e atingir 229,5 milhões de toneladas, sendo a segunda maior da história.</p>
+                            <p class="simple-text">Os números do campo também refletem nos resultados positivos da balança comercial do Brasil. As exportações do agronegócio representaram 44,1% do total, contribuindo para o saldo de US$ 67 bilhões na balança comercial.</p>
+                            <p class="smaller-title-text">Fontes: Conab,  IBGE e Mapa</p>
+                            </p>
+                            <p class="infos">
+                                <img src="images/infos/[Banner]-2_anos_materia_19.jpg">
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
-                <!--FIM PUBLICAÇÃO-->
 
-               <!-- Matéria 36 saude-->
+                <div class="picture-item alternate" data-groups='["todos"]'>
+                    <img class="play-button" src="images/thumb/video02.jpg">
+                </div>
 
-                    <div id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" class="picture-item square" tabindex="0" data-groups='["saude"]'>
-                        <div class="type_two type">
-                            <div class="float-title float-title-two">
+
+       <!-- FIM PRIMEIRA LEVA -->
+
+       <!--INICIO SEGUNDA LEVA-->
+
+       <!-- 21-Matéria 36 saude-->
+
+                    <div id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" class="picture-item square-two-columns" tabindex="0" data-groups='["saude"]'>
+                        <div class="type_four_alt type">
+                            <div class="float-title-alt float-title-two-collumns">
                                <strong>SAMU 192</strong> tem 65% da sua frota renovada em dois anos
                             </div>
+                                  <div class="thumb">
+                                    <img src="images/thumb/21-samu.png">
+                                </div>
+  
                             <div class="content">
                             <div class="materia-header">
                             <div class="button-close">
@@ -1201,63 +1246,67 @@
                         </div>
                     </div>
 
-                    <!-- Matéria 37 saude-->
-
-                    <div id="decreto-assegura-transporte-de-orgaos-pela-fab" class="picture-item square" tabindex="0" data-groups='["saude"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                                Decreto assegura <strong>transporte de órgãos pela FAB</strong>
-                            </div>
-                                <div class="content">
-                                    <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
+                <!--22 Matéria 33 saude-->
+                <div id="numero-de-consultas-nas-ubs" class="picture-item square-two-columns" tabindex="0" data-groups='["saude"]'>
+                    <div class="type_five_alt type">
+                        <div class="float-title-alt float-title-two-collumns">
+                            UBS:  <strong>gestão eficiente</strong> leva saúde para quem precisa
+                        </div>
+                        <div class="thumb">
+                            <img src="images/thumb/22-ubs-gestao-eficiente.png">
+                        </div>
+                        <div class="content">
+                            <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
                                              srcset="images/ic-fechar@2x.png 2x,
                                                      images/ic-fechar@3x.png 3x"
                                              class="button-close">
-                                         </button>
-                                    </div>
+                                    </button>
+                                </div>
 
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
                                              srcset="images/ic-facebook@2x.png 2x,
                                                      images/ic-facebook@3x.png 3x"
                                              class="buttons-share">
-                                        </button>
+                                    </button>
 
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
+                                    <button class="button-oval twitter">
+                                        <img src="images/ic-twitter.png"
                                              srcset="images/ic-twitter@2x.png 2x,
                                                      images/ic-twitter@3x.png 3x"
                                              class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                    <p>
-                                    <h2 class="materia-title">Com avião de prontidão, FAB assegura transporte de 476 órgãos para transplante</h2>
-
-                                    <p class="simple-text">A assinatura de um decreto pelo presidente da República, Michel Temer, em junho de 2016 significou a chance de uma nova vida para centenas de pessoas após a Força Aérea Brasileira deixar uma aeronave de prontidão para o transporte de órgãos para transplantes. Nestes quase dois anos, foram 476 órgãos em suas aeronaves.</p>
-                                    <p class="eye-text">Somente nos primeiros meses de 2018, foram 29 fígados, 25 corações, cinco pulmões, três rins e um pâncreas que chegaram a tempo para operações vitais.</p>
-                                    <p class="simple-text">A Força Aérea é acionada quando não há voos comerciais para atender a uma emergência e garante, assim, que a doação chegue a tempo ao paciente que está à espera. </p>
-                                    <p class="smaller-title-text">Fonte: Força Aérea Brasileira, Ministério da Saúde e Planalto</p>
-                                    </p>
-                                    <p class="infos">
-                                        <img src="images/infos/[banner]-2_anos_materia-37-01.jpg">
-                                    </p>
+                                    </button>
                                 </div>
                             </div>
+                            <p>
+                            <h2 class="materia-title">Número de consultas nas UBS cresce 230% em 2017</h2>
+
+                            <p class="simple-text">A gestão mais eficiente e os investimentos constantes do Governo do Brasil motivaram um crescimento de 230% no número de consultas nas unidades básicas de Saúde (UBS) do País, na comparação entre 2016 e 2017.</p>
+                            <p class="eye-text">Foram 649 milhões de atendimentos no último ano, contra 196,3 milhões em 2016.</p>
+                            <p class="simple-text">Atualmente, 70% da população brasileira recebe cobertura da atenção básica, com 41.668 UBS funcionando e atuação de 264.188 agentes comunitários de saúde e 41.991 equipes de saúde da família.</p>
+                            <p class="smaller-title-text">Fonte: Ministério da Saúde</p>
+                            </p>
                         </div>
-                    <!-- Matéria 38 saude-->
+                    </div>
+                </div>
+
+
+                    <!-- 23-Matéria 38 saude-->
 
                     <div id="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" class="picture-item square" tabindex="0" data-groups='["saude"]'>
                         <div class="type_one type">
-                            <div class="float-title float-title-one">
+                            <div class="float-title float-title-three">
                                 Casos de dengue, zika e chicungunya <strong>são reduzidos</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/23-casos-dengue.png">
+                                </div>
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1302,13 +1351,18 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 42 saude-->
+
+                   <!-- 24-Matéria 42 saude-->
 
                     <div id="cobertura-dos-planos-de-saude-e-ampliada" class="picture-item square" tabindex="0" data-groups='["saude"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                        <div class="type_two_alt type">
+                            <div class="float-title-alt float-title-three">
                                 Cobertura dos planos de saúde <strong>é ampliada</strong>
                             </div>
+                                   <div class="thumb">
+                                    <img src="images/thumb/24-cobertura-planos-de-saude.png">
+                                </div>
+ 
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1350,13 +1404,72 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 43 saude-->
+ 
+                    <!-- 25-Matéria 37 saude-->
 
-                    <div id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" class="picture-item square" tabindex="0" data-groups='["saude"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                    <div id="decreto-assegura-transporte-de-orgaos-pela-fab" class="picture-item square" tabindex="0" data-groups='["saude"]'>
+                        <div class="type_eigth-alt type">
+                            <div class="float-title-alt float-title-three">
+                                Decreto assegura <strong>transporte de órgãos pela FAB</strong>
+                            </div>
+                                    <div class="thumb">
+                                    <img src="images/thumb/25-transporte-fab.png">
+                                    </div>
+                                <div class="content">
+                                    <div class="materia-header">
+                                    <div class="button-close">
+                                        <button class="button-oval">
+                                            <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                     images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                         </button>
+                                    </div>
+
+                                    <div class="buttons-oval">
+                                        <span class="title-share">COMPARTILHAR</span>
+                                        <!--TODO: colocar ícones das redes-->
+                                        <button class="button-facebook">
+                                            <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                     images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                        </button>
+
+                                        <button class="button-oval twitter"> 
+                                            <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                     images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                         </button>
+                                    </div>
+                                    </div>
+                                    <p>
+                                    <h2 class="materia-title">Com avião de prontidão, FAB assegura transporte de 476 órgãos para transplante</h2>
+
+                                    <p class="simple-text">A assinatura de um decreto pelo presidente da República, Michel Temer, em junho de 2016 significou a chance de uma nova vida para centenas de pessoas após a Força Aérea Brasileira deixar uma aeronave de prontidão para o transporte de órgãos para transplantes. Nestes quase dois anos, foram 476 órgãos em suas aeronaves.</p>
+                                    <p class="eye-text">Somente nos primeiros meses de 2018, foram 29 fígados, 25 corações, cinco pulmões, três rins e um pâncreas que chegaram a tempo para operações vitais.</p>
+                                    <p class="simple-text">A Força Aérea é acionada quando não há voos comerciais para atender a uma emergência e garante, assim, que a doação chegue a tempo ao paciente que está à espera. </p>
+                                    <p class="smaller-title-text">Fonte: Força Aérea Brasileira, Ministério da Saúde e Planalto</p>
+                                    </p>
+                                    <p class="infos">
+                                        <img src="images/infos/[banner]-2_anos_materia-37-01.jpg">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!--26- Matéria 43 saude-->
+
+                    <div id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" class="picture-item square-two-rows" tabindex="0" data-groups='["saude"]'>
+                        <div class="type_seven_alt type">
+                            <div class="float-title-alt float-title-three">
                                 Compra de medicamentos tem <strong>reforço de R$ 80 milhões</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/26-compra-medicamentos.png">
+                                </div>
+
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1397,13 +1510,72 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 46 gestão-->
+
+                    <!-- 27-Matéria 56 social-->
+
+                    <div id="cartao-reforma-r-685-milhoes-para-renovar-moradias" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["social"]'>
+                        <div class="type_three_alt type">
+                            <div class="float-title-alt float-title-one">
+                                Cartão Reforma: R$ 685 milhões para <strong>renovar moradias</strong>
+                            </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/27-cartao-reforma.png">
+                                </div>
+                            <div class="content">
+                                <div class="materia-header">
+                                <div class="button-close">
+                                    <button class="button-oval">
+                                        <img src="images/ic-fechar.png"
+                                         srcset="images/ic-fechar@2x.png 2x,
+                                                 images/ic-fechar@3x.png 3x"
+                                         class="button-close">
+                                     </button>
+                                </div>
+
+                                <div class="buttons-oval">
+                                    <span class="title-share">COMPARTILHAR</span>
+                                    <!--TODO: colocar ícones das redes-->
+                                    <button class="button-facebook">
+                                        <img src="images/ic-facebook.png"
+                                         srcset="images/ic-facebook@2x.png 2x,
+                                                 images/ic-facebook@3x.png 3x"
+                                         class="buttons-share">
+                                    </button>
+
+                                    <button class="button-oval twitter"> 
+                                        <img src="images/ic-twitter.png"
+                                         srcset="images/ic-twitter@2x.png 2x,
+                                                 images/ic-twitter@3x.png 3x"
+                                         class="buttons-share">
+                                     </button>
+                                </div>
+                            </div>
+                                <p>
+                                <h2 class="materia-title">Cartão Reforma: Governo do Brasil investe R$ 685,5 para auxiliar brasileiros a renovar suas casas</h2>
+
+                                <p class="simple-text">Em 2018, o Cartão Reforma irá beneficiar as famílias de todo o País com subsídio de até R$ 685,5 milhões.</p>
+                                <p class="eye-text">Com o incentivo, o Governo do Brasil proporciona melhores condições de moradia para as famílias de baixa renda e dá mais dignidade aos brasileiros.</p>
+                                <p class="simple-text">Poderão ser realizadas reformas, expansão ou conclusão dos lares em bairros selecionados pelas prefeituras. O intuito é que sejam feitas melhorias necessárias para que a habitação tenha mais conforto e segurança, podendo incluir esgotamento sanitário e banheiro exclusivo.</p>
+                                <p class="simple-text">As famílias cadastradas poderão receber de R$ 2 mil a R$ 9 mil para compra de materiais de construção em lojas credenciadas pelo programa. Dessa forma, elas ficarão responsáveis apenas pelos gastos com mão de obra e ferramentas.</p>
+                                <p class="smaller-title-text">Fonte: Ministério das Cidades, Cartão Reforma</p>
+                                </p>
+                                <p class="infos">
+                                    <img src="images/infos/[banner]-2_anos_materia-56-01.jpg">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 28-Matéria 46 gestão-->
 
                     <div id="gestao-eficiente-gera-economia-para-a-populacao" class="picture-item square" tabindex="0" data-groups='["gestao"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                        <div class="type_one_alt type">
+                            <div class="float-title-alt float-title-one">
                                 Gestão eficiente gera <strong>economia para a população</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/28-gestao-eficiente.png">
+                                </div>
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1450,13 +1622,18 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 52 social-->
+
+                    <!-- 30-Matéria 52 social-->
 
                     <div id="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" class="picture-item square" tabindex="0" data-groups='["social"]'>
-                        <div class="type_one type">
+                        <div class="type_six type">
                             <div class="float-title float-title-one">
                                 Bolsa família tem aumento no benefício e <strong>fila zerada</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/30-bolsa-familia.png">
+                                </div>
+
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1501,64 +1678,17 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 56 social-->
 
-                    <div id="cartao-reforma-r-685-milhoes-para-renovar-moradias" class="picture-item square" tabindex="0" data-groups='["social"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                                Cartão Reforma: R$ 685 milhões para <strong>renovar moradias</strong>
-                            </div>
-                            <div class="content">
-                                <div class="materia-header">
-                                <div class="button-close">
-                                    <button class="button-oval">
-                                        <img src="images/ic-fechar.png"
-                                         srcset="images/ic-fechar@2x.png 2x,
-                                                 images/ic-fechar@3x.png 3x"
-                                         class="button-close">
-                                     </button>
-                                </div>
+                    <!--31- Matéria 57 social-->
 
-                                <div class="buttons-oval">
-                                    <span class="title-share">COMPARTILHAR</span>
-                                    <!--TODO: colocar ícones das redes-->
-                                    <button class="button-facebook">
-                                        <img src="images/ic-facebook.png"
-                                         srcset="images/ic-facebook@2x.png 2x,
-                                                 images/ic-facebook@3x.png 3x"
-                                         class="buttons-share">
-                                    </button>
-
-                                    <button class="button-oval twitter"> 
-                                        <img src="images/ic-twitter.png"
-                                         srcset="images/ic-twitter@2x.png 2x,
-                                                 images/ic-twitter@3x.png 3x"
-                                         class="buttons-share">
-                                     </button>
-                                </div>
-                            </div>
-                                <p>
-                                <h2 class="materia-title">Cartão Reforma: Governo do Brasil investe R$ 685,5 para auxiliar brasileiros a renovar suas casas</h2>
-
-                                <p class="simple-text">Em 2018, o Cartão Reforma irá beneficiar as famílias de todo o País com subsídio de até R$ 685,5 milhões.</p>
-                                <p class="eye-text">Com o incentivo, o Governo do Brasil proporciona melhores condições de moradia para as famílias de baixa renda e dá mais dignidade aos brasileiros.</p>
-                                <p class="simple-text">Poderão ser realizadas reformas, expansão ou conclusão dos lares em bairros selecionados pelas prefeituras. O intuito é que sejam feitas melhorias necessárias para que a habitação tenha mais conforto e segurança, podendo incluir esgotamento sanitário e banheiro exclusivo.</p>
-                                <p class="simple-text">As famílias cadastradas poderão receber de R$ 2 mil a R$ 9 mil para compra de materiais de construção em lojas credenciadas pelo programa. Dessa forma, elas ficarão responsáveis apenas pelos gastos com mão de obra e ferramentas.</p>
-                                <p class="smaller-title-text">Fonte: Ministério das Cidades, Cartão Reforma</p>
-                                </p>
-                                <p class="infos">
-                                    <img src="images/infos/[banner]-2_anos_materia-56-01.jpg">
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Matéria 57 social-->
-
-                    <div id="minha-Casa-minha-vida-793-mil-unidades-em-20-meses" class="picture-item square" tabindex="0" data-groups='["social"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                    <div id="minha-Casa-minha-vida-793-mil-unidades-em-20-meses" class="picture-item square-two-columns" tabindex="0" data-groups='["social"]'>
+                        <div class="type_four_alt type">
+                            <div class="float-title-alt float-title-two-collumns">
                                 Minha Casa Minha Vida: <strong>793 mil unidades em 20 meses</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/31-minha-casa-minha-vida.png">
+                                </div>
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1602,13 +1732,16 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 59 social-->
 
-                    <div id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" class="picture-item square" tabindex="0" data-groups='["social"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                    <!-- 32-Matéria 59 social-->
+                    <div id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" class="picture-item square-two-columns" tabindex="0" data-groups='["social"]'>
+                        <div class="type_five type">
+                            <div class="float-title float-title-two-collumns">
                                 Recorde na emissão de títulos de <strong>propriedade em 2017</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/32-titulos-propriedades.png">
+                                </div>                       
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1649,14 +1782,17 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 60 social-->
+
+                    <!--33- Matéria 60 social-->
 
                     <div id="entrega-recorde-de-titulos-da-reforma-agraria" class="picture-item square" tabindex="0" data-groups='["social"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                        <div class="type_one_alt type">
+                            <div class="float-title-alt float-title-one">
                                 Entrega <strong>recorde de títulos</strong> da reforma agrária
                             </div>
-
+                                <div class="thumb">
+                                    <img src="images/thumb/33-reforma-agraria.png">
+                                </div>  
                             <div class="content">
                                 <div class="materia-header">
                                 <div class="button-close">
@@ -1697,14 +1833,17 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 64 segurança e defesa-->
+
+                    <!--34- Matéria 64 segurança e defesa-->
 
                     <div id="rio-mais-seguro-com-intervencao-federal" class="picture-item square" tabindex="0" data-groups='["seguranca-e-defesa"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                        <div class="type_two_alt type">
+                            <div class="float-title-alt float-title-one">
                                 <strong>Rio mais seguro</strong> com intervenção federal
                             </div>
-
+                                <div class="thumb">
+                                    <img src="images/thumb/34-rio-seguro.png">
+                                </div>  
                             <div class="content">
                                 <div class="materia-header">
                                     <div class="button-close">
@@ -1746,13 +1885,16 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Matéria 65 segurança e defesa-->
 
+                    <!--35 Matéria 65 segurança e defesa-->
                     <div id="governo-reforca-operacoes-na-faixa-de-fronteira" class="picture-item square" tabindex="0" data-groups='["seguranca-e-defesa"]'>
-                        <div class="type_one type">
+                        <div class="type_eight type">
                             <div class="float-title float-title-one">
                                 <strong>Governo reforça operações</strong> na faixa de fronteira
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/35-governo-reforca.png">
+                                </div> 
                             <div class="content">
                                 <div class="materia-header">
                                     <div class="button-close">
@@ -1795,158 +1937,15 @@
                         </div>
                     </div>
 
-                    <!-- Matéria 66 segurança e defesa-->
-
-                    <div id="pf-bate-recorde-historico-de-apreensao-de-drogas" class="picture-item square" tabindex="0" data-groups='["seguranca-e-defesa"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                               <strong>PF bate recorde</strong> histórico de apreensão de drogas
-                            </div>
-                            <div class="content">
-                                <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                <p>
-                                <h2 class="materia-title">Polícia Federal apreende 44,7 toneladas de cocaína e 313 de maconha e bate recorde histórico</h2>
-
-                                <p class="simple-text">A Polícia Federal bateu seu recorde histórico de apreensões de cocaína e maconha em 2017. Com operações das Delegacias de Repressão a Entorpecentes e do Grupo Especial de Investigações Sensíveis (Gise), a PF tirou de circulação 44,7 toneladas de cocaína e 313 toneladas de maconha.</p>
-                                <p class="eye-text">O valor de bens apreendidos também é recorde: R$ 591,4 milhões. Antes, a maior cifra era de 2014, com R$ 323 milhões. A polícia rastreou, e a Justiça apreendeu mais de R$ 665 milhões em bens e em dinheiro do tráfico, quase o triplo do que em 2016.</p>
-                                <p class="simple-text">Nas rodovias federais, entre julho de 2017 e abril de 2018, foram 14 mil pessoas presas, 205 toneladas de maconha e seis toneladas de cocaína e crack apreendidas, além de 1 mil armas de fogo e 192 mil munições. Também foram recuperados 3.200 mil carros roubados/furtados/usados em outros crimes.</p>
-                                <p class="smaller-title-text">Fonte: Polícia Federal</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Matéria 69 infraestrutura-->
-
-                    <div id="agora-e-avancar-alavanca-crescimento-no-brasil" class="picture-item square" tabindex="0" data-groups='["infraestrutura"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                                Agora, é Avançar <strong>alavanca crescimento no Brasil</strong>
-                            </div>
-                            <div class="content">
-                                <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                <p>
-                                <h2 class="materia-title">Programa Agora, é Avançar investe R$ 130 bilhões na retomada de mais de 7 mil projetos</h2>
-
-                                <p class="simple-text">Com o programa Agora, é Avançar, o Governo do Brasil retoma obras em todo o País que estavam paradas e abandonadas, investindo mais de R$ 130 bilhões em mais de 7 mil projetos.</p>
-                                <p class="eye-text">A retomada significa para os brasileiros mais transporte, saneamento, creches, unidades básica de saúde, entre tantos outros empreendimentos.</p>
-                                <p class="simple-text">O programa fomenta a captação de investimentos para o País e atua como incentivador da geração de empregos. Nos primeiros meses, entre maio e dezembro de 2017, cerca de 20% das obras já estavam concluídas, e 45,5% das que estão em andamento contavam com mais de  80% de execução. Ao final de 2018, todas estarão concluídas.</p>
-                                <p class="simple-text">Pelo Avançar Parcerias, 70 empreendimentos foram concedidos à iniciativa privada, melhorando a prestação de serviços à sociedade. A 15ª rodada de concessões do setor de óleo e gás, realizada em março, arrecadou R$ 8 bilhões, valor que ultrapassou a expectativa otimista de arrecadação, de R$ 3,55 bilhões.</p>
-                                <p class="smaller-title-text">Fonte: Planalto, Ministério do Planejamento e Ministério das Cidades</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Matéria 71 infraestrutura-->
-
-                    <div id="integracao-do-sao-francisco-mais-vida-no-nordeste" class="picture-item square" tabindex="0" data-groups='["infraestrutura"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                                Integração do São Francisco: <strong>mais vida no Nordeste</strong>
-                            </div>
-                            <div class="content">
-                                <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                <p>
-                                <h2 class="materia-title">Integração do rio São Francisco já traz melhorias e gera milhares de empregos</h2>
-
-                                <p class="simple-text">Com a retomada da obra de integração do rio São Francisco, as águas começaram a fluir pelos canais concluídos em 33 cidades da Paraíba e Pernambuco em março do ano passado. Desde então, um milhão de residências passaram a ser abastecidas. Moradores usam o recurso para consumo, plantio e criação de animais, recebendo mais qualidade de vida e gerando recursos econômicos.</p>
-                                <p class="eye-text">Em 2018, já são 297 quilômetros de canais e adutoras em operação, sendo 217 quilômetros no Eixo Leste. Com a empreitada que segue, 5,6 mil moradores da região estão contratados na construção dos canais, melhorando a economia. </p>
-                                <p class="simple-text">A geração de empregos também aconteceu com a inauguração em março dos 42 km de canal do Eixo Norte do Projeto Público de Irrigação Baixio de Irecê, na Bahia. A irrigação das terras cria 25 mil empregos diretos e indiretos e favorece lavouras de algodão, cana-de-açúcar, frutas e legumes, beneficiando inúmeras famílias. </p>
-                                <p class="simple-text">Parte do programa Agora, é Avançar, a obra está 96,5% concluída. Quando estiver pronta, vai abastecer 23 açudes nordestinos, cujas capacidades estavam comprometidas pela seca prolongada. A expectativa é que até 12 milhões de pessoas sejam beneficiadas. O Governo do Brasil investiu R$ 550 milhões no projeto.</p>
-                                <p class="smaller-title-text">Fonte Planalto e Codevasf</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Matéria 74 meio ambiente-->
-
-                    <div id="quase-duas-francas-de-unidades-de-conservacao-criadas" class="picture-item square" tabindex="0" data-groups='["meio-ambiente"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                    <!-- 36- Matéria 74 meio ambiente-->
+                    <div id="quase-duas-francas-de-unidades-de-conservacao-criadas" class="picture-item square-two-rows" tabindex="0" data-groups='["meio-ambiente"]'>
+                        <div class="type_seven_alt type">
+                            <div class="float-title-alt float-title-one">
                                 Quase duas Franças de Unidades de <strong>Conservação criadas</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/36-unidades-conservacao.png">
+                                </div> 
                             <div class="content">
                                 <div class="materia-header">
                                     <div class="button-close">
@@ -1990,60 +1989,16 @@
                         </div>
                     </div>
 
-                    <!-- Matéria 75 meio-ambiente-->
+                    <!--37- Matéria 86 cultura-->
 
-                    <div id="multas-ambientais-viram-investimento" class="picture-item square" tabindex="0" data-groups='["meio-ambiente"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
-                                Multas ambientais <strong>viram investimento</strong>
-                            </div>
-                            <div class="content">
-                                <div class="materia-header">
-                                    <div class="button-close">
-                                        <button class="button-oval">
-                                            <img src="images/ic-fechar.png"
-                                             srcset="images/ic-fechar@2x.png 2x,
-                                                     images/ic-fechar@3x.png 3x"
-                                             class="button-close">
-                                         </button>
-                                    </div>
-
-                                    <div class="buttons-oval">
-                                        <span class="title-share">COMPARTILHAR</span>
-                                        <!--TODO: colocar ícones das redes-->
-                                        <button class="button-facebook">
-                                            <img src="images/ic-facebook.png"
-                                             srcset="images/ic-facebook@2x.png 2x,
-                                                     images/ic-facebook@3x.png 3x"
-                                             class="buttons-share">
-                                        </button>
-
-                                        <button class="button-oval twitter"> 
-                                            <img src="images/ic-twitter.png"
-                                             srcset="images/ic-twitter@2x.png 2x,
-                                                     images/ic-twitter@3x.png 3x"
-                                             class="buttons-share">
-                                         </button>
-                                    </div>
-                                    </div>
-                                <p>
-                                <h2 class="materia-title">Meio ambiente brasileiro pode ter até R$ 4,6 bi em projetos de recuperação</h2>
-
-                                <p class="simple-text">Duas iniciativas inéditas do Governo do Brasil vão permitir o uso de multas ambientais em projetos de recuperação de áreas degradadas. No total, cerca de R$ 4,6 bilhões poderão ser destinados a ações em áreas desmatadas e também nas bacias dos rios São Francisco e Parnaíba, fundamentais para o abastecimento de água no semiárido nordestino.</p>
-                                <p class="simple-text">Pelos decretos assinados pelo presidente da República, Michel Temer, as multas podem ser convertidas em prestação de serviços de preservação, melhoria e recuperação do meio ambiente. Independentemente da conversão, o reparo da área danificada continua sendo uma obrigação do infrator.</p>
-                                <p class="smaller-title-text">Fonte: IBAMA</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Matéria 86 cultura-->
-
-                    <div id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" class="picture-item square" tabindex="0" data-groups='["cultura"]'>
-                        <div class="type_one type">
-                            <div class="float-title float-title-one">
+                    <div id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" class="picture-item square-two-rows-and-columns" tabindex="0" data-groups='["cultura"]'>
+                        <div class="type_three_alt type">
+                            <div class="float-title-alt float-title-one">
                                 <strong>ID Jovem amplia acesso à cultura</strong> de 500 mil jovens
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/37-jovem-id.png">
+                                </div> 
                             <div class="content">
                                 <div class="materia-header">
                                     <div class="button-close">
@@ -2090,13 +2045,16 @@
                         </div>
                     </div>
 
-                    <!-- Matéria 89 turismo-->
+                    <!--38- Matéria 71 infraestrutura-->
 
-                    <div id="brasil+Turismo-empregos-e-dinamismo-para-o-setor" class="picture-item square" tabindex="0" data-groups='["turismo"]'>
-                        <div class="type_one type">
+                    <div id="integracao-do-sao-francisco-mais-vida-no-nordeste" class="picture-item square" tabindex="0" data-groups='["infraestrutura"]'>
+                        <div class="type_two type">
                             <div class="float-title float-title-one">
-                                Brasil + Turismo: <strong>empregos e dinamismo para o setor</strong>
+                                Integração do São Francisco: <strong>mais vida no Nordeste</strong>
                             </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/38-integracao-rio-sao-francisco.png">
+                                </div> 
                             <div class="content">
                                 <div class="materia-header">
                                     <div class="button-close">
@@ -2127,20 +2085,126 @@
                                     </div>
                                     </div>
                                 <p>
-                                <h2 class="materia-title">Plano Brasil +Turismo visa atrair 12 milhões de estrangeiros por ano até 2022</h2>
+                                <h2 class="materia-title">Integração do rio São Francisco já traz melhorias e gera milhares de empregos</h2>
 
-                                <p class="simple-text">Lançado para consolidar o turismo como atividade econômica capaz de gerar emprego, renda e movimentar a economia, o Plano Brasil +Turismo tem como uma de suas metas ampliar a entrada de turistas estrangeiros no País, passando de 6,6 milhões para 12 milhões em 2022. Com essa ação, a receita cambial do turismo seria elevada de US$ 6 bilhões para US$ 19 bilhões.</p>
-                                <p class="eye-text"></p>
-                                <p class="simple-text">Outras metas também incluem abertura de capital de empresas aéreas, modernização do modelo de gestão da Embratur e emissão de vistos eletrônicos para países estratégicos, que já está disponível desde janeiro para viajantes do Canadá, Estados Unidos, Austrália e Japão</p>
-                                <p class="simple-text">O incremento do turismo nacional também é visado pelo plano. O intuito é mobilizar 40 milhões de brasileiros e somar 100 milhões de viajantes internos pelo País, ajudando os desenvolvimentos econômico e social dos destinos locais.</p>
-                                <p class="smaller-title-text">Fonte: Ministério do Turismo, Brasil +Turismo</p>
+                                <p class="simple-text">Com a retomada da obra de integração do rio São Francisco, as águas começaram a fluir pelos canais concluídos em 33 cidades da Paraíba e Pernambuco em março do ano passado. Desde então, um milhão de residências passaram a ser abastecidas. Moradores usam o recurso para consumo, plantio e criação de animais, recebendo mais qualidade de vida e gerando recursos econômicos.</p>
+                                <p class="eye-text">Em 2018, já são 297 quilômetros de canais e adutoras em operação, sendo 217 quilômetros no Eixo Leste. Com a empreitada que segue, 5,6 mil moradores da região estão contratados na construção dos canais, melhorando a economia. </p>
+                                <p class="simple-text">A geração de empregos também aconteceu com a inauguração em março dos 42 km de canal do Eixo Norte do Projeto Público de Irrigação Baixio de Irecê, na Bahia. A irrigação das terras cria 25 mil empregos diretos e indiretos e favorece lavouras de algodão, cana-de-açúcar, frutas e legumes, beneficiando inúmeras famílias. </p>
+                                <p class="simple-text">Parte do programa Agora, é Avançar, a obra está 96,5% concluída. Quando estiver pronta, vai abastecer 23 açudes nordestinos, cujas capacidades estavam comprometidas pela seca prolongada. A expectativa é que até 12 milhões de pessoas sejam beneficiadas. O Governo do Brasil investiu R$ 550 milhões no projeto.</p>
+                                <p class="smaller-title-text">Fonte Planalto e Codevasf</p>
                                 </p>
-                                    <p class="infos">
-                                        <img src="images/infos/[Info]-2_anos_materia-89-01.jpg">
-                                    </p>
                             </div>
                         </div>
                     </div>
+
+
+                    <!-- 39 - Matéria 75 meio-ambiente-->
+
+                    <div id="multas-ambientais-viram-investimento" class="picture-item square" tabindex="0" data-groups='["meio-ambiente"]'>
+                        <div class="type_two_alt type">
+                            <div class="float-title-alt float-title-one">
+                                Multas ambientais <strong>viram investimento</strong>
+                            </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/39-multas-ambientais.png">
+                                </div> 
+                            <div class="content">
+                                <div class="materia-header">
+                                    <div class="button-close">
+                                        <button class="button-oval">
+                                            <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                     images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                         </button>
+                                    </div>
+
+                                    <div class="buttons-oval">
+                                        <span class="title-share">COMPARTILHAR</span>
+                                        <!--TODO: colocar ícones das redes-->
+                                        <button class="button-facebook">
+                                            <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                     images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                        </button>
+
+                                        <button class="button-oval twitter"> 
+                                            <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                     images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                         </button>
+                                    </div>
+                                    </div>
+                                <p>
+                                <h2 class="materia-title">Meio ambiente brasileiro pode ter até R$ 4,6 bi em projetos de recuperação</h2>
+
+                                <p class="simple-text">Duas iniciativas inéditas do Governo do Brasil vão permitir o uso de multas ambientais em projetos de recuperação de áreas degradadas. No total, cerca de R$ 4,6 bilhões poderão ser destinados a ações em áreas desmatadas e também nas bacias dos rios São Francisco e Parnaíba, fundamentais para o abastecimento de água no semiárido nordestino.</p>
+                                <p class="simple-text">Pelos decretos assinados pelo presidente da República, Michel Temer, as multas podem ser convertidas em prestação de serviços de preservação, melhoria e recuperação do meio ambiente. Independentemente da conversão, o reparo da área danificada continua sendo uma obrigação do infrator.</p>
+                                <p class="smaller-title-text">Fonte: IBAMA</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Matéria 40- 66 segurança e defesa-->
+
+                    <div id="pf-bate-recorde-historico-de-apreensao-de-drogas" class="picture-item square" tabindex="0" data-groups='["seguranca-e-defesa"]'>
+                        <div class="type_six_alt type">
+                            <div class="float-title-alt float-title-one">
+                               <strong>PF bate recorde</strong> histórico de apreensão de drogas
+                            </div>
+                                <div class="thumb">
+                                    <img src="images/thumb/40-PF-apreensao-drogas.png">
+                                </div> 
+                            <div class="content">
+                                <div class="materia-header">
+                                    <div class="button-close">
+                                        <button class="button-oval">
+                                            <img src="images/ic-fechar.png"
+                                             srcset="images/ic-fechar@2x.png 2x,
+                                                     images/ic-fechar@3x.png 3x"
+                                             class="button-close">
+                                         </button>
+                                    </div>
+
+                                    <div class="buttons-oval">
+                                        <span class="title-share">COMPARTILHAR</span>
+                                        <!--TODO: colocar ícones das redes-->
+                                        <button class="button-facebook">
+                                            <img src="images/ic-facebook.png"
+                                             srcset="images/ic-facebook@2x.png 2x,
+                                                     images/ic-facebook@3x.png 3x"
+                                             class="buttons-share">
+                                        </button>
+
+                                        <button class="button-oval twitter"> 
+                                            <img src="images/ic-twitter.png"
+                                             srcset="images/ic-twitter@2x.png 2x,
+                                                     images/ic-twitter@3x.png 3x"
+                                             class="buttons-share">
+                                         </button>
+                                    </div>
+                                    </div>
+                                <p>
+                                <h2 class="materia-title">Polícia Federal apreende 44,7 toneladas de cocaína e 313 de maconha e bate recorde histórico</h2>
+
+                                <p class="simple-text">A Polícia Federal bateu seu recorde histórico de apreensões de cocaína e maconha em 2017. Com operações das Delegacias de Repressão a Entorpecentes e do Grupo Especial de Investigações Sensíveis (Gise), a PF tirou de circulação 44,7 toneladas de cocaína e 313 toneladas de maconha.</p>
+                                <p class="eye-text">O valor de bens apreendidos também é recorde: R$ 591,4 milhões. Antes, a maior cifra era de 2014, com R$ 323 milhões. A polícia rastreou, e a Justiça apreendeu mais de R$ 665 milhões em bens e em dinheiro do tráfico, quase o triplo do que em 2016.</p>
+                                <p class="simple-text">Nas rodovias federais, entre julho de 2017 e abril de 2018, foram 14 mil pessoas presas, 205 toneladas de maconha e seis toneladas de cocaína e crack apreendidas, além de 1 mil armas de fogo e 192 mil munições. Também foram recuperados 3.200 mil carros roubados/furtados/usados em outros crimes.</p>
+                                <p class="smaller-title-text">Fonte: Polícia Federal</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="picture-item alternate center" data-groups='["todos"]'>
+                    <img id="video2" class="play-button2" src="images/play-white.png">
+                </div>
+
+                <!--FIM PUBLICAÇÃO-->
             </div>
         </div>
 
