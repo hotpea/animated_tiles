@@ -84,10 +84,14 @@ window.onload = function() {
 document.getElementById('scroll-to-page').addEventListener('click', function() {
     eventFire(document.getElementById('video-capa', 'click'));
     smoothScroll(todos_shuffle);
+});
 
-    //setTimeout(function () {
-    //    document.getElementById('container').remove();
-    //}, 500);
+document.addEventListener("scroll", function(){
+    if ( window.pageYOffset > 1500){
+        document.getElementById('top-site-text').style.opacity = 0;
+    } else {
+        document.getElementById('top-site-text').style.opacity = 1;
+    }
 });
 
 /**
