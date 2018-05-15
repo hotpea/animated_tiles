@@ -858,8 +858,6 @@ html {
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
-        overflow-x: hidden;
-    }
 
     .float-title {
         font-size: 0.5rem;
