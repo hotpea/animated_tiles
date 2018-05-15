@@ -218,6 +218,10 @@ function mountEventsTiles() {
                     square.getElementsByClassName('float-title')[0].style.opacity = "0";
                 }
 
+                if( square.getElementsByClassName('float-title-alt').length > 0 ) {
+                    square.getElementsByClassName('float-title-alt')[0].style.opacity = "0";
+                }
+
                 if (square.getElementsByClassName('thumb')[0]){
                     square.getElementsByClassName('thumb')[0].style.display = "none";
                 }
@@ -311,6 +315,10 @@ function mountEventsTiles() {
                         setTimeout(function(){
                             if(square.getElementsByClassName('float-title').length > 0) {
                                 square.getElementsByClassName('float-title')[0].style.opacity = "1";
+                            }
+
+                            if(square.getElementsByClassName('float-title-alt').length > 0) {
+                                square.getElementsByClassName('float-title-alt')[0].style.opacity = "1";
                             }
 
                             setTimeout(function() {
