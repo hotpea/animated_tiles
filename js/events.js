@@ -25,7 +25,7 @@ $(document).ready(function() {
         play.fadeOut();
 
         setTimeout(function() {
-            play.parent().append('<iframe class="video-play" frameborder="0" src="https://www.youtube.com/embed/7-tNUur2YoU?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1" allow="autoplay; encrypted-media"></iframe>');
+            play.parent().append('<iframe class="video-play" frameborder="0" src="https://www.youtube.com/embed/gPvptpONfYM?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1" allow="autoplay; encrypted-media"></iframe>');
         }, 400);
     });
 

@@ -344,11 +344,15 @@ function mountTilesHeights() {
         //tiles[t].clientHeight = tiles[t].clientWidth;
 
         if(mobileAndTabletcheck()) {
-            tiles[t].style.height = tiles[t].clientWidth + 'px';
+            if (tiles[t].classList.contains('alternate')) {
+                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+            } else {
+                tiles[t].style.height = tiles[t].clientWidth + 'px';
+            }
         } else {
             if (tiles[t].classList.contains('square-two-rows')) {
                 tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
-            } else if (tiles[t].classList.contains('square-two-columns')) {
+            } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
                 tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
             } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
                 tiles[t].style.height = tiles[t].clientWidth + 'px';
