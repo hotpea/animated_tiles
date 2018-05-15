@@ -308,7 +308,9 @@ function mountEventsTiles() {
                         e.target.parentElement.parentElement.classList.remove('active');
 
                         setTimeout(function(){
-                            square.getElementsByClassName('float-title')[0].style.opacity = "1";
+                            if(square.getElementsByClassName('float-title').length > 0) {
+                                square.getElementsByClassName('float-title')[0].style.opacity = "1";
+                            }
 
                             setTimeout(function() {
                                 if (square.getElementsByClassName('thumb')[0]){

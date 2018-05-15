@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="@media and web style corrections">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/thumb/afogados_thumb.jpg" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="style to youtube video">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/thumb/05-video-entrevista1.png" afterPath="$PROJECT_DIR$/images/thumb/05-video-entrevista1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="animated_tiles.iws" />
@@ -25,24 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17142858">
-              <caret line="568" column="68" selection-start-line="568" selection-start-column="68" selection-end-line="568" selection-end-column="68" />
+            <state vertical-scroll-proportion="-4.137931">
+              <caret line="384" column="85" selection-start-line="384" selection-start-column="85" selection-end-line="384" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="346" column="56" selection-start-line="346" selection-start-column="56" selection-end-line="346" selection-end-column="56" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +43,17 @@
         <entry file="file://$PROJECT_DIR$/js/events.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+              <caret line="27" column="235" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="235" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4855196">
+              <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +62,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2258065">
-              <caret line="380" column="31" selection-start-line="380" selection-start-column="31" selection-end-line="380" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="744" column="12" selection-start-line="744" selection-start-column="12" selection-end-line="744" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -82,10 +84,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/smart.css" />
         <option value="$PROJECT_DIR$/indexToo.html" />
+        <option value="$PROJECT_DIR$/indexWilk.html" />
         <option value="$PROJECT_DIR$/js/events.js" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -125,7 +128,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,8 +193,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,35 +217,25 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="69" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="74" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="174" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="94" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="96" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="100" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="916" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="987" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="74" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="95" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="94" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="100" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="983" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="987" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/animated_tiles-master/animated_tiles-master" />
-    <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Downloads/animated_tiles-master/animated_tiles-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/images/videos" />
-      <recent name="$PROJECT_DIR$/images/thumb" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/thumb" />
     </key>
   </component>
@@ -335,265 +342,13 @@
       <option name="project" value="LOCAL" />
       <updated>1525456848213</updated>
     </task>
-    <task id="LOCAL-00007" summary="resize expanded tile for mobile">
-      <created>1525794263406</created>
+    <task id="LOCAL-00007" summary="videos alterations">
+      <created>1526398963807</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1525794263407</updated>
+      <updated>1526398963807</updated>
     </task>
-    <task id="LOCAL-00008" summary="url anchor and comments in code">
-      <created>1525803135114</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1525803135114</updated>
-    </task>
-    <task id="LOCAL-00009" summary="some refactor">
-      <created>1525803869746</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1525803869746</updated>
-    </task>
-    <task id="LOCAL-00010" summary="refactor style">
-      <created>1525808801698</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1525808801698</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Notice and Styles">
-      <created>1525812781210</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1525812781210</updated>
-    </task>
-    <task id="LOCAL-00012" summary="corrections">
-      <created>1525895003310</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1525895003310</updated>
-    </task>
-    <task id="LOCAL-00013" summary="remove &lt;p&gt;">
-      <created>1525895724890</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1525895724890</updated>
-    </task>
-    <task id="LOCAL-00014" summary="close and social buttons">
-      <created>1525900827662</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1525900827662</updated>
-    </task>
-    <task id="LOCAL-00015" summary="close buttons">
-      <created>1525901536570</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1525901536570</updated>
-    </task>
-    <task id="LOCAL-00016" summary="bugfix resizeall">
-      <created>1525904714809</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1525904714809</updated>
-    </task>
-    <task id="LOCAL-00017" summary="twitter share">
-      <created>1525962405175</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1525962405175</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Play button refactor&#10;">
-      <created>1525962698246</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1525962698246</updated>
-    </task>
-    <task id="LOCAL-00019" summary="hand icon for oval buttons">
-      <created>1525963040325</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1525963040325</updated>
-    </task>
-    <task id="LOCAL-00020" summary="correction in tile upper-size">
-      <created>1525966756171</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1525966756172</updated>
-    </task>
-    <task id="LOCAL-00021" summary="wilkerson alterations">
-      <created>1525976926219</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1525976926219</updated>
-    </task>
-    <task id="LOCAL-00022" summary="corretion infinite footer">
-      <created>1525981616088</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1525981616088</updated>
-    </task>
-    <task id="LOCAL-00023" summary="resize all whem filtering">
-      <created>1525983739862</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1525983739862</updated>
-    </task>
-    <task id="LOCAL-00024" summary="scroll event to roll and corrections">
-      <created>1525985001740</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1525985001740</updated>
-    </task>
-    <task id="LOCAL-00025" summary="resize for h2">
-      <created>1525986799275</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1525986799275</updated>
-    </task>
-    <task id="LOCAL-00026" summary="shuffle links">
-      <created>1525989566432</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1525989566432</updated>
-    </task>
-    <task id="LOCAL-00027" summary="remove fullpage and section">
-      <created>1526050291386</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1526050291386</updated>
-    </task>
-    <task id="LOCAL-00028" summary="url hash to anchor notice">
-      <created>1526053713757</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1526053713757</updated>
-    </task>
-    <task id="LOCAL-00029" summary="style to youtube video">
-      <created>1526061365508</created>
-      <option name="number" value="00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1526061365508</updated>
-    </task>
-    <task id="LOCAL-00030" summary="facebook share">
-      <created>1526062130675</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1526062130675</updated>
-    </task>
-    <task id="LOCAL-00031" summary="anchors links">
-      <created>1526063620072</created>
-      <option name="number" value="00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1526063620072</updated>
-    </task>
-    <task id="LOCAL-00032" summary="javascript height to squares tiles">
-      <created>1526069067955</created>
-      <option name="number" value="00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1526069067955</updated>
-    </task>
-    <task id="LOCAL-00033" summary="corrections">
-      <created>1526080650992</created>
-      <option name="number" value="00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1526080650992</updated>
-    </task>
-    <task id="LOCAL-00034" summary="height 100% thumb img">
-      <created>1526080712603</created>
-      <option name="number" value="00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1526080712603</updated>
-    </task>
-    <task id="LOCAL-00035" summary="last notices">
-      <created>1526081600796</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1526081600796</updated>
-    </task>
-    <task id="LOCAL-00036" summary="versa tag">
-      <created>1526082277791</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1526082277791</updated>
-    </task>
-    <task id="LOCAL-00037" summary="2anos">
-      <created>1526082529381</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1526082529381</updated>
-    </task>
-    <task id="LOCAL-00038" summary="buttons and filters">
-      <created>1526312556372</created>
-      <option name="number" value="00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1526312556372</updated>
-    </task>
-    <task id="LOCAL-00039" summary="facebook URL">
-      <created>1526312785286</created>
-      <option name="number" value="00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1526312785286</updated>
-    </task>
-    <task id="LOCAL-00040" summary="button transparent">
-      <created>1526312873444</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1526312873444</updated>
-    </task>
-    <task id="LOCAL-00041" summary="og:image tag">
-      <created>1526314263556</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1526314263556</updated>
-    </task>
-    <task id="LOCAL-00042" summary="og:image tag">
-      <created>1526316366381</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1526316366381</updated>
-    </task>
-    <task id="LOCAL-00043" summary="icons and styles to second-capa">
-      <created>1526325881554</created>
-      <option name="number" value="00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1526325881554</updated>
-    </task>
-    <task id="LOCAL-00044" summary="mix-blend top-site">
-      <created>1526332949637</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1526332949637</updated>
-    </task>
-    <task id="LOCAL-00045" summary="top and scroll event">
-      <created>1526333964268</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1526333964268</updated>
-    </task>
-    <task id="LOCAL-00046" summary="scroll events">
-      <created>1526335456722</created>
-      <option name="number" value="00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1526335456722</updated>
-    </task>
-    <task id="LOCAL-00047" summary="@media[incomplete]">
-      <created>1526338858844</created>
-      <option name="number" value="00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1526338858844</updated>
-    </task>
-    <task id="LOCAL-00048" summary="@media and web style corrections">
-      <created>1526361295713</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1526361295714</updated>
-    </task>
-    <task id="LOCAL-00049" summary="cursor pointer to tiles and grayscale">
-      <created>1526393914568</created>
-      <option name="number" value="00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1526393914568</updated>
-    </task>
-    <option name="localTasksCounter" value="50" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -602,35 +357,35 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24884437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24884437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -652,46 +407,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="scroll event to roll and corrections" />
-    <MESSAGE value="resize for h2" />
-    <MESSAGE value="shuffle links" />
-    <MESSAGE value="remove fullpage and section" />
-    <MESSAGE value="url hash to anchor notice" />
+    <MESSAGE value="refactor tiles click function" />
+    <MESSAGE value="resize some elements to % of viewport&#10;" />
+    <MESSAGE value="css adjustment&#10;" />
+    <MESSAGE value="adjustment to new proposal&#10;" />
     <MESSAGE value="style to youtube video" />
-    <MESSAGE value="facebook share" />
-    <MESSAGE value="anchors links" />
-    <MESSAGE value="javascript height to squares tiles" />
-    <MESSAGE value="corrections" />
-    <MESSAGE value="height 100% thumb img" />
-    <MESSAGE value="last notices" />
-    <MESSAGE value="versa tag" />
-    <MESSAGE value="2anos" />
-    <MESSAGE value="buttons and filters" />
-    <MESSAGE value="facebook URL" />
-    <MESSAGE value="button transparent" />
-    <MESSAGE value="og:image tag" />
-    <MESSAGE value="icons and styles to second-capa" />
-    <MESSAGE value="mix-blend top-site" />
-    <MESSAGE value="top and scroll event" />
-    <MESSAGE value="scroll events" />
-    <MESSAGE value="@media[incomplete]" />
-    <MESSAGE value="@media and web style corrections" />
-    <MESSAGE value="cursor pointer to tiles and grayscale" />
-    <option name="LAST_COMMIT_MESSAGE" value="cursor pointer to tiles and grayscale" />
+    <MESSAGE value="corrections in resize and reset sizes" />
+    <MESSAGE value="videos alterations" />
+    <option name="LAST_COMMIT_MESSAGE" value="videos alterations" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="39" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="39" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,15 +435,7 @@
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="346" column="56" selection-start-line="346" selection-start-column="56" selection-end-line="346" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -715,109 +443,7 @@
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="417" column="17" selection-start-line="417" selection-start-column="17" selection-end-line="417" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="387" column="61" selection-start-line="387" selection-start-column="61" selection-end-line="387" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="39" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -828,6 +454,7 @@
           <caret line="314" column="50" selection-start-line="314" selection-start-column="41" selection-end-line="314" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -843,7 +470,7 @@
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="325" column="12" selection-start-line="325" selection-start-column="12" selection-end-line="325" selection-end-column="12" />
+          <caret line="325" column="15" selection-start-line="325" selection-start-column="15" selection-end-line="325" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -854,6 +481,7 @@
           <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,6 +508,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -914,111 +543,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="4030" column="0" selection-start-line="4030" selection-start-column="0" selection-end-line="4030" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="744" column="12" selection-start-line="744" selection-start-column="12" selection-end-line="744" selection-end-column="12" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/play-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-black@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-black@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/group-2-copy-8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/group-2-copy-9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-white@3x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-white@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/paroller.js/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1067961">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-preto.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-black.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mouse-branco.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/events.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="123" selection-start-line="27" selection-start-column="123" selection-end-line="27" selection-end-column="123" />
+          <caret line="27" column="235" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="235" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
+          <caret line="384" column="85" selection-start-line="384" selection-start-column="85" selection-end-line="384" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="346" column="56" selection-start-line="346" selection-start-column="56" selection-end-line="346" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.4855196">
+          <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2258065">
-          <caret line="380" column="31" selection-start-line="380" selection-start-column="31" selection-end-line="380" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/thumb/afogados_thumb.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17142858">
-          <caret line="568" column="68" selection-start-line="568" selection-start-column="68" selection-end-line="568" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
