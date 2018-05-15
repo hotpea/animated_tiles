@@ -168,6 +168,10 @@ html {
     z-index: 0;
 }
 
+.invisible {
+    opacity: 0;
+}
+
 .vertical {
     max-width: 0.0625em;
 }
@@ -564,6 +568,18 @@ html {
     transition: .35s;
 }
 
+.type_one_alt {
+    background: transparent;
+    position: absolute;
+    width: 92.5%;
+    height: 85%;
+    left: 7.5%;
+    top: 7.5%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
 .type_two {
     background: black;
     position: absolute;
@@ -738,13 +754,13 @@ html {
     margin-left: -50%!important;
     position: absolute!important;
     min-width: 100vw;
-    max-height: 100vh;
+    min-height: 100vh;
     text-align: center;
     margin-top: 0%!important;
     z-index: 2;
 }
 
-.play-button {
+.play {
     max-height: 100vh;
 }
 

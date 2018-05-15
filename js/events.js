@@ -29,6 +29,20 @@ $(document).ready(function() {
         }, 400);
     });
 
+    $('.play-button2').click(function() {
+        var play = $(this);
+
+        $('html, body').animate({
+            scrollTop: play.parent().offset().top
+        }, 300);
+
+        play.fadeOut();
+
+        setTimeout(function() {
+            play.parent().append('<iframe class="video-play" frameborder="0" src="https://www.youtube.com/embed/kWjSRqR1BsY?rel=0&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1" allow="autoplay; encrypted-media"></iframe>');
+        }, 400);
+    });
+
     // TODO: Scroll to second-capa
     window.wasScrolled = false;
     $(window).bind('scroll',function(){

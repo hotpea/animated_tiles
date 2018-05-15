@@ -238,22 +238,24 @@ function mountEventsTiles() {
                 }
 
                 setTimeout(function(){
-                    square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width);
-                    square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height);
-                    square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left);
-                    square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top);
+                    if(square.getElementsByClassName('type').length > 0) {
+                        square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width);
+                        square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height);
+                        square.getElementsByClassName('type')[0].setAttribute('left', square.getElementsByClassName('type')[0].style.left);
+                        square.getElementsByClassName('type')[0].setAttribute('top', square.getElementsByClassName('type')[0].style.top);
 
-                    square.getElementsByClassName('type')[0].style.width = '100%';
-                    square.getElementsByClassName('type')[0].style.minHeight = '100vh';
-                    square.getElementsByClassName('type')[0].style.height = 'auto';
-                    square.getElementsByClassName('type')[0].style.left = '0%';
-                    square.getElementsByClassName('type')[0].style.top = '0%';
+                        square.getElementsByClassName('type')[0].style.width = '100%';
+                        square.getElementsByClassName('type')[0].style.minHeight = '100vh';
+                        square.getElementsByClassName('type')[0].style.height = 'auto';
+                        square.getElementsByClassName('type')[0].style.left = '0%';
+                        square.getElementsByClassName('type')[0].style.top = '0%';
 
-                    square.getElementsByClassName('type')[0].style.background = 'white';
+                        square.getElementsByClassName('type')[0].style.background = 'white';
 
-                    setTimeout(function() {
-                        square.getElementsByClassName('content')[0].style.opacity = "1";
-                    }, 500);
+                        setTimeout(function() {
+                            square.getElementsByClassName('content')[0].style.opacity = "1";
+                        }, 500);
+                    }
 
                     square.className += ' active';
 
@@ -266,6 +268,8 @@ function mountEventsTiles() {
                     //resizeAll();
 
                     var square = this;
+
+                    document.location.hash = null;
 
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
@@ -438,11 +442,18 @@ function getUrlParameter(sParam) {
                 }
 
                 setTimeout(function() {
-                    smoothScroll(element);
                     setTimeout(function() {
+                        smoothScroll(element);
                         eventFire(element, 'click');
                     }, 1000);
                 }, 500);
+            } else {
+                setTimeout(function() {
+                    smoothScroll(element);
+                    eventFire(element, 'click');
+                    // TODO: play video
+                    //eventFire(element.getElementsByClassName('play'), 'click');
+                }, 1000);
             }
         }
     }
