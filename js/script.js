@@ -95,9 +95,9 @@ document.addEventListener("scroll", function(){
         }
     } else {
         if ( window.pageYOffset > 1500){
-            document.getElementById('top-site-text').style.opacity = 0;
+            document.getElementById('top-site-text').style.display = 'none';
         } else {
-            document.getElementById('top-site-text').style.opacity = 1;
+            document.getElementById('top-site-text').style.display = 'block';
         }
     }
 
@@ -376,19 +376,16 @@ function mountTilesHeights() {
         //tiles[t].clientHeight = tiles[t].clientWidth;
 
         if(mobileAndTabletcheck()) {
-            if (tiles[t].classList.contains('alternate') || tiles[t].classList.contains('square-two-columns')) {
+            if (tiles[t].classList.contains('alternate')) {
                 tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-            } else {
-                tiles[t].style.height = tiles[t].clientWidth + 'px';
             }
-        } else {
-            if (tiles[t].classList.contains('square-two-rows')) {
-                tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
-            } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
-                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-            } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
-                tiles[t].style.height = tiles[t].clientWidth + 'px';
-            }
+        }
+        if (tiles[t].classList.contains('square-two-rows')) {
+            tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+        } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
+            tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+        } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+            tiles[t].style.height = tiles[t].clientWidth + 'px';
         }
     }
 

@@ -1039,6 +1039,11 @@ html {
         margin-left: 35%;
     }
 
+    .video-play {
+        width: 100vw;
+        height: 100vh;
+    }
+
     .square:focus,
     .square-two-rows:focus,
     .square-two-columns:focus,
