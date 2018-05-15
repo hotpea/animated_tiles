@@ -472,6 +472,11 @@ padding-left: 5%;
     vertical-align: middle;
     -webkit-transition: .35s;
     transition: .35s;
+    filter: grayscale(100%);
+}
+
+.thumb:hover {
+    filter: grayscale(0%);
 }
 
 .thumb img {
@@ -615,6 +620,14 @@ padding-left: 5%;
 
 .play-button {
     max-height: 100vh;
+}
+
+.picture-item {
+    cursor: pointer;
+}
+
+.picture-item:focus {
+    cursor: auto;
 }
 
 .center {
