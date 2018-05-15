@@ -168,10 +168,6 @@ html {
     z-index: 0;
 }
 
-.invisible {
-    opacity: 0;
-}
-
 .vertical {
     max-width: 0.0625em;
 }
@@ -436,8 +432,26 @@ html {
     background-color: transparent;
 }
 
-.float-title strong{
+.float-title-alt {
+    max-width: 55%;
+    position: fixed;
+    color: #000000;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 0.91;
+    font-family: Raleway;
+    font-weight: 400;
+    transition: .35s;
     background-color: transparent;
+}
+
+.float-title-alt strong {
+    font-weight: 900;
+}
+
+
+.float-title strong{
+    font-weight: 900;
 }
 
 .float-title-one {
@@ -448,19 +462,32 @@ html {
 }
 
 .float-title-two {
-padding-left: 5%;
+    max-width: 70%;
+    padding-left: 5%;
     position: absolute;
     bottom: 5%;
 }
 
+.float-title-two-collumns{
+    max-width: 40%;
+    padding-left: 5%;
+    position: absolute;
+    bottom: 5%;
+}
+
+
 .float-title-three {
-    margin-top: 25%;
-    margin-left: 5%;
+    padding-left: 5%;
+    position: absolute;
+    bottom: 5%;
+    max-width: 80%;
 }
 
 .float-title-four {
-    margin-top: 25%;
-    margin-left: 15%;
+    max-width: 80%;
+    padding-left: 5%;
+    position: absolute;
+    bottom: 5%;
 }
 
 .thumb {
@@ -483,6 +510,21 @@ padding-left: 5%;
     width: 100%;
     height: 100%;
     margin-top: 0px;
+}
+
+.capital {
+    width: auto;
+    height: 50%;
+    font-family: raleway;
+    font-weight: 900;
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 5rem;
+    color: white;
+    line-height: 0.8;
+
 }
 
 .materia-title {
@@ -534,8 +576,32 @@ padding-left: 5%;
     transition: .35s;
 }
 
+.type_two_alt {
+    background: transparent;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
 .type_three {
     background: black;
+    position: absolute;
+    width: 90%;
+    height: 75%;
+    left: 7%;
+    top: 15%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
+.type_three_alt {
+    background: transparent;
     position: absolute;
     width: 90%;
     height: 75%;
@@ -558,8 +624,32 @@ padding-left: 5%;
     transition: .35s;
 }
 
+.type_four_alt {
+    background: transparent;
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    left: 22%;
+    top: 5%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
 .type_five {
     background: black;
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    left: 16%;
+    top: 15%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
+.type_five_alt {
+    background: transparent;
     position: absolute;
     width: 80%;
     height: 85%;
@@ -582,6 +672,18 @@ padding-left: 5%;
     transition: .35s;
 }
 
+.type_six_alt {
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
 .type_seven {
     background: black;
     position: absolute;
@@ -594,8 +696,32 @@ padding-left: 5%;
     transition: .35s; 
 }
 
+.type_seven_alt {
+    background: transparent;
+    position: absolute;
+    width: 85%;
+    height: 70%;
+    left: 7%;
+    top: 20%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s; 
+}
+
 .type_eight {
     background: black;
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    left: 5%;
+    top: 0%;
+    z-index: 2;
+    -webkit-transition: .35s;
+    transition: .35s; 
+}
+
+.type_eight_alt {
+    background: transparent;
     position: absolute;
     width: 95%;
     height: 100%;
@@ -737,11 +863,11 @@ padding-left: 5%;
 
     .content {
         position:relative;
-        font-size: 3vw!important;
-        height:100%!important;
-        width:80%!important;
-        padding-left:0%!important;
-        padding-right:0%!important;
+        font-size: 3vw;
+        height:100%;
+        width:80%;
+        padding-left:0%;
+        padding-right:0%;
     }
 
     .simple-text {
