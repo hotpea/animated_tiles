@@ -82,6 +82,7 @@ window.onload = function() {
 };
 
 document.getElementById('scroll-to-page').addEventListener('click', function() {
+    eventFire(document.getElementById('video-capa', 'click'));
     smoothScroll(todos_shuffle);
 
     //setTimeout(function () {

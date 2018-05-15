@@ -881,7 +881,7 @@ html {
         position:relative;
         font-size: 3vw;
         height:100%;
-        width:80%;
+        width: 100%!important;
         padding-left:0%;
         padding-right:0%;
     }
@@ -947,18 +947,26 @@ html {
     .square-two-rows,
     .square-two-columns,
     .square-two-rows-and-columns {
-        width: 49%;
+        width: 45%;
     }
 
     .type_zero,
     .type_one,
+    .type_one_alt,
     .type_two,
+    .type_two_alt,
     .type_three,
+    .type_three_alt,
     .type_four,
+    .type_four_alt,
     .type_five,
+    .type_five_alt,
     .type_six,
+    .type_six_alt,
     .type_seven,
-    .type_eight {
+    .type_seven_alt,
+    .type_eight,
+    .type_eight_alt {
         background: black;
         position: absolute;
         width: 100%;
@@ -983,15 +991,16 @@ html {
         background: black;
         min-width: 84vh!important;
         max-width: 360px!important;
-        max-height: 600px;
+        min-height: 580px!important;
+        max-height: 580px!important;
         text-align: center;
         z-index: 2;
     }
 
     .play-button {
-        max-width: 69vh;
+        max-width: 61%;
         margin-top: 0% !important;
-        margin-left: 18%;
+        margin-left: 28%;
     }
 
     .video-play {
@@ -1008,6 +1017,19 @@ html {
         /*position: fixed!important;*/
         marginLeft: 0%;
         z-index: 3!important;
+    }
+
+    .thumb {
+        filter: grayscale(0%)!important;
+    }
+
+    .infos {
+        margin: 0 0 0 0!important;
+        width: 100%;
+    }
+    .infos img {
+        max-width: 1344px;
+        width: 100%;
     }
 
     /*.half {*/
