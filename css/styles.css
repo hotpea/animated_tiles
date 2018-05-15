@@ -911,7 +911,7 @@ html {
     }
 
     .title-share {
-        font-size: 3rem!important;
+        font-size: 2rem;
     }
 
     .button-facebook {
@@ -924,6 +924,16 @@ html {
         border: solid 7px rgba(34, 34, 34, 0.08);
         vertical-align: middle;
         cursor: pointer;
+    }
+
+    .button-facebook img {
+        height: 50px;
+        max-height: none;
+    }
+
+    .button-oval img {
+        height: 40px;
+        max-height: none;
     }
 
     .button-oval {
@@ -1029,7 +1039,6 @@ html {
         margin-left: 35%;
     }
 
-
     .square:focus,
     .square-two-rows:focus,
     .square-two-columns:focus,
@@ -1041,6 +1050,10 @@ html {
 
     .thumb {
         filter: grayscale(0%)!important;
+    }
+
+    .thumb img.column {
+        width: 100%;
     }
 
     .infos {
