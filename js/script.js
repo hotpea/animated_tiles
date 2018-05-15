@@ -87,11 +87,20 @@ document.getElementById('scroll-to-page').addEventListener('click', function() {
 });
 
 document.addEventListener("scroll", function(){
-    if ( window.pageYOffset > 1500){
-        document.getElementById('top-site-text').style.opacity = 0;
+    if(mobileAndTabletcheck()) {
+        if ( window.pageYOffset > 3000){
+            document.getElementById('top-site-text').style.opacity = 0;
+        } else {
+            document.getElementById('top-site-text').style.opacity = 1;
+        }
     } else {
-        document.getElementById('top-site-text').style.opacity = 1;
+        if ( window.pageYOffset > 1500){
+            document.getElementById('top-site-text').style.opacity = 0;
+        } else {
+            document.getElementById('top-site-text').style.opacity = 1;
+        }
     }
+
 });
 
 /**
@@ -212,10 +221,12 @@ function mountEventsTiles() {
 
                 square.style.position = 'fixed!important';
 
-                if( square.getElementsByClassName('content').length > 0 ) {
-                    square.getElementsByClassName('content')[0].style.width = "40%";
-                    square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
-                    square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                if( !(mobileAndTabletcheck()) ) {
+                    if( square.getElementsByClassName('content').length > 0 ) {
+                        square.getElementsByClassName('content')[0].style.width = "40%";
+                        square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
+                        square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                    }
                 }
 
                 if( square.getElementsByClassName('float-title').length > 0 ) {
@@ -365,7 +376,7 @@ function mountTilesHeights() {
         //tiles[t].clientHeight = tiles[t].clientWidth;
 
         if(mobileAndTabletcheck()) {
-            if (tiles[t].classList.contains('alternate')) {
+            if (tiles[t].classList.contains('alternate') || tiles[t].classList.contains('square-two-columns')) {
                 tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
             } else {
                 tiles[t].style.height = tiles[t].clientWidth + 'px';
