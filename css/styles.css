@@ -81,6 +81,7 @@ html {
 .video-play {
     width: 100vw;
     height: 100vh;
+    margin-left:-75%
 }
 
 .logo {
@@ -777,9 +778,9 @@ html {
     z-index: 2;
 }
 
-.play {
-    max-height: 100vh;
-}
+/*.play {*/
+    /*max-height: 100vh;*/
+/*}*/
 
 .picture-item {
     cursor: pointer;
@@ -970,12 +971,12 @@ html {
     }
 
     .square,
-    .square-two-rows,
-    .square-two-rows-and-columns {
+    .square-two-rows {
         width: 49%;
     }
 
-    .square-two-columns {
+    .square-two-columns,
+    .square-two-rows-and-columns {
         width: 100%!important;
     }
 
@@ -1040,8 +1041,10 @@ html {
     }
 
     .video-play {
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 420px;
+        margin-top: 80%;
+        margin-left: 0!important;
     }
 
     .square:focus,
