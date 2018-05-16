@@ -410,6 +410,12 @@ html {
     z-index: 1;
 }
 
+#site-content {
+    -webkit-transition: 1s;
+    transition: 1s;
+    display: none;
+}
+
 .square {
     background: transparent;
     position: absolute;

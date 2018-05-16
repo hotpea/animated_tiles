@@ -4,11 +4,15 @@ $(document).ready(function() {
         alert(clickedBtnID);
     });
 
+    Pace.on("done", function() {
+        $('#site-content').delay(600).show()
+    });
+
     /**
      * eventos parallax
      */
-    $('.capa-paroller').paroller({ factor: '0.3', type: 'background', direction: 'vertical' });
-    $('.second-capa-paroller').paroller({ factor: '0.2', type: 'foreground', direction: 'vertical' });
+    //$('.capa-paroller').paroller({ factor: '0.3', type: 'background', direction: 'vertical' });
+    //$('.second-capa-paroller').paroller({ factor: '0.2', type: 'foreground', direction: 'vertical' });
 
     /**
      * evento de play quando clicado em play do vídeo #1
