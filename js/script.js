@@ -2,13 +2,13 @@
  * variáveis do shuffle
  */
 var Shuffle = window.Shuffle;
-var todos_shuffle = document.getElementById("todos_shuffle");
-var economia_shuffle = document.getElementById("economia_shuffle");
-var meio_ambiente_shuffle = document.getElementById("meio_ambiente_shuffle");
-var cultura_shuffle = document.getElementById("cultura_shuffle");
-var gestao_shuffle = document.getElementById("gestao_shuffle");
-var social_shuffle = document.getElementById("social_shuffle");
-var seguranca_e_defesa_shuffle = document.getElementById("seguranca_e_defesa_shuffle");
+var todos_shuffle = document.getElementById("todos");
+var economia_shuffle = document.getElementById("economia");
+var meio_ambiente_shuffle = document.getElementById("meio-ambiente");
+var cultura_shuffle = document.getElementById("cultura");
+var gestao_shuffle = document.getElementById("gestao");
+var social_shuffle = document.getElementById("social");
+var seguranca_e_defesa_shuffle = document.getElementById("seguranca-e-defesa");
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
@@ -147,6 +147,8 @@ for(var t = 0;twitterShare.length > t; t++ ) {
 todos_shuffle.addEventListener('click', function() {
     resetButtons();
 
+    document.location.hash = "v=" + todos_shuffle.getAttribute('id');
+
     todos_shuffle.className += ' button-active';
     last_shuffle = Shuffle.ALL_ITEMS;
     resizeAll();
@@ -157,6 +159,8 @@ todos_shuffle.addEventListener('click', function() {
  */
 economia_shuffle.addEventListener('click', function() {
     resetButtons();
+
+    document.location.hash = "v=" + economia_shuffle.getAttribute('id');
 
     economia_shuffle.className += ' button-active';
     last_shuffle = 'economia';
@@ -169,6 +173,8 @@ economia_shuffle.addEventListener('click', function() {
 meio_ambiente_shuffle.addEventListener('click', function() {
     resetButtons();
 
+    document.location.hash = "v=" + meio_ambiente_shuffle.getAttribute('id');
+
     meio_ambiente_shuffle.className += ' button-active';
     last_shuffle = 'meio-ambiente';
     resizeAll();
@@ -180,6 +186,8 @@ meio_ambiente_shuffle.addEventListener('click', function() {
 cultura_shuffle.addEventListener('click', function() {
     resetButtons();
 
+    document.location.hash = "v=" + cultura_shuffle.getAttribute('id');
+
     cultura_shuffle.className += ' button-active';
     last_shuffle = 'cultura';
     resizeAll();
@@ -190,6 +198,8 @@ cultura_shuffle.addEventListener('click', function() {
  */
 gestao_shuffle.addEventListener('click', function() {
     resetButtons();
+
+    document.location.hash = "v=" + gestao_shuffle.getAttribute('id');
 
     gestao_shuffle.className += ' button-active';
     last_shuffle = 'gestao';
@@ -203,6 +213,8 @@ gestao_shuffle.addEventListener('click', function() {
 social_shuffle.addEventListener('click', function() {
     resetButtons();
 
+    document.location.hash = "v=" + social_shuffle.getAttribute('id');
+
     social_shuffle.className += ' button-active';
     last_shuffle = 'social';
     resizeAll();
@@ -213,6 +225,8 @@ social_shuffle.addEventListener('click', function() {
  */
 seguranca_e_defesa_shuffle.addEventListener('click', function() {
     resetButtons();
+
+    document.location.hash = "v=" + seguranca_e_defesa_shuffle.getAttribute('id');
 
     seguranca_e_defesa_shuffle.className += ' button-active';
     last_shuffle = 'seguranca-e-defesa';
