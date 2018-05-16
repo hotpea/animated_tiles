@@ -343,7 +343,7 @@ function mountEventsTiles() {
 
                     var square = this;
 
-                    document.location.hash = null;
+                    document.location.hash = '';
 
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
