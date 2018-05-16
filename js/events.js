@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 
     Pace.on("done", function() {
-        $('#site-content').delay(600).show()
+        $('html').delay(1000).css('overflow-y', 'scroll');
     });
 
     /**
