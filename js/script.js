@@ -113,27 +113,33 @@ document.addEventListener("scroll", function(){
 /**
  * facebook top share
  */
-document.getElementById('facebook-share').addEventListener('click', function() {
-    window.open(
-        "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
-        '',
-        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
-    );
-});
+var facebookShare = document.getElementsByClassName('facebook-share');
+for(var f = 0;facebookShare.length > f; f++ ) {
+    facebookShare[f].addEventListener('click', function() {
+        window.open(
+            "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
+            '',
+            'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+        );
+    });
+}
+
 
 /**
  * twitter top-share
  */
-document.getElementById('twitter-share').addEventListener('click', function() {
-    var url = shortURL(document.URL);
-    var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
-    window.open(
-        'http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text),
-        '',
-        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
-    );
-});
-
+var twitterShare = document.getElementsByClassName('twitter-share');
+for(var t = 0;twitterShare.length > t; t++ ) {
+    twitterShare[t].addEventListener('click', function() {
+        var url = shortURL(document.URL);
+        var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
+        window.open(
+            'http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text),
+            '',
+            'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+        );
+    });
+}
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
