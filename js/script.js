@@ -70,6 +70,12 @@ document.body.onclick = function() {
 };
 
 window.onload = function() {
+    //if(mobileAndTabletcheck()) {
+    //    document.getElementById('video-capa').setAttribute('src', 'images/videos/AFOGADOS_VERTICAL.mp4')
+    //} else {
+    //    document.getElementById('video-capa').setAttribute('src', 'images/videos/AFOGADO.mp4')
+    //}
+
     getUrlParameter('v');
     changeOGMetaTag('images/city.jpeg');
 

@@ -150,8 +150,7 @@ html {
     mix-blend-mode: difference;
 
     font-weight: bold;
-    /*position: fixed;*/
-    position: fixed;
+    position: absolute;
     margin-top: 5%;
     top: 43%;
     left: 50%;
@@ -882,6 +881,45 @@ html {
     top: 1rem;
     left: 1rem;
     z-index: 10;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.videoloop{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 105vh;
+}
+
+#slideshow {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    text-align: center;
+    color: white;
+}
+
+.slideshow-element{
+    position: absolute;
+    font-weight: 900;
+    font-size:5rem;
+    font-family: raleway;
+    letter-spacing: -0.2rem;
+    text-align: center;
+    width: 100%;
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
