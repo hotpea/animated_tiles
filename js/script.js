@@ -12,6 +12,10 @@ var seguranca_e_defesa_shuffle = document.getElementById("seguranca_e_defesa_shu
 
 var last_shuffle = Shuffle.ALL_ITEMS;
 
+var shuffle_container = document.getElementById('shuffle-container');
+var htmlTiles = null;
+var htmlContents = null;
+
 /**
  *
  * @type {NodeList}
@@ -93,7 +97,7 @@ document.getElementById('scroll-to-page').addEventListener('click', function() {
     smoothScroll(todos_shuffle);
 });
 
-document.addEventListener("scroll", function(){
+document.addEventListener("scroll", function(e){
     if(mobileAndTabletcheck()) {
         if ( window.pageYOffset > 3000){
             document.getElementById('top-site-text').style.opacity = 0;
@@ -108,6 +112,12 @@ document.addEventListener("scroll", function(){
         }
     }
 
+    if (  ( window.pageYOffset + window.innerHeight) >= document.body.scrollHeight) {
+        for(var x = 1; 4 > x; x++) {
+            readHTMLFile(x);
+            shuffle_container.innerHTML += htmlTiles;
+        }
+    }
 });
 
 /**
@@ -595,4 +605,15 @@ function getAllAnchorLinks() {
 function getCookie(name) {
     var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
     return v ? v[2] : null;
+}
+
+function readHTMLFile(x)
+{
+    $.ajax({
+        url: document.URL + "/html/block-tiles/"+x+".html",
+        async: false,
+        success: function (data){
+            htmlTiles = data;
+        }
+    });
 }
