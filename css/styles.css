@@ -21,7 +21,7 @@ body {
 /*animação de linha*/
 .wrapper {
     position: relative;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 /*.picture-item {*/
@@ -470,7 +470,7 @@ html {
     position: fixed;
     color: white;
     width: 100%;
-    font-size: 2vh;
+    font-size: 1rem;
     font-family: Raleway;
     transition: .35s;
     max-width: 65%;
@@ -847,10 +847,15 @@ html {
 #bottom {
     clear:both;
     margin:0 1.66%;
-    width:89.68%;
+    width:90%;
     padding: 3.5%;
-    background-color:#F1F1F1;
+    background-color:#F9F9F9;
     color: #000;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-start; 
+    padding-left: 5%;
+    margin: 0 -17%;
 }
 
 /*pontos de navegação*/
@@ -899,7 +904,7 @@ html {
     right: 0;
     bottom: 0;
     width: 100vw;
-    height: 105vh;
+    height: 80vh;
 }
 
 #slideshow {
