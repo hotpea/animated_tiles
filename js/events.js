@@ -54,15 +54,13 @@ $(document).ready(function() {
     });
 
     // TODO: Scroll to second-capa
-    window.wasScrolled = false;
-    $(window).bind('scroll',function(){
-        if (!window.wasScrolled){
-            $('html, body').animate({
-                scrollTop: document.getElementById('container2').getBoundingClientRect().top
-            },500);
-        }
-        window.wasScrolled = true;
-    });
-
-
+    //window.wasScrolled = false;
+    //$(window).bind('scroll',function(){
+    //    if (!window.wasScrolled){
+    //        $('html, body').animate({
+    //            scrollTop: document.getElementById('container2').getBoundingClientRect().top
+    //        },500);
+    //    }
+    //    window.wasScrolled = true;
+    //});
 });

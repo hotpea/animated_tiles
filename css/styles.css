@@ -90,7 +90,7 @@ html {
 }
 
 .logo {
-/*    filter: invert(100%);*/
+    filter: invert(100%);
 }
 
 .navigation {
@@ -247,6 +247,8 @@ html {
 }
 
 .top-menu {
+    z-index: 1;
+    cursor: pointer;
     /*margin: 2% -10% 0 -10%;*/
     display: block;
     justify-content: space-between;
@@ -334,6 +336,7 @@ html {
 }
 
 .bigger-title-text {
+    font-family: Raleway;
     font-size: 3em;
     font-weight: bold;
 
