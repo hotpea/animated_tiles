@@ -902,7 +902,7 @@ html {
     right: 0;
     bottom: 0;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
 }
 
 #slideshow {
@@ -916,7 +916,7 @@ html {
 }
 
 .topo-logo {
-    padding: 0.5%;
+    padding-top: 2%;
     margin: 0 20%;
     height: 10px;
     width: 60%;
