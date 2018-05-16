@@ -90,7 +90,7 @@ html {
 }
 
 .logo {
-    filter: invert(100%);
+/*    filter: invert(100%);*/
 }
 
 .navigation {
@@ -145,20 +145,15 @@ html {
 #top-site-text {
     text-align: center;
     align-content: center;
-    color:  white;
-
-    mix-blend-mode: difference;
-
+    color: black;
     font-weight: bold;
-    position: absolute;
     margin-top: 5%;
     top: 43%;
     left: 50%;
-    transform: translate(-50%, -50%);
     font-family: Raleway;
     opacity: 0;
     transition: 1s;
-
+    width: 100%;
     z-index: 1;
 }
 
@@ -217,7 +212,7 @@ html {
     font-weight: 900;
     letter-spacing: 0.21875em;
     font-size: 0.675rem;
-    color: #ffffff;
+/*    color: #ffffff;*/
 }
 
 .hide {
@@ -248,7 +243,7 @@ html {
 }
 
 .facebook, .twitter-icon {
-    margin-left: 50vw;
+/*    margin-left: 50vw;*/
 }
 
 .top-menu {
@@ -272,8 +267,8 @@ html {
 }
 
 .share-top {
-    position: relative;
-    float: right;
+/*    position: relative;
+    float: right;*/
     cursor: pointer;
 }
 
@@ -918,8 +913,62 @@ html {
 }
 
 .topo-logo {
-    padding:2% 24.2%;
-    height: 2px;
+    padding: 0.5%;
+    margin: 0 20%;
+    height: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+/*    background-color: blue;*/
+    align-self: center;
+    flex-flow: wrap;
+}
+
+.topo-marca {
+    width: 70%;
+/*    background-color: green;*/
+    align-self: center;
+    justify-content: right;
+}
+
+.topo-links {
+    width: 25%;
+/*    background-color: yellow;*/
+    align-self: center;
+    justify-content: right;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+
+.topo-links a{
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    font-size: 0.90rem;
+    color: white;
+    font-weight: 500;
+}
+
+.topo-share {
+    width: auto;
+/*    background-color: red;*/
+    flex-flow: column nowrap;
+    align-items: center;
+    display: block;
+    justify-content: space-around;
+}
+
+.topo-share img{
+    display: block;
+/*    width: 17px;
+    height: 17px;*/  
+}
+
+.topo-icons {
+    align-items: center;
+/*    background-color: yellow;*/
+    width: auto;
+    display: flex;
+    flex-flow: column;
 }
 
 .slideshow-element{
