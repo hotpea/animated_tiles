@@ -920,7 +920,7 @@ body {
 .topo-logo {
     padding-top: 2%;
     margin: 0 20%;
-    height: 10px;
+    height: 17px;
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -930,19 +930,20 @@ body {
 }
 
 .topo-marca {
-    width: 70%;
+    width: 40%;
 /*    background-color: green;*/
     align-self: center;
     justify-content: right;
 }
 
 .topo-links {
-    width: 25%;
-/*    background-color: yellow;*/
+    width: 55%;
+    /*background-color: yellow;*/
     align-self: center;
     justify-content: right;
     font-family: Raleway;
     text-transform: uppercase;
+    text-align: right;
 }
 
 .topo-links a{
@@ -951,11 +952,17 @@ body {
     font-size: 0.90rem;
     color: white;
     font-weight: 500;
+    margin: 0 5%;
+    font-family: Raleway;
+}
+
+.topo-links a:hover{
+    color: #c9d8d7;
 }
 
 .topo-share {
     width: auto;
-/*    background-color: red;*/
+    /*background-color: red;*/
     flex-flow: column nowrap;
     align-items: center;
     display: block;
@@ -1008,6 +1015,10 @@ body {
         margin-right: 0%;
     }
 
+    .twitter img {
+    width: 55px;
+    }
+
     #bottom {
         width:100%;
         height: 5%;
@@ -1021,8 +1032,43 @@ body {
     .topo-logo {
         margin: 0 0;
         width: 100%;
-        height: 100%;
+        height: 4%;
         padding: 2% 0 0 0;
+    }
+
+    .topo-marca {
+        width: 33%;
+    }
+
+    .gov-br {
+        width: 80%;
+    }
+
+    .topo-links {
+        width: 33%;
+        text-align: center;
+    }
+
+    .topo-links a {
+        font-size: 2rem;
+    }
+
+    .facebook, .twitter-icon {
+    height: auto;
+    width: 50%;
+    }
+
+    .topo-share {
+        width: 33%;
+        text-align: right;
+    }
+
+    .topo-share img {
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-left: 60%;
+    padding-top: 2%;
     }
 
     .slideshow-element{
@@ -1034,7 +1080,6 @@ body {
     }
 
     .gov-br {
-        width: 30%;
         padding-left: 5%;
     }
 
@@ -1241,10 +1286,7 @@ body {
 
     .top-menu {
         display: block;
-    }
-
-    .facebook, .twitter-icon  {
-        margin-left: 70vw;
+        width: 100%;
     }
 
     .facebook-icon  {
@@ -1252,7 +1294,9 @@ body {
     }
 
     .twitter-icon {
-        height: 50px;
+    height: 45px;
+    width: 55px;
+    margin-top: 1%;
     }
 
     /*.half {*/
