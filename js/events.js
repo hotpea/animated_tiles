@@ -43,6 +43,16 @@ $(document).ready(function() {
         }, 400);
     });
 
+    $('.share').on('mouseover', function() {
+        $('.top-menu.hide').css('opacity', 1);
+    });
+
+    $('.share').on('mouseout', function() {
+        setTimeout(function() {
+            $('.top-menu.hide').css('opacity', 0);
+        },2500);
+    });
+
     // TODO: Scroll to second-capa
     window.wasScrolled = false;
     $(window).bind('scroll',function(){

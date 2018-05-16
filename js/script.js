@@ -104,6 +104,31 @@ document.addEventListener("scroll", function(){
 });
 
 /**
+ * facebook top share
+ */
+document.getElementById('facebook-share').addEventListener('click', function() {
+    window.open(
+        "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
+        '',
+        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+    );
+});
+
+/**
+ * twitter top-share
+ */
+document.getElementById('twitter-share').addEventListener('click', function() {
+    var url = shortURL(document.URL);
+    var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
+    window.open(
+        'http://twitter.com/share?url='+encodeURIComponent(url)+'&text='+encodeURIComponent(text),
+        '',
+        'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
+    );
+});
+
+
+/**
  * TODO: criar evento genérico para todos os botões e tipo de dado
  */
 todos_shuffle.addEventListener('click', function() {
@@ -552,4 +577,9 @@ function getAllAnchorLinks() {
     }
 
     return false;
+}
+
+function getCookie(name) {
+    var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    return v ? v[2] : null;
 }

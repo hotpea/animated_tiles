@@ -221,6 +221,12 @@ html {
     color: #ffffff;
 }
 
+.hide {
+    opacity: 0;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+
 .button {
     font-family: raleway;
     font-weight: 500;
@@ -242,9 +248,28 @@ html {
     justify-content: space-between;
 }
 
+.facebook, .twitter {
+    margin-left: 50vw;
+}
+
+.top-menu {
+    /*margin: 2% -10% 0 -10%;*/
+    display: block;
+    justify-content: space-between;
+}
+
+
+.top-menu-right {
+    float: right;
+}
+
 .gov-br {
     position: relative;
     float: left;
+}
+
+.share {
+    cursor: pointer;
 }
 
 .share-top {
@@ -1036,7 +1061,7 @@ html {
         background: black;
         min-width: 84vh!important;
         max-width: 360px!important;
-        min-height: 475px!important;
+        min-height: 486px!important;
         max-height: 456px!important;
         text-align: center;
         z-index: 2;
@@ -1085,6 +1110,22 @@ html {
     .infos img {
         max-width: 1344px;
         width: 100%;
+    }
+
+    .top-menu {
+        display: block;
+    }
+
+    .facebook, .twitter {
+        margin-left: 70vw;
+    }
+
+    .facebook-icon  {
+        height: 60px;
+    }
+
+    .twitter-icon {
+        height: 50px;
     }
 
     /*.half {*/
