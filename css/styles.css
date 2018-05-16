@@ -1039,8 +1039,9 @@ html {
 
     #top-site-text {
         font-size: 2rem;
-        left: 6%;
+        left: 0%;
         transform: translate(0%, -50%);
+        width: 100%;
     }
 
     .square,
@@ -1154,7 +1155,7 @@ html {
         display: block;
     }
 
-    .facebook, .twitter {
+    .facebook, .twitter-icon  {
         margin-left: 70vw;
     }
 
@@ -1170,4 +1171,15 @@ html {
     /*width: 100%!important;*/
     /*height: 20vh;*/
     /*}*/
+
+
+    .videoloop {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../images/AFOGADO.gif');
+    }
+
+    video#myVideo {
+        visibility: hidden;
+    }
 }
