@@ -40,6 +40,8 @@ var clicked_height = 'auto';
 var apiKey = null;
 var username = null;
 
+var container = document.getElementById('container');
+
 /**
  * inicia o shufflejs
  */
@@ -97,8 +99,11 @@ window.onload = function() {
     mountEventsTiles();
 };
 
+document.getElementById('scroll-first').addEventListener('click', function() {
+    smoothScroll(container);
+});
+
 document.getElementById('scroll-to-page').addEventListener('click', function() {
-    eventFire(document.getElementById('video-capa', 'click'));
     smoothScroll(todos_shuffle);
 });
 

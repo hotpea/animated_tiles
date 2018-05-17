@@ -183,10 +183,6 @@ body {
     opacity: 0;
 }
 
-.vertical {
-    max-width: 0.0625em;
-}
-
 .mouse {
     /*filter: invert(100%);*/
     max-width: 3.4375em;
@@ -264,7 +260,8 @@ body {
 
 .gov-br {
     position: relative;
-    float: left;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .share {
@@ -285,9 +282,6 @@ body {
 .buttons-share img{
 }
 
-.button-facebook img{
-    max-height: 21px;
-}
 
 .button-oval img {
     vertical-align: middle;
@@ -387,6 +381,10 @@ body {
 
 .scroll {
     cursor: pointer;
+}
+
+.vertical {
+    height: 53px;
 }
 
 #shuffle-container {
@@ -513,7 +511,6 @@ body {
     padding-left: 5%;
     position: absolute;
     bottom: 5%;
-
 }
 
 .float-title-two {
@@ -930,9 +927,9 @@ body {
 }
 
 .topo-logo {
-    padding-top: 2%;
+    padding-top: 0.5%;
     margin: 0 20%;
-    height: 10px;
+    height: 60px;
     width: 60%;
     display: flex;
     justify-content: space-around;
@@ -942,19 +939,21 @@ body {
 }
 
 .topo-marca {
-    width: 70%;
+    width: 10%;
 /*    background-color: green;*/
-    align-self: center;
+/*    align-self: center;*/
     justify-content: right;
+    height: 100%;
 }
 
 .topo-links {
-    width: 25%;
+    width: 70%;
 /*    background-color: yellow;*/
-    align-self: center;
+/*    align-self: center;*/
     justify-content: right;
     font-family: Raleway;
     text-transform: uppercase;
+    height: 100%;
 }
 
 .topo-links a{
@@ -963,6 +962,7 @@ body {
     font-size: 0.90rem;
     color: white;
     font-weight: 500;
+    line-height: 60px;
 }
 
 .topo-share {
@@ -972,6 +972,7 @@ body {
     align-items: center;
     display: block;
     justify-content: space-around;
+/*    align-self: center;*/
 }
 
 .topo-share img{
@@ -998,6 +999,21 @@ body {
     width: 100%;
 }
 
+.scroll-first {
+display: flex;
+    position: absolute;
+/*    background-color: yellow;*/
+    /* transform: translateY(-400%); */
+    width: 100%;
+    height: 25%;
+    top: calc(75% - 53.5px);
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
 @media only screen and (min-width: 100px) and (max-width: 1000px) {
 
     meta {
@@ -1013,6 +1029,10 @@ body {
         width: 100%;
     }
 
+    .bigger-title-text {
+        font-size: 6rem;
+    }
+
     #shuffle-container {
         overflow: auto!important;
         width: 100vw;
@@ -1021,7 +1041,8 @@ body {
     }
 
     .twitter img {
-    width: 55px;
+    height: 80px;
+    width: 80px !important;
     }
 
     #bottom {
@@ -1073,16 +1094,17 @@ body {
     }
 
     .topo-share {
-        width: 33%;
+        width: 10%;
         text-align: right;
+        padding-top: 2%;
     }
 
     .topo-share img {
     display: block;
-    width: 15%;
+    width: 80px;
     margin: auto;
-    margin-left: 60%;
     padding-top: 2%;
+    padding-right: 0;
     }
 
     .slideshow-element{
@@ -1110,8 +1132,24 @@ body {
         font-weight: 400;
     }
 
+    .scroll-first {
+    display: flex;
+    position: absolute;
+    height: 40%;
+    top: calc(60% - 53.5px);
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .vertical {
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    }
+
     .mouse {
-        width: 8%;
+        width: 100px;
     }
 
     .content {
@@ -1123,37 +1161,54 @@ body {
         padding-right:0%;
     }
 
+    .materia-title {
+        padding: 5% 0;
+        font-size: 4rem;
+    }
+
     .simple-text {
-        font-size: 2rem!important;
+        font-size: 2rem;
+        padding: 5% 0;
+        line-height: 3rem;
     }
 
     .eye-text {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        padding: 5% 0;
+        line-height: 3.5rem;
+    }
+
+    .fonte {
+        color: #6f6f6f;
+        font-family: Raleway;
+        font-weight: 300;
+        padding: 5% 0;
     }
 
     .title-share {
         font-size: 2rem;
+        display: none;
     }
 
     .button-facebook {
         font-family: Raleway;
         background: transparent;
         font-weight: bolder;
-        border-radius: 4.5em;
+/*        border-radius: 4.5em;*/
         width: 100px;
         height: 100px;
-        border: solid 7px rgba(34, 34, 34, 0.08);
+/*        border: solid 7px rgba(34, 34, 34, 0.08);*/
         vertical-align: middle;
         cursor: pointer;
+        border: none;
     }
 
     .button-facebook img {
-        height: 50px;
-        max-height: none;
+        height: 80px;
     }
 
     .button-oval img {
-        height: 40px;
+/*        height: 40px;*/
         max-height: none;
     }
 
@@ -1161,10 +1216,11 @@ body {
         font-family: Raleway;
         background: transparent;
         font-weight: bolder;
-        border-radius: 7.5em;
+/*        border-radius: 7.5em;*/
         width: 100px;
         height: 100px;
-        border: solid 7px rgba(34, 34, 34, 0.08);
+/*        border: solid 7px rgba(34, 34, 34, 0.08);*/
+        border: none;
         vertical-align: middle;
         cursor: pointer;
     }
@@ -1304,7 +1360,8 @@ body {
     }*/
 
      .facebook-icon  {
-        height: 60px;
+    height: 80px;
+    width: 80px !important;
     }
 
     .twitter-icon {
@@ -1340,4 +1397,18 @@ body {
     video#myVideo {
         visibility: hidden;
     }
+}
+
+.video-play-margin {
+    width: 75vw;
+    height: 85vh;
+    margin-left: 0;
+    margin-top: 10%;
+    }
+
+.materia-header {
+    height: 100px;
+    width: 120%;
+    margin: 10% -10% 5% -10%;
+
 }
