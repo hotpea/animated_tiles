@@ -91,14 +91,19 @@ body {
 }
 
 .navigation {
+    position: relative;
+    text-align: center;
+    align-content: center;
+
     font-weight: 900;
-    background-color: #f9f9f9;
+    background-color: #F9F9F9!important;
     padding-top: 1%;
     z-index: 2;
     font-family: Raleway;
 }
 
 .container {
+    background-color: #ffffff;
     position: relative;
     text-align: center;
     align-content: center;
@@ -144,7 +149,7 @@ body {
     align-content: center;
     color: black;
     font-weight: bold;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     top: 43%;
     left: 50%;
     font-family: Raleway;
@@ -408,6 +413,8 @@ body {
 }
 
 #site-content {
+    position: relative;
+    background-color: #F9F9F9;
     -webkit-transition: 1s;
     transition: 1s;
 }
@@ -901,6 +908,7 @@ body {
 }
 
 #myVideo {
+    position: fixed;
     right: 0;
     bottom: 0;
     width: 100vw;
