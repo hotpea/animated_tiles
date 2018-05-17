@@ -553,11 +553,6 @@ body {
     vertical-align: middle;
     -webkit-transition: .35s;
     transition: .35s;
-    filter: grayscale(100%);
-}
-
-.thumb:hover {
-    filter: grayscale(0%);
 }
 
 .thumb img {
@@ -821,6 +816,14 @@ body {
 .player {
     min-width: 100%;
     min-height: 100vh;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.grayscale:hover {
+    filter: grayscale(0%);
 }
 
 .picture-item {
