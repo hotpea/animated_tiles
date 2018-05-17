@@ -309,6 +309,28 @@ body {
     cursor: pointer;
 }
 
+.facebook-share,
+.twitter-share {
+    font-family: Raleway;
+    background: transparent;
+    font-weight: bolder;
+    border-radius: 2.5em;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.facebook-share-top,
+.twitter-share-top {
+    font-family: Raleway;
+    background: transparent;
+    font-weight: bolder;
+    border-radius: 2.5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
 .button-facebook{
     font-family: Raleway;
     background: transparent;
@@ -1043,6 +1065,18 @@ display: flex;
     .twitter img {
     height: 80px;
     width: 80px !important;
+    }
+
+    .facebook-share,
+    .twitter-share {
+        font-family: Raleway;
+        background: transparent;
+        font-weight: bolder;
+        border-radius: 2.5em;
+        width: 90px;
+        height: 90px;
+        vertical-align: middle;
+        cursor: pointer;
     }
 
     #bottom {

@@ -81,13 +81,6 @@ document.body.onclick = function() {
 };
 
 window.onload = function() {
-    //if(mobileAndTabletcheck()) {
-    //    document.getElementById("video-source").appendChild('<source src="images/videos/AFOGADO.mp4" type="video/mp4">');
-    //} else {
-    //    document.getElementById("video-source").appendChild('<source src="images/videos/AFOGADOS_VERTICAL.mp4" type="video/mp4">');
-    //}
-
-
     getUrlParameter('v');
     changeOGMetaTag('images/city.jpeg');
 
