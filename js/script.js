@@ -388,7 +388,10 @@ function mountEventsTiles() {
                             h2[h].style.maxHeight = '0px';
                         }
 
-                        e.target.parentElement.parentElement.classList.remove('active');
+                        var allCloseButtons = document.getElementsByClassName('button-close active')
+                        for(var x = 0; allCloseButtons.length > x; x++) {
+                            allCloseButtons[x].classList.remove('active');
+                        }
 
                         setTimeout(function(){
                             if(square.getElementsByClassName('float-title').length > 0) {
