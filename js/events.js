@@ -9,12 +9,6 @@ $(document).ready(function() {
     });
 
     /**
-     * eventos parallax
-     */
-    //$('.capa-paroller').paroller({ factor: '0.3', type: 'background', direction: 'vertical' });
-    //$('.second-capa-paroller').paroller({ factor: '0.2', type: 'foreground', direction: 'vertical' });
-
-    /**
      * evento de play quando clicado em play do vídeo #1
      *
      * TODO: passar para PLAIN JAVASCRIPT
