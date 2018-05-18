@@ -8,8 +8,8 @@ html {
     outline: none;
 }
 
-p, h2 {
-    max-height: 0px;
+.content {
+    display: none;
 }
 
 html {
@@ -161,7 +161,6 @@ body {
 }
 
 .container {
-    margin-top: 5%;
     background-color: #ffffff;
     position: relative;
     text-align: center;
@@ -1010,7 +1009,7 @@ body {
 }
 
 .topo-logo {
-    padding-top: 0.5%;
+    padding-top: 2%;
     margin: 0 20%;
     height: 60px;
     width: 60%;

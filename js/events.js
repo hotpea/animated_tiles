@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 
     Pace.on("done", function() {
-        $('html').delay(1000).css('overflow-y', 'scroll');
+        $('html').delay(1000).css('overflow-y', 'auto');
         $('.scroll').delay(500).css('opacity', '1');
     });
 
@@ -54,7 +54,12 @@ $(document).ready(function() {
 
     // TODO: Scroll to second-capa
     window.wasScrolled = false;
-    $(window).bind('scroll',function(){
+    $(window).bind('scroll',function(e){
+        if( (window.innerHeight - bottom.getBoundingClientRect().bottom) >= 0 ) {
+            //console.log(window.innerHeight - bottom.getBoundingClientRect().bottom);
+            e.preventDefault();
+        }
+
         if (!window.wasScrolled){
             $('html, body').animate({
                 scrollTop: document.getElementById('container').getBoundingClientRect().top
@@ -63,3 +68,39 @@ $(document).ready(function() {
         window.wasScrolled = true;
     });
 });
+
+// left: 37, up: 38, right: 39, down: 40,
+// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+function preventDefault(e) {
+    e = e || window.event;
+    if (e.preventDefault)
+        e.preventDefault();
+    e.returnValue = false;
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+
+function disableScroll() {
+    if (window.addEventListener) // older FF
+        window.addEventListener('DOMMouseScroll', preventDefault, false);
+    window.onwheel = preventDefault; // modern standard
+    window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+    window.ontouchmove  = preventDefault; // mobile
+    document.onkeydown  = preventDefaultForScrollKeys;
+}
+
+function enableScroll() {
+    if (window.removeEventListener)
+        window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null;
+    window.onwheel = null;
+    window.ontouchmove = null;
+    document.onkeydown = null;
+}

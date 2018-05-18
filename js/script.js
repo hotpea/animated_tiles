@@ -293,6 +293,7 @@ function mountEventsTiles() {
                         square.getElementsByClassName('content')[0].style.width = "40%";
                         square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
                         square.getElementsByClassName('content')[0].style.paddingRight = "20%";
+                        square.getElementsByClassName('content')[0].style.display = "block";
                     }
                 }
 
@@ -381,6 +382,7 @@ function mountEventsTiles() {
                         square.getElementsByClassName('content')[0].style.width = null;
                         square.getElementsByClassName('content')[0].style.paddingLeft = null;
                         square.getElementsByClassName('content')[0].style.paddingRight = null;
+                        square.getElementsByClassName('content')[0].style.display = "none";
 
                         var paragraphs = square.getElementsByTagName('p');
 
@@ -641,3 +643,4 @@ function getCookie(name) {
     var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
     return v ? v[2] : null;
 }
+
