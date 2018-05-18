@@ -268,15 +268,15 @@ function mountEventsTiles() {
 
                 square.style.position = 'fixed!important';
 
-                if( !(mobileAndTabletcheck()) ) {
-                    if( square.getElementsByClassName('content').length > 0 ) {
+                if( square.getElementsByClassName('content').length > 0 ) {
+                    if( !(mobileAndTabletcheck()) ) {
                         square.getElementsByClassName('content')[0].style.width = "40%";
                         square.getElementsByClassName('content')[0].style.paddingLeft = "20%";
                         square.getElementsByClassName('content')[0].style.paddingRight = "20%";
                         square.getElementsByClassName('content')[0].style.display = "block";
+                    } else {
+                        square.getElementsByClassName('content')[0].style.display = "block";
                     }
-                } else {
-                    square.getElementsByClassName('content')[0].style.display = "block";
                 }
 
                 if( square.getElementsByClassName('float-title').length > 0 ) {
