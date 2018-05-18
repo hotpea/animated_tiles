@@ -41,6 +41,7 @@ var apiKey = null;
 var username = null;
 
 var container = document.getElementById('container');
+var bottom = document.getElementById('bottom');
 
 /**
  * inicia o shufflejs
@@ -62,7 +63,7 @@ window.paceOptions = {
     // Only show the progress on regular and ajax-y page navigation,
     // not every request
     restartOnRequestAfter: false
-}
+};
 
 /**
  * rolar pro topo ao carregar
@@ -100,7 +101,7 @@ document.getElementById('scroll-to-page').addEventListener('click', function() {
     smoothScroll(todos_shuffle);
 });
 
-document.addEventListener("scroll", function(){
+document.addEventListener("scroll", function(e){
     if(mobileAndTabletcheck()) {
         if ( window.pageYOffset > 3000){
             document.getElementById('top-site-text').style.opacity = 0;
@@ -114,7 +115,10 @@ document.addEventListener("scroll", function(){
             document.getElementById('top-site-text').style.display = 'block';
         }
     }
-
+    if(window.pageYOffset < bottom.bottom) {
+        alert('teste');
+        e.preventDefault();
+    }
 });
 
 /**
@@ -147,6 +151,10 @@ for(var t = 0;twitterShare.length > t; t++ ) {
         );
     });
 }
+
+bottom.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+}, false);
 
 /**
  * TODO: criar evento genérico para todos os botões e tipo de dado
@@ -436,18 +444,27 @@ function mountTilesHeights() {
 
     for(var t = 0; tiles.length > t; t++) {
         //tiles[t].clientHeight = tiles[t].clientWidth;
-
         if(mobileAndTabletcheck()) {
             if (tiles[t].classList.contains('alternate')) {
-                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+                window.ht = tiles[t];
+                tiles[t].style.height = (tiles[t].clientWidth / 3) + 'px!important';
+            } else {
+                if (tiles[t].classList.contains('square-two-rows')) {
+                    tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+                } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
+                    tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+                } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+                    tiles[t].style.height = tiles[t].clientWidth + 'px';
+                }
             }
-        }
-        if (tiles[t].classList.contains('square-two-rows')) {
-            tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
-        } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
-            tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-        } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
-            tiles[t].style.height = tiles[t].clientWidth + 'px';
+        } else {
+            if (tiles[t].classList.contains('square-two-rows')) {
+                tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+            } else if ( (tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
+                tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+            } else if( (tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns'))) ){
+                tiles[t].style.height = tiles[t].clientWidth + 'px';
+            }
         }
     }
 
@@ -536,10 +553,14 @@ function getUrlParameter(sParam) {
                 }, 500);
             } else {
                 setTimeout(function() {
+                    window.el = element;
+
                     smoothScroll(element);
-                    eventFire(element, 'click');
-                    // TODO: play video
-                    //eventFire(element.getElementsByClassName('play'), 'click');
+
+                    setTimeout(function() {
+                        eventFire(element, 'click');
+                        eventFire(element.getElementsByClassName('play')[0], 'click');
+                    }, 500);
                 }, 1000);
             }
         }

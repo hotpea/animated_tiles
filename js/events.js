@@ -6,6 +6,7 @@ $(document).ready(function() {
 
     Pace.on("done", function() {
         $('html').delay(1000).css('overflow-y', 'scroll');
+        $('.scroll').delay(500).css('opacity', '1');
     });
 
     /**
