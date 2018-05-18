@@ -248,10 +248,13 @@ function mountEventsTiles() {
         controler[i].onclick = function (e) {
             if(this.style.width != clicked_width) {
                 eventFire(document.body, 'click');
+                stopAllVideos();
 
                 resizeAll();
 
                 var square = this;
+
+                window.el = square;
 
                 document.location.hash = "v=" + square.getAttribute('id');
 
@@ -329,6 +332,19 @@ function mountEventsTiles() {
                         }, 500);
                     }
 
+                    if(square.classList.contains('alternate')) {
+                        square.setAttribute('width', square.style.width);
+                        square.setAttribute('height', square.style.height);
+                        square.setAttribute('left', square.style.left);
+                        square.setAttribute('top', square.style.top);
+
+                        square.style.width = '100%';
+                        square.style.minHeight = '100vh';
+                        square.style.height = 'auto';
+                        square.style.left = '0%';
+                        square.style.top = '0%';
+                    }
+
                     square.className += ' active';
 
                     setTimeout(function() {
@@ -339,10 +355,13 @@ function mountEventsTiles() {
                 if(e.target.classList.contains('button-close')) {
                     //resizeAll();
 
+                    stopAllVideos();
+
                     var square = this;
 
                     document.location.hash = 'navegacao';
 
+                    //square.getElementsByClassName('play')[0].style.opacity = "1";
                     square.getElementsByClassName('content')[0].style.opacity = "0";
 
                     setTimeout(function() {
@@ -353,13 +372,23 @@ function mountEventsTiles() {
 
                         eventFire(document.body, 'click');
 
-                        square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
-                        square.getElementsByClassName('type')[0].style.minHeight = "0%";
-                        square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
-                        square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
-                        square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
+                        if(square.getElementsByClassName('type').length > 0) {
+                            square.getElementsByClassName('type')[0].style.width = square.getElementsByClassName('type')[0].getAttribute('width');
+                            square.getElementsByClassName('type')[0].style.minHeight = "0%";
+                            square.getElementsByClassName('type')[0].style.height = square.getElementsByClassName('type')[0].getAttribute('height');
+                            square.getElementsByClassName('type')[0].style.left = square.getElementsByClassName('type')[0].getAttribute('left');
+                            square.getElementsByClassName('type')[0].style.top = square.getElementsByClassName('type')[0].getAttribute('top');
 
-                        square.getElementsByClassName('type')[0].style.background = square.getElementsByClassName('type')[0].getAttribute('background');
+                            square.getElementsByClassName('type')[0].style.background = square.getElementsByClassName('type')[0].getAttribute('background');
+                        }
+
+                        if(square.classList.contains('alternate')) {
+                            square.style.width = square.getAttribute('width');
+                            square.style.minHeight = "0%";
+                            square.style.height = square.getAttribute('height');
+                            square.style.left = square.getAttribute('left');
+                            square.style.top = square.getAttribute('top');
+                        }
 
                         square.getElementsByClassName('content')[0].style.width = null;
                         square.getElementsByClassName('content')[0].style.paddingLeft = null;
@@ -522,7 +551,6 @@ function getUrlParameter(sParam) {
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
             if(element) {
-                console.log(1);
                 if(element.getElementsByClassName('content').length > 0) {
                     if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
                         var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
@@ -617,3 +645,12 @@ function getCookie(name) {
     return v ? v[2] : null;
 }
 
+function stopAllVideos() {
+    var videos = document.getElementsByClassName('player');
+    for(var v = 0; videos.length > v; v++) {
+        var parent = videos[v].parentElement;
+        var video = videos[v];
+        videos[v].remove();
+        parent.appendChild(video)
+    }
+}

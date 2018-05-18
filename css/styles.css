@@ -891,6 +891,7 @@ body {
 
 .play {
     max-height: 100vh;
+    opacity: 1;
 }
 
 .player {
@@ -1387,6 +1388,7 @@ display: flex;
     }
 
     .alternate {
+        position: sticky!important;
         background: black;
         /* min-width: 84vh!important; */
         /* max-width: 360px!important; */
@@ -1409,6 +1411,13 @@ display: flex;
         min-width: 100vw;
         min-height: 31vh!important;
         margin-top: 60%;
+    }
+
+    .video-play-margin {
+        width: 100vw!important;
+        height: 32vh!important;
+        margin-left: -17%!important;
+        margin-top: 50%!important;
     }
 
     .video-play {
@@ -1544,11 +1553,11 @@ display: flex;
 }
 
 .video-play-margin {
-    width: 75vw;
+    width: 100vw;
     height: 85vh;
-    margin-left: 0;
+    margin-left: -75%;
     margin-top: 10%;
-    }
+}
 
 .materia-header {
     height: 100px;
