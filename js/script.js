@@ -101,26 +101,6 @@ document.getElementById('scroll-to-page').addEventListener('click', function() {
     smoothScroll(todos_shuffle);
 });
 
-document.addEventListener("scroll", function(e){
-    if(mobileAndTabletcheck()) {
-        if ( window.pageYOffset > 3000){
-            document.getElementById('top-site-text').style.opacity = 0;
-        } else {
-            document.getElementById('top-site-text').style.opacity = 1;
-        }
-    } else {
-        if ( window.pageYOffset > 1500){
-            document.getElementById('top-site-text').style.display = 'none';
-        } else {
-            document.getElementById('top-site-text').style.display = 'block';
-        }
-    }
-    if(window.pageYOffset < bottom.bottom) {
-        alert('teste');
-        e.preventDefault();
-    }
-});
-
 /**
  * facebook top share
  */
@@ -295,6 +275,8 @@ function mountEventsTiles() {
                         square.getElementsByClassName('content')[0].style.paddingRight = "20%";
                         square.getElementsByClassName('content')[0].style.display = "block";
                     }
+                } else {
+                    square.getElementsByClassName('content')[0].style.display = "block";
                 }
 
                 if( square.getElementsByClassName('float-title').length > 0 ) {
