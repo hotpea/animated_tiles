@@ -540,6 +540,7 @@ function getUrlParameter(sParam) {
             var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
 
             if(element) {
+                console.log(1);
                 if(element.getElementsByClassName('content').length > 0) {
                     if(element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
                         var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
@@ -551,19 +552,9 @@ function getUrlParameter(sParam) {
                     setTimeout(function() {
                         smoothScroll(element);
                         eventFire(element, 'click');
+                        eventFire(element.getElementsByClassName('play')[0], 'click');
                     }, 1000);
                 }, 500);
-            } else {
-                setTimeout(function() {
-                    window.el = element;
-
-                    smoothScroll(element);
-
-                    setTimeout(function() {
-                        eventFire(element, 'click');
-                        eventFire(element.getElementsByClassName('play')[0], 'click');
-                    }, 500);
-                }, 1000);
             }
         }
     }
