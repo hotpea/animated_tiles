@@ -134,10 +134,6 @@ class Home extends Component {
                                 <img alt="" className="vertical hide" src={vertical}/>
                             </div>
                                 <div className="icon-scroll">
-                                    {/* <img alt="" src="images/mouse-branco.png"
-                                        srcSet="images/mouse-branco@2x.png 2x,
-                                            images/mouse-branco@3x.png 3x"
-                                        className="mouse"/> */}
                                 </div>
 
                                 <br/>
@@ -203,10 +199,6 @@ class Home extends Component {
                                     <img alt="" src={vertical} className="vertical hide"/>
                                 </div>
                                 <div className="icon-scroll scroll-margin logo">
-                                    {/* <img alt="" src="images/mouse-branco.png"
-                                    srcSet="images/mouse-branco@2x.png 2x,
-                                    images/mouse-branco@3x.png 3x"
-                                    className="mouse"/> */}
                                 </div>
 
                                 <br/>
