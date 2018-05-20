@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import './assets/scss/pace.scss';
 import './assets/scss/styles.scss';
+import './assets/scss/pace.scss';
 import Home from './pages/Home';
 import registerServiceWorker from './registerServiceWorker';
 

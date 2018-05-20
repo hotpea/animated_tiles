@@ -1018,7 +1018,7 @@ body {
 
 #slideshow {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
@@ -1090,6 +1090,7 @@ body {
 }
 
 .slideshow-element{
+    display: none;
     position: absolute;
     font-weight: 900;
     font-size:5rem;
@@ -1097,6 +1098,7 @@ body {
     letter-spacing: -0.2rem;
     text-align: center;
     width: 100%;
+    transform: translateY(-50%);
 }
 
 .scroll-first {
@@ -1493,9 +1495,10 @@ display: flex;
 
 
     .videoloop {
-        background-repeat: no-repeat;
+        /* background-repeat: no-repeat;
         background-size: cover;
         background-image: url('../img/AFOGADO.gif');
+         */
         height: 100vh;
     }
 
@@ -1510,9 +1513,9 @@ display: flex;
         max-height: 100vh;
     }
 
-    video#myVideo {
+    /* video#myVideo {
         visibility: hidden;
-    }
+    } */
 
     /*mouse*/
     .icon-scroll {

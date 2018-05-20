@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Route, NavLink } from 'react-router-dom'
+import { Route, NavLink } from 'react-router-dom';
+import $ from 'jquery';
 
 import Em2017BrasilTemMenorInflacaoEmDuasDecadas from './contents/Em2017BrasilTemMenorInflacaoEmDuasDecadas';
 import GovernoPropoeSalarioMinimoDe1002Para2019 from './contents/GovernoPropoeSalarioMinimoDe1002Para2019';
@@ -43,7 +44,8 @@ import IntegracaoDoSaoFranciscoMaisVidaNoNordeste from './contents/IntegracaoDoS
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
 
-import afogado from '../assets/videos/AFOGADO.mp4';
+// import afogado from '../assets/videos/AFOGADO.mp4';
+// import afogadoMobile from '../assets/videos/afogados_mobile.mp4';
 
 import vertical from '../assets/img/vertical.png';
 
@@ -79,13 +81,20 @@ import  from '../assets/img/@3x.png';
 
 
 class Home extends Component {
-    // constructor(props) {
-    //     super(props);
-
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {
+            video: ''
+        }
+    }
     componentDidMount() {
         window.initScript();
-        
+        this.loadVideo();
+    }
+    loadVideo() {
+        this.setState({
+            video: ($(window).width() < 1000) ? 'static/videos/afogados_mobile.mp4' : 'static/videos/afogados.mp4'
+        });
     }
     render() {
         return (
@@ -95,7 +104,7 @@ class Home extends Component {
                         <div className="videoloop">
                             <header className="topo-logo">
                                 <div className="topo-marca">
-                                    <img alt="" src={logoBranco} srcSet={`${logoBranco2} 2x, ${logoBranco3} 3x`} className="gov-br "/>
+                                    <img alt="" src={logoBranco} srcSet={`${logoBranco2} 2x, ${logoBranco3} 3x`} className="gov-br " />
                                 </div>
 
                                 <div className="topo-links">
@@ -107,23 +116,25 @@ class Home extends Component {
 
                                     <div className=" topo-icons">
                                         <div className="top-menu facebook hide facebook-share-top">
-                                            <br/>
+                                            <br />
                                             <img alt="" src={icFacebook} srcSet={`${icFacebook2} 2x, ${icFacebook3} 3x`} className="logo share facebook-icon" />
                                         </div>
 
-                                        <br/>
+                                        <br />
 
                                         <div className="top-menu twitter hide twitter-share-top">
                                             <img alt="" src={icTwitter} srcSet={`${icTwitter2} 2x, ${icTwitter3} 3x`} className="logo share twitter-icon" />
                                         </div>
                                     </div>
                                 </div>
-                                <br/>
+                                <br />
                             </header>
                         </div>
 
                         <video autoPlay muted loop id="myVideo">
-                                <source id="video-source" src={afogado} type="video/mp4" />
+                            <source type='video/mp4' src={this.state.video} />
+                            {/* <source src={afogadoMobile} type="video/mp4" media="all and (max-width: 1000px)" />
+                            <source src={afogado} type="video/mp4" /> */}
                         </video>
                         <div id="slideshow">
                             <h4 className="slideshow-element">Saímos da recessão</h4>
@@ -132,12 +143,12 @@ class Home extends Component {
                         </div>
                         <div id="scroll-first" className="scroll-first scroll">
                             <div>
-                                <img alt="" className="vertical hide" src={vertical}/>
+                                <img alt="" className="vertical hide" src={vertical} />
                             </div>
-                                <div className="icon-scroll">
-                                </div>
+                            <div className="icon-scroll">
+                            </div>
 
-                                <br/>
+                            <br />
 
                             <span className="smaller-title-text">
                                 ROLE PARA BAIXO
@@ -156,7 +167,7 @@ class Home extends Component {
                                             </div>
 
                                             <div className="topo-links">
-                                                <a href="documentos/balanco.pdf" target="_blank" style={{color: 'black'}}>Balanço de Governo</a>
+                                                <a href="documentos/balanco.pdf" target="_blank" style={{ color: 'black' }}>Balanço de Governo</a>
                                             </div>
 
                                             <div className="topo-share">
@@ -164,45 +175,45 @@ class Home extends Component {
                                                 <div className="topo-icons">
 
                                                     <div className="top-menu facebook hide facebook-share-top">
-                                                        <br/>
+                                                        <br />
                                                         <img alt="" src={icFacebook} srcSet={`${icFacebook2} 2x, ${icFacebook3} 3x`} className="share facebook-icon" />
                                                     </div>
 
-                                                    <br/>
+                                                    <br />
 
                                                     <div className="top-menu twitter hide twitter-share-top">
                                                         <img alt="" src={icTwitter} srcSet={`${icTwitter2} 2x, ${icTwitter3} 3x`} className="share twitter-icon" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <br/>
+                                            <br />
                                         </header>
                                     </div>
                                 </div>
                             </div>
 
-                            <br/>
+                            <br />
 
                             <div>
                                 <span className="bigger-title-text"> Avançamos.</span>
                             </div>
 
-                            <br/><br/>
+                            <br /><br />
 
                             <div>
-                                <img alt="" src={vertical} className="vertical hide"/>
+                                <img alt="" src={vertical} className="vertical hide" />
                             </div>
 
-                            <br/>
+                            <br />
 
                             <div id="scroll-to-page" className="scroll">
                                 <div>
-                                    <img alt="" src={vertical} className="vertical hide"/>
+                                    <img alt="" src={vertical} className="vertical hide" />
                                 </div>
                                 <div className="icon-scroll scroll-margin logo">
                                 </div>
 
-                                <br/>
+                                <br />
 
                                 <span className="smaller-title-text">
                                     ROLE PARA BAIXO
@@ -293,7 +304,7 @@ class Home extends Component {
                             <NavLink to="depoimento-presidente-da-caixa" id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
                                 <div className="type_three type">
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')}/>
+                                        <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}depoimento-presidente-da-caixa`} component={DepoimentoPresidenteDaCaixa} />
@@ -529,7 +540,7 @@ class Home extends Component {
                                         Balança comercial tem <strong>recorde histórico em 2017</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/20-balanca-comercial.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/20-balanca-comercial.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}saldo-da-balanca-comercial`} component={SaldoDaBalancaComercial} />
@@ -604,7 +615,7 @@ class Home extends Component {
                                         Casos de dengue, zika e chicungunya <strong>são reduzidos</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/23-casos-dengue.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/23-casos-dengue.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}casos-de-dengue-zika-e-chicungunya-sao-reduzidos`} component={CasosDeDengueZikaEChicungunyaSaoReduzidos} />
@@ -653,7 +664,7 @@ class Home extends Component {
                                         Compra de medicamentos tem <strong>reforço de R$ 80 milhões</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/26-compra-medicamentos.png')}/>
+                                        <img alt="" className="column" src={require('../assets/img/thumb/26-compra-medicamentos.png')} />
                                     </div>
 
                                     <div className="content">
@@ -670,7 +681,7 @@ class Home extends Component {
                                         Cartão Reforma: R$ 685 milhões para <strong>renovar moradias</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/27-cartao-reforma.png')}/>
+                                        <img alt="" className="column" src={require('../assets/img/thumb/27-cartao-reforma.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}cartao-reforma-r-685-milhoes-para-renovar-moradias`} component={CartaoReformaR685MilhoesParaRenovarMoradias} />
@@ -686,7 +697,7 @@ class Home extends Component {
                                         Gestão eficiente gera <strong>economia para a população</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/28-gestao-eficiente.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/28-gestao-eficiente.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}gestao-eficiente-gera-economia-para-a-populacao`} component={GestaoEficienteGeraEconomiaParaAPopulacao} />
@@ -701,7 +712,7 @@ class Home extends Component {
                                     <div className="float-title float-title-one">
                                         Teto dos gastos <strong>ajusta as contas públicas</strong>
                                     </div>
-                                                                    {/* <div className="thumb">
+                                    {/* <div className="thumb">
                                                                         <img alt="" src={require('')} src="../assets/img/thumb/40-PF-apreensao-drogas.png"/>
                                                                     </div>  */}
                                     <div className="content">
@@ -718,7 +729,7 @@ class Home extends Component {
                                         Bolsa família tem aumento no benefício e <strong>fila zerada</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/30-bolsa-familia.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/30-bolsa-familia.png')} />
                                     </div>
 
                                     <div className="content">
@@ -782,7 +793,7 @@ class Home extends Component {
                                         <strong>Rio mais seguro</strong> com intervenção federal
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}rio-mais-seguro-com-intervencao-federal`} component={RioMaisSeguroComIntervencaoFederal} />
@@ -797,7 +808,7 @@ class Home extends Component {
                                         <strong>Governo reforça operações</strong> na faixa de fronteira
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
@@ -812,7 +823,7 @@ class Home extends Component {
                                         Quase duas Franças de Unidades de <strong>Conservação criadas</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')}/>
+                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}quase-duas-francas-de-unidades-de-conservacao-criadas`} component={QuaseDuasFrancasDeUnidadesDeConservacaoCriadas} />
@@ -828,7 +839,7 @@ class Home extends Component {
                                         <strong>ID Jovem amplia acesso à cultura</strong> de 500 mil jovens
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')}/>
+                                        <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens`} component={IdJovemAmpliaAcessoACulturaDe500MilJovens} />
@@ -844,7 +855,7 @@ class Home extends Component {
                                         Integração do São Francisco: <strong>mais vida no Nordeste</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}integracao-do-sao-francisco-mais-vida-no-nordeste`} component={IntegracaoDoSaoFranciscoMaisVidaNoNordeste} />
@@ -877,7 +888,7 @@ class Home extends Component {
                                         <strong>PF bate recorde</strong> histórico de apreensão de drogas
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/teto-gastos.png')}/>
+                                        <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}pf-bate-recorde-historico-de-apreensao-de-drogas`} component={PfBateRecordeHistoricoDeApreensaoDeDrogas} />
@@ -887,7 +898,7 @@ class Home extends Component {
 
 
                             <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
-                                <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')}/>
+                                <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')} />
                             </div>
 
                             {/* FIM PUBLICAÇÃO */}
