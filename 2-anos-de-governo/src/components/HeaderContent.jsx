@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import IcFechar from '../assets/img/ic-fechar.png';
 import IcFechar2 from '../assets/img/ic-fechar@2x.png';
 import IcFechar3 from '../assets/img/ic-fechar@3x.png';
 
 import IcTwitter from '../assets/img/ic-twitter.png';
-import IcTwitter2 from '../assets/img/ic-twitter@2x.png';
-import IcTwitter3 from '../assets/img/ic-twitter@3x.png';
 import IcFacebookBranco from '../assets/img/ic-facebook-branco.png';
 
 class HeaderContent extends Component {
@@ -14,9 +13,9 @@ class HeaderContent extends Component {
         return (
             <div className="materia-header">
                 <div className="button-close">
-                    <button className="button-oval button-close">
+                    <NavLink to="/" className="button-oval button-close">
                         <img alt="" src={IcFechar} srcSet={`${IcFechar2} 2x, ${IcFechar3} 3x`} className="button-close"/>
-                    </button>
+                    </NavLink>
                 </div>
 
                 <div className="buttons-oval">
@@ -26,7 +25,7 @@ class HeaderContent extends Component {
                     </a>
 
                     <a className="twitter-share">
-                        <img alt="" src={IcTwitter} srcSet={`${IcTwitter2} 2x, ${IcTwitter3} 3x`} className="twitter-share logo"/>
+                        <img alt="" src={IcTwitter} className="twitter-share logo"/>
                     </a>
                 </div>
             </div>

@@ -368,6 +368,15 @@ body {
     border: solid 7px rgba(34, 34, 34, 0.08);
     vertical-align: middle;
     cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .facebook-share,
@@ -482,6 +491,10 @@ body {
     margin-right: 25%;
     min-height: 1500px;
     z-index: 2;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
 }
 
 .content-image {
@@ -1306,10 +1319,6 @@ display: flex;
         height: 80px;
     }
 
-    .button-oval img {
-/*        height: 40px;*/
-        max-height: none;
-    }
 
     .button-oval {
         font-family: Raleway;

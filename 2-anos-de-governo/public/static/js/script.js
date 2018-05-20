@@ -141,11 +141,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     todos_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + todos_shuffle.getAttribute('id');
-
-        todos_shuffle.className += ' button-active';
         last_shuffle = Shuffle.ALL_ITEMS;
         resizeAll();
     });
@@ -154,11 +149,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     economia_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + economia_shuffle.getAttribute('id');
-
-        economia_shuffle.className += ' button-active';
         last_shuffle = 'economia';
         resizeAll();
     });
@@ -167,11 +157,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     meio_ambiente_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + meio_ambiente_shuffle.getAttribute('id');
-
-        meio_ambiente_shuffle.className += ' button-active';
         last_shuffle = 'meio-ambiente';
         resizeAll();
     });
@@ -180,11 +165,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     cultura_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + cultura_shuffle.getAttribute('id');
-
-        cultura_shuffle.className += ' button-active';
         last_shuffle = 'cultura';
         resizeAll();
     });
@@ -193,11 +173,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     gestao_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + gestao_shuffle.getAttribute('id');
-
-        gestao_shuffle.className += ' button-active';
         last_shuffle = 'gestao';
         resizeAll();
     });
@@ -207,11 +182,6 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     social_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + social_shuffle.getAttribute('id');
-
-        social_shuffle.className += ' button-active';
         last_shuffle = 'social';
         resizeAll();
     });
@@ -220,24 +190,9 @@ window.initScript = function() {
      * TODO: criar evento genérico para todos os botões e tipo de dado
      */
     seguranca_e_defesa_shuffle.addEventListener('click', function () {
-        resetButtons();
-
-        document.location.hash = "v=" + seguranca_e_defesa_shuffle.getAttribute('id');
-
-        seguranca_e_defesa_shuffle.className += ' button-active';
         last_shuffle = 'seguranca-e-defesa';
         resizeAll();
     });
-
-    /**
-     * remove a classe 'button-active' de todos os botões de filtro
-     */
-    function resetButtons() {
-        var buttons = document.getElementsByClassName('button');
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].classList.remove('button-active');
-        }
-    }
 
     /**
      * adiciona o evento de click a todos os tiles da página
@@ -360,7 +315,7 @@ window.initScript = function() {
 
                         var square = this;
 
-                        document.location.hash = 'navegacao';
+                        // document.location.hash = 'navegacao';
 
                         //square.getElementsByClassName('play')[0].style.opacity = "1";
                         square.getElementsByClassName('content')[0].style.opacity = "0";
@@ -492,7 +447,7 @@ window.initScript = function() {
      *
      * dispara o evento definido no elemento definido
      */
-    function eventFire(el, etype) {
+    var eventFire = function(el, etype) {
         setTimeout(function () {
             if (el.fireEvent) {
                 el.fireEvent('on' + etype);
@@ -609,6 +564,7 @@ window.initScript = function() {
     }
 
     function smoothScroll(el) {
+        console.log('aki', el)
         window.scroll({
             top: window.pageYOffset + el.getBoundingClientRect().top,
             left: 0,
@@ -625,24 +581,25 @@ window.initScript = function() {
         document.getElementsByTagName('head')[0].appendChild(link);
     }
 
-    function getAllAnchorLinks() {
-        var ids = document.querySelectorAll('*[id]');
+    // function getAllAnchorLinks() {
+    //     alert();
+    //     var ids = document.querySelectorAll('*[id]');
 
-        for (var x = 0; ids.length > 0; x++) {
-            if (ids[x] !== undefined) {
-                if (ids[x].classList.contains('picture-item')) {
-                    console.log(document.URL + "#v=" + ids[x].getAttribute('id'));
-                }
-            }
-        }
+    //     for (var x = 0; ids.length > 0; x++) {
+    //         if (ids[x] !== undefined) {
+    //             if (ids[x].classList.contains('picture-item')) {
+    //                 console.log(document.URL + "#v=" + ids[x].getAttribute('id'));
+    //             }
+    //         }
+    //     }
 
-        return false;
-    }
+    //     return false;
+    // }
 
-    function getCookie(name) {
-        var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-        return v ? v[2] : null;
-    }
+    // function getCookie(name) {
+    //     var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    //     return v ? v[2] : null;
+    // }
 
     function stopAllVideos() {
         var videos = document.getElementsByClassName('player');

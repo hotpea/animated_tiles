@@ -85,6 +85,7 @@ class Home extends Component {
     // }
     componentDidMount() {
         window.initScript();
+        
     }
     render() {
         return (
@@ -210,13 +211,13 @@ class Home extends Component {
                         </div>
 
                         <div className="container navigation">
-                            <button id="todos" className="button button-active" shuffle="Todos">Todos</button>
-                            <button id="economia" className="button" shuffle="economia">Economia</button>
-                            <button id="meio-ambiente" className="button" shuffle="meio-ambiente">Meio Ambiente</button>
-                            <button id="cultura" className="button" shuffle="cultura">Cultura</button>
-                            <button id="gestao" className="button" shuffle="gestao">Gestão</button>
-                            <button id="social" className="button" shuffle="social">Social</button>
-                            <button id="seguranca-e-defesa" className="button" shuffle="seguranca-e-defesa">Seguranca e Defesa</button>
+                            <NavLink exact to="/" activeClassName="button-active" id="todos" className="button" shuffle="Todos">Todos</NavLink>
+                            <NavLink to="/economia" activeClassName="button-active" id="economia" className="button" shuffle="economia">Economia</NavLink>
+                            <NavLink to="/meio-ambiente" activeClassName="button-active" id="meio-ambiente" className="button" shuffle="meio-ambiente">Meio Ambiente</NavLink>
+                            <NavLink to="/cultura" activeClassName="button-active" id="cultura" className="button" shuffle="cultura">Cultura</NavLink>
+                            <NavLink to="/gestao" activeClassName="button-active" id="gestao" className="button" shuffle="gestao">Gestão</NavLink>
+                            <NavLink to="/social" activeClassName="button-active" id="social" className="button" shuffle="social">Social</NavLink>
+                            <NavLink to="/seguranca-e-defesa" activeClassName="button-active" id="seguranca-e-defesa" className="button" shuffle="seguranca-e-defesa">Seguranca e Defesa</NavLink>
                         </div>
 
                         <div id="shuffle-container" className="shuffle-container">
@@ -295,7 +296,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')}/>
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DepoimentoPresidenteDaCaixa} />
+                                        <Route path={`${this.props.match.path}depoimento-presidente-da-caixa`} component={DepoimentoPresidenteDaCaixa} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -314,7 +315,7 @@ class Home extends Component {
                                     </div>
 
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={MaisDe204MilVagasComCarteiraAssinadaForamCriadasEm2018} />
+                                        <Route path={`${this.props.match.path}mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018`} component={MaisDe204MilVagasComCarteiraAssinadaForamCriadasEm2018} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -332,7 +333,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/08-taxa-de-juros-menor.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={TaxaBasicaDeJurosEReduzidaA65AMenorDaHistoria} />
+                                        <Route path={`${this.props.match.path}taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia`} component={TaxaBasicaDeJurosEReduzidaA65AMenorDaHistoria} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -348,7 +349,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/07-estatais-lucro.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={ComLeiDeGovernanca} />
+                                        <Route path={`${this.props.match.path}com-lei-de-governanca`} component={ComLeiDeGovernanca} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -363,7 +364,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/09-saque-fgts.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaquesDasContasInativas} />
+                                        <Route path={`${this.props.match.path}saques-das-contas-inativas`} component={SaquesDasContasInativas} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -380,7 +381,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/10-saque-pis.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaquesDoPispasepBeneficiam} />
+                                        <Route path={`${this.props.match.path}saques-do-pispasep-beneficiam`} component={SaquesDoPispasepBeneficiam} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -401,7 +402,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/11-fies-vagas.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={FiesTera350Mil} />
+                                        <Route path={`${this.props.match.path}fies-tera-350-mil`} component={FiesTera350Mil} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -417,7 +418,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/12-agricultura-familiar.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={AgriculturaFamiliarRecebe} />
+                                        <Route path={`${this.props.match.path}agricultura-familiar-recebe`} component={AgriculturaFamiliarRecebe} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -434,7 +435,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/13-petroleo-recorde.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilTemRecordeDeProducao} />
+                                        <Route path={`${this.props.match.path}brasil-tem-recorde-de-producao`} component={BrasilTemRecordeDeProducao} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -450,7 +451,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/14-biodiesel.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilEOSegundoProdutor} />
+                                        <Route path={`${this.props.match.path}brasil-e-o-segundo-produtor`} component={BrasilEOSegundoProdutor} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -466,7 +467,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/15-prouni-recorde.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={RecordeDeBolsasOfertas} />
+                                        <Route path={`${this.props.match.path}recorde-de-bolsas-ofertas`} component={RecordeDeBolsasOfertas} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -483,7 +484,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/17-novo-ensino-medio.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DiscutidoHaMaisDe20Anos} />
+                                        <Route path={`${this.props.match.path}discutido-ha-mais-de-20-anos`} component={DiscutidoHaMaisDe20Anos} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -499,7 +500,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/18-leiloes.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={LeiloesDeEnergiaAtraemBilhoes} />
+                                        <Route path={`${this.props.match.path}leiloes-de-energia-atraem-bilhoes`} component={LeiloesDeEnergiaAtraemBilhoes} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -516,7 +517,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/16-alfabetizacao.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={ProgramaMaisAlfabetizacao} />
+                                        <Route path={`${this.props.match.path}programa-mais-alfabetizacao`} component={ProgramaMaisAlfabetizacao} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -531,7 +532,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/20-balanca-comercial.png')}/>
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaldoDaBalancaComercial} />
+                                        <Route path={`${this.props.match.path}saldo-da-balanca-comercial`} component={SaldoDaBalancaComercial} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -549,7 +550,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/19-brasil-exportacao.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilTemSafraRecorde} />
+                                        <Route path={`${this.props.match.path}brasil-tem-safra-recorde`} component={BrasilTemSafraRecorde} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -574,7 +575,7 @@ class Home extends Component {
                                     </div>
 
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SAMU192Tem65DaSuaFrotaRenovadaEmDoisAnos} />
+                                        <Route path={`${this.props.match.path}SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos`} component={SAMU192Tem65DaSuaFrotaRenovadaEmDoisAnos} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -589,7 +590,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/22-ubs-gestao-eficiente.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={NumeroDeConsultasNasUbs} />
+                                        <Route path={`${this.props.match.path}numero-de-consultas-nas-ubs`} component={NumeroDeConsultasNasUbs} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -606,7 +607,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/23-casos-dengue.png')}/>
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CasosDeDengueZikaEChicungunyaSaoReduzidos} />
+                                        <Route path={`${this.props.match.path}casos-de-dengue-zika-e-chicungunya-sao-reduzidos`} component={CasosDeDengueZikaEChicungunyaSaoReduzidos} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -623,7 +624,7 @@ class Home extends Component {
                                     </div>
 
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CoberturaDosPlanosDeSaudeEAmpliada} />
+                                        <Route path={`${this.props.match.path}cobertura-dos-planos-de-saude-e-ampliada`} component={CoberturaDosPlanosDeSaudeEAmpliada} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -639,7 +640,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/25-transporte-fab.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DecretoAsseguraTransporteDeOrgaosPelaFab} />
+                                        <Route path={`${this.props.match.path}decreto-assegura-transporte-de-orgaos-pela-fab`} component={DecretoAsseguraTransporteDeOrgaosPelaFab} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -656,7 +657,7 @@ class Home extends Component {
                                     </div>
 
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CompraDeMedicamentosTemReforcoDeR80Milhoes} />
+                                        <Route path={`${this.props.match.path}compra-de-medicamentos-tem-reforco-de-R-80-milhoes`} component={CompraDeMedicamentosTemReforcoDeR80Milhoes} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -672,7 +673,7 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/27-cartao-reforma.png')}/>
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CartaoReformaR685MilhoesParaRenovarMoradias} />
+                                        <Route path={`${this.props.match.path}cartao-reforma-r-685-milhoes-para-renovar-moradias`} component={CartaoReformaR685MilhoesParaRenovarMoradias} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -688,7 +689,7 @@ class Home extends Component {
                                         <img alt="" src={require('../assets/img/thumb/28-gestao-eficiente.png')}/>
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={GestaoEficienteGeraEconomiaParaAPopulacao} />
+                                        <Route path={`${this.props.match.path}gestao-eficiente-gera-economia-para-a-populacao`} component={GestaoEficienteGeraEconomiaParaAPopulacao} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -704,7 +705,7 @@ class Home extends Component {
                                                                         <img alt="" src={require('')} src="../assets/img/thumb/40-PF-apreensao-drogas.png"/>
                                                                     </div>  */}
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={TetoDosGastos} />
+                                        <Route path={`${this.props.match.path}teto-dos-gastos`} component={TetoDosGastos} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -721,7 +722,7 @@ class Home extends Component {
                                     </div>
 
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BolsaFamiliaTemAumentoNoBeneficioEFilaZerada} />
+                                        <Route path={`${this.props.match.path}bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada`} component={BolsaFamiliaTemAumentoNoBeneficioEFilaZerada} />
                                     </div>
                                 </div>
                             </NavLink>
