@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom'
+import { Route, NavLink } from 'react-router-dom'
 
 import Em2017BrasilTemMenorInflacaoEmDuasDecadas from './contents/Em2017BrasilTemMenorInflacaoEmDuasDecadas';
 import GovernoPropoeSalarioMinimoDe1002Para2019 from './contents/GovernoPropoeSalarioMinimoDe1002Para2019';
@@ -223,7 +223,7 @@ class Home extends Component {
 
                             {/* 1 - Matéria 1 Economia */}
 
-                            <div id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         Inflação de 2,95% em 2017 é a <strong>menor</strong> em 20 anos
@@ -236,11 +236,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}em-2017-brasil-tem-menor-inflacao-em-duas-decadas`} component={Em2017BrasilTemMenorInflacaoEmDuasDecadas} />
                                     </div>
                                 </div>
-                            </div>
-
+                            </NavLink>
                             {/* 2-Matéria 4 Economia */}
 
-                            <div id="governo-propoe-salario-minimo-de-1002-para-2019" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="governo-propoe-salario-minimo-de-1002-para-2019" id="governo-propoe-salario-minimo-de-1002-para-2019" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-two">
                                         <strong>salário mínimo de R$ 1.002 para 2019</strong>
@@ -252,11 +251,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}governo-propoe-salario-minimo-de-1002-para-2019`} component={GovernoPropoeSalarioMinimoDe1002Para2019} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 3 - Matéria 2 Economia */}
 
-                            <div id="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" id="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_eight_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>País volta a crescer</strong> após dois anos de recessão
@@ -270,11 +269,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos`} component={PIBDe1ETomadaDoCrescimentoAposAMaiorRecessaoEm20Anos} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 4 - Matéria 6 Economia */}
 
-                            <div id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-two">
                                         Nova lei trabalhista <strong>beneficia criação de empregos</strong>
@@ -286,11 +285,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho`} component={ModernizacaoTrabalhistaNovosContratosEsquentamOMercadoDeTrabalho} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 5 - video 1 */}
-                            <div id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
+                            <NavLink to="depoimento-presidente-da-caixa" id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
                                 <div className="type_three type">
                                     <div className="thumb">
                                         <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')}/>
@@ -299,12 +298,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DepoimentoPresidenteDaCaixa} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 6 - Matéria 5 Economia */}
 
-                            <div id="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" id="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         Postos de trabalho <strong>voltam a crescer</strong> em 2018
@@ -318,13 +317,13 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={MaisDe204MilVagasComCarteiraAssinadaForamCriadasEm2018} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
 
                             {/* 8 - Matéria 3 Economia */}
 
-                            <div id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_six type">
                                     <div className="float-title float-title-one">
                                         Taxa de juros atinge 6,5%, <strong>a menor da história</strong>
@@ -336,11 +335,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={TaxaBasicaDeJurosEReduzidaA65AMenorDaHistoria} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 7 - Matéria 10 Economia */}
 
-                            <div id="com-lei-de-governanca" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="com-lei-de-governanca" id="com-lei-de-governanca" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Estatais têm lucro de <strong>R$ 28,4 bilhões em 2017</strong>
@@ -352,10 +351,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={ComLeiDeGovernanca} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                             {/* 9 - Matéria 7 Economia */}
 
-                            <div id="saques-das-contas-inativas" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="saques-das-contas-inativas" id="saques-das-contas-inativas" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Saques de contas do FGTS somam <strong>R$ 44 bilhões</strong>
@@ -367,12 +366,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaquesDasContasInativas} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 10-Matéria 8 Economia */}
 
-                            <div id="saques-do-pispasep-beneficiam" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="saques-do-pispasep-beneficiam" id="saques-do-pispasep-beneficiam" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Saques do PIS/Pasep injetam até R$ <strong>21 bi na economia</strong>
@@ -384,7 +383,7 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaquesDoPispasepBeneficiam} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* PRIMEIRA METADE DA LEVA */}
                             {/* <div id="video-afogados" className="picture-item grayscale alternate center" data-groups='["todos"]'> */}
@@ -393,7 +392,7 @@ class Home extends Component {
 
                             {/* 11 - Matéria 26 Educação */}
 
-                            <div id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="fies-tera-350-mil" id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
@@ -405,11 +404,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={FiesTera350Mil} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 12 Matéria 20 Agro */}
 
-                            <div id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="agricultura-familiar-recebe" id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
@@ -421,12 +420,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={AgriculturaFamiliarRecebe} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 13 - Matéria 15 Energia */}
 
-                            <div id="brasil-tem-recorde-de-producao" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="brasil-tem-recorde-de-producao" id="brasil-tem-recorde-de-producao" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Petróleo : <strong>Brasil bate recorde</strong> de produção em 2017
@@ -438,11 +437,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilTemRecordeDeProducao} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 14 - Matéria 18 Energia */}
 
-                            <div id="brasil-e-o-segundo-produtor" className="picture-item grayscale square" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="brasil-e-o-segundo-produtor" id="brasil-e-o-segundo-produtor" className="picture-item grayscale square" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_two type">
                                     <div className="float-title float-title-two">
                                         Brasil é o <strong>segundo produtor mundial</strong> de biodiesel
@@ -454,11 +453,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilEOSegundoProdutor} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 15-Matéria 27 Educação */}
 
-                            <div id="recorde-de-bolsas-ofertas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="recorde-de-bolsas-ofertas" id="recorde-de-bolsas-ofertas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_eight type">
                                     <div className="float-title float-title-one">
                                         ProUni cresce 10% e tem <strong>recorde de bolsas</strong>
@@ -470,12 +469,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={RecordeDeBolsasOfertas} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 17-Matéria 24 Educação */}
 
-                            <div id="discutido-ha-mais-de-20-anos" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="discutido-ha-mais-de-20-anos" id="discutido-ha-mais-de-20-anos" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title float-title-one">
                                         Novo Ensino Médio: <strong>educação do Brasil no século 21</strong>
@@ -487,11 +486,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DiscutidoHaMaisDe20Anos} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 18 - Matéria 16 energia */}
 
-                            <div id="leiloes-de-energia-atraem-bilhoes" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="leiloes-de-energia-atraem-bilhoes" id="leiloes-de-energia-atraem-bilhoes" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_three_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Leilões de energia atraem <strong>bilhões em investimentos</strong>
@@ -503,12 +502,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={LeiloesDeEnergiaAtraemBilhoes} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 16 Matéria 29 Educação */}
 
-                            <div id="programa-mais-alfabetizacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                            <NavLink to="programa-mais-alfabetizacao" id="programa-mais-alfabetizacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         R$ 523 milhões para o <strong>Programa Mais Alfabetização</strong>
@@ -520,10 +519,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={ProgramaMaisAlfabetizacao} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
                             {/* 20- Matéria 9 Economia */}
 
-                            <div id="saldo-da-balanca-comercial" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="saldo-da-balanca-comercial" id="saldo-da-balanca-comercial" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_six type">
                                     <div className="float-title float-title-four">
                                         Balança comercial tem <strong>recorde histórico em 2017</strong>
@@ -535,13 +534,13 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SaldoDaBalancaComercial} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
 
                             {/* 19- Matéria 19 Agro */}
 
-                            <div id="brasil-tem-safra-recorde" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="brasil-tem-safra-recorde" id="brasil-tem-safra-recorde" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Brasil tem <strong>safras recordes</strong> e mais exportação
@@ -553,7 +552,7 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BrasilTemSafraRecorde} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* <div className="picture-item grayscale alternate" data-groups='["todos"]'> */}
                             {/* <img alt="" className="play-button play" src={require('')} src="../assets/img/thumb/video02.jpg"/> */}
@@ -565,7 +564,7 @@ class Home extends Component {
 
                             {/* 21-Matéria 36 saude */}
 
-                            <div id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         <strong>SAMU 192</strong> tem 65% da sua frota renovada em dois anos
@@ -578,10 +577,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={SAMU192Tem65DaSuaFrotaRenovadaEmDoisAnos} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 22 Matéria 33 saude */}
-                            <div id="numero-de-consultas-nas-ubs" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="numero-de-consultas-nas-ubs" id="numero-de-consultas-nas-ubs" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         UBS:  <strong>gestão eficiente</strong> leva saúde para quem precisa
@@ -593,12 +592,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={NumeroDeConsultasNasUbs} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 23-Matéria 38 saude */}
 
-                            <div id="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" id="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-three">
                                         Casos de dengue, zika e chicungunya <strong>são reduzidos</strong>
@@ -610,11 +609,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CasosDeDengueZikaEChicungunyaSaoReduzidos} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 24-Matéria 42 saude */}
 
-                            <div id="cobertura-dos-planos-de-saude-e-ampliada" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="cobertura-dos-planos-de-saude-e-ampliada" id="cobertura-dos-planos-de-saude-e-ampliada" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Cobertura dos planos de saúde <strong>é ampliada</strong>
@@ -627,11 +626,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CoberturaDosPlanosDeSaudeEAmpliada} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 25-Matéria 37 saude */}
 
-                            <div id="decreto-assegura-transporte-de-orgaos-pela-fab" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="decreto-assegura-transporte-de-orgaos-pela-fab" id="decreto-assegura-transporte-de-orgaos-pela-fab" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_eigth-alt type">
                                     <div className="float-title-alt float-title-three">
                                         Decreto assegura <strong>transporte de órgãos pela FAB</strong>
@@ -643,11 +642,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={DecretoAsseguraTransporteDeOrgaosPelaFab} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 26- Matéria 43 saude */}
 
-                            <div id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Compra de medicamentos tem <strong>reforço de R$ 80 milhões</strong>
@@ -660,11 +659,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CompraDeMedicamentosTemReforcoDeR80Milhoes} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 27-Matéria 56 social */}
 
-                            <div id="cartao-reforma-r-685-milhoes-para-renovar-moradias" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="cartao-reforma-r-685-milhoes-para-renovar-moradias" id="cartao-reforma-r-685-milhoes-para-renovar-moradias" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_three_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Cartão Reforma: R$ 685 milhões para <strong>renovar moradias</strong>
@@ -676,11 +675,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={CartaoReformaR685MilhoesParaRenovarMoradias} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 28-Matéria 46 gestão */}
 
-                            <div id="gestao-eficiente-gera-economia-para-a-populacao" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                            <NavLink to="gestao-eficiente-gera-economia-para-a-populacao" id="gestao-eficiente-gera-economia-para-a-populacao" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Gestão eficiente gera <strong>economia para a população</strong>
@@ -692,11 +691,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={GestaoEficienteGeraEconomiaParaAPopulacao} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 29 Matéria 40- 11 economia */}
 
-                            <div id="teto-dos-gastos" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <NavLink to="teto-dos-gastos" id="teto-dos-gastos" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two type">
                                     <div className="float-title float-title-one">
                                         Teto dos gastos <strong>ajusta as contas públicas</strong>
@@ -708,11 +707,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={TetoDosGastos} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 30-Matéria 52 social */}
 
-                            <div id="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" id="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_six type">
                                     <div className="float-title float-title-one">
                                         Bolsa família tem aumento no benefício e <strong>fila zerada</strong>
@@ -725,11 +724,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={BolsaFamiliaTemAumentoNoBeneficioEFilaZerada} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 31- Matéria 57 social */}
 
-                            <div id="minha-Casa-minha-vida-793-mil-unidades-em-20-meses" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="minha-Casa-minha-vida-793-mil-unidades-em-20-meses" id="minha-Casa-minha-vida-793-mil-unidades-em-20-meses" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Minha Casa Minha Vida: <strong>793 mil unidades em 20 meses</strong>
@@ -741,10 +740,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}minha-Casa-minha-vida-793-mil-unidades-em-20-meses`} component={MinhaCasaMinhaVida793MilUnidadesEm20Meses} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 32-Matéria 59 social */}
-                            <div id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="recorde-na-emissao-de-titulos-de-propriedade-em-2017" id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_five type">
                                     <div className="float-title float-title-two-collumns">
                                         Recorde na emissão de títulos de <strong>propriedade em 2017</strong>
@@ -756,11 +755,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}recorde-na-emissao-de-titulos-de-propriedade-em-2017`} component={RecordeNaEmissaoDeTitulosDePropriedadeEm2017} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 33- Matéria 60 social */}
 
-                            <div id="entrega-recorde-de-titulos-da-reforma-agraria" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="entrega-recorde-de-titulos-da-reforma-agraria" id="entrega-recorde-de-titulos-da-reforma-agraria" className="picture-item square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Entrega <strong>recorde de títulos</strong> da reforma agrária
@@ -772,11 +771,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}entrega-recorde-de-titulos-da-reforma-agraria`} component={EntregaRecordeDeTitulosDaReformaAgraria} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 34- Matéria 64 segurança e defesa */}
 
-                            <div id="rio-mais-seguro-com-intervencao-federal" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            <NavLink to="rio-mais-seguro-com-intervencao-federal" id="rio-mais-seguro-com-intervencao-federal" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>Rio mais seguro</strong> com intervenção federal
@@ -788,10 +787,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}rio-mais-seguro-com-intervencao-federal`} component={RioMaisSeguroComIntervencaoFederal} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 35 Matéria 65 segurança e defesa */}
-                            <div id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            <NavLink to="governo-reforca-operacoes-na-faixa-de-fronteira" id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
                                 <div className="type_eight type">
                                     <div className="float-title float-title-one">
                                         <strong>Governo reforça operações</strong> na faixa de fronteira
@@ -803,10 +802,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 36- Matéria 74 meio ambiente */}
-                            <div id="quase-duas-francas-de-unidades-de-conservacao-criadas" className="picture-item square-two-rows" tabIndex="0" data-groups='["meio-ambiente"]'>
+                            <NavLink to="quase-duas-francas-de-unidades-de-conservacao-criadas" id="quase-duas-francas-de-unidades-de-conservacao-criadas" className="picture-item square-two-rows" tabIndex="0" data-groups='["meio-ambiente"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Quase duas Franças de Unidades de <strong>Conservação criadas</strong>
@@ -818,11 +817,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}quase-duas-francas-de-unidades-de-conservacao-criadas`} component={QuaseDuasFrancasDeUnidadesDeConservacaoCriadas} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 37- Matéria 86 cultura */}
 
-                            <div id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["cultura"]'>
+                            <NavLink to="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["cultura"]'>
                                 <div className="type_three_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>ID Jovem amplia acesso à cultura</strong> de 500 mil jovens
@@ -834,11 +833,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens`} component={IdJovemAmpliaAcessoACulturaDe500MilJovens} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* 38- Matéria 71 infraestrutura */}
 
-                            <div id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["infraestrutura"]'>
+                            <NavLink to="integracao-do-sao-francisco-mais-vida-no-nordeste" id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["infraestrutura"]'>
                                 <div className="type_two type">
                                     <div className="float-title float-title-one">
                                         Integração do São Francisco: <strong>mais vida no Nordeste</strong>
@@ -850,12 +849,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}integracao-do-sao-francisco-mais-vida-no-nordeste`} component={IntegracaoDoSaoFranciscoMaisVidaNoNordeste} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             {/* 39 - Matéria 75 meio-ambiente */}
 
-                            <div id="multas-ambientais-viram-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["meio-ambiente"]'>
+                            <NavLink to="multas-ambientais-viram-investimento" id="multas-ambientais-viram-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["meio-ambiente"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Multas ambientais <strong>viram investimento</strong>
@@ -867,11 +866,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}multas-ambientais-viram-investimento`} component={MultasAmbientaisViramInvestimento} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
                             {/* Matéria 40- 66 segurança e defesa */}
 
-                            <div id="pf-bate-recorde-historico-de-apreensao-de-drogas" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            <NavLink to="pf-bate-recorde-historico-de-apreensao-de-drogas" id="pf-bate-recorde-historico-de-apreensao-de-drogas" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
                                 <div className="type_six_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>PF bate recorde</strong> histórico de apreensão de drogas
@@ -883,7 +882,7 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}pf-bate-recorde-historico-de-apreensao-de-drogas`} component={PfBateRecordeHistoricoDeApreensaoDeDrogas} />
                                     </div>
                                 </div>
-                            </div>
+                            </NavLink>
 
 
                             <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
