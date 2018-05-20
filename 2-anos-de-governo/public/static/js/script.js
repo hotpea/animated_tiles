@@ -201,18 +201,22 @@ window.initScript = function() {
         var controler = document.getElementsByClassName('picture-item');
 
         for (var i = 0; i < controler.length; i++) {
+            
             controler[i].onclick = function (e) {
                 if (this.style.width != clicked_width) {
                     eventFire(document.body, 'click');
                     stopAllVideos();
-
                     resizeAll();
-
+                    // setTimeout(() => {
+                    //     mountTilesHeights();
+                    // }, 3000);
+                    
                     var square = this;
+                    
+                    var el = square;
+                    console.log('aki', square);
 
-                    window.el = square;
-
-                    // document.location.hash = "v=" + square.getAttribute('id');
+                    // // document.location.hash = "v=" + square.getAttribute('id');
 
                     square.setAttribute('width', square.style.width);
                     square.setAttribute('height', square.style.height);
@@ -220,7 +224,7 @@ window.initScript = function() {
                     square.style.width = clicked_width;
                     square.style.minHeight = '100vh';
                     square.style.height = clicked_height + "!important";
-
+                    
                     if (!(mobileAndTabletcheck())) {
                         square.style.marginLeft = '-50%';
                     }
@@ -267,6 +271,7 @@ window.initScript = function() {
                     }
 
                     setTimeout(function () {
+                        // mountTilesHeights();
                         if (square.getElementsByClassName('type').length > 0) {
                             square.getElementsByClassName('type')[0].setAttribute('width', square.getElementsByClassName('type')[0].style.width);
                             square.getElementsByClassName('type')[0].setAttribute('height', square.getElementsByClassName('type')[0].style.height);
@@ -382,6 +387,12 @@ window.initScript = function() {
                                         square.getElementsByClassName('thumb')[0].style.display = "block";
                                     }
                                 }, 500);
+
+                                var actives = document.getElementsByClassName('picture-item active');
+                                for (var t = 0; actives.length > t; t++) {
+                                    actives[t].classList.remove('active')
+                                }
+                                
                                 eventFire(document.body, 'click');
                             }, 500);
                         }, 300);
@@ -410,7 +421,8 @@ window.initScript = function() {
 
     function mountTilesHeights() {
         var tiles = document.getElementsByClassName('picture-item');
-
+        
+        
         for (var t = 0; tiles.length > t; t++) {
             //tiles[t].clientHeight = tiles[t].clientWidth;
             if (mobileAndTabletcheck()) {
@@ -427,12 +439,19 @@ window.initScript = function() {
                     }
                 }
             } else {
-                if (tiles[t].classList.contains('square-two-rows')) {
-                    tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
-                } else if ((tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
-                    tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
-                } else if ((tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns')))) {
-                    tiles[t].style.height = tiles[t].clientWidth + 'px';
+                // console.log('aki foi ali', tiles[t].classList.contains('active'));
+                
+                if (!tiles[t].classList.contains('active')) {
+                    if (tiles[t].classList.contains('square-two-rows')) {
+                        // tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+                        tiles[t].style.height = (tiles[t].clientWidth * 2) + 'px';
+                    } else if ((tiles[t].classList.contains('square-two-columns')) || (tiles[t].classList.contains('alternate'))) {
+                        tiles[t].style.height = (tiles[t].clientWidth / 2) + 'px';
+                    } else if ((tiles[t].classList.contains('square')) || ((tiles[t].classList.contains('square-two-rows-and-columns')))) {
+                        tiles[t].style.height = tiles[t].clientWidth + 'px';
+                    }
+                } else {
+                    tiles[t].style.height = (tiles[t].getElementsByClassName('content')[0].clientHeight + 30) +  'px';
                 }
             }
         }
@@ -564,7 +583,6 @@ window.initScript = function() {
     }
 
     function smoothScroll(el) {
-        console.log('aki', el)
         window.scroll({
             top: window.pageYOffset + el.getBoundingClientRect().top,
             left: 0,

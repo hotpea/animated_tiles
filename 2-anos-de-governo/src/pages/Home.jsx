@@ -57,14 +57,6 @@ import sharePreto from '../assets/img/share-preto.png';
 import sharePreto2 from '../assets/img/share-preto@2x.png';
 import sharePreto3 from '../assets/img/share-preto@3x.png';
 
-import icFacebook from '../assets/img/ic-facebook.png';
-import icFacebook2 from '../assets/img/ic-facebook@2x.png';
-import icFacebook3 from '../assets/img/ic-facebook@3x.png';
-
-import icTwitter from '../assets/img/ic-twitter.png';
-import icTwitter2 from '../assets/img/ic-twitter@2x.png';
-import icTwitter3 from '../assets/img/ic-twitter@3x.png';
-
 import logoColor from '../assets/img/logo-color.png';
 import logoColor2 from '../assets/img/logo-color@2x.png';
 import logoColor3 from '../assets/img/logo-color@3x.png';
@@ -88,7 +80,9 @@ class Home extends Component {
         }
     }
     componentDidMount() {
-        window.initScript();
+        setTimeout(() => {
+            window.initScript();
+        }, 200);
         this.loadVideo();
     }
     loadVideo() {
@@ -115,15 +109,15 @@ class Home extends Component {
                                     <img alt="" src={sharePreto} srcSet={`${sharePreto2} 2x, ${sharePreto3} 3x`} className="logo share-top share" />
 
                                     <div className=" topo-icons">
-                                        <div className="top-menu facebook hide facebook-share-top">
+                                        <div className="top-menu facebook facebook-share-top" style={{display: 'none'}}>
                                             <br />
-                                            <img alt="" src={icFacebook} srcSet={`${icFacebook2} 2x, ${icFacebook3} 3x`} className="logo share facebook-icon" />
+                                            <img alt="" src="static/images/ic-facebook.png" srcSet={`static/images/ic-facebook@2x.png 2x, static/images/ic-facebook@3x.png 3x`} className="logo share facebook-icon" />
                                         </div>
 
                                         <br />
 
-                                        <div className="top-menu twitter hide twitter-share-top">
-                                            <img alt="" src={icTwitter} srcSet={`${icTwitter2} 2x, ${icTwitter3} 3x`} className="logo share twitter-icon" />
+                                        <div className="top-menu twitter twitter-share-top" style={{display: 'none'}}>
+                                            <img alt="" src="static/images/ic-twitter.png" srcSet="static/images/ic-twitter@2x.png 2x, static/images/ic-twitter@3x.png 3x" className="logo share twitter-icon" />
                                         </div>
                                     </div>
                                 </div>
@@ -174,15 +168,15 @@ class Home extends Component {
                                                 <img alt="" src={sharePreto} srcSet={`${sharePreto2} 2x, ${sharePreto3} 3x`} className="share-top share" />
                                                 <div className="topo-icons">
 
-                                                    <div className="top-menu facebook hide facebook-share-top">
+                                                    <div className="top-menu facebook facebook-share-top" style={{display: 'none'}}>
                                                         <br />
-                                                        <img alt="" src={icFacebook} srcSet={`${icFacebook2} 2x, ${icFacebook3} 3x`} className="share facebook-icon" />
+                                                        <img alt="" src="static/images/ic-facebook.png" srcSet="static/images/ic-facebook@2x.png 2x, static/images/ic-facebook@3x.png 3x" className="share facebook-icon" />
                                                     </div>
 
                                                     <br />
 
-                                                    <div className="top-menu twitter hide twitter-share-top">
-                                                        <img alt="" src={icTwitter} srcSet={`${icTwitter2} 2x, ${icTwitter3} 3x`} className="share twitter-icon" />
+                                                    <div className="top-menu twitter twitter-share-top" style={{display: 'none'}}>
+                                                        <img alt="" src="static/images/ic-twitter.png" srcSet="static/images/ic-twitter@2x.png 2x, static/images/ic-twitter@3x.png 3x" className="share twitter-icon" />
                                                     </div>
                                                 </div>
                                             </div>

@@ -5,7 +5,6 @@ import IcFechar from '../assets/img/ic-fechar.png';
 import IcFechar2 from '../assets/img/ic-fechar@2x.png';
 import IcFechar3 from '../assets/img/ic-fechar@3x.png';
 
-import IcTwitter from '../assets/img/ic-twitter.png';
 import IcFacebookBranco from '../assets/img/ic-facebook-branco.png';
 
 class HeaderContent extends Component {
@@ -25,7 +24,7 @@ class HeaderContent extends Component {
                     </a>
 
                     <a className="twitter-share">
-                        <img alt="" src={IcTwitter} className="twitter-share logo"/>
+                        <img alt="" src="static/images/ic-twitter.png" srcSet="static/images/ic-twitter@2x.png 2x, static/images/ic-twitter@3x.png 3x" className="twitter-share logo"/>
                     </a>
                 </div>
             </div>

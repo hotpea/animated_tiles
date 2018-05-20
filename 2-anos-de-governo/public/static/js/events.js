@@ -42,15 +42,15 @@ $(document).ready(function() {
         }, 400);
     });
 
-    $('.share').on('mouseover', function() {
-        $('.top-menu.hide').css('opacity', 1);
+    $('.share').on('click', function() {
+        $('.top-menu', $(this).parent()).fadeToggle('fast');
     });
 
-    $('.share').on('mouseout', function() {
-        setTimeout(function() {
-            $('.top-menu.hide').css('opacity', 0);
-        },2500);
-    });
+    // $('.share').on('mouseout', function() {
+    //     setTimeout(function() {
+    //         $('.top-menu.hide').css('opacity', 0);
+    //     },2500);
+    // });
 
     // TODO: Scroll to second-capa
     window.wasScrolled = false;
