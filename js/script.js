@@ -280,6 +280,7 @@ function mountEventsTiles() {
                     } else {
                         square.getElementsByClassName('content')[0].style.display = "block";
                     }
+                    readFileContent('/html/content/materia1.html', square.getElementsByClassName('content')[0]);
                 }
 
                 if( square.getElementsByClassName('float-title').length > 0 ) {
@@ -653,4 +654,15 @@ function stopAllVideos() {
         videos[v].remove();
         parent.appendChild(video)
     }
+}
+
+function readFileContent(url, element){
+    $.ajax({
+        url: location.href.replace(location.hash,"") + url,
+        success: function(file_content) {
+            var el = document.createElement( 'div' );
+            el.innerHTML = file_content;
+            element.appendChild(el);
+        }
+    });
 }
