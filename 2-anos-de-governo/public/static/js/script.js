@@ -214,7 +214,7 @@ window.initScript = function() {
                     var square = this;
                     
                     var el = square;
-                    console.log('aki', square);
+                    // console.log('aki', square);
 
                     // // document.location.hash = "v=" + square.getAttribute('id');
 
@@ -513,36 +513,67 @@ window.initScript = function() {
      * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
      */
     function getUrlParameter(sParam) {
-        var sPageURL = decodeURIComponent(window.location),
-            sURLVariables = sPageURL.split('&'),
-            sParameterName,
-            i;
+        // var sPageURL = decodeURIComponent(window.location),
+        //     sURLVariables = sPageURL.split('&'),
+        //     sParameterName,
+        //     i;
 
-        for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
+        var page = $('.base').data('page');
 
-            if (sParameterName[0][sParameterName[0].length - 1] === sParam) {
-                //return sParameterName[1] === undefined ? true : sParameterName[1];
-                var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
-
-                if (element) {
-                    if (element.getElementsByClassName('content').length > 0) {
-                        if (element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
-                            var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
-                            changeOGMetaTag(imageUrl);
-                        }
+        if(page) {
+            page = page.substring(1);
+            var element = document.getElementById(page);
+            if (element) {
+                if (element.getElementsByClassName('content').length > 0) {
+                    
+                    if (element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+                        var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
+                        changeOGMetaTag(imageUrl);
                     }
-
-                    setTimeout(function () {
-                        setTimeout(function () {
-                            smoothScroll(element);
-                            eventFire(element, 'click');
-                            eventFire(element.getElementsByClassName('play')[0], 'click');
-                        }, 1000);
-                    }, 500);
                 }
+                
+                setTimeout(function () {
+                    setTimeout(function () {
+                        // $('html, body').animate({ scrollTop: $('#shuffle-container').offset().top }, 300);
+                        smoothScroll(element);
+                        // $(element).trigger('click');
+                        eventFire(element, 'click');
+                        // eventFire(element.getElementsByClassName('play')[0], 'click');
+                    }, 1000);
+                }, 500);
             }
         }
+
+
+        
+
+        // console.log('aki20', sPageURL, sURLVariables, sParameterName, i);
+        
+        // for (i = 0; i < sURLVariables.length; i++) {
+        //     sParameterName = sURLVariables[i].split('=');
+
+        //     if (sParameterName[0][sParameterName[0].length - 1] === sParam) {
+        //         //return sParameterName[1] === undefined ? true : sParameterName[1];
+        //         var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
+
+        //         if (element) {
+        //             if (element.getElementsByClassName('content').length > 0) {
+        //                 if (element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
+        //                     var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
+        //                     changeOGMetaTag(imageUrl);
+        //                 }
+        //             }
+
+        //             setTimeout(function () {
+        //                 setTimeout(function () {
+        //                     smoothScroll(element);
+        //                     eventFire(element, 'click');
+        //                     eventFire(element.getElementsByClassName('play')[0], 'click');
+        //                 }, 1000);
+        //             }, 500);
+        //         }
+        //     }
+        // }
     }
 
     function shortURL(pLongUrl) {

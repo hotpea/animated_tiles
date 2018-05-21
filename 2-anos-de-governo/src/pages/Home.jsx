@@ -84,16 +84,30 @@ class Home extends Component {
             window.initScript();
         }, 200);
         this.loadVideo();
+        // window.historyProp = this.props.history;
+        
     }
     loadVideo() {
         this.setState({
             video: ($(window).width() < 1000) ? 'static/videos/afogados_mobile.mp4' : 'static/videos/afogados.mp4'
         });
     }
+    openModal = (event) => {
+        let _id = $(event.target).parents('.picture-item').attr('id');
+
+        // _id = (_id) ? _id : $('.base').data('page');
+        // console.log('error aki', $('.base').data('page'));
+        if(_id) {
+            setTimeout(() => {
+                this.props.history.push(`/${_id}`);
+            }, 1000);
+        }
+
+    }
     render() {
         return (
-            <div className="base">
-                <div id="fullpage">
+            <div className="base" data-page={this.props.location.pathname}>
+                <div id="fullpage" >
                     <div id="container2" className="container-white wrapper">
                         <div className="videoloop">
                             <header className="topo-logo">
@@ -208,7 +222,6 @@ class Home extends Component {
                                 </div>
 
                                 <br />
-
                                 <span className="smaller-title-text">
                                     ROLE PARA BAIXO
                                 </span>
@@ -229,23 +242,23 @@ class Home extends Component {
 
                             {/* 1 - Matéria 1 Economia */}
 
-                            <NavLink to="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" id="em-2017-brasil-tem-menor-inflacao-em-duas-decadas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         Inflação de 2,95% em 2017 é a <strong>menor</strong> em 20 anos
                                     </div>
 
                                     <div className="thumb">
-                                        <img alt="" src="../assets/../assets/img/thumb/01-inflacao.png" />
+                                        <img alt="" src={require('../assets/img/thumb/01-inflacao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}em-2017-brasil-tem-menor-inflacao-em-duas-decadas`} component={Em2017BrasilTemMenorInflacaoEmDuasDecadas} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
                             {/* 2-Matéria 4 Economia */}
 
-                            <NavLink to="governo-propoe-salario-minimo-de-1002-para-2019" id="governo-propoe-salario-minimo-de-1002-para-2019" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="governo-propoe-salario-minimo-de-1002-para-2019" id="governo-propoe-salario-minimo-de-1002-para-2019" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-two">
                                         <strong>salário mínimo de R$ 1.002 para 2019</strong>
@@ -257,11 +270,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}governo-propoe-salario-minimo-de-1002-para-2019`} component={GovernoPropoeSalarioMinimoDe1002Para2019} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 3 - Matéria 2 Economia */}
 
-                            <NavLink to="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" id="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" id="PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_eight_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>País volta a crescer</strong> após dois anos de recessão
@@ -275,11 +288,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}PIB-de-1-e-tomada-do-crescimento-apos-a-maior-recessao-em-20-anos`} component={PIBDe1ETomadaDoCrescimentoAposAMaiorRecessaoEm20Anos} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 4 - Matéria 6 Economia */}
 
-                            <NavLink to="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["energia"]'>
+                            <div onClick={this.openModal.bind(this)} to="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-two">
                                         Nova lei trabalhista <strong>beneficia criação de empregos</strong>
@@ -291,11 +304,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho`} component={ModernizacaoTrabalhistaNovosContratosEsquentamOMercadoDeTrabalho} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
                             {/* 5 - video 1 */}
-                            <NavLink to="depoimento-presidente-da-caixa" id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
+                            <div onClick={this.openModal.bind(this)} to="depoimento-presidente-da-caixa" id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
                                 <div className="type_three type">
                                     <div className="thumb">
                                         <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')} />
@@ -304,12 +317,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}depoimento-presidente-da-caixa`} component={DepoimentoPresidenteDaCaixa} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
                             {/* 6 - Matéria 5 Economia */}
 
-                            <NavLink to="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" id="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" id="mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         Postos de trabalho <strong>voltam a crescer</strong> em 2018
@@ -323,13 +336,13 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}mais-de-204-mil-vagas-com-carteira-assinada-foram-criadas-em-2018`} component={MaisDe204MilVagasComCarteiraAssinadaForamCriadasEm2018} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
 
                             {/* 8 - Matéria 3 Economia */}
 
-                            <NavLink to="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" id="taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_six type">
                                     <div className="float-title float-title-one">
                                         Taxa de juros atinge 6,5%, <strong>a menor da história</strong>
@@ -341,11 +354,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}taxa-basica-de-juros-e-reduzida-a-65-a-menor-da-historia`} component={TaxaBasicaDeJurosEReduzidaA65AMenorDaHistoria} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 7 - Matéria 10 Economia */}
 
-                            <NavLink to="com-lei-de-governanca" id="com-lei-de-governanca" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="com-lei-de-governanca" id="com-lei-de-governanca" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Estatais têm lucro de <strong>R$ 28,4 bilhões em 2017</strong>
@@ -357,10 +370,10 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}com-lei-de-governanca`} component={ComLeiDeGovernanca} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
                             {/* 9 - Matéria 7 Economia */}
 
-                            <NavLink to="saques-das-contas-inativas" id="saques-das-contas-inativas" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="saques-das-contas-inativas" id="saques-das-contas-inativas" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Saques de contas do FGTS somam <strong>R$ 44 bilhões</strong>
@@ -372,12 +385,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}saques-das-contas-inativas`} component={SaquesDasContasInativas} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
                             {/* 10-Matéria 8 Economia */}
 
-                            <NavLink to="saques-do-pispasep-beneficiam" id="saques-do-pispasep-beneficiam" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["energia"]'>
+                            <div onClick={this.openModal.bind(this)} to="saques-do-pispasep-beneficiam" id="saques-do-pispasep-beneficiam" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Saques do PIS/Pasep injetam até R$ <strong>21 bi na economia</strong>
@@ -389,7 +402,7 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}saques-do-pispasep-beneficiam`} component={SaquesDoPispasepBeneficiam} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* PRIMEIRA METADE DA LEVA */}
                             {/* <div id="video-afogados" className="picture-item grayscale alternate center" data-groups='["todos"]'> */}
@@ -398,7 +411,7 @@ class Home extends Component {
 
                             {/* 11 - Matéria 26 Educação */}
 
-                            <NavLink to="fies-tera-350-mil" id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["energia"]'>
+                            <div onClick={this.openModal.bind(this)} to="fies-tera-350-mil" id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
@@ -410,11 +423,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}fies-tera-350-mil`} component={FiesTera350Mil} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 12 Matéria 20 Agro */}
 
-                            <NavLink to="agricultura-familiar-recebe" id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="agricultura-familiar-recebe" id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
@@ -426,12 +439,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}agricultura-familiar-recebe`} component={AgriculturaFamiliarRecebe} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
                             {/* 13 - Matéria 15 Energia */}
 
-                            <NavLink to="brasil-tem-recorde-de-producao" id="brasil-tem-recorde-de-producao" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="brasil-tem-recorde-de-producao" id="brasil-tem-recorde-de-producao" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Petróleo : <strong>Brasil bate recorde</strong> de produção em 2017
@@ -443,11 +456,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}brasil-tem-recorde-de-producao`} component={BrasilTemRecordeDeProducao} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 14 - Matéria 18 Energia */}
 
-                            <NavLink to="brasil-e-o-segundo-produtor" id="brasil-e-o-segundo-produtor" className="picture-item grayscale square" tabIndex="0" data-groups='["energia"]'>
+                            <div onClick={this.openModal.bind(this)} to="brasil-e-o-segundo-produtor" id="brasil-e-o-segundo-produtor" className="picture-item grayscale square" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_two type">
                                     <div className="float-title float-title-two">
                                         Brasil é o <strong>segundo produtor mundial</strong> de biodiesel
@@ -459,11 +472,11 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}brasil-e-o-segundo-produtor`} component={BrasilEOSegundoProdutor} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 15-Matéria 27 Educação */}
 
-                            <NavLink to="recorde-de-bolsas-ofertas" id="recorde-de-bolsas-ofertas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="recorde-de-bolsas-ofertas" id="recorde-de-bolsas-ofertas" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_eight type">
                                     <div className="float-title float-title-one">
                                         ProUni cresce 10% e tem <strong>recorde de bolsas</strong>
@@ -475,12 +488,12 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}recorde-de-bolsas-ofertas`} component={RecordeDeBolsasOfertas} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
 
                             {/* 17-Matéria 24 Educação */}
 
-                            <NavLink to="discutido-ha-mais-de-20-anos" id="discutido-ha-mais-de-20-anos" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="discutido-ha-mais-de-20-anos" id="discutido-ha-mais-de-20-anos" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title float-title-one">
                                         Novo Ensino Médio: <strong>educação do Brasil no século 21</strong>
@@ -492,7 +505,7 @@ class Home extends Component {
                                         <Route path={`${this.props.match.path}discutido-ha-mais-de-20-anos`} component={DiscutidoHaMaisDe20Anos} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
 
                             {/* 18 - Matéria 16 energia */}
 

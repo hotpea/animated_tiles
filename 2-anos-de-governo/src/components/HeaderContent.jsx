@@ -12,9 +12,9 @@ class HeaderContent extends Component {
         return (
             <div className="materia-header">
                 <div className="button-close">
-                    <NavLink to="/" className="button-oval button-close">
+                    <button className="button-oval button-close">
                         <img alt="" src={IcFechar} srcSet={`${IcFechar2} 2x, ${IcFechar3} 3x`} className="button-close"/>
-                    </NavLink>
+                    </button>
                 </div>
 
                 <div className="buttons-oval">
@@ -24,7 +24,7 @@ class HeaderContent extends Component {
                     </a>
 
                     <a className="twitter-share">
-                        <img alt="" src="static/images/ic-twitter.png" srcSet="static/images/ic-twitter@2x.png 2x, static/images/ic-twitter@3x.png 3x" className="twitter-share logo"/>
+                        <img alt="" src="static/images/ic-twitter.png" srcSet="static/images/ic-twitter@2x.png 2x" className="twitter-share logo"/>
                     </a>
                 </div>
             </div>
