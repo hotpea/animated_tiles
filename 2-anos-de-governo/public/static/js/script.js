@@ -1,7 +1,7 @@
 window.initScript = function() {
     /**
- * variáveis do shuffle
- */
+     * variáveis do shuffle
+     */
     var Shuffle = window.Shuffle;
     var todos_shuffle = document.getElementById("todos");
     var economia_shuffle = document.getElementById("economia");
@@ -105,7 +105,7 @@ window.initScript = function() {
     /**
      * facebook top share
      */
-    var facebookShare = document.getElementsByClassName('facebook-share');
+    var facebookShare = document.getElementsByClassName('facebook-share-top');
     for (var f = 0; facebookShare.length > f; f++) {
         facebookShare[f].addEventListener('click', function () {
             window.open(
@@ -120,7 +120,7 @@ window.initScript = function() {
     /**
      * twitter top-share
      */
-    var twitterShare = document.getElementsByClassName('twitter-share');
+    var twitterShare = document.getElementsByClassName('twitter-share-top');
     for (var t = 0; twitterShare.length > t; t++) {
         twitterShare[t].addEventListener('click', function () {
             var url = shortURL(document.URL);
@@ -398,16 +398,19 @@ window.initScript = function() {
                         }, 300);
                     }
 
-                    if (e.target.parentElement.classList.contains('button-facebook')) {
+                    if (e.target.parentElement.classList.contains('facebook-share')) {
                         window.open(
                             "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
                             '',
                             'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
                         );
                     }
-                    if (e.target.parentElement.classList.contains('twitter')) {
+                    if (e.target.parentElement.classList.contains('twitter-share')) {
+                        
+                        window.el = e;
+                        
                         var url = shortURL(document.URL);
-                        var text = el.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
+                        var text = e.target.parentElement.parentElement.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML;
                         window.open(
                             'http://twitter.com/share?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(text),
                             '',
@@ -512,12 +515,7 @@ window.initScript = function() {
      * @param sParam
      * retorna valor do parâmetro passado na URL(http://url?parametro=valor)
      */
-    function getUrlParameter(sParam) {
-        // var sPageURL = decodeURIComponent(window.location),
-        //     sURLVariables = sPageURL.split('&'),
-        //     sParameterName,
-        //     i;
-
+    function getUrlParameter() {
         var page = $('.base').data('page');
 
         if(page) {
@@ -543,37 +541,6 @@ window.initScript = function() {
                 }, 500);
             }
         }
-
-
-        
-
-        // console.log('aki20', sPageURL, sURLVariables, sParameterName, i);
-        
-        // for (i = 0; i < sURLVariables.length; i++) {
-        //     sParameterName = sURLVariables[i].split('=');
-
-        //     if (sParameterName[0][sParameterName[0].length - 1] === sParam) {
-        //         //return sParameterName[1] === undefined ? true : sParameterName[1];
-        //         var element = document.getElementById(sParameterName[1] === undefined ? true : sParameterName[1]);
-
-        //         if (element) {
-        //             if (element.getElementsByClassName('content').length > 0) {
-        //                 if (element.getElementsByClassName('content')[0].getElementsByClassName('infos').length) {
-        //                     var imageUrl = element.getElementsByClassName('content')[0].getElementsByClassName('infos')[0].getElementsByTagName('img')[0].getAttribute('src');
-        //                     changeOGMetaTag(imageUrl);
-        //                 }
-        //             }
-
-        //             setTimeout(function () {
-        //                 setTimeout(function () {
-        //                     smoothScroll(element);
-        //                     eventFire(element, 'click');
-        //                     eventFire(element.getElementsByClassName('play')[0], 'click');
-        //                 }, 1000);
-        //             }, 500);
-        //         }
-        //     }
-        // }
     }
 
     function shortURL(pLongUrl) {
@@ -630,26 +597,6 @@ window.initScript = function() {
         document.getElementsByTagName('head')[0].appendChild(link);
     }
 
-    // function getAllAnchorLinks() {
-    //     alert();
-    //     var ids = document.querySelectorAll('*[id]');
-
-    //     for (var x = 0; ids.length > 0; x++) {
-    //         if (ids[x] !== undefined) {
-    //             if (ids[x].classList.contains('picture-item')) {
-    //                 console.log(document.URL + "#v=" + ids[x].getAttribute('id'));
-    //             }
-    //         }
-    //     }
-
-    //     return false;
-    // }
-
-    // function getCookie(name) {
-    //     var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-    //     return v ? v[2] : null;
-    // }
-
     function stopAllVideos() {
         var videos = document.getElementsByClassName('player');
         for (var v = 0; videos.length > v; v++) {
@@ -659,4 +606,4 @@ window.initScript = function() {
             parent.appendChild(video)
         }
     }
-}
+};
