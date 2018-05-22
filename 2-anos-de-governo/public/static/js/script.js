@@ -109,7 +109,8 @@ window.initScript = function() {
     for (var f = 0; facebookShare.length > f; f++) {
         facebookShare[f].addEventListener('click', function () {
             window.open(
-                "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
+                "https://www.facebook.com/sharer/sharer.php?u=" + document.URL.replace(document.location.hash, '') +
+                "&quote=2 Anos de Governo",
                 '',
                 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
             );
@@ -400,7 +401,9 @@ window.initScript = function() {
 
                     if (e.target.parentElement.classList.contains('facebook-share')) {
                         window.open(
-                            "https://www.facebook.com/sharer/sharer.php?u=" + document.URL,
+                            "https://www.facebook.com/sharer/sharer.php?u=" + document.URL +
+                            //"https://www.facebook.com/sharer/sharer.php?u=http://www.brasil.gov.br/avancamos/governo-propoe-salario-minimo-de-1002-para-2019" +
+                            "&quote=" + e.target.parentElement.parentElement.parentElement.parentElement.getElementsByClassName('materia-title')[0].innerHTML,
                             '',
                             'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0'
                         );
