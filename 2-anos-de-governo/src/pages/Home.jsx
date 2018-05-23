@@ -50,6 +50,7 @@ import ComVacinacaoBrasilRecebeCertificado from './contents/ComVacinacaoBrasilRe
 import PlanoAgroModerniza from './contents/PlanoAgroModerniza';
 import NovaGradeCurricularUnifica from './contents/NovaGradeCurricularUnifica';
 import ProgramaMedioTecPermite from './contents/ProgramaMedioTecPermite';
+import GovernoInvesteNaFormacao from './contents/GovernoInvesteNaFormacao';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1041,18 +1042,18 @@ class Home extends Component {
                             </NavLink>
 
 
-                            {/* 39 - Matéria 75 meio-ambiente */}
+                            {/* 49 - Matéria 30 educacao */}
                         
-                            <NavLink to="multas-ambientais-viram-investimento" id="multas-ambientais-viram-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["meio-ambiente"]'>
+                            <NavLink to="governo-investe-na-formacao" id="governo-investe-na-formacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Multas ambientais <strong>viram investimento</strong>
+                                        Governo <strong>investe R$ 1 bi na formação</strong> de professores
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}multas-ambientais-viram-investimento`} component={MultasAmbientaisViramInvestimento} />
+                                        <Route path={`${this.props.match.path}governo-investe-na-formacao`} component={GovernoInvesteNaFormacao} />
                                     </div>
                                 </div>
                             </NavLink>
