@@ -46,6 +46,7 @@ import ProducaoVeiculosVoltaCrescer from './contents/ProducaoVeiculosVoltaCresce
 import Apos20AnosDisputa from './contents/Apos20AnosDisputa';
 import BrasilAmpliaSeuParque from './contents/BrasilAmpliaSeuParque';
 import MesmoComOperacaoCarneFraca from './contents/MesmoComOperacaoCarneFraca';
+import ComVacinacaoBrasilRecebeCertificado from './contents/ComVacinacaoBrasilRecebeCertificado';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -958,7 +959,7 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 44- Matéria 21 - AGRO */}
+                            {/* 44 - Matéria 21 - AGRO */}
                         
                             <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
                                 <div className="type_two_alt type">
@@ -974,17 +975,17 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 35 Matéria 65 segurança e defesa */}
-                            <NavLink to="governo-reforca-operacoes-na-faixa-de-fronteira" id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            {/* 45 - Matéria 22 agro */}
+                            <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
                                 <div className="type_eight type">
                                     <div className="float-title float-title-one">
-                                        <strong>Governo reforça operações</strong> na faixa de fronteira
+                                        Brasil <strong>livre da febre aftosa</strong> com vacinação
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
+                                        <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
                                     </div>
                                 </div>
                             </NavLink>

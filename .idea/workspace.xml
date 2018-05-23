@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="Matéria 22 agro">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,18 +28,18 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53497165">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.3327032">
+              <caret line="987" column="166" selection-start-line="987" selection-start-column="131" selection-end-line="987" selection-end-column="166" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MesmoComOperacaoCarneFraca.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx">
+      <file leaf-file-name="ComVacinacaoBrasilRecebeCertificado.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4827585">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+            <state vertical-scroll-proportion="-2.7931035">
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       </list>
     </option>
@@ -330,12 +331,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00007" summary="videos alterations">
-      <created>1526398963807</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1526398963807</updated>
     </task>
     <task id="LOCAL-00008" summary="ultimate corrections">
       <created>1526400062317</created>
@@ -625,7 +620,13 @@
       <option name="project" value="LOCAL" />
       <updated>1527088431924</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Matéria 21 agro">
+      <created>1527100044759</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1527100044759</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,8 +685,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ultimate master corrections" />
-    <MESSAGE value="new topo" />
     <MESSAGE value="piwiki" />
     <MESSAGE value="anchor for filters and filter rename" />
     <MESSAGE value="styles corrections" />
@@ -709,7 +708,9 @@
     <MESSAGE value="Matéria 14 economia" />
     <MESSAGE value="correção matérias(13 e 14)" />
     <MESSAGE value="Matéria 17 energia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 17 energia" />
+    <MESSAGE value="Matéria 21 agro" />
+    <MESSAGE value="Matéria 22 agro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 22 agro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -804,10 +805,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7931035">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53497165">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.3327032">
+          <caret line="987" column="166" selection-start-line="987" selection-start-column="131" selection-end-line="987" selection-end-column="166" />
           <folding />
         </state>
       </provider>
