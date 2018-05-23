@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/RepassesNaSaudeGanhamReforco.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoHabilitaUpas.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,27 +28,17 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4044943">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            <state vertical-scroll-proportion="-4.6067414">
+              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepassesNaSaudeGanhamReforco.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/RepassesNaSaudeGanhamReforco.jsx">
+      <file leaf-file-name="GovernoHabilitaUpas.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoHabilitaUpas.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.28928572">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GovernoAmpliaInvestimento.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7931035">
               <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
               <folding />
             </state>
@@ -89,8 +79,9 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoInvesteNaFormacao.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaParticipacao.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx" />
-        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/RepassesNaSaudeGanhamReforco.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoHabilitaUpas.jsx" />
       </list>
     </option>
   </component>
@@ -346,12 +337,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00015" summary="hide top-site-text at end of page">
-      <created>1526410565495</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1526410565495</updated>
     </task>
     <task id="LOCAL-00016" summary="smaller-title white">
       <created>1526410867569</created>
@@ -641,7 +626,13 @@
       <option name="project" value="LOCAL" />
       <updated>1527103022592</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Matéria 34 saúde">
+      <created>1527103391689</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1527103391689</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -700,7 +691,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="anchor navegacao" />
     <MESSAGE value="corrections styles" />
     <MESSAGE value="margin container" />
     <MESSAGE value="new muse icon" />
@@ -725,7 +715,8 @@
     <MESSAGE value="Matéria 30 educação" />
     <MESSAGE value="Matéria 31 saúde" />
     <MESSAGE value="Matéria 32 saúde" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 32 saúde" />
+    <MESSAGE value="Matéria 34 saúde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 34 saúde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,15 +859,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/RepassesNaSaudeGanhamReforco.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4044943">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        <state vertical-scroll-proportion="-2.7931035">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/RepassesNaSaudeGanhamReforco.jsx">
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6067414">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoHabilitaUpas.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28928572">
           <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />

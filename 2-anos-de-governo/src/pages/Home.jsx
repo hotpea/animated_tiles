@@ -54,6 +54,7 @@ import GovernoInvesteNaFormacao from './contents/GovernoInvesteNaFormacao';
 import GovernoAmpliaParticipacao from './contents/GovernoAmpliaParticipacao';
 import GovernoAmpliaInvestimento from './contents/GovernoAmpliaInvestimento';
 import RepassesNaSaudeGanhamReforco from './contents/RepassesNaSaudeGanhamReforco';
+import GovernoHabilitaUpas from './contents/GovernoHabilitaUpas';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1112,21 +1113,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 43 - Matéria 17 energia */}
-                            
-                                <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["energia"]'>
+                            {/* 53 - Matéria 35 saude */}
+                        
+                            <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_one_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Brasil se <strong>destaca na produção de energia eólica</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        Mais <strong>206 UPAs 24 horas habilitadas</strong> a funcionar
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-habilita-upas`} component={GovernoHabilitaUpas} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 44 - Matéria 21 - AGRO */}
                             
