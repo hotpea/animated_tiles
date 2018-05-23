@@ -47,6 +47,7 @@ import Apos20AnosDisputa from './contents/Apos20AnosDisputa';
 import BrasilAmpliaSeuParque from './contents/BrasilAmpliaSeuParque';
 import MesmoComOperacaoCarneFraca from './contents/MesmoComOperacaoCarneFraca';
 import ComVacinacaoBrasilRecebeCertificado from './contents/ComVacinacaoBrasilRecebeCertificado';
+import PlanoAgroModerniza from './contents/PlanoAgroModerniza';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -990,17 +991,17 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 36- Matéria 74 meio ambiente */}
-                            <NavLink to="quase-duas-francas-de-unidades-de-conservacao-criadas" id="quase-duas-francas-de-unidades-de-conservacao-criadas" className="picture-item square-two-rows" tabIndex="0" data-groups='["meio-ambiente"]'>
+                            {/* 46 - Matéria 23 agro */}
+                            <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-rows" tabIndex="0" data-groups='["agro"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Quase duas Franças de Unidades de <strong>Conservação criadas</strong>
+                                        Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
                                     </div>
                                     <div className="thumb">
                                         <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}quase-duas-francas-de-unidades-de-conservacao-criadas`} component={QuaseDuasFrancasDeUnidadesDeConservacaoCriadas} />
+                                        <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
                                     </div>
                                 </div>
                             </NavLink>
