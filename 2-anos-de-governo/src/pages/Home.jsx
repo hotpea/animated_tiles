@@ -62,6 +62,7 @@ import GovernoOfereceMelhorTratamento from './contents/GovernoOfereceMelhorTrata
 import CartoriosDeTodoOBrasilPoderaoEmitir from './contents/CartoriosDeTodoOBrasilPoderaoEmitir';
 import NovoFormatoDaCarteiraDeHabilitacao from './contents/NovoFormatoDaCarteiraDeHabilitacao';
 import GovernoLancaDocumentosDigitais from './contents/GovernoLancaDocumentosDigitais';
+import GovernoAcataConselhao from './contents/GovernoAcataConselhao';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1245,6 +1246,167 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </NavLink>
+                            
+                            {/* fim-bloco */}
+
+                            {/* inicio-bloco */}
+                            
+                            {/* 61 - Matéria 50 gestao */}
+                            
+                            <NavLink to="governo-acata-conselhao" id="governo-acata-conselhao" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        <strong>Governo acata 92% das recomendações</strong> do Conselhão
+                                    </div>
+                                    <div className="thumb">
+                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/31-minha-casa-minha-vida.png')} /> */}
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-acata-conselhao`} component={GovernoAcataConselhao} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                            
+                                {/* 52 - Matéria 42 saude */}
+                                <NavLink to="repasses-na-saude-ganham-reforco" id="repasses-na-saude-ganham-reforco" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_five type">
+                                <div className="float-title float-title-two-collumns">
+                                Repasses na Saúde <strong>reforçam a atenção básica</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}repasses-na-saude-ganham-reforco`} component={RepassesNaSaudeGanhamReforco} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 53 - Matéria 35 saude */}
+                            
+                                <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_one_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Mais <strong>206 UPAs 24 horas habilitadas</strong> a funcionar
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-habilita-upas`} component={GovernoHabilitaUpas} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 54 - Matéria 39 saude */}
+                            
+                                <NavLink to="governo-investe-em-teste-rapido" id="governo-investe-em-teste-rapido" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_two_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Teste rápido para zika; <strong>assistência garantida</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-investe-em-teste-rapido`} component={GovernoInvesteEmTesteRapido} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 45 - Matéria 40 saude */}
+                                <NavLink to="governo-adquire-repelentes-para-gestante" id="governo-adquire-repelentes-para-gestante" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_eight type">
+                                <div className="float-title float-title-one">
+                                Gestantes de <strong>baixa renda recebem repelentes</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-adquire-repelentes-para-gestante`} component={GovernoAdquireRepelentesParaGestante} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 56 - Matéria 41 saude */}
+                                <NavLink to="reajuste-no-preco-medio-de-medicamento" id="reajuste-no-preco-medio-de-medicamento" className="picture-item square-two-rows" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_seven_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Medicamentos <strong>reajustados abaixo da inflação</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 57 - Matéria 44 saude */}
+                            
+                                <NavLink to="governo-oferece-melhor-tratamento" id="governo-oferece-melhor-tratamento" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
+                                <div className="type_three_alt type">
+                                <div className="float-title-alt float-title-one">
+                                SUS ganha melhor <strong>tratamento contra HIV/Aids</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-oferece-melhor-tratamento`} component={GovernoOfereceMelhorTratamento} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 58 - Matéria 45 gestao */}
+                            
+                                <NavLink to="cartorios-de-todo-o-brasil-poderao-emitir" id="cartorios-de-todo-o-brasil-poderao-emitir" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_two type">
+                                <div className="float-title float-title-one">
+                                Cartórios poderão <strong>emitir documentos de identidade</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}cartorios-de-todo-o-brasil-poderao-emitir`} component={CartoriosDeTodoOBrasilPoderaoEmitir} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 59 - Matéria 47 gestão */}
+                            
+                                <NavLink to="novo-formato-da-carteira-de-habilitacao" id="novo-formato-da-carteira-de-habilitacao" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_two_alt type">
+                                <div className="float-title-alt float-title-one">
+                                CNH ganha chip e <strong>mais segurança contra fraudes</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}novo-formato-da-carteira-de-habilitacao`} component={NovoFormatoDaCarteiraDeHabilitacao} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 60 - Matéria 48 gestao */}
+                            
+                                <NavLink to="governo-lanca-documentos-digitais" id="governo-lanca-documentos-digitais" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_six_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Documentos digitais <strong>facilitam a vida do brasileiro</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-lanca-documentos-digitais`} component={GovernoLancaDocumentosDigitais} />
+                                </div>
+                                </div>
+                                </NavLink>
                             
                                 {/* fim-bloco */}
 
