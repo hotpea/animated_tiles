@@ -55,6 +55,7 @@ import GovernoAmpliaParticipacao from './contents/GovernoAmpliaParticipacao';
 import GovernoAmpliaInvestimento from './contents/GovernoAmpliaInvestimento';
 import RepassesNaSaudeGanhamReforco from './contents/RepassesNaSaudeGanhamReforco';
 import GovernoHabilitaUpas from './contents/GovernoHabilitaUpas';
+import GovernoInvesteEmTesteRapido from './contents/GovernoInvesteEmTesteRapido';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1129,21 +1130,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 44 - Matéria 21 - AGRO */}
-                            
-                                <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
+                            {/* 54 - Matéria 39 saude */}
+                        
+                            <NavLink to="governo-investe-em-teste-rapido" id="governo-investe-em-teste-rapido" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_two_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Exportações de carne <strong>crescem 9% em 2017</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        Teste rápido para zika; <strong>assistência garantida</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-investe-em-teste-rapido`} component={GovernoInvesteEmTesteRapido} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}mesmo-com-operacao-carne-fraca`} component={MesmoComOperacaoCarneFraca} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 45 - Matéria 22 agro */}
                                 <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
