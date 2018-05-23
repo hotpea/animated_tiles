@@ -49,6 +49,7 @@ import MesmoComOperacaoCarneFraca from './contents/MesmoComOperacaoCarneFraca';
 import ComVacinacaoBrasilRecebeCertificado from './contents/ComVacinacaoBrasilRecebeCertificado';
 import PlanoAgroModerniza from './contents/PlanoAgroModerniza';
 import NovaGradeCurricularUnifica from './contents/NovaGradeCurricularUnifica';
+import ProgramaMedioTecPermite from './contents/ProgramaMedioTecPermite';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1023,18 +1024,18 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 38- Matéria 71 infraestrutura */}
+                            {/* 48 - Matéria 28 educação */}
                         
-                            <NavLink to="integracao-do-sao-francisco-mais-vida-no-nordeste" id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["infraestrutura"]'>
+                            <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_two type">
                                     <div className="float-title float-title-one">
-                                        Integração do São Francisco: <strong>mais vida no Nordeste</strong>
+                                        MedioTec oferece <strong>formação técnica para estudantes</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}integracao-do-sao-francisco-mais-vida-no-nordeste`} component={IntegracaoDoSaoFranciscoMaisVidaNoNordeste} />
+                                        <Route path={`${this.props.match.path}programa-medioTec-permite`} component={ProgramaMedioTecPermite} />
                                     </div>
                                 </div>
                             </NavLink>
