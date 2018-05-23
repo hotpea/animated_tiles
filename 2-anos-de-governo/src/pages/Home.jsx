@@ -56,6 +56,7 @@ import GovernoAmpliaInvestimento from './contents/GovernoAmpliaInvestimento';
 import RepassesNaSaudeGanhamReforco from './contents/RepassesNaSaudeGanhamReforco';
 import GovernoHabilitaUpas from './contents/GovernoHabilitaUpas';
 import GovernoInvesteEmTesteRapido from './contents/GovernoInvesteEmTesteRapido';
+import GovernoAdquireRepelentesParaGestante from './contents/GovernoAdquireRepelentesParaGestante';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1146,20 +1147,20 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 45 - Matéria 22 agro */}
-                                <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
+                            {/* 45 - Matéria 40 saude */}
+                            <NavLink to="governo-adquire-repelentes-para-gestante" id="governo-adquire-repelentes-para-gestante" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_eight type">
-                                <div className="float-title float-title-one">
-                                Brasil <strong>livre da febre aftosa</strong> com vacinação
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                    <div className="float-title float-title-one">
+                                        Gestantes de <strong>baixa renda recebem repelentes</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-adquire-repelentes-para-gestante`} component={GovernoAdquireRepelentesParaGestante} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 46 - Matéria 23 agro */}
                                 <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-rows" tabIndex="0" data-groups='["agro"]'>
