@@ -51,6 +51,7 @@ import PlanoAgroModerniza from './contents/PlanoAgroModerniza';
 import NovaGradeCurricularUnifica from './contents/NovaGradeCurricularUnifica';
 import ProgramaMedioTecPermite from './contents/ProgramaMedioTecPermite';
 import GovernoInvesteNaFormacao from './contents/GovernoInvesteNaFormacao';
+import GovernoAmpliaParticipacao from './contents/GovernoAmpliaParticipacao';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1058,18 +1059,18 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* Matéria 40- 66 segurança e defesa */}
+                            {/* 50 - Matéria 31 saúde */}
                         
-                            <NavLink to="pf-bate-recorde-historico-de-apreensao-de-drogas" id="pf-bate-recorde-historico-de-apreensao-de-drogas" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            <NavLink to="governo-amplia-participacao" id="governo-amplia-participacao" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_six_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        <strong>PF bate recorde</strong> histórico de apreensão de drogas
+                                        Mais <strong>Brasileiros no Mais Médicos</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}pf-bate-recorde-historico-de-apreensao-de-drogas`} component={PfBateRecordeHistoricoDeApreensaoDeDrogas} />
+                                        <Route path={`${this.props.match.path}governo-amplia-participacao`} component={GovernoAmpliaParticipacao} />
                                     </div>
                                 </div>
                             </NavLink>
