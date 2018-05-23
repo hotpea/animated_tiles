@@ -61,6 +61,7 @@ import ReajusteNoPrecoMedioDeMedicamento from './contents/ReajusteNoPrecoMedioDe
 import GovernoOfereceMelhorTratamento from './contents/GovernoOfereceMelhorTratamento';
 import CartoriosDeTodoOBrasilPoderaoEmitir from './contents/CartoriosDeTodoOBrasilPoderaoEmitir';
 import NovoFormatoDaCarteiraDeHabilitacao from './contents/NovoFormatoDaCarteiraDeHabilitacao';
+import GovernoLancaDocumentosDigitais from './contents/GovernoLancaDocumentosDigitais';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1215,7 +1216,7 @@ class Home extends Component {
                             
                             {/* 59 - Matéria 47 gestão */}
                         
-                            <NavLink to="novo-formato-da-carteira-de-habilitacao" id="novo-formato-da-carteira-de-habilitacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                            <NavLink to="novo-formato-da-carteira-de-habilitacao" id="novo-formato-da-carteira-de-habilitacao" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         CNH ganha chip e <strong>mais segurança contra fraudes</strong>
@@ -1229,21 +1230,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 50 - Matéria 31 saúde */}
-                            
-                                <NavLink to="governo-amplia-participacao" id="governo-amplia-participacao" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                            {/* 60 - Matéria 48 gestao */}
+                        
+                            <NavLink to="governo-lanca-documentos-digitais" id="governo-lanca-documentos-digitais" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_six_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Mais <strong>Brasileiros no Mais Médicos</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        Documentos digitais <strong>facilitam a vida do brasileiro</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-lanca-documentos-digitais`} component={GovernoLancaDocumentosDigitais} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}governo-amplia-participacao`} component={GovernoAmpliaParticipacao} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* fim-bloco */}
 
