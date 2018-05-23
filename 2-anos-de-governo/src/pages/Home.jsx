@@ -42,6 +42,7 @@ import IdJovemAmpliaAcessoACulturaDe500MilJovens from './contents/IdJovemAmpliaA
 import IntegracaoDoSaoFranciscoMaisVidaNoNordeste from './contents/IntegracaoDoSaoFranciscoMaisVidaNoNordeste';
 
 import ProducaoVeiculosVoltaCrescer from './contents/ProducaoVeiculosVoltaCrescer';
+import Apos20AnosDisputa from './contents/Apos20AnosDisputa';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -907,7 +908,7 @@ class Home extends Component {
 
                             {/* inicio-bloco */}
 
-                            {/* 31- Matéria 57 social */}
+                            {/* 41 - Matéria 12 economia */}
                         
                             <NavLink to="producao-veiculos-volta-crescer" id="producao-veiculos-volta-crescer" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_four_alt type">
@@ -923,17 +924,17 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 32-Matéria 59 social */}
-                            <NavLink to="recorde-na-emissao-de-titulos-de-propriedade-em-2017" id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
+                            {/* 42 - Matéria 13 economia */}
+                            <NavLink to="apos-20Anos-disputa" id="apos-20Anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
                                 <div className="type_five type">
                                     <div className="float-title float-title-two-collumns">
-                                        Recorde na emissão de títulos de <strong>propriedade em 2017</strong>
+                                        Acordo deve <strong>injetar R$ 12 bi na economia</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}recorde-na-emissao-de-titulos-de-propriedade-em-2017`} component={RecordeNaEmissaoDeTitulosDePropriedadeEm2017} />
+                                        <Route path={`${this.props.match.path}apos-20Anos-disputa`} component={Apos20AnosDisputa} />
                                     </div>
                                 </div>
                             </NavLink>
