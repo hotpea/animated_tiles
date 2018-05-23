@@ -41,6 +41,8 @@ import QuaseDuasFrancasDeUnidadesDeConservacaoCriadas from './contents/QuaseDuas
 import IdJovemAmpliaAcessoACulturaDe500MilJovens from './contents/IdJovemAmpliaAcessoACulturaDe500MilJovens';
 import IntegracaoDoSaoFranciscoMaisVidaNoNordeste from './contents/IntegracaoDoSaoFranciscoMaisVidaNoNordeste';
 
+import ProducaoVeiculosVoltaCrescer from './contents/ProducaoVeiculosVoltaCrescer';
+
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
 
@@ -903,6 +905,167 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
+                            {/* inicio-bloco */}
+
+                            {/* 31- Matéria 57 social */}
+                        
+                            <NavLink to="producao-veiculos-volta-crescer" id="producao-veiculos-volta-crescer" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Produção de veículos <strong>volta a crescer em 2017</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/31-minha-casa-minha-vida.png')} /> */}
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}producao-veiculos-volta-crescer`} component={ProducaoVeiculosVoltaCrescer} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 32-Matéria 59 social */}
+                            <NavLink to="recorde-na-emissao-de-titulos-de-propriedade-em-2017" id="recorde-na-emissao-de-titulos-de-propriedade-em-2017" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_five type">
+                                    <div className="float-title float-title-two-collumns">
+                                        Recorde na emissão de títulos de <strong>propriedade em 2017</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}recorde-na-emissao-de-titulos-de-propriedade-em-2017`} component={RecordeNaEmissaoDeTitulosDePropriedadeEm2017} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 33- Matéria 60 social */}
+                        
+                            <NavLink to="entrega-recorde-de-titulos-da-reforma-agraria" id="entrega-recorde-de-titulos-da-reforma-agraria" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Entrega <strong>recorde de títulos</strong> da reforma agrária
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}entrega-recorde-de-titulos-da-reforma-agraria`} component={EntregaRecordeDeTitulosDaReformaAgraria} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 34- Matéria 64 segurança e defesa */}
+                        
+                            <NavLink to="rio-mais-seguro-com-intervencao-federal" id="rio-mais-seguro-com-intervencao-federal" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                                <div className="type_two_alt type">
+                                        <div className="float-title-alt float-title-one">
+                                        <strong>Rio mais seguro</strong> com intervenção federal
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}rio-mais-seguro-com-intervencao-federal`} component={RioMaisSeguroComIntervencaoFederal} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 35 Matéria 65 segurança e defesa */}
+                            <NavLink to="governo-reforca-operacoes-na-faixa-de-fronteira" id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                                <div className="type_eight type">
+                                    <div className="float-title float-title-one">
+                                        <strong>Governo reforça operações</strong> na faixa de fronteira
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 36- Matéria 74 meio ambiente */}
+                            <NavLink to="quase-duas-francas-de-unidades-de-conservacao-criadas" id="quase-duas-francas-de-unidades-de-conservacao-criadas" className="picture-item square-two-rows" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Quase duas Franças de Unidades de <strong>Conservação criadas</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}quase-duas-francas-de-unidades-de-conservacao-criadas`} component={QuaseDuasFrancasDeUnidadesDeConservacaoCriadas} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 37- Matéria 86 cultura */}
+                        
+                            <NavLink to="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["cultura"]'>
+                                <div className="type_three_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>ID Jovem amplia acesso à cultura</strong> de 500 mil jovens
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens`} component={IdJovemAmpliaAcessoACulturaDe500MilJovens} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* 38- Matéria 71 infraestrutura */}
+                        
+                            <NavLink to="integracao-do-sao-francisco-mais-vida-no-nordeste" id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["infraestrutura"]'>
+                                <div className="type_two type">
+                                    <div className="float-title float-title-one">
+                                        Integração do São Francisco: <strong>mais vida no Nordeste</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}integracao-do-sao-francisco-mais-vida-no-nordeste`} component={IntegracaoDoSaoFranciscoMaisVidaNoNordeste} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+
+                            {/* 39 - Matéria 75 meio-ambiente */}
+                        
+                            <NavLink to="multas-ambientais-viram-investimento" id="multas-ambientais-viram-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Multas ambientais <strong>viram investimento</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}multas-ambientais-viram-investimento`} component={MultasAmbientaisViramInvestimento} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                        
+                            {/* Matéria 40- 66 segurança e defesa */}
+                        
+                            <NavLink to="pf-bate-recorde-historico-de-apreensao-de-drogas" id="pf-bate-recorde-historico-de-apreensao-de-drogas" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                                <div className="type_six_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>PF bate recorde</strong> histórico de apreensão de drogas
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}pf-bate-recorde-historico-de-apreensao-de-drogas`} component={PfBateRecordeHistoricoDeApreensaoDeDrogas} />
+                                    </div>
+                                </div>
+                            </NavLink>
+        
+                            {/* fim-bloco */}
 
                             <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
                                 <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')} />
