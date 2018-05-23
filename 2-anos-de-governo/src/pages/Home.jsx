@@ -58,6 +58,7 @@ import GovernoHabilitaUpas from './contents/GovernoHabilitaUpas';
 import GovernoInvesteEmTesteRapido from './contents/GovernoInvesteEmTesteRapido';
 import GovernoAdquireRepelentesParaGestante from './contents/GovernoAdquireRepelentesParaGestante';
 import ReajusteNoPrecoMedioDeMedicamento from './contents/ReajusteNoPrecoMedioDeMedicamento';
+import GovernoOfereceMelhorTratamento from './contents/GovernoOfereceMelhorTratamento';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1178,21 +1179,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 47 - Matéria 25 educação */}
-                            
-                                <NavLink to="nova-grade-curricular-unifica" id="nova-grade-curricular-unifica" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
+                            {/* 57 - Matéria 44 saude */}
+                        
+                            <NavLink to="governo-oferece-melhor-tratamento" id="governo-oferece-melhor-tratamento" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_three_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Nova grade curricular <strong>unifica ensino no Brasil</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        SUS ganha melhor <strong>tratamento contra HIV/Aids</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-oferece-melhor-tratamento`} component={GovernoOfereceMelhorTratamento} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}nova-grade-curricular-unifica`} component={NovaGradeCurricularUnifica} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 48 - Matéria 28 educação */}
                             

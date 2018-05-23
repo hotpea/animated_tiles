@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoOfereceMelhorTratamento.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6389414">
-              <caret line="1175" column="145" selection-start-line="1175" selection-start-column="145" selection-end-line="1175" selection-end-column="145" />
+            <state vertical-scroll-proportion="-3.7977529">
+              <caret line="1192" column="155" selection-start-line="1192" selection-start-column="125" selection-end-line="1192" selection-end-column="155" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GovernoOfereceMelhorTratamento.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoOfereceMelhorTratamento.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28928572">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -84,6 +94,7 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoInvesteEmTesteRapido.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAdquireRepelenteParaGestante.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoOfereceMelhorTratamento.jsx" />
       </list>
     </option>
   </component>
@@ -339,12 +350,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00019" summary="float title font-size">
-      <created>1526411548683</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1526411548683</updated>
     </task>
     <task id="LOCAL-00020" summary=".float-title-alt @media">
       <created>1526411732317</created>
@@ -634,14 +639,20 @@
       <option name="project" value="LOCAL" />
       <updated>1527104555216</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Matéria 41 saúde">
+      <created>1527104950655</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1527104950655</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20338982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20338982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -693,7 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mouse and video sizes" />
     <MESSAGE value="correction for myVideo appear in end of page" />
     <MESSAGE value="topo-logo padding top" />
     <MESSAGE value="autoplay to video anchor" />
@@ -718,7 +728,8 @@
     <MESSAGE value="Matéria 35 saúde" />
     <MESSAGE value="Matéria 39 saúde" />
     <MESSAGE value="Matéria 40 saúde" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 40 saúde" />
+    <MESSAGE value="Matéria 41 saúde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 41 saúde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -895,8 +906,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6389414">
-          <caret line="1175" column="145" selection-start-line="1175" selection-start-column="145" selection-end-line="1175" selection-end-column="145" />
+        <state vertical-scroll-proportion="-3.7977529">
+          <caret line="1192" column="155" selection-start-line="1192" selection-start-column="125" selection-end-line="1192" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoOfereceMelhorTratamento.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28928572">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
           <folding />
         </state>
       </provider>
