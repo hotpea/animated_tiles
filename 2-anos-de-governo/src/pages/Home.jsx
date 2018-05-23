@@ -57,6 +57,7 @@ import RepassesNaSaudeGanhamReforco from './contents/RepassesNaSaudeGanhamReforc
 import GovernoHabilitaUpas from './contents/GovernoHabilitaUpas';
 import GovernoInvesteEmTesteRapido from './contents/GovernoInvesteEmTesteRapido';
 import GovernoAdquireRepelentesParaGestante from './contents/GovernoAdquireRepelentesParaGestante';
+import ReajusteNoPrecoMedioDeMedicamento from './contents/ReajusteNoPrecoMedioDeMedicamento';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1162,20 +1163,20 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 46 - Matéria 23 agro */}
-                                <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-rows" tabIndex="0" data-groups='["agro"]'>
+                            {/* 56 - Matéria 41 saude */}
+                            <NavLink to="reajuste-no-preco-medio-de-medicamento" id="reajuste-no-preco-medio-de-medicamento" className="picture-item square-two-rows" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_seven_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
-                            </div>
-                            <div className="thumb">
-                                <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        Medicamentos <strong>reajustados abaixo da inflação</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 47 - Matéria 25 educação */}
                             
