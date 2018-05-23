@@ -53,6 +53,7 @@ import ProgramaMedioTecPermite from './contents/ProgramaMedioTecPermite';
 import GovernoInvesteNaFormacao from './contents/GovernoInvesteNaFormacao';
 import GovernoAmpliaParticipacao from './contents/GovernoAmpliaParticipacao';
 import GovernoAmpliaInvestimento from './contents/GovernoAmpliaInvestimento';
+import RepassesNaSaudeGanhamReforco from './contents/RepassesNaSaudeGanhamReforco';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1096,20 +1097,20 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 42 - Matéria 14 economia */}
-                                <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
+                            {/* 52 - Matéria 42 saude */}
+                            <NavLink to="repasses-na-saude-ganham-reforco" id="repasses-na-saude-ganham-reforco" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_five type">
-                                <div className="float-title float-title-two-collumns">
-                                Acordo deve <strong>injetar R$ 12 bi na economia</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                    <div className="float-title float-title-two-collumns">
+                                        Repasses na Saúde <strong>reforçam a atenção básica</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}repasses-na-saude-ganham-reforco`} component={RepassesNaSaudeGanhamReforco} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 43 - Matéria 17 energia */}
                             
