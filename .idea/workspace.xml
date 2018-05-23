@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="Matéria 49 gestão">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +28,18 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4347826">
-              <caret line="1255" column="187" selection-start-line="1255" selection-start-column="187" selection-end-line="1255" selection-end-column="187" />
+            <state vertical-scroll-proportion="0.23062381">
+              <caret line="1271" column="187" selection-start-line="1271" selection-start-column="187" selection-end-line="1271" selection-end-column="187" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxigovGeraReducaoDeCustos.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.413793">
+              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -117,8 +127,9 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/CartoriosDeTodoOBrasilPoderaoEmitir.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovoFormatoDaCarteiraDeHabilitacao.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoLancaDocumentosDigitais.jsx" />
-        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       </list>
     </option>
   </component>
@@ -374,12 +385,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00024" summary="videos">
-      <created>1526416711180</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1526416711180</updated>
     </task>
     <task id="LOCAL-00025" summary="videos">
       <created>1526417210567</created>
@@ -669,7 +674,13 @@
       <option name="project" value="LOCAL" />
       <updated>1527109769681</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Matéria 50 gestão">
+      <created>1527110305527</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1527110305527</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -728,7 +739,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="corrections to show tile in mobile" />
     <MESSAGE value="socila media share buttons correction" />
     <MESSAGE value="mensagem personalizada no share" />
     <MESSAGE value="Matéria: Produção de veículos volta a crescer" />
@@ -753,7 +763,8 @@
     <MESSAGE value="Matéria 45 gestão" />
     <MESSAGE value="Matéria 47 gestão" />
     <MESSAGE value="Matéria 49 gestão" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 49 gestão" />
+    <MESSAGE value="Matéria 50 gestão" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 50 gestão" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -968,10 +979,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.413793">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4347826">
-          <caret line="1255" column="187" selection-start-line="1255" selection-start-column="187" selection-end-line="1255" selection-end-column="187" />
+        <state vertical-scroll-proportion="0.23062381">
+          <caret line="1271" column="187" selection-start-line="1271" selection-start-column="187" selection-end-line="1271" selection-end-column="187" />
           <folding />
         </state>
       </provider>
