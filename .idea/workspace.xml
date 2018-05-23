@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="Matéria 22 agro">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/PlanoAgroModerniza.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovaGradeCurricularUnifica.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +28,18 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60491496">
-              <caret line="1005" column="38" selection-start-line="1005" selection-start-column="38" selection-end-line="1005" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.1625709">
+              <caret line="1009" column="56" selection-start-line="1009" selection-start-column="45" selection-end-line="1009" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NovaGradeCurricularUnifica.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovaGradeCurricularUnifica.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7931035">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -77,6 +86,7 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovaGradeCurricularUnifica.jsx" />
       </list>
     </option>
   </component>
@@ -332,12 +342,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00009" summary="video capa">
-      <created>1526405905239</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1526405905239</updated>
     </task>
     <task id="LOCAL-00010" summary="styles alterations, black logo">
       <created>1526408135213</created>
@@ -627,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1527100623716</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Matéria 23 agro">
+      <created>1527101031617</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1527101031618</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -686,7 +696,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="piwiki" />
     <MESSAGE value="anchor for filters and filter rename" />
     <MESSAGE value="styles corrections" />
     <MESSAGE value="pace js" />
@@ -711,7 +720,8 @@
     <MESSAGE value="Matéria 17 energia" />
     <MESSAGE value="Matéria 21 agro" />
     <MESSAGE value="Matéria 22 agro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 22 agro" />
+    <MESSAGE value="Matéria 23 agro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 23 agro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -814,10 +824,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovaGradeCurricularUnifica.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7931035">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60491496">
-          <caret line="1005" column="38" selection-start-line="1005" selection-start-column="38" selection-end-line="1005" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.1625709">
+          <caret line="1009" column="56" selection-start-line="1009" selection-start-column="45" selection-end-line="1009" selection-end-column="56" />
           <folding />
         </state>
       </provider>

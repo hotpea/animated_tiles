@@ -48,6 +48,7 @@ import BrasilAmpliaSeuParque from './contents/BrasilAmpliaSeuParque';
 import MesmoComOperacaoCarneFraca from './contents/MesmoComOperacaoCarneFraca';
 import ComVacinacaoBrasilRecebeCertificado from './contents/ComVacinacaoBrasilRecebeCertificado';
 import PlanoAgroModerniza from './contents/PlanoAgroModerniza';
+import NovaGradeCurricularUnifica from './contents/NovaGradeCurricularUnifica';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1006,18 +1007,18 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 37- Matéria 86 cultura */}
+                            {/* 47 - Matéria 25 educação */}
                         
-                            <NavLink to="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" id="id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["cultura"]'>
+                            <NavLink to="nova-grade-curricular-unifica" id="nova-grade-curricular-unifica" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_three_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        <strong>ID Jovem amplia acesso à cultura</strong> de 500 mil jovens
+                                        Nova grade curricular <strong>unifica ensino no Brasil</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}id-jovem-amplia-acesso-a-cultura-de-500-mil-jovens`} component={IdJovemAmpliaAcessoACulturaDe500MilJovens} />
+                                        <Route path={`${this.props.match.path}nova-grade-curricular-unifica`} component={NovaGradeCurricularUnifica} />
                                     </div>
                                 </div>
                             </NavLink>
