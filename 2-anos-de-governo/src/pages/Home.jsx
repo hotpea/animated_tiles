@@ -59,6 +59,7 @@ import GovernoInvesteEmTesteRapido from './contents/GovernoInvesteEmTesteRapido'
 import GovernoAdquireRepelentesParaGestante from './contents/GovernoAdquireRepelentesParaGestante';
 import ReajusteNoPrecoMedioDeMedicamento from './contents/ReajusteNoPrecoMedioDeMedicamento';
 import GovernoOfereceMelhorTratamento from './contents/GovernoOfereceMelhorTratamento';
+import CartoriosDeTodoOBrasilPoderaoEmitir from './contents/CartoriosDeTodoOBrasilPoderaoEmitir';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1195,21 +1196,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                                {/* 48 - Matéria 28 educação */}
-                            
-                                <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                            {/* 58 - Matéria 45 gestao */}
+                        
+                            <NavLink to="cartorios-de-todo-o-brasil-poderao-emitir" id="cartorios-de-todo-o-brasil-poderao-emitir" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
                                 <div className="type_two type">
-                                <div className="float-title float-title-one">
-                                MedioTec oferece <strong>formação técnica para estudantes</strong>
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                    <div className="float-title float-title-one">
+                                        Cartórios poderão <strong>emitir documentos de identidade</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}cartorios-de-todo-o-brasil-poderao-emitir`} component={CartoriosDeTodoOBrasilPoderaoEmitir} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}programa-medioTec-permite`} component={ProgramaMedioTecPermite} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                             
                                 {/* 49 - Matéria 30 educacao */}
