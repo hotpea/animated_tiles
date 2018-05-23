@@ -60,6 +60,7 @@ import GovernoAdquireRepelentesParaGestante from './contents/GovernoAdquireRepel
 import ReajusteNoPrecoMedioDeMedicamento from './contents/ReajusteNoPrecoMedioDeMedicamento';
 import GovernoOfereceMelhorTratamento from './contents/GovernoOfereceMelhorTratamento';
 import CartoriosDeTodoOBrasilPoderaoEmitir from './contents/CartoriosDeTodoOBrasilPoderaoEmitir';
+import NovoFormatoDaCarteiraDeHabilitacao from './contents/NovoFormatoDaCarteiraDeHabilitacao';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1212,22 +1213,21 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                             
-                            
-                                {/* 49 - Matéria 30 educacao */}
-                            
-                                <NavLink to="governo-investe-na-formacao" id="governo-investe-na-formacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                            {/* 59 - Matéria 47 gestão */}
+                        
+                            <NavLink to="novo-formato-da-carteira-de-habilitacao" id="novo-formato-da-carteira-de-habilitacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_two_alt type">
-                                <div className="float-title-alt float-title-one">
-                                Governo <strong>investe R$ 1 bi na formação</strong> de professores
-                            </div>
-                            <div className="thumb">
-                                <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
+                                    <div className="float-title-alt float-title-one">
+                                        CNH ganha chip e <strong>mais segurança contra fraudes</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}novo-formato-da-carteira-de-habilitacao`} component={NovoFormatoDaCarteiraDeHabilitacao} />
+                                    </div>
                                 </div>
-                                <div className="content">
-                                <Route path={`${this.props.match.path}governo-investe-na-formacao`} component={GovernoInvesteNaFormacao} />
-                                </div>
-                                </div>
-                                </NavLink>
+                            </NavLink>
                             
                                 {/* 50 - Matéria 31 saúde */}
                             
