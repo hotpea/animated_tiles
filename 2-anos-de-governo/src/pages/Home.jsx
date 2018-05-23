@@ -908,7 +908,7 @@ class Home extends Component {
 
                             {/* inicio-bloco */}
 
-                            {/* 41 - Matéria 12 economia */}
+                            {/* 41 - Matéria 13 economia */}
                         
                             <NavLink to="producao-veiculos-volta-crescer" id="producao-veiculos-volta-crescer" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_four_alt type">
@@ -924,7 +924,7 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 42 - Matéria 13 economia */}
+                            {/* 42 - Matéria 14 economia */}
                             <NavLink to="apos-20Anos-disputa" id="apos-20Anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
                                 <div className="type_five type">
                                     <div className="float-title float-title-two-collumns">
