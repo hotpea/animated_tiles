@@ -45,6 +45,7 @@ import IntegracaoDoSaoFranciscoMaisVidaNoNordeste from './contents/IntegracaoDoS
 import ProducaoVeiculosVoltaCrescer from './contents/ProducaoVeiculosVoltaCrescer';
 import Apos20AnosDisputa from './contents/Apos20AnosDisputa';
 import BrasilAmpliaSeuParque from './contents/BrasilAmpliaSeuParque';
+import MesmoComOperacaoCarneFraca from './contents/MesmoComOperacaoCarneFraca';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -943,7 +944,7 @@ class Home extends Component {
 
                             {/* 43 - Matéria 17 energia */}
                         
-                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["energia"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Brasil se <strong>destaca na produção de energia eólica</strong>
@@ -957,18 +958,18 @@ class Home extends Component {
                                 </div>
                             </NavLink>
                         
-                            {/* 34- Matéria 64 segurança e defesa */}
+                            {/* 44- Matéria 21 - AGRO */}
                         
-                            <NavLink to="rio-mais-seguro-com-intervencao-federal" id="rio-mais-seguro-com-intervencao-federal" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                            <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
                                 <div className="type_two_alt type">
                                         <div className="float-title-alt float-title-one">
-                                        <strong>Rio mais seguro</strong> com intervenção federal
+                                        Exportações de carne <strong>crescem 9% em 2017</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}rio-mais-seguro-com-intervencao-federal`} component={RioMaisSeguroComIntervencaoFederal} />
+                                        <Route path={`${this.props.match.path}mesmo-com-operacao-carne-fraca`} component={MesmoComOperacaoCarneFraca} />
                                     </div>
                                 </div>
                             </NavLink>
