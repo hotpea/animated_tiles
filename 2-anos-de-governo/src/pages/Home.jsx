@@ -41,8 +41,10 @@ import QuaseDuasFrancasDeUnidadesDeConservacaoCriadas from './contents/QuaseDuas
 import IdJovemAmpliaAcessoACulturaDe500MilJovens from './contents/IdJovemAmpliaAcessoACulturaDe500MilJovens';
 import IntegracaoDoSaoFranciscoMaisVidaNoNordeste from './contents/IntegracaoDoSaoFranciscoMaisVidaNoNordeste';
 
+// matérias novas
 import ProducaoVeiculosVoltaCrescer from './contents/ProducaoVeiculosVoltaCrescer';
 import Apos20AnosDisputa from './contents/Apos20AnosDisputa';
+import BrasilAmpliaSeuParque from './contents/BrasilAmpliaSeuParque';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -925,7 +927,7 @@ class Home extends Component {
                             </NavLink>
                         
                             {/* 42 - Matéria 14 economia */}
-                            <NavLink to="apos-20Anos-disputa" id="apos-20Anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
+                            <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
                                 <div className="type_five type">
                                     <div className="float-title float-title-two-collumns">
                                         Acordo deve <strong>injetar R$ 12 bi na economia</strong>
@@ -934,23 +936,23 @@ class Home extends Component {
                                         <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}apos-20Anos-disputa`} component={Apos20AnosDisputa} />
+                                        <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
                                     </div>
                                 </div>
                             </NavLink>
 
-                            {/* 33- Matéria 60 social */}
+                            {/* 43 - Matéria 17 energia */}
                         
-                            <NavLink to="entrega-recorde-de-titulos-da-reforma-agraria" id="entrega-recorde-de-titulos-da-reforma-agraria" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Entrega <strong>recorde de títulos</strong> da reforma agrária
+                                        Brasil se <strong>destaca na produção de energia eólica</strong>
                                     </div>
                                     <div className="thumb">
                                         <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}entrega-recorde-de-titulos-da-reforma-agraria`} component={EntregaRecordeDeTitulosDaReformaAgraria} />
+                                        <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
                                     </div>
                                 </div>
                             </NavLink>

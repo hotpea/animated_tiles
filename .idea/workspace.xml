@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="mensagem personalizada no share">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,8 +28,8 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36672968">
-              <caret line="926" column="47" selection-start-line="926" selection-start-column="37" selection-end-line="926" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.10018904">
+              <caret line="938" column="86" selection-start-line="938" selection-start-column="86" selection-end-line="938" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -40,6 +40,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.1034484">
               <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrasilAmpliaSeuParque.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1034484">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -72,6 +82,7 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TetoDosGastosAjusta.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ProducaoVeiculosVoltaCrescer.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       </list>
     </option>
@@ -328,18 +339,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00004" summary="adjustment to new proposal&#10;">
-      <created>1525384981885</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1525384981885</updated>
-    </task>
-    <task id="LOCAL-00005" summary="style to youtube video">
-      <created>1525446452549</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1525446452549</updated>
     </task>
     <task id="LOCAL-00006" summary="corrections in resize and reset sizes">
       <created>1525456848213</created>
@@ -623,7 +622,19 @@
       <option name="project" value="LOCAL" />
       <updated>1527087239036</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Matéria 14 economia">
+      <created>1527087940122</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1527087940122</updated>
+    </task>
+    <task id="LOCAL-00054" summary="correção matérias(13 e 14)">
+      <created>1527087976259</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1527087976259</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,9 +693,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjustments" />
-    <MESSAGE value="share buttons" />
-    <MESSAGE value="corrections" />
     <MESSAGE value="video loop e animated text" />
     <MESSAGE value="ultimate master corrections" />
     <MESSAGE value="new topo" />
@@ -707,7 +715,10 @@
     <MESSAGE value="socila media share buttons correction" />
     <MESSAGE value="mensagem personalizada no share" />
     <MESSAGE value="Matéria: Produção de veículos volta a crescer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria: Produção de veículos volta a crescer" />
+    <MESSAGE value="Matéria 13 economia" />
+    <MESSAGE value="Matéria 14 economia" />
+    <MESSAGE value="correção matérias(13 e 14)" />
+    <option name="LAST_COMMIT_MESSAGE" value="correção matérias(13 e 14)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -778,6 +789,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1034484">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1034484">
@@ -788,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36672968">
-          <caret line="926" column="47" selection-start-line="926" selection-start-column="37" selection-end-line="926" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.10018904">
+          <caret line="938" column="86" selection-start-line="938" selection-start-column="86" selection-end-line="938" selection-end-column="86" />
           <folding />
         </state>
       </provider>
