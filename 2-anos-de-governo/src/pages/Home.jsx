@@ -52,6 +52,7 @@ import NovaGradeCurricularUnifica from './contents/NovaGradeCurricularUnifica';
 import ProgramaMedioTecPermite from './contents/ProgramaMedioTecPermite';
 import GovernoInvesteNaFormacao from './contents/GovernoInvesteNaFormacao';
 import GovernoAmpliaParticipacao from './contents/GovernoAmpliaParticipacao';
+import GovernoAmpliaInvestimento from './contents/GovernoAmpliaInvestimento';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
@@ -1076,6 +1077,168 @@ class Home extends Component {
                             </NavLink>
         
                             {/* fim-bloco */}
+
+                            {/* inicio-bloco */}
+                            
+                            {/* 51 - Matéria 32 saude */}
+                            
+                            <NavLink to="governo-amplia-investimento" id="governo-amplia-investimento" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Mais <strong>recursos para a Saúde</strong> dos brasileiros
+                                    </div>
+                                    <div className="thumb">
+                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/31-minha-casa-minha-vida.png')} /> */}
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-amplia-investimento`} component={GovernoAmpliaInvestimento} />
+                                    </div>
+                                </div>
+                            </NavLink>
+                            
+                                {/* 42 - Matéria 14 economia */}
+                                <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
+                                <div className="type_five type">
+                                <div className="float-title float-title-two-collumns">
+                                Acordo deve <strong>injetar R$ 12 bi na economia</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 43 - Matéria 17 energia */}
+                            
+                                <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["energia"]'>
+                                <div className="type_one_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Brasil se <strong>destaca na produção de energia eólica</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 44 - Matéria 21 - AGRO */}
+                            
+                                <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
+                                <div className="type_two_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Exportações de carne <strong>crescem 9% em 2017</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}mesmo-com-operacao-carne-fraca`} component={MesmoComOperacaoCarneFraca} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 45 - Matéria 22 agro */}
+                                <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
+                                <div className="type_eight type">
+                                <div className="float-title float-title-one">
+                                Brasil <strong>livre da febre aftosa</strong> com vacinação
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 46 - Matéria 23 agro */}
+                                <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-rows" tabIndex="0" data-groups='["agro"]'>
+                                <div className="type_seven_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 47 - Matéria 25 educação */}
+                            
+                                <NavLink to="nova-grade-curricular-unifica" id="nova-grade-curricular-unifica" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
+                                <div className="type_three_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Nova grade curricular <strong>unifica ensino no Brasil</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}nova-grade-curricular-unifica`} component={NovaGradeCurricularUnifica} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 48 - Matéria 28 educação */}
+                            
+                                <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                                <div className="type_two type">
+                                <div className="float-title float-title-one">
+                                MedioTec oferece <strong>formação técnica para estudantes</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}programa-medioTec-permite`} component={ProgramaMedioTecPermite} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                            
+                                {/* 49 - Matéria 30 educacao */}
+                            
+                                <NavLink to="governo-investe-na-formacao" id="governo-investe-na-formacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                                <div className="type_two_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Governo <strong>investe R$ 1 bi na formação</strong> de professores
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-investe-na-formacao`} component={GovernoInvesteNaFormacao} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* 50 - Matéria 31 saúde */}
+                            
+                                <NavLink to="governo-amplia-participacao" id="governo-amplia-participacao" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_six_alt type">
+                                <div className="float-title-alt float-title-one">
+                                Mais <strong>Brasileiros no Mais Médicos</strong>
+                            </div>
+                            <div className="thumb">
+                                <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                </div>
+                                <div className="content">
+                                <Route path={`${this.props.match.path}governo-amplia-participacao`} component={GovernoAmpliaParticipacao} />
+                                </div>
+                                </div>
+                                </NavLink>
+                            
+                                {/* fim-bloco */}
 
                             <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
                                 <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')} />

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaParticipacao.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,38 +28,18 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.536862">
-              <caret line="1072" column="144" selection-start-line="1072" selection-start-column="119" selection-end-line="1072" selection-end-column="144" />
+            <state vertical-scroll-proportion="0.70699435">
+              <caret line="54" column="32" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GovernoAmpliaParticipacao.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaParticipacao.jsx">
+      <file leaf-file-name="GovernoAmpliaInvestimento.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.7931035">
               <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GovernoInvesteNaFormacao.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoInvesteNaFormacao.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5517242">
-              <caret line="5" column="92" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramaMedioTecPermite.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ProgramaMedioTecPermite.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +77,9 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovaGradeCurricularUnifica.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoInvesteNaFormacao.jsx" />
-        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaParticipacao.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx" />
       </list>
     </option>
   </component>
@@ -354,12 +335,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00013" summary="movas capas e style">
-      <created>1526409991180</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1526409991180</updated>
     </task>
     <task id="LOCAL-00014" summary="smaller-tile -text alterations">
       <created>1526410307957</created>
@@ -649,7 +624,13 @@
       <option name="project" value="LOCAL" />
       <updated>1527102000784</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Matéria 31 saúde">
+      <created>1527102455484</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1527102455484</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,7 +689,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="show content only when pace is done" />
     <MESSAGE value="@media" />
     <MESSAGE value="anchor navegacao" />
     <MESSAGE value="corrections styles" />
@@ -733,7 +713,8 @@
     <MESSAGE value="Matéria 25 educação" />
     <MESSAGE value="Matéria 28 educação" />
     <MESSAGE value="Matéria 30 educação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matéria 30 educação" />
+    <MESSAGE value="Matéria 31 saúde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matéria 31 saúde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -868,10 +849,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaInvestimento.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7931035">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.536862">
-          <caret line="1072" column="144" selection-start-line="1072" selection-start-column="119" selection-end-line="1072" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.70699435">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="32" />
           <folding />
         </state>
       </provider>
