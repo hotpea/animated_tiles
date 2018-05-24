@@ -739,13 +739,13 @@ class Home extends Component {
                             {/* 29 Matéria 40- 11 economia */}
 
                             <NavLink to="teto-dos-gastos" id="teto-dos-gastos" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
-                                <div className="type_two type">
+                                <div className="type_six type">
                                     <div className="float-title float-title-one">
                                         Teto dos gastos <strong>ajusta as contas públicas</strong>
                                     </div>
-                                    {/* <div className="thumb">
-                                                                        <img alt="" src={require('')} src="../assets/img/thumb/40-PF-apreensao-drogas.png"/>
-                                                                    </div>  */}
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-99.png')} />
+                                    </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}teto-dos-gastos`} component={TetoDosGastos} />
                                     </div>
@@ -937,7 +937,7 @@ class Home extends Component {
                                         Produção de veículos <strong>volta a crescer em 2017</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/31-minha-casa-minha-vida.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-87.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}producao-veiculos-volta-crescer`} component={ProducaoVeiculosVoltaCrescer} />
@@ -946,32 +946,32 @@ class Home extends Component {
                             </NavLink>
                         
                             {/* 42 - Matéria 14 economia */}
-                            <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square-two-columns" tabIndex="0" data-groups='["econimia"]'>
-                                <div className="type_five type">
-                                    <div className="float-title float-title-two-collumns">
-                                        Acordo deve <strong>injetar R$ 12 bi na economia</strong>
+                            <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-columns" tabIndex="0" data-groups='["agro"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-79.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
+                                        <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
                                     </div>
                                 </div>
                             </NavLink>
 
                             {/* 43 - Matéria 17 energia */}
-                        
-                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square" tabIndex="0" data-groups='["energia"]'>
-                                <div className="type_one_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Brasil se <strong>destaca na produção de energia eólica</strong>
+
+                            <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square" tabIndex="0" data-groups='["econimia"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Acordo deve <strong>injetar R$ 12 bi na economia</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-83.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
+                                        <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -979,12 +979,12 @@ class Home extends Component {
                             {/* 44 - Matéria 21 - AGRO */}
                         
                             <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_two_alt type">
+                                <div className="type_two type">
                                         <div className="float-title-alt float-title-one">
                                         Exportações de carne <strong>crescem 9% em 2017</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/34-rio-seguro.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/exportacoes-carne.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}mesmo-com-operacao-carne-fraca`} component={MesmoComOperacaoCarneFraca} />
@@ -993,13 +993,14 @@ class Home extends Component {
                             </NavLink>
                         
                             {/* 45 - Matéria 22 agro */}
+        
                             <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_eight type">
-                                    <div className="float-title float-title-one">
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-one">
                                         Brasil <strong>livre da febre aftosa</strong> com vacinação
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-84.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
@@ -1008,16 +1009,16 @@ class Home extends Component {
                             </NavLink>
                         
                             {/* 46 - Matéria 23 agro */}
-                            <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-rows" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_seven_alt type">
+                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square-two-rows" tabIndex="0" data-groups='["energia"]'>
+                                <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
+                                        Brasil se <strong>destaca na produção de energia eólica</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-86.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
+                                        <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -1042,11 +1043,11 @@ class Home extends Component {
                         
                             <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
                                 <div className="type_two type">
-                                    <div className="float-title float-title-one">
+                                    <div className="float-title-alt float-title-one">
                                         MedioTec oferece <strong>formação técnica para estudantes</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/38-integracao-rio-sao-francisco.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-89.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}programa-medioTec-permite`} component={ProgramaMedioTecPermite} />
@@ -1123,17 +1124,17 @@ class Home extends Component {
                             </NavLink>
                             
                             {/* 53 - Matéria 35 saude */}
-                        
-                            <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_one_alt type">
+
+                            <NavLink to="reajuste-no-preco-medio-de-medicamento" id="reajuste-no-preco-medio-de-medicamento" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Mais <strong>206 UPAs 24 horas habilitadas</strong> a funcionar
+                                        Medicamentos <strong>reajustados abaixo da inflação</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/33-reforma-agraria.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}governo-habilita-upas`} component={GovernoHabilitaUpas} />
+                                        {/* <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} /> */}
                                     </div>
                                 </div>
                             </NavLink>
@@ -1161,7 +1162,7 @@ class Home extends Component {
                                         Gestantes de <strong>baixa renda recebem repelentes</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-98.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-adquire-repelentes-para-gestante`} component={GovernoAdquireRepelentesParaGestante} />
@@ -1170,16 +1171,16 @@ class Home extends Component {
                             </NavLink>
                             
                             {/* 56 - Matéria 41 saude */}
-                            <NavLink to="reajuste-no-preco-medio-de-medicamento" id="reajuste-no-preco-medio-de-medicamento" className="picture-item square-two-rows" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_seven_alt type">
+                            <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square-two-rows" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
-                                        Medicamentos <strong>reajustados abaixo da inflação</strong>
+                                        Mais <strong>206 UPAs 24 horas habilitadas</strong> a funcionar
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-104.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} />
+                                        <Route path={`${this.props.match.path}governo-habilita-upas`} component={GovernoHabilitaUpas} />
                                     </div>
                                 </div>
                             </NavLink>
