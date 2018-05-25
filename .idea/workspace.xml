@@ -1,101 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/exportacoes-carne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/exportacoes-carne@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/exportacoes-carne@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/novas-regras-pagamento.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/novas-regras-pagamento@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/novas-regras-pagamento@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-100@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-100@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-102.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-102@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-102@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-104.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-104@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-104@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-105.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-105@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-105@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-108.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-108@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-108@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-109.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-109@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-109@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-110.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-110@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-110@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-114@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-114@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-117.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-117@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-117@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-28@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-28@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-51.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-51@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-51@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-78.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-78@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-78@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-79.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-79@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-79@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-82.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-82@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-82@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-83.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-83@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-83@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-84.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-84@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-84@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-85.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-85@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-85@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-86@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-86@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-87.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-87@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-87@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-88.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-88@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-88@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-89.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-89@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-89@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-90.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-90@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-90@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-91.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-91@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-91@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-92.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-92@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-92@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-93.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-93@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-93@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-95.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-95@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-95@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-97.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-97@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-97@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-98.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-98@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-98@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-99.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-99@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-99@3x.png" />
+    <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="banners e float imgs">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 1.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 16.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 2 _INGLES.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 4.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 5.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 7.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 8.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 89-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 9.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info]-2_anos_materia-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 35.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 46-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 46.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 38-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="animated_tiles.iws" />
@@ -120,68 +65,28 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49821427">
-              <caret line="1162" column="42" selection-start-line="1162" selection-start-column="42" selection-end-line="1162" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7278481">
+              <caret line="1243" column="106" selection-start-line="1243" selection-start-column="106" selection-end-line="1243" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/public/static/js/script.js">
+      <file leaf-file-name="ReajusteNoPrecoMedioDeMedicamento.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.965517">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaxigovGeraReducaoDeCustos.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx">
+      <file leaf-file-name="Apos20AnosDisputa.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GovernoAcataConselhao.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GovernoLancaDocumentosDigitais.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoLancaDocumentosDigitais.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GovernoAmpliaParticipacao.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAmpliaParticipacao.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NovoFormatoDaCarteiraDeHabilitacao.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/NovoFormatoDaCarteiraDeHabilitacao.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+            <state vertical-scroll-proportion="-4.3448277">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -212,7 +117,6 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Em2017BrasilTemMenorInflacaoEmDuasDecadas.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TetoDosGastosAjusta.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ProducaoVeiculosVoltaCrescer.jsx" />
-        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/BrasilAmpliaSeuParque.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx" />
@@ -231,6 +135,9 @@
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/public/static/js/script.js" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/PlanoAgroModerniza.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
+        <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" />
         <option value="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
       </list>
     </option>
@@ -340,6 +247,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-anos-de-governo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animated_tiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-anos-de-governo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,10 +356,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb" />
+      <recent name="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos" />
       <recent name="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents" />
       <recent name="$PROJECT_DIR$/images/thumb" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -473,12 +428,6 @@
       <created>1525274445501</created>
       <option name="number" value="Default" />
       <updated>1525274445501</updated>
-    </task>
-    <task id="LOCAL-00027" summary="piwiki">
-      <created>1526418165768</created>
-      <option name="number" value="00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1526418165768</updated>
     </task>
     <task id="LOCAL-00028" summary="share buttons">
       <created>1526428824846</created>
@@ -768,29 +717,35 @@
       <option name="project" value="LOCAL" />
       <updated>1527110787045</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="float imagens">
+      <created>1527200953705</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1527200953745</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20338982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2311248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.81790125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -827,8 +782,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Matéria: Produção de veículos volta a crescer" />
-    <MESSAGE value="Matéria 13 economia" />
     <MESSAGE value="Matéria 14 economia" />
     <MESSAGE value="correção matérias(13 e 14)" />
     <MESSAGE value="Matéria 17 energia" />
@@ -852,7 +805,9 @@
     <MESSAGE value="Matéria 50 gestão" />
     <MESSAGE value="Matéria 51 gestão" />
     <MESSAGE value="remoção de blocos &quot;sem uso&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="remoção de blocos &quot;sem uso&quot;" />
+    <MESSAGE value="float imagens" />
+    <MESSAGE value="banners e float imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="banners e float imgs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -971,24 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1034484">
-          <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/MesmoComOperacaoCarneFraca.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4827585">
           <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7931035">
-          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -1078,38 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoLancaDocumentosDigitais.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/public/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.965517">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-84.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1120,10 +1029,102 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ComVacinacaoBrasilRecebeCertificado.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28928572">
+          <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/TaxigovGeraReducaoDeCustos.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35357141">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/public/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24448217">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoAcataConselhao.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35357141">
+          <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/GovernoLancaDocumentosDigitais.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32142857">
+          <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/AgriculturaFamiliarRecebe.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09642857">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/PlanoAgroModerniza.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.62068963">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 17.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bk/images/infos/[Banner] 2_anos_materia 17.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 17.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3448277">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 35-01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.965517">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49821427">
-          <caret line="1162" column="42" selection-start-line="1162" selection-start-column="42" selection-end-line="1162" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.7278481">
+          <caret line="1243" column="106" selection-start-line="1243" selection-start-column="106" selection-end-line="1243" selection-end-column="106" />
           <folding />
         </state>
       </provider>

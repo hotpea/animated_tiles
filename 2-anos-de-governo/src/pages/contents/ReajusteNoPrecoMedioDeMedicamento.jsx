@@ -1,5 +1,8 @@
 import React from 'react';
 import HeaderContent from '../../components/HeaderContent';
+
+import thumbnail from '../../assets/img/infos/[banner] 2_anos_materia 35-01.jpg';
+
 export default () => (
     <div>
         <HeaderContent></HeaderContent>
@@ -8,5 +11,8 @@ export default () => (
         <p className="eye-text">O governo recomenda o uso de repelentes para reforçar a proteção contra o mosquito Aedes aegypti, em especial às gestantes, pela associação do zika vírus com a microcefalia em bebês.</p>
         <p className="simple-text">Em 2008, com intuito de estender o benefício para outras pessoas em situação de vulnerabilidade, os gestores da saúde decidiram ampliar o público-alvo da ação. A escolha dos novos grupos prioritários será feita pelos estados, em função das realidades locais.</p>
         <p className="smaller-title-text">Fonte: Ministério da Saúde</p>
+        <p className="infos">
+            <img alt="" src={thumbnail}/>
+        </p>
     </div>
 )
