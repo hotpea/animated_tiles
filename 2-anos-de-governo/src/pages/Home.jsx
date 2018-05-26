@@ -952,7 +952,7 @@ class Home extends Component {
                                         Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-79.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-88.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
@@ -1031,7 +1031,7 @@ class Home extends Component {
                                         Nova grade curricular <strong>unifica ensino no Brasil</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-89.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}nova-grade-curricular-unifica`} component={NovaGradeCurricularUnifica} />
@@ -1064,7 +1064,7 @@ class Home extends Component {
                                         Governo <strong>investe R$ 1 bi na formação</strong> de professores
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-95.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-investe-na-formacao`} component={GovernoInvesteNaFormacao} />
@@ -1100,7 +1100,7 @@ class Home extends Component {
                                         Mais <strong>recursos para a Saúde</strong> dos brasileiros
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/31-minha-casa-minha-vida.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-116.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-amplia-investimento`} component={GovernoAmpliaInvestimento} />
@@ -1111,11 +1111,11 @@ class Home extends Component {
                             {/* 52 - Matéria 42 saude */}
                             <NavLink to="repasses-na-saude-ganham-reforco" id="repasses-na-saude-ganham-reforco" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
                                 <div className="type_five type">
-                                    <div className="float-title float-title-two-collumns">
+                                    <div className="float-title-alt float-title-two-collumns">
                                         Repasses na Saúde <strong>reforçam a atenção básica</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-93.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}repasses-na-saude-ganham-reforco`} component={RepassesNaSaudeGanhamReforco} />
@@ -1131,7 +1131,7 @@ class Home extends Component {
                                         Medicamentos <strong>reajustados abaixo da inflação</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/36-unidades-conservacao.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-100.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} />
@@ -1193,7 +1193,7 @@ class Home extends Component {
                                         SUS ganha melhor <strong>tratamento contra HIV/Aids</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/37-jovem-id.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-110.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-oferece-melhor-tratamento`} component={GovernoOfereceMelhorTratamento} />
@@ -1225,7 +1225,7 @@ class Home extends Component {
                                         CNH ganha chip e <strong>mais segurança contra fraudes</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" src={require('../assets/img/thumb/39-multas-ambientais.png')} /> */}
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-108.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}novo-formato-da-carteira-de-habilitacao`} component={NovoFormatoDaCarteiraDeHabilitacao} />
@@ -1241,7 +1241,7 @@ class Home extends Component {
                                         Documentos digitais <strong>facilitam a vida do brasileiro</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-108.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-114.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-lanca-documentos-digitais`} component={GovernoLancaDocumentosDigitais} />
@@ -1276,7 +1276,7 @@ class Home extends Component {
                                         TaxiGov traz <strong>eficiência e economia para o Governo</strong>
                                     </div>
                                     <div className="thumb">
-                                        {/* <img alt="" className="column" src={require('../assets/img/thumb/32-titulos-propriedades.png')} /> */}
+                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-110.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}taxigov-gera-reducao-de-custos`} component={TaxigovGeraReducaoDeCustos} />

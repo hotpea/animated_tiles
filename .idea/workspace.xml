@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3f65277-551f-4e92-90ce-0fa9dc262e86" name="Default" comment="banners e float imgs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 56.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 57.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Banner] 2_anos_materia 86.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 1.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 16.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 2 _INGLES.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 4.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 5.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 7.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 8.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 89-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info] 2_anos_materia 9.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[Info]-2_anos_materia-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 35.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 37.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 46-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 46.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 52.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia 38-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[info] 2_anos_materia.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-96@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-116.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-116@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/assets/img/thumb/rectangle-2-copy-116@3x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" afterPath="$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="animated_tiles.iws" />
@@ -65,8 +30,18 @@
       <file leaf-file-name="Home.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7278481">
-              <caret line="1243" column="106" selection-start-line="1243" selection-start-column="106" selection-end-line="1243" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.3194707">
+              <caret line="1292" column="50" selection-start-line="1292" selection-start-column="50" selection-end-line="1292" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepoimentoPresidenteDaCaixa.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/DepoimentoPresidenteDaCaixa.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,7 +50,7 @@
       <file leaf-file-name="ReajusteNoPrecoMedioDeMedicamento.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.965517">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
@@ -85,7 +60,7 @@
       <file leaf-file-name="Apos20AnosDisputa.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3448277">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
@@ -178,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,123 +185,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-anos-de-governo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-anos-de-governo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-anos-de-governo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contents" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-anos-de-governo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animated_tiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-anos-de-governo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,31 +589,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1321" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2311248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2311248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.81790125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -761,7 +622,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.81790125" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20338982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2311248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -817,6 +678,46 @@
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="1243" column="106" selection-start-line="1243" selection-start-column="106" selection-end-line="1243" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1285" column="94" selection-start-line="1285" selection-start-column="94" selection-end-line="1285" selection-end-column="94" />
           <folding />
         </state>
@@ -826,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -858,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28928572">
           <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35357141">
           <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24448217">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35357141">
           <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32142857">
           <caret line="10" column="104" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09642857">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.62068963">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,14 +986,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3448277">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/assets/img/infos/[banner] 2_anos_materia 35-01.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1115,16 +993,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/ReajusteNoPrecoMedioDeMedicamento.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.965517">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/Apos20AnosDisputa.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/contents/DepoimentoPresidenteDaCaixa.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-anos-de-governo/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7278481">
-          <caret line="1243" column="106" selection-start-line="1243" selection-start-column="106" selection-end-line="1243" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.3194707">
+          <caret line="1292" column="50" selection-start-line="1292" selection-start-column="50" selection-end-line="1292" selection-end-column="50" />
           <folding />
         </state>
       </provider>
